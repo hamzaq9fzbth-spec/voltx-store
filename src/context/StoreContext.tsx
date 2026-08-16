@@ -305,6 +305,67 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
     SupabaseService.syncProducts(products).catch(() => {});
   }, [products]);
 
+  // Initial Live Supabase Fetch & Realtime Listeners
+  useEffect(() => {
+    const loadLiveCloudData = async () => {
+      try {
+        const cloudProducts = await SupabaseService.fetchProducts();
+        if (cloudProducts !== null && cloudProducts.length > 0) {
+          setProducts(cloudProducts);
+          localStorage.setItem(STORAGE_KEYS.PRODUCTS, JSON.stringify(cloudProducts));
+        } else if (cloudProducts !== null && cloudProducts.length === 0) {
+          // If Supabase table is explicitly empty, sync local initial products up to Supabase
+          await SupabaseService.syncProducts(INITIAL_PRODUCTS);
+        }
+
+        const cloudUsers = await SupabaseService.fetchUsers();
+        if (cloudUsers !== null) {
+          setRegisteredUsers(cloudUsers);
+          localStorage.setItem(STORAGE_KEYS.USERS_DIRECTORY, JSON.stringify(cloudUsers));
+        }
+
+        const cloudOrders = await SupabaseService.fetchOrders();
+        if (cloudOrders !== null) {
+          setOrders(cloudOrders);
+          localStorage.setItem(STORAGE_KEYS.ORDERS, JSON.stringify(cloudOrders));
+        }
+      } catch {
+        // Fallback to local
+      }
+    };
+
+    loadLiveCloudData();
+
+    // Listen for live database events from Supabase
+    const unsubscribe = SupabaseService.setupRealtimeListeners({
+      onProductsChange: async () => {
+        const liveProducts = await SupabaseService.fetchProducts();
+        if (liveProducts !== null) {
+          setProducts(liveProducts);
+          localStorage.setItem(STORAGE_KEYS.PRODUCTS, JSON.stringify(liveProducts));
+        }
+      },
+      onUsersChange: async () => {
+        const liveUsers = await SupabaseService.fetchUsers();
+        if (liveUsers !== null) {
+          setRegisteredUsers(liveUsers);
+          localStorage.setItem(STORAGE_KEYS.USERS_DIRECTORY, JSON.stringify(liveUsers));
+        }
+      },
+      onOrdersChange: async () => {
+        const liveOrders = await SupabaseService.fetchOrders();
+        if (liveOrders !== null) {
+          setOrders(liveOrders);
+          localStorage.setItem(STORAGE_KEYS.ORDERS, JSON.stringify(liveOrders));
+        }
+      }
+    });
+
+    return () => {
+      unsubscribe();
+    };
+  }, []);
+
   const addProduct = (newProductData: Omit<Product, 'id' | 'reviews' | 'rating' | 'reviewCount'> & { id?: string }): Product => {
     const newProduct: Product = {
       ...newProductData,
@@ -326,6 +387,7 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
     };
 
     setProducts(prev => [newProduct, ...prev]);
+    SupabaseService.saveProduct(newProduct).catch(() => {});
     showToast(`Added "${newProduct.title}" to catalog!`, 'success', 'Product Published');
     return newProduct;
   };
@@ -333,7 +395,9 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
   const updateProduct = (id: string, updates: Partial<Product>) => {
     setProducts(prev => prev.map(p => {
       if (p.id === id) {
-        return { ...p, ...updates };
+        const updated = { ...p, ...updates };
+        SupabaseService.saveProduct(updated).catch(() => {});
+        return updated;
       }
       return p;
     }));
@@ -343,12 +407,15 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
   const deleteProduct = (id: string) => {
     const target = products.find(p => p.id === id);
     setProducts(prev => prev.filter(p => p.id !== id));
+    DatabaseService.deleteProduct(id).catch(() => {});
+    SupabaseService.deleteProduct(id).catch(() => {});
     showToast(`Deleted "${target?.title || 'Product'}" from catalog`, 'warning', 'Product Removed');
   };
 
   const resetProductsToDefault = () => {
     setProducts(INITIAL_PRODUCTS);
     localStorage.setItem(STORAGE_KEYS.PRODUCTS, JSON.stringify(INITIAL_PRODUCTS));
+    SupabaseService.syncProducts(INITIAL_PRODUCTS).catch(() => {});
     showToast('Catalog reset to factory default demonstration items.', 'info', 'Catalog Reset');
   };
 
