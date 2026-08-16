@@ -4,7 +4,7 @@ import { useStore } from '../../context/StoreContext';
 
 export const AdminAuthModal: React.FC = () => {
   const { isAdminAuthModalOpen, setIsAdminAuthModalOpen, verifyAdminCredentials } = useStore();
-  const [adminId, setAdminId] = useState('admin@voltxtech.com');
+  const [adminId, setAdminId] = useState('');
   const [adminPassword, setAdminPassword] = useState('');
   const [error, setError] = useState('');
 
@@ -21,12 +21,6 @@ export const AdminAuthModal: React.FC = () => {
       setError('');
       setAdminPassword('');
     }
-  };
-
-  const handleQuickDemoUnlock = () => {
-    setAdminId('admin@voltxtech.com');
-    setAdminPassword('voltx9900');
-    verifyAdminCredentials('admin@voltxtech.com', 'voltx9900');
   };
 
   return (
@@ -66,32 +60,6 @@ export const AdminAuthModal: React.FC = () => {
         <p style={{ fontSize: '0.82rem', color: 'var(--text-secondary)', marginBottom: '1.5rem', lineHeight: 1.4 }}>
           This interface is strictly restricted to store administrators. Enter your authorized Admin ID and Master Security Key.
         </p>
-
-        {/* 1-Click Quick Demo Unlock */}
-        <div style={{
-          background: 'var(--bg-elevated)',
-          border: '1px solid rgba(0, 242, 254, 0.25)',
-          borderRadius: 'var(--radius-md)',
-          padding: '0.75rem',
-          marginBottom: '1.25rem'
-        }}>
-          <button
-            type="button"
-            onClick={handleQuickDemoUnlock}
-            className="btn btn-secondary"
-            style={{
-              width: '100%',
-              fontSize: '0.82rem',
-              justifyContent: 'center',
-              gap: '0.45rem',
-              border: '1px solid var(--accent-cyan)',
-              color: 'var(--accent-cyan)'
-            }}
-          >
-            <Sparkles size={15} />
-            <span>1-Click Fill Demo Admin (admin@voltxtech.com)</span>
-          </button>
-        </div>
 
         <form onSubmit={handleSubmit} style={{ textAlign: 'left' }}>
           {/* Admin ID Input */}
