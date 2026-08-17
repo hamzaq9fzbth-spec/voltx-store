@@ -15,12 +15,50 @@ import {
   Sparkles
 } from 'lucide-react';
 import { useStore } from '../context/StoreContext';
-import { ProductCategory } from '../types';
+import { Product, ProductCategory } from '../types';
+
+const DEFAULT_HERO_IPHONE: Product = {
+  id: 'apple-iphone-17-pro-max',
+  title: 'Apple iPhone 17 Pro Max',
+  subtitle: 'Aerospace Grade 5 Titanium with Apple A19 Pro Bionic, 48MP Quad-Prism Fusion Camera & 6.9" ProMotion OLED',
+  brand: 'Apple',
+  category: 'mobiles',
+  price: 449.000 / 0.385,
+  originalPrice: 499.000 / 0.385,
+  rating: 5.0,
+  reviewCount: 412,
+  images: [
+    'https://www.pngmart.com/files/24/Apple-iPhone-17-Pro-Max-PNG-File.png',
+    'https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&q=80&w=800'
+  ],
+  badge: 'FLAGSHIP',
+  stock: 28,
+  featured: true,
+  specs: {
+    'Processor': 'Apple A19 Pro (3nm Ultra)',
+    'Display': '6.9" Super Retina XDR ProMotion OLED (1-120Hz)',
+    'Camera': '48MP Quad-Prism 5x Optical Telephoto + 48MP Ultra-Wide',
+    'Chassis': 'Grade 5 Aerospace Titanium Frame',
+    'Battery': 'Up to 33 hours video playback, Qi2 MagSafe'
+  },
+  keyFeatures: [
+    'Next-Gen A19 Pro Bionic with Apple Intelligence',
+    '6.9-inch Titanium Edge-to-Edge ProMotion Display',
+    '48MP Quad-Prism Telephoto with 5x Optical Zoom',
+    'All-Day Extreme Battery Life with USB-C 3.0 Speeds'
+  ],
+  compatibility: ['iOS 19', 'MagSafe', 'AirPods Pro', 'Apple Watch Ultra 2'],
+  reviews: []
+};
 
 export const Hero: React.FC = () => {
   const { setSelectedCategory, setSelectedProductForDetail, products, formatPrice, addToCart } = useStore();
 
-  const featuredProduct = products.find(p => p.id === 'apple-iphone-17-pro-max' || p.title.toLowerCase().includes('iphone 17')) || products[0];
+  const featuredProduct = products.find(p => 
+    p.id === 'apple-iphone-17-pro-max' || 
+    p.title.toLowerCase().includes('iphone 17 pro max') ||
+    p.title.toLowerCase().includes('iphone 17')
+  ) || DEFAULT_HERO_IPHONE;
 
   const categoryChips: { label: string; cat: ProductCategory; icon: React.ReactNode }[] = [
     { label: 'Smartphones & iPhones', cat: 'mobiles', icon: <Smartphone size={16} /> },
@@ -191,23 +229,29 @@ export const Hero: React.FC = () => {
               <div style={{
                 position: 'relative',
                 height: '320px',
-                background: '#0b1120',
-                overflow: 'hidden'
+                background: 'radial-gradient(circle at 50% 50%, rgba(0, 242, 254, 0.15) 0%, #080d1a 100%)',
+                overflow: 'hidden',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                padding: '1.25rem'
               }}>
                 <img 
                   src={featuredProduct.images[0]} 
                   alt={featuredProduct.title}
                   style={{
-                    width: '100%',
-                    height: '100%',
-                    objectFit: 'cover',
-                    transition: 'transform 0.5s ease'
+                    maxWidth: '100%',
+                    maxHeight: '100%',
+                    objectFit: 'contain',
+                    filter: 'drop-shadow(0 15px 25px rgba(0, 242, 254, 0.25))',
+                    transition: 'transform 0.5s cubic-bezier(0.16, 1, 0.3, 1)'
                   }}
                 />
                 <div style={{
                   position: 'absolute',
                   inset: 0,
-                  background: 'linear-gradient(to top, var(--bg-surface) 0%, transparent 60%)'
+                  pointerEvents: 'none',
+                  background: 'linear-gradient(to top, var(--bg-surface) 0%, transparent 40%)'
                 }} />
               </div>
 

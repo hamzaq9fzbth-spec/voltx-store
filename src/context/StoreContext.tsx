@@ -168,19 +168,19 @@ interface StoreContextType {
 const StoreContext = createContext<StoreContextType | undefined>(undefined);
 
 const STORAGE_KEYS = {
-  APP_MODE: 'voltx_app_mode_v1',
-  ADMIN_AUTH: 'voltx_admin_auth_v1',
-  PRODUCTS: 'voltx_products_v2',
-  COUPONS: 'voltx_coupons_v2',
-  ANNOUNCEMENT: 'voltx_announcement_v1',
-  CART: 'voltx_cart_v1',
-  WISHLIST: 'voltx_wishlist_v1',
-  ORDERS: 'voltx_orders_v2',
-  USERS_DIRECTORY: 'voltx_users_directory_v2',
-  THEME: 'voltx_theme_v1',
-  CURRENCY: 'voltx_currency_v1',
-  CUSTOM_REVIEWS: 'voltx_reviews_v1',
-  USER: 'voltx_user_v1'
+  APP_MODE: 'cleopatra_app_mode_v2',
+  ADMIN_AUTH: 'cleopatra_admin_auth_v2',
+  PRODUCTS: 'cleopatra_products_v4',
+  COUPONS: 'cleopatra_coupons_v2',
+  ANNOUNCEMENT: 'cleopatra_announcement_v2',
+  CART: 'cleopatra_cart_v2',
+  WISHLIST: 'cleopatra_wishlist_v2',
+  ORDERS: 'cleopatra_orders_v2',
+  USERS_DIRECTORY: 'cleopatra_users_v2',
+  THEME: 'cleopatra_theme_v2',
+  CURRENCY: 'cleopatra_currency_v2',
+  CUSTOM_REVIEWS: 'cleopatra_reviews_v2',
+  USER: 'cleopatra_user_v2'
 };
 
 const INITIAL_REGISTERED_USERS: UserProfile[] = [];
@@ -188,9 +188,9 @@ const INITIAL_REGISTERED_USERS: UserProfile[] = [];
 const INITIAL_ORDERS_SAMPLE: Order[] = [];
 
 const DEFAULT_ANNOUNCEMENT: AnnouncementConfig = {
-  message: '⚡ FLASH HARDWARE SALE: 15% OFF WITH CODE VOLT15 | FREE GLOBAL SHIPPING ON ORDERS OVER $50',
-  badge: '🔥 LIMITED DEAL',
-  linkText: 'Shop Deals',
+  message: '⚡ CLEOPATRA OMAN: 15% OFF ALL SMARTPHONES & ACCESSORIES | FREE EXPRESS DELIVERY IN OMAN',
+  badge: '🔥 OMAN SPECIAL',
+  linkText: 'Shop Now',
   enabled: true
 };
 
