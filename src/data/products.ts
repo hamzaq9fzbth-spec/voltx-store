@@ -2,145 +2,635 @@ import { Product, Currency, Coupon, ShippingMethod } from '../types';
 
 export const INITIAL_PRODUCTS: Product[] = [
   {
-    "id": "apple-iphone-17-pro-max",
-    "title": "Apple iPhone 17 Pro Max (512GB - Natural Titanium)",
-    "subtitle": "A19 Pro Silicon • ProMotion 120Hz Super Retina XDR OLED • 48MP Quad-Prism Fusion Camera",
+    "id": "phone_iphone-17-pro-max",
+    "title": "Apple iPhone 17 Pro Max",
+    "subtitle": "A19 Pro Silicon • 6.9\" ProMotion OLED • 48MP Quad-Prism • Titanium",
     "brand": "Apple",
     "category": "mobiles",
-    "price": 1199.99,
-    "originalPrice": 1399.99,
-    "rating": 5,
-    "reviewCount": 48,
+    "price": 1166.23,
+    "originalPrice": 1423,
+    "rating": 4.8,
+    "reviewCount": 24,
     "images": [
-      "https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&q=80&w=1000",
-      "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&q=80&w=1000"
+      "https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&q=80&w=800"
     ],
     "badge": "HOT",
-    "stock": 25,
+    "stock": 12,
     "featured": true,
     "flashDeal": true,
     "flashDealDiscount": 15,
     "specs": {
-      "Processor": "Apple A19 Pro 3nm Silicon Architecture",
-      "Display": "6.9\" Super Retina XDR OLED ProMotion 120Hz Always-On",
-      "Storage": "512GB High-Speed NVMe Flash",
-      "Camera System": "48MP Triple Fusion System + 5x Optical Periscope Zoom",
-      "Chassis": "Grade 5 Aerospace-Forged Titanium Frame with Ceramic Shield Gen 2",
-      "Battery": "4,850 mAh All-Day Battery Life",
-      "Connectivity": "5G Ultra-Wideband + Wi-Fi 7 + Bluetooth 5.4",
-      "Charging": "High-Speed USB-C PD 3.0 & MagSafe 25W Fast Wireless"
+      "Official Oman Price": "449.000 OMR",
+      "Model Series": "iPhone 17 Pro Max",
+      "Brand": "Apple",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
     },
     "keyFeatures": [
-      "Next-Generation Apple A19 Pro Silicon with Neural Engine & Hardware Ray Tracing",
-      "Grade 5 Aerospace-Grade Titanium Frame with Micro-Blasted Ergonomic Contours",
-      "Advanced 48MP Quad-Prism Camera System with 4K ProRes 120fps Log Video",
-      "Ceramic Shield Gen 2 Glass with Superior Drop and Scratch Resistance",
-      "Worldwide Insured Express Delivery within 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal Apple Ecosystem (iOS, iPadOS, macOS, watchOS)",
-      "Standard USB-C PD 3.0 Accessories & MagSafe Chargers"
-    ],
-    "reviews": [
-      {
-        "id": "rev_iph17_1",
-        "userName": "Dr. Tariq Al-Balushi (Verified)",
-        "rating": 5,
-        "date": "2 days ago",
-        "title": "Unbelievable Speed & Titanium Feel",
-        "comment": "The natural titanium finish and A19 Pro speed are remarkable. Factory sealed unit arrived in pristine condition.",
-        "verified": true,
-        "helpfulCount": 22
-      },
-      {
-        "id": "rev_iph17_2",
-        "userName": "Sara K. (Verified Buyer)",
-        "rating": 5,
-        "date": "4 days ago",
-        "title": "The Best iPhone to Date",
-        "comment": "Battery life easily lasts two full days. Camera quality is on DSLR level. Very satisfied with the dispatch.",
-        "verified": true,
-        "helpfulCount": 16
-      }
-    ]
-  },
-  {
-    "id": "apple-iphone-17-256gb",
-    "title": "Apple iPhone 17 (256GB - Ultramarine)",
-    "subtitle": "A19 Bionic Chip • Dynamic Island • Camera Control Button • 48MP Dual Fusion",
-    "brand": "Apple",
-    "category": "mobiles",
-    "price": 899.99,
-    "originalPrice": 999.99,
-    "rating": 4.9,
-    "reviewCount": 36,
-    "images": [
-      "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&q=80&w=1000"
-    ],
-    "badge": "NEW",
-    "stock": 30,
-    "featured": true,
-    "specs": {
-      "Processor": "Apple A19 Bionic Silicon",
-      "Display": "6.3\" Super Retina XDR OLED Display",
-      "Storage": "256GB NVMe Storage",
-      "Camera": "48MP Dual Fusion Camera with Spatial Video Capture",
-      "Build": "Aerospace Aluminum Enclosure & Color-Infused Glass Back"
-    },
-    "keyFeatures": [
-      "Apple A19 Bionic Silicon with Next-Gen Machine Learning Core",
-      "Dynamic Island Interactive Alerts & Live Activities Integration",
-      "Dedicated Camera Control Sensor for Instant Focus & 48MP Spatial Photo Capture",
+      "Official Middle East / Oman Regional Specification - Apple iPhone 17 Pro Max",
+      "A19 Pro Silicon • 6.9\" ProMotion OLED • 48MP Quad-Prism • Titanium",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
       "Worldwide Insured Express Delivery in 15 to 25 Working Days"
     ],
     "compatibility": [
-      "Universal Apple Ecosystem & USB-C Standard Accessories"
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
     ],
     "reviews": [
       {
-        "id": "rev_iph17_base_1",
-        "userName": "Ahmed Mansoor",
+        "id": "rev_phone_iphone-17-pro-max_1",
+        "userName": "Verified Oman Buyer",
         "rating": 5,
         "date": "3 days ago",
-        "title": "Stunning Color and Fast Performance",
-        "comment": "Ultramarine color looks breathtaking in real life. Smooth 120Hz display and very fast charging.",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 449 OMR. Arrived pristine.",
         "verified": true,
-        "helpfulCount": 12
+        "helpfulCount": 14
       }
     ]
   },
   {
-    "id": "apple-iphone-16-pro-max",
-    "title": "Apple iPhone 16 Pro Max (256GB - Black Titanium)",
-    "subtitle": "A18 Pro Silicon • 6.9\" ProMotion OLED • Studio-Quality Mics • Action Button",
+    "id": "phone_iphone-17",
+    "title": "Apple iPhone 17",
+    "subtitle": "A19 Bionic Silicon • Camera Control • Dynamic Island • 48MP Dual Fusion",
     "brand": "Apple",
     "category": "mobiles",
-    "price": 1049.99,
-    "originalPrice": 1199.99,
-    "rating": 4.9,
-    "reviewCount": 84,
+    "price": 958.44,
+    "originalPrice": 1169,
+    "rating": 4.8999999999999995,
+    "reviewCount": 31,
     "images": [
-      "https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&q=80&w=1000"
+      "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&q=80&w=800"
+    ],
+    "badge": "NEW",
+    "stock": 16,
+    "featured": true,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "369.000 OMR",
+      "Model Series": "iPhone 17",
+      "Brand": "Apple",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Apple iPhone 17",
+      "A19 Bionic Silicon • Camera Control • Dynamic Island • 48MP Dual Fusion",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_iphone-17_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 369 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_iphone-16-pro-max",
+    "title": "Apple iPhone 16 Pro Max",
+    "subtitle": "A18 Pro 3nm Silicon • 6.9\" Super Retina XDR • 4K 120fps Dolby Vision",
+    "brand": "Apple",
+    "category": "mobiles",
+    "price": 1090.91,
+    "originalPrice": 1331,
+    "rating": 5,
+    "reviewCount": 38,
+    "images": [
+      "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&q=80&w=800"
     ],
     "badge": "BEST SELLER",
     "stock": 20,
     "featured": true,
+    "flashDeal": false,
     "specs": {
-      "Processor": "Apple A18 Pro 3nm Silicon",
-      "Display": "6.9\" Super Retina XDR ProMotion 120Hz",
-      "Storage": "256GB NVMe Flash",
-      "Camera": "48MP Main + 48MP Ultra Wide + 12MP 5x Telephoto"
+      "Official Oman Price": "420.000 OMR",
+      "Model Series": "iPhone 16 Pro Max",
+      "Brand": "Apple",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
     },
     "keyFeatures": [
-      "A18 Pro Chip with 6-Core GPU and Advanced Ray Tracing",
-      "Black Titanium Matte Texture with Zero Fingerprint Coating",
-      "4K 120fps Dolby Vision Video Recording"
+      "Official Middle East / Oman Regional Specification - Apple iPhone 16 Pro Max",
+      "A18 Pro 3nm Silicon • 6.9\" Super Retina XDR • 4K 120fps Dolby Vision",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
     ],
     "compatibility": [
-      "Apple Ecosystem",
-      "USB-C PD 3.0"
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
     ],
-    "reviews": []
+    "reviews": [
+      {
+        "id": "rev_phone_iphone-16-pro-max_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 420 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_iphone-16-pro",
+    "title": "Apple iPhone 16 Pro",
+    "subtitle": "A18 Pro Silicon • 6.3\" ProMotion OLED • Grade 5 Titanium Frame",
+    "brand": "Apple",
+    "category": "mobiles",
+    "price": 987.01,
+    "originalPrice": 1204,
+    "rating": 4.8,
+    "reviewCount": 45,
+    "images": [
+      "https://images.unsplash.com/photo-1574755393849-623942496936?auto=format&fit=crop&q=80&w=800"
+    ],
+    "badge": "FLAGSHIP",
+    "stock": 24,
+    "featured": true,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "380.000 OMR",
+      "Model Series": "iPhone 16 Pro",
+      "Brand": "Apple",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Apple iPhone 16 Pro",
+      "A18 Pro Silicon • 6.3\" ProMotion OLED • Grade 5 Titanium Frame",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_iphone-16-pro_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 380 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_iphone-16-plus",
+    "title": "Apple iPhone 16 Plus",
+    "subtitle": "A18 Chip • 6.7\" OLED • Action Button • Super Retina XDR",
+    "brand": "Apple",
+    "category": "mobiles",
+    "price": 896.1,
+    "originalPrice": 1093,
+    "rating": 4.8999999999999995,
+    "reviewCount": 52,
+    "images": [
+      "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 28,
+    "featured": true,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "345.000 OMR",
+      "Model Series": "iPhone 16 Plus",
+      "Brand": "Apple",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Apple iPhone 16 Plus",
+      "A18 Chip • 6.7\" OLED • Action Button • Super Retina XDR",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_iphone-16-plus_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 345 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_iphone-16",
+    "title": "Apple iPhone 16",
+    "subtitle": "A18 Chip • Dynamic Island • Camera Control Button • 48MP Fusion",
+    "brand": "Apple",
+    "category": "mobiles",
+    "price": 805.19,
+    "originalPrice": 982,
+    "rating": 5,
+    "reviewCount": 59,
+    "images": [
+      "https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 32,
+    "featured": true,
+    "flashDeal": true,
+    "flashDealDiscount": 15,
+    "specs": {
+      "Official Oman Price": "310.000 OMR",
+      "Model Series": "iPhone 16",
+      "Brand": "Apple",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Apple iPhone 16",
+      "A18 Chip • Dynamic Island • Camera Control Button • 48MP Fusion",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_iphone-16_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 310 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_iphone-15-pro-max",
+    "title": "Apple iPhone 15 Pro Max",
+    "subtitle": "A17 Pro Titanium • 5x Optical Zoom • USB-C 3.0 High-Speed",
+    "brand": "Apple",
+    "category": "mobiles",
+    "price": 1012.99,
+    "originalPrice": 1236,
+    "rating": 4.8,
+    "reviewCount": 66,
+    "images": [
+      "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 36,
+    "featured": true,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "390.000 OMR",
+      "Model Series": "iPhone 15 Pro Max",
+      "Brand": "Apple",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Apple iPhone 15 Pro Max",
+      "A17 Pro Titanium • 5x Optical Zoom • USB-C 3.0 High-Speed",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_iphone-15-pro-max_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 390 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_iphone-15-pro",
+    "title": "Apple iPhone 15 Pro",
+    "subtitle": "A17 Pro Silicon • Titanium Enclosure • Action Button",
+    "brand": "Apple",
+    "category": "mobiles",
+    "price": 909.09,
+    "originalPrice": 1109,
+    "rating": 4.8999999999999995,
+    "reviewCount": 73,
+    "images": [
+      "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 40,
+    "featured": true,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "350.000 OMR",
+      "Model Series": "iPhone 15 Pro",
+      "Brand": "Apple",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Apple iPhone 15 Pro",
+      "A17 Pro Silicon • Titanium Enclosure • Action Button",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_iphone-15-pro_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 350 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_iphone-15-plus",
+    "title": "Apple iPhone 15 Plus",
+    "subtitle": "A16 Bionic • 6.7\" Dynamic Island • 48MP Main Camera",
+    "brand": "Apple",
+    "category": "mobiles",
+    "price": 792.21,
+    "originalPrice": 966,
+    "rating": 5,
+    "reviewCount": 80,
+    "images": [
+      "https://images.unsplash.com/photo-1574755393849-623942496936?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 44,
+    "featured": true,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "305.000 OMR",
+      "Model Series": "iPhone 15 Plus",
+      "Brand": "Apple",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Apple iPhone 15 Plus",
+      "A16 Bionic • 6.7\" Dynamic Island • 48MP Main Camera",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_iphone-15-plus_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 305 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_iphone-15",
+    "title": "Apple iPhone 15",
+    "subtitle": "A16 Bionic • Dynamic Island • USB-C • Color-Infused Glass Back",
+    "brand": "Apple",
+    "category": "mobiles",
+    "price": 714.29,
+    "originalPrice": 871,
+    "rating": 4.8,
+    "reviewCount": 87,
+    "images": [
+      "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 13,
+    "featured": true,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "275.000 OMR",
+      "Model Series": "iPhone 15",
+      "Brand": "Apple",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Apple iPhone 15",
+      "A16 Bionic • Dynamic Island • USB-C • Color-Infused Glass Back",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_iphone-15_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 275 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_iphone-14-plus",
+    "title": "Apple iPhone 14 Plus",
+    "subtitle": "A15 Bionic • 6.7\" Super Retina XDR • All-Day Battery",
+    "brand": "Apple",
+    "category": "mobiles",
+    "price": 675.32,
+    "originalPrice": 824,
+    "rating": 4.8999999999999995,
+    "reviewCount": 94,
+    "images": [
+      "https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 17,
+    "featured": true,
+    "flashDeal": true,
+    "flashDealDiscount": 15,
+    "specs": {
+      "Official Oman Price": "260.000 OMR",
+      "Model Series": "iPhone 14 Plus",
+      "Brand": "Apple",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Apple iPhone 14 Plus",
+      "A15 Bionic • 6.7\" Super Retina XDR • All-Day Battery",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_iphone-14-plus_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 260 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_iphone-14",
+    "title": "Apple iPhone 14",
+    "subtitle": "A15 Bionic 5-Core GPU • Ceramic Shield • Dual 12MP System",
+    "brand": "Apple",
+    "category": "mobiles",
+    "price": 597.4,
+    "originalPrice": 729,
+    "rating": 5,
+    "reviewCount": 101,
+    "images": [
+      "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 21,
+    "featured": true,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "230.000 OMR",
+      "Model Series": "iPhone 14",
+      "Brand": "Apple",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Apple iPhone 14",
+      "A15 Bionic 5-Core GPU • Ceramic Shield • Dual 12MP System",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_iphone-14_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 230 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_iphone-13",
+    "title": "Apple iPhone 13",
+    "subtitle": "A15 Bionic • Super Retina XDR OLED • Cinematic Mode 1080p",
+    "brand": "Apple",
+    "category": "mobiles",
+    "price": 519.48,
+    "originalPrice": 634,
+    "rating": 4.8,
+    "reviewCount": 108,
+    "images": [
+      "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 25,
+    "featured": true,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "200.000 OMR",
+      "Model Series": "iPhone 13",
+      "Brand": "Apple",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Apple iPhone 13",
+      "A15 Bionic • Super Retina XDR OLED • Cinematic Mode 1080p",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_iphone-13_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 200 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
   },
   {
     "id": "apple-watch-ultra-2",
@@ -148,26 +638,24 @@ export const INITIAL_PRODUCTS: Product[] = [
     "subtitle": "S9 SiP • 3000-Nit Ultra Display • Dual-Frequency GPS • 100m Water Resistance",
     "brand": "Apple",
     "category": "wearables",
-    "price": 799.99,
-    "originalPrice": 899.99,
+    "price": 800,
+    "originalPrice": 909.09,
     "rating": 5,
     "reviewCount": 52,
     "images": [
-      "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&q=80&w=1000"
+      "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&q=80&w=800"
     ],
     "badge": "HOT",
     "stock": 18,
     "featured": true,
     "specs": {
-      "Case": "49mm Aerospace Titanium Case with Raised Edge Protection",
-      "Brightness": "3,000 Nits Outdoor Ultra Bright OLED Display",
-      "Battery": "Up to 72 Hours in Low Power Mode",
-      "Water Resistance": "100m Water Resistance & WR100 Certified"
+      "Official Oman Price": "308.000 OMR",
+      "Case": "49mm Aerospace Titanium Case",
+      "Water Resistance": "100m Certified WR100"
     },
     "keyFeatures": [
-      "Precision Dual-Frequency GPS for Extreme Trail & Diving Accuracy",
-      "Action Button Customization for One-Touch Workout Triggers",
-      "Double Tap Gesture Recognition with S9 SiP Neural Processor"
+      "Precision Dual-Frequency GPS & Action Button Customization",
+      "100% Genuine Apple Certified Import"
     ],
     "compatibility": [
       "Requires iPhone XS or later with iOS 17+"
@@ -180,26 +668,24 @@ export const INITIAL_PRODUCTS: Product[] = [
     "subtitle": "H2 Silicon Chip • 2x Active Noise Cancellation • Adaptive Audio • Spatial Sound",
     "brand": "Apple",
     "category": "audio",
-    "price": 249.99,
-    "originalPrice": 279.99,
+    "price": 249.35,
+    "originalPrice": 298.7,
     "rating": 4.9,
     "reviewCount": 140,
     "images": [
-      "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?auto=format&fit=crop&q=80&w=1000"
+      "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?auto=format&fit=crop&q=80&w=800"
     ],
     "badge": "BEST SELLER",
     "stock": 50,
     "featured": true,
     "specs": {
-      "Audio Chip": "Apple H2 Silicon Audio Processor",
-      "Noise Cancellation": "2x Stronger Active Noise Cancellation",
-      "Battery Life": "Up to 30 Hours Total with MagSafe Charging Case",
-      "Charging": "USB-C, MagSafe, Apple Watch Charger & Qi-Certified"
+      "Official Oman Price": "96.000 OMR",
+      "Audio Chip": "Apple H2 Silicon",
+      "Noise Cancellation": "2x Active Noise Cancellation"
     },
     "keyFeatures": [
       "Personalized Spatial Audio with Dynamic Head Tracking",
-      "Transparency Mode and Conversation Awareness Auto-Ducking",
-      "IP54 Dust, Sweat, and Water Resistance"
+      "IP54 Dust and Water Resistance"
     ],
     "compatibility": [
       "iOS, iPadOS, macOS, watchOS, Android, Windows Bluetooth"
@@ -207,8022 +693,9709 @@ export const INITIAL_PRODUCTS: Product[] = [
     "reviews": []
   },
   {
-    "id": "cleo_167_apple-watch-s11-46mm-gps",
-    "title": "Apple Watch S11 46mm Gps",
-    "subtitle": "Apple Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Apple",
-    "category": "wearables",
-    "price": 499.99,
-    "originalPrice": 625,
+    "id": "phone_galaxy-s26-ultra",
+    "title": "Samsung Galaxy S26 Ultra",
+    "subtitle": "Snapdragon 8 Elite Gen 2 • 200MP Quad Zoom • Built-in S-Pen • Armor Aluminum",
+    "brand": "Samsung",
+    "category": "mobiles",
+    "price": 1207.79,
+    "originalPrice": 1474,
     "rating": 4.8999999999999995,
-    "reviewCount": 92,
+    "reviewCount": 115,
     "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/05/watch-11-46-jet-black-1.webp"
+      "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&q=80&w=800"
     ],
-    "stock": 33,
-    "featured": false,
+    "badge": "FLAGSHIP",
+    "stock": 29,
+    "featured": true,
     "flashDeal": false,
     "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Apple Watch S11 46mm Gps",
+      "Official Oman Price": "465.000 OMR",
+      "Model Series": "Galaxy S26 Ultra",
+      "Brand": "Samsung",
+      "Regional Version": "Middle East / Oman Official Specs",
       "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
     },
     "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
+      "Official Middle East / Oman Regional Specification - Samsung Galaxy S26 Ultra",
+      "Snapdragon 8 Elite Gen 2 • 200MP Quad Zoom • Built-in S-Pen • Armor Aluminum",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
       "Worldwide Insured Express Delivery in 15 to 25 Working Days"
     ],
     "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
     ],
     "reviews": [
       {
-        "id": "rev_cleo_167_apple-watch-s11-46mm-gps_1",
-        "userName": "Verified Cleopatra Buyer",
+        "id": "rev_phone_galaxy-s26-ultra_1",
+        "userName": "Verified Oman Buyer",
         "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 465 OMR. Arrived pristine.",
         "verified": true,
-        "helpfulCount": 8
+        "helpfulCount": 14
       }
     ]
   },
   {
-    "id": "cleo_176_apple-watch-se-2nd-40mm-gps",
-    "title": "APPLE WATCH SE 2ND 40MM GPS",
-    "subtitle": "Apple Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Apple",
-    "category": "wearables",
-    "price": 249.99,
-    "originalPrice": 312,
-    "rating": 4.8999999999999995,
-    "reviewCount": 137,
+    "id": "phone_galaxy-s26-",
+    "title": "Samsung Galaxy S26+",
+    "subtitle": "Snapdragon 8 Elite • 6.7\" QHD+ Dynamic AMOLED 2X 120Hz",
+    "brand": "Samsung",
+    "category": "mobiles",
+    "price": 935.06,
+    "originalPrice": 1141,
+    "rating": 5,
+    "reviewCount": 122,
     "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2023/03/products-apple-watch-se-2nd-40mm-gps.jpg"
+      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 33,
+    "featured": true,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "360.000 OMR",
+      "Model Series": "Galaxy S26+",
+      "Brand": "Samsung",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Samsung Galaxy S26+",
+      "Snapdragon 8 Elite • 6.7\" QHD+ Dynamic AMOLED 2X 120Hz",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_galaxy-s26-_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 360 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_galaxy-s26",
+    "title": "Samsung Galaxy S26",
+    "subtitle": "Galaxy AI Enhanced • 50MP Pro-Grade Camera • Compact Premium",
+    "brand": "Samsung",
+    "category": "mobiles",
+    "price": 766.23,
+    "originalPrice": 935,
+    "rating": 4.8,
+    "reviewCount": 129,
+    "images": [
+      "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 37,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 15,
+    "specs": {
+      "Official Oman Price": "295.000 OMR",
+      "Model Series": "Galaxy S26",
+      "Brand": "Samsung",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Samsung Galaxy S26",
+      "Galaxy AI Enhanced • 50MP Pro-Grade Camera • Compact Premium",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_galaxy-s26_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 295 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_galaxy-z-fold7",
+    "title": "Samsung Galaxy Z Fold7",
+    "subtitle": "Ultra-Thin Foldable OLED • Flex Hinge • Galaxy AI Multi-Tasking",
+    "brand": "Samsung",
+    "category": "mobiles",
+    "price": 1519.48,
+    "originalPrice": 1854,
+    "rating": 4.8999999999999995,
+    "reviewCount": 136,
+    "images": [
+      "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&q=80&w=800"
+    ],
+    "badge": "HOT",
+    "stock": 41,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "585.000 OMR",
+      "Model Series": "Galaxy Z Fold7",
+      "Brand": "Samsung",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Samsung Galaxy Z Fold7",
+      "Ultra-Thin Foldable OLED • Flex Hinge • Galaxy AI Multi-Tasking",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_galaxy-z-fold7_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 585 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_galaxy-z-flip7",
+    "title": "Samsung Galaxy Z Flip7",
+    "subtitle": "Full-Screen Flex Window • 50MP Dual Camera • Pocket Foldable",
+    "brand": "Samsung",
+    "category": "mobiles",
+    "price": 1012.99,
+    "originalPrice": 1236,
+    "rating": 5,
+    "reviewCount": 143,
+    "images": [
+      "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&q=80&w=800"
+    ],
+    "badge": "TRENDING",
+    "stock": 45,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "390.000 OMR",
+      "Model Series": "Galaxy Z Flip7",
+      "Brand": "Samsung",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Samsung Galaxy Z Flip7",
+      "Full-Screen Flex Window • 50MP Dual Camera • Pocket Foldable",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_galaxy-z-flip7_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 390 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_galaxy-s25-ultra",
+    "title": "Samsung Galaxy S25 Ultra",
+    "subtitle": "Titanium Frame • Snapdragon 8 Elite • 200MP AI Camera • 5000mAh",
+    "brand": "Samsung",
+    "category": "mobiles",
+    "price": 1051.95,
+    "originalPrice": 1283,
+    "rating": 4.8,
+    "reviewCount": 150,
+    "images": [
+      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&q=80&w=800"
+    ],
+    "badge": "BEST SELLER",
+    "stock": 14,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "405.000 OMR",
+      "Model Series": "Galaxy S25 Ultra",
+      "Brand": "Samsung",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Samsung Galaxy S25 Ultra",
+      "Titanium Frame • Snapdragon 8 Elite • 200MP AI Camera • 5000mAh",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_galaxy-s25-ultra_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 405 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_galaxy-s25-",
+    "title": "Samsung Galaxy S25+",
+    "subtitle": "6.7\" Dynamic AMOLED 2X • 12GB RAM • 45W Fast Charging",
+    "brand": "Samsung",
+    "category": "mobiles",
+    "price": 844.16,
+    "originalPrice": 1030,
+    "rating": 4.8999999999999995,
+    "reviewCount": 157,
+    "images": [
+      "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 18,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "325.000 OMR",
+      "Model Series": "Galaxy S25+",
+      "Brand": "Samsung",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Samsung Galaxy S25+",
+      "6.7\" Dynamic AMOLED 2X • 12GB RAM • 45W Fast Charging",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_galaxy-s25-_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 325 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_galaxy-s25",
+    "title": "Samsung Galaxy S25",
+    "subtitle": "Galaxy AI System • 50MP Dual Pixel • 120Hz Adaptive Display",
+    "brand": "Samsung",
+    "category": "mobiles",
+    "price": 662.34,
+    "originalPrice": 808,
+    "rating": 5,
+    "reviewCount": 164,
+    "images": [
+      "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 22,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 15,
+    "specs": {
+      "Official Oman Price": "255.000 OMR",
+      "Model Series": "Galaxy S25",
+      "Brand": "Samsung",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Samsung Galaxy S25",
+      "Galaxy AI System • 50MP Dual Pixel • 120Hz Adaptive Display",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_galaxy-s25_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 255 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_galaxy-s24-fe",
+    "title": "Samsung Galaxy S24 FE",
+    "subtitle": "Exynos 2400e / Snapdragon 8 Gen 3 • Galaxy AI • 6.7\" AMOLED",
+    "brand": "Samsung",
+    "category": "mobiles",
+    "price": 519.48,
+    "originalPrice": 634,
+    "rating": 4.8,
+    "reviewCount": 171,
+    "images": [
+      "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 26,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "200.000 OMR",
+      "Model Series": "Galaxy S24 FE",
+      "Brand": "Samsung",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Samsung Galaxy S24 FE",
+      "Exynos 2400e / Snapdragon 8 Gen 3 • Galaxy AI • 6.7\" AMOLED",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_galaxy-s24-fe_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 200 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_galaxy-a56-5g",
+    "title": "Samsung Galaxy A56 5G",
+    "subtitle": "Exynos 1580 5G • 50MP OIS Camera • IP67 Water Resistant",
+    "brand": "Samsung",
+    "category": "mobiles",
+    "price": 363.64,
+    "originalPrice": 444,
+    "rating": 4.8999999999999995,
+    "reviewCount": 178,
+    "images": [
+      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 30,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "140.000 OMR",
+      "Model Series": "Galaxy A56 5G",
+      "Brand": "Samsung",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Samsung Galaxy A56 5G",
+      "Exynos 1580 5G • 50MP OIS Camera • IP67 Water Resistant",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_galaxy-a56-5g_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 140 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_galaxy-a36-5g",
+    "title": "Samsung Galaxy A36 5G",
+    "subtitle": "120Hz Super AMOLED • 5000mAh Battery • 25W Fast Charge",
+    "brand": "Samsung",
+    "category": "mobiles",
+    "price": 277.92,
+    "originalPrice": 339,
+    "rating": 5,
+    "reviewCount": 185,
+    "images": [
+      "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 34,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "107.000 OMR",
+      "Model Series": "Galaxy A36 5G",
+      "Brand": "Samsung",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Samsung Galaxy A36 5G",
+      "120Hz Super AMOLED • 5000mAh Battery • 25W Fast Charge",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_galaxy-a36-5g_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 107 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_galaxy-a26-5g",
+    "title": "Samsung Galaxy A26 5G",
+    "subtitle": "5G Connectivity • Triple 50MP Camera • 6.6\" 120Hz Display",
+    "brand": "Samsung",
+    "category": "mobiles",
+    "price": 220.78,
+    "originalPrice": 269,
+    "rating": 4.8,
+    "reviewCount": 192,
+    "images": [
+      "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 38,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "85.000 OMR",
+      "Model Series": "Galaxy A26 5G",
+      "Brand": "Samsung",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Samsung Galaxy A26 5G",
+      "5G Connectivity • Triple 50MP Camera • 6.6\" 120Hz Display",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_galaxy-a26-5g_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 85 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_galaxy-a17",
+    "title": "Samsung Galaxy A17",
+    "subtitle": "FHD+ 90Hz Display • 50MP Main Camera • 5000mAh Large Battery",
+    "brand": "Samsung",
+    "category": "mobiles",
+    "price": 161.04,
+    "originalPrice": 196,
+    "rating": 4.8999999999999995,
+    "reviewCount": 199,
+    "images": [
+      "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 42,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 15,
+    "specs": {
+      "Official Oman Price": "62.000 OMR",
+      "Model Series": "Galaxy A17",
+      "Brand": "Samsung",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Samsung Galaxy A17",
+      "FHD+ 90Hz Display • 50MP Main Camera • 5000mAh Large Battery",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_galaxy-a17_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 62 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_galaxy-a16",
+    "title": "Samsung Galaxy A16",
+    "subtitle": "6.7\" Super AMOLED • 6 Generations OS Upgrades • 50MP Triple",
+    "brand": "Samsung",
+    "category": "mobiles",
+    "price": 135.06,
+    "originalPrice": 165,
+    "rating": 5,
+    "reviewCount": 26,
+    "images": [
+      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 46,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "52.000 OMR",
+      "Model Series": "Galaxy A16",
+      "Brand": "Samsung",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Samsung Galaxy A16",
+      "6.7\" Super AMOLED • 6 Generations OS Upgrades • 50MP Triple",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_galaxy-a16_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 52 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_galaxy-a06",
+    "title": "Samsung Galaxy A06",
+    "subtitle": "6.7\" HD+ Big Screen • 50MP Main Lens • Side Fingerprint",
+    "brand": "Samsung",
+    "category": "mobiles",
+    "price": 103.9,
+    "originalPrice": 127,
+    "rating": 4.8,
+    "reviewCount": 33,
+    "images": [
+      "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 15,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "40.000 OMR",
+      "Model Series": "Galaxy A06",
+      "Brand": "Samsung",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Samsung Galaxy A06",
+      "6.7\" HD+ Big Screen • 50MP Main Lens • Side Fingerprint",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_galaxy-a06_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 40 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_xiaomi-15-ultra",
+    "title": "Xiaomi Xiaomi 15 Ultra",
+    "subtitle": "Leica Quad Camera • 1-inch Sony Sensor • Snapdragon 8 Elite • 90W HyperCharge",
+    "brand": "Xiaomi",
+    "category": "mobiles",
+    "price": 1103.9,
+    "originalPrice": 1347,
+    "rating": 4.8999999999999995,
+    "reviewCount": 40,
+    "images": [
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+    ],
+    "badge": "FLAGSHIP",
+    "stock": 19,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "425.000 OMR",
+      "Model Series": "Xiaomi 15 Ultra",
+      "Brand": "Xiaomi",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Xiaomi Xiaomi 15 Ultra",
+      "Leica Quad Camera • 1-inch Sony Sensor • Snapdragon 8 Elite • 90W HyperCharge",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_xiaomi-15-ultra_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 425 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_xiaomi-15",
+    "title": "Xiaomi Xiaomi 15",
+    "subtitle": "Snapdragon 8 Elite • 6.36\" 120Hz OLED • Leica 50MP Triple",
+    "brand": "Xiaomi",
+    "category": "mobiles",
+    "price": 753.25,
+    "originalPrice": 919,
+    "rating": 5,
+    "reviewCount": 47,
+    "images": [
+      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 23,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "290.000 OMR",
+      "Model Series": "Xiaomi 15",
+      "Brand": "Xiaomi",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Xiaomi Xiaomi 15",
+      "Snapdragon 8 Elite • 6.36\" 120Hz OLED • Leica 50MP Triple",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_xiaomi-15_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 290 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_xiaomi-14t-pro",
+    "title": "Xiaomi Xiaomi 14T Pro",
+    "subtitle": "MediaTek Dimensity 9300+ • Leica Summilux 50MP • 120W Charge",
+    "brand": "Xiaomi",
+    "category": "mobiles",
+    "price": 688.31,
+    "originalPrice": 840,
+    "rating": 4.8,
+    "reviewCount": 54,
+    "images": [
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 27,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 15,
+    "specs": {
+      "Official Oman Price": "265.000 OMR",
+      "Model Series": "Xiaomi 14T Pro",
+      "Brand": "Xiaomi",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Xiaomi Xiaomi 14T Pro",
+      "MediaTek Dimensity 9300+ • Leica Summilux 50MP • 120W Charge",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_xiaomi-14t-pro_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 265 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_xiaomi-14t",
+    "title": "Xiaomi Xiaomi 14T",
+    "subtitle": "Dimensity 8300-Ultra • 144Hz AI Display • Leica Optics",
+    "brand": "Xiaomi",
+    "category": "mobiles",
+    "price": 519.48,
+    "originalPrice": 634,
+    "rating": 4.8999999999999995,
+    "reviewCount": 61,
+    "images": [
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 31,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "200.000 OMR",
+      "Model Series": "Xiaomi 14T",
+      "Brand": "Xiaomi",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Xiaomi Xiaomi 14T",
+      "Dimensity 8300-Ultra • 144Hz AI Display • Leica Optics",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_xiaomi-14t_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 200 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_xiaomi-14",
+    "title": "Xiaomi Xiaomi 14",
+    "subtitle": "Snapdragon 8 Gen 3 • Leica Professional Optics • Compact Flagship",
+    "brand": "Xiaomi",
+    "category": "mobiles",
+    "price": 636.36,
+    "originalPrice": 776,
+    "rating": 5,
+    "reviewCount": 68,
+    "images": [
+      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 35,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "245.000 OMR",
+      "Model Series": "Xiaomi 14",
+      "Brand": "Xiaomi",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Xiaomi Xiaomi 14",
+      "Snapdragon 8 Gen 3 • Leica Professional Optics • Compact Flagship",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_xiaomi-14_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 245 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_redmi-note-15-pro-",
+    "title": "Xiaomi Redmi Note 15 Pro+",
+    "subtitle": "200MP OIS Camera • 120W HyperCharge • Curved AMOLED 1.5K",
+    "brand": "Xiaomi",
+    "category": "mobiles",
+    "price": 394.81,
+    "originalPrice": 482,
+    "rating": 4.8,
+    "reviewCount": 75,
+    "images": [
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 39,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "152.000 OMR",
+      "Model Series": "Redmi Note 15 Pro+",
+      "Brand": "Xiaomi",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Xiaomi Redmi Note 15 Pro+",
+      "200MP OIS Camera • 120W HyperCharge • Curved AMOLED 1.5K",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_redmi-note-15-pro-_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 152 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_redmi-note-15-pro",
+    "title": "Xiaomi Redmi Note 15 Pro",
+    "subtitle": "108MP Pro Camera • 67W Turbo Charge • 120Hz Dolby Vision",
+    "brand": "Xiaomi",
+    "category": "mobiles",
+    "price": 298.7,
+    "originalPrice": 364,
+    "rating": 4.8999999999999995,
+    "reviewCount": 82,
+    "images": [
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 43,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "115.000 OMR",
+      "Model Series": "Redmi Note 15 Pro",
+      "Brand": "Xiaomi",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Xiaomi Redmi Note 15 Pro",
+      "108MP Pro Camera • 67W Turbo Charge • 120Hz Dolby Vision",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_redmi-note-15-pro_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 115 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_redmi-note-15",
+    "title": "Xiaomi Redmi Note 15",
+    "subtitle": "108MP Camera • 5000mAh • 33W Fast Charging • 120Hz AMOLED",
+    "brand": "Xiaomi",
+    "category": "mobiles",
+    "price": 220.78,
+    "originalPrice": 269,
+    "rating": 5,
+    "reviewCount": 89,
+    "images": [
+      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 12,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 15,
+    "specs": {
+      "Official Oman Price": "85.000 OMR",
+      "Model Series": "Redmi Note 15",
+      "Brand": "Xiaomi",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Xiaomi Redmi Note 15",
+      "108MP Camera • 5000mAh • 33W Fast Charging • 120Hz AMOLED",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_redmi-note-15_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 85 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_redmi-note-14-pro-",
+    "title": "Xiaomi Redmi Note 14 Pro+",
+    "subtitle": "Snapdragon 7s Gen 3 • 6200mAh Silicon Battery • IP68 Waterproof",
+    "brand": "Xiaomi",
+    "category": "mobiles",
+    "price": 363.64,
+    "originalPrice": 444,
+    "rating": 4.8,
+    "reviewCount": 96,
+    "images": [
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 16,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "140.000 OMR",
+      "Model Series": "Redmi Note 14 Pro+",
+      "Brand": "Xiaomi",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Xiaomi Redmi Note 14 Pro+",
+      "Snapdragon 7s Gen 3 • 6200mAh Silicon Battery • IP68 Waterproof",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_redmi-note-14-pro-_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 140 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_redmi-note-14-pro",
+    "title": "Xiaomi Redmi Note 14 Pro",
+    "subtitle": "Curved 1.5K AMOLED • 50MP Sony LYT-600 OIS • IP68",
+    "brand": "Xiaomi",
+    "category": "mobiles",
+    "price": 264.94,
+    "originalPrice": 323,
+    "rating": 4.8999999999999995,
+    "reviewCount": 103,
+    "images": [
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
     ],
     "stock": 20,
     "featured": false,
     "flashDeal": false,
     "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "APPLE WATCH SE 2ND 40MM GPS",
+      "Official Oman Price": "102.000 OMR",
+      "Model Series": "Redmi Note 14 Pro",
+      "Brand": "Xiaomi",
+      "Regional Version": "Middle East / Oman Official Specs",
       "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
     },
     "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
+      "Official Middle East / Oman Regional Specification - Xiaomi Redmi Note 14 Pro",
+      "Curved 1.5K AMOLED • 50MP Sony LYT-600 OIS • IP68",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
       "Worldwide Insured Express Delivery in 15 to 25 Working Days"
     ],
     "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
     ],
     "reviews": [
       {
-        "id": "rev_cleo_176_apple-watch-se-2nd-40mm-gps_1",
-        "userName": "Verified Cleopatra Buyer",
+        "id": "rev_phone_redmi-note-14-pro_1",
+        "userName": "Verified Oman Buyer",
         "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 102 OMR. Arrived pristine.",
         "verified": true,
-        "helpfulCount": 8
+        "helpfulCount": 14
       }
     ]
   },
   {
-    "id": "cleo_177_apple-watch-se-2nd-44mm-gps",
-    "title": "APPLE WATCH SE 2ND 44MM GPS",
-    "subtitle": "Apple Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Apple",
-    "category": "wearables",
-    "price": 249.99,
-    "originalPrice": 312,
+    "id": "phone_redmi-note-14",
+    "title": "Xiaomi Redmi Note 14",
+    "subtitle": "120Hz FHD+ OLED • 50MP AI Dual • 45W Fast Charging",
+    "brand": "Xiaomi",
+    "category": "mobiles",
+    "price": 187.01,
+    "originalPrice": 228,
     "rating": 5,
-    "reviewCount": 142,
+    "reviewCount": 110,
     "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2023/03/products-apple-watch-se-2nd-44mm-gps.jpg"
+      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 24,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "72.000 OMR",
+      "Model Series": "Redmi Note 14",
+      "Brand": "Xiaomi",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Xiaomi Redmi Note 14",
+      "120Hz FHD+ OLED • 50MP AI Dual • 45W Fast Charging",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_redmi-note-14_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 72 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_redmi-14c",
+    "title": "Xiaomi Redmi 14C",
+    "subtitle": "6.88\" 120Hz Ultra-Large Screen • 50MP AI • 5160mAh Battery",
+    "brand": "Xiaomi",
+    "category": "mobiles",
+    "price": 129.87,
+    "originalPrice": 158,
+    "rating": 4.8,
+    "reviewCount": 117,
+    "images": [
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 28,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "50.000 OMR",
+      "Model Series": "Redmi 14C",
+      "Brand": "Xiaomi",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Xiaomi Redmi 14C",
+      "6.88\" 120Hz Ultra-Large Screen • 50MP AI • 5160mAh Battery",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_redmi-14c_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 50 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_honor-magic-v5",
+    "title": "HONOR Honor Magic V5",
+    "subtitle": "Ultra-Slim Foldable Flagship • Silicon-Carbon Battery • Dual 120Hz LTPO",
+    "brand": "HONOR",
+    "category": "mobiles",
+    "price": 1402.6,
+    "originalPrice": 1711,
+    "rating": 4.8999999999999995,
+    "reviewCount": 124,
+    "images": [
+      "https://images.unsplash.com/photo-1567581935884-3349723552ca?auto=format&fit=crop&q=80&w=800"
+    ],
+    "badge": "HOT",
+    "stock": 32,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 15,
+    "specs": {
+      "Official Oman Price": "540.000 OMR",
+      "Model Series": "Honor Magic V5",
+      "Brand": "HONOR",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - HONOR Honor Magic V5",
+      "Ultra-Slim Foldable Flagship • Silicon-Carbon Battery • Dual 120Hz LTPO",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_honor-magic-v5_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 540 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_honor-magic7-pro",
+    "title": "HONOR Honor Magic7 Pro",
+    "subtitle": "Snapdragon 8 Elite • 200MP Telephoto AI • 3D Biometric Face Unlock",
+    "brand": "HONOR",
+    "category": "mobiles",
+    "price": 922.08,
+    "originalPrice": 1125,
+    "rating": 5,
+    "reviewCount": 131,
+    "images": [
+      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&q=80&w=800"
+    ],
+    "badge": "FLAGSHIP",
+    "stock": 36,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "355.000 OMR",
+      "Model Series": "Honor Magic7 Pro",
+      "Brand": "HONOR",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - HONOR Honor Magic7 Pro",
+      "Snapdragon 8 Elite • 200MP Telephoto AI • 3D Biometric Face Unlock",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_honor-magic7-pro_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 355 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_honor-400-pro",
+    "title": "HONOR Honor 400 Pro",
+    "subtitle": "Studio Portrait AI • 100W Wired + 66W Wireless SuperCharge",
+    "brand": "HONOR",
+    "category": "mobiles",
+    "price": 610.39,
+    "originalPrice": 745,
+    "rating": 4.8,
+    "reviewCount": 138,
+    "images": [
+      "https://images.unsplash.com/photo-1567581935884-3349723552ca?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 40,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "235.000 OMR",
+      "Model Series": "Honor 400 Pro",
+      "Brand": "HONOR",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - HONOR Honor 400 Pro",
+      "Studio Portrait AI • 100W Wired + 66W Wireless SuperCharge",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_honor-400-pro_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 235 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_honor-400",
+    "title": "HONOR Honor 400",
+    "subtitle": "Studio Portrait Engine • 50MP Harcourt Optics • 5200mAh",
+    "brand": "HONOR",
+    "category": "mobiles",
+    "price": 441.56,
+    "originalPrice": 539,
+    "rating": 4.8999999999999995,
+    "reviewCount": 145,
+    "images": [
+      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 44,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "170.000 OMR",
+      "Model Series": "Honor 400",
+      "Brand": "HONOR",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - HONOR Honor 400",
+      "Studio Portrait Engine • 50MP Harcourt Optics • 5200mAh",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_honor-400_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 170 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_honor-200-pro",
+    "title": "HONOR Honor 200 Pro",
+    "subtitle": "Snapdragon 8s Gen 3 • Harcourt Portrait AI • 100W SuperCharge",
+    "brand": "HONOR",
+    "category": "mobiles",
+    "price": 519.48,
+    "originalPrice": 634,
+    "rating": 5,
+    "reviewCount": 152,
+    "images": [
+      "https://images.unsplash.com/photo-1567581935884-3349723552ca?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 13,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "200.000 OMR",
+      "Model Series": "Honor 200 Pro",
+      "Brand": "HONOR",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - HONOR Honor 200 Pro",
+      "Snapdragon 8s Gen 3 • Harcourt Portrait AI • 100W SuperCharge",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_honor-200-pro_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 200 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_honor-200",
+    "title": "HONOR Honor 200",
+    "subtitle": "50MP Studio Portrait • 120Hz Quad-Curved AMOLED • 5200mAh",
+    "brand": "HONOR",
+    "category": "mobiles",
+    "price": 381.82,
+    "originalPrice": 466,
+    "rating": 4.8,
+    "reviewCount": 159,
+    "images": [
+      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 17,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 15,
+    "specs": {
+      "Official Oman Price": "147.000 OMR",
+      "Model Series": "Honor 200",
+      "Brand": "HONOR",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - HONOR Honor 200",
+      "50MP Studio Portrait • 120Hz Quad-Curved AMOLED • 5200mAh",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_honor-200_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 147 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_honor-x9d",
+    "title": "HONOR Honor X9d",
+    "subtitle": "Ultra-Bounce Anti-Drop Display 2.0 • 108MP AI • 5800mAh",
+    "brand": "HONOR",
+    "category": "mobiles",
+    "price": 324.68,
+    "originalPrice": 396,
+    "rating": 4.8999999999999995,
+    "reviewCount": 166,
+    "images": [
+      "https://images.unsplash.com/photo-1567581935884-3349723552ca?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 21,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "125.000 OMR",
+      "Model Series": "Honor X9d",
+      "Brand": "HONOR",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - HONOR Honor X9d",
+      "Ultra-Bounce Anti-Drop Display 2.0 • 108MP AI • 5800mAh",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_honor-x9d_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 125 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_honor-x9c",
+    "title": "HONOR Honor X9c",
+    "subtitle": "360° Anti-Drop Protection • 6600mAh Long Life • 108MP OIS",
+    "brand": "HONOR",
+    "category": "mobiles",
+    "price": 285.71,
+    "originalPrice": 349,
+    "rating": 5,
+    "reviewCount": 173,
+    "images": [
+      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 25,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "110.000 OMR",
+      "Model Series": "Honor X9c",
+      "Brand": "HONOR",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - HONOR Honor X9c",
+      "360° Anti-Drop Protection • 6600mAh Long Life • 108MP OIS",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_honor-x9c_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 110 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_honor-x8c",
+    "title": "HONOR Honor X8c",
+    "subtitle": "Slim 6.78mm Body • 108MP Clear Camera • Magic Capsule",
+    "brand": "HONOR",
+    "category": "mobiles",
+    "price": 207.79,
+    "originalPrice": 254,
+    "rating": 4.8,
+    "reviewCount": 180,
+    "images": [
+      "https://images.unsplash.com/photo-1567581935884-3349723552ca?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 29,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "80.000 OMR",
+      "Model Series": "Honor X8c",
+      "Brand": "HONOR",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - HONOR Honor X8c",
+      "Slim 6.78mm Body • 108MP Clear Camera • Magic Capsule",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_honor-x8c_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 80 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_honor-x7c",
+    "title": "HONOR Honor X7c",
+    "subtitle": "6000mAh Battery • IP64 Water Resistant • Dual Stereo Speakers",
+    "brand": "HONOR",
+    "category": "mobiles",
+    "price": 161.04,
+    "originalPrice": 196,
+    "rating": 4.8999999999999995,
+    "reviewCount": 187,
+    "images": [
+      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 33,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "62.000 OMR",
+      "Model Series": "Honor X7c",
+      "Brand": "HONOR",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - HONOR Honor X7c",
+      "6000mAh Battery • IP64 Water Resistant • Dual Stereo Speakers",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_honor-x7c_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 62 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_honor-x6b",
+    "title": "HONOR Honor X6b",
+    "subtitle": "5200mAh Battery • 35W SuperCharge • 50MP AI Camera",
+    "brand": "HONOR",
+    "category": "mobiles",
+    "price": 122.08,
+    "originalPrice": 149,
+    "rating": 5,
+    "reviewCount": 194,
+    "images": [
+      "https://images.unsplash.com/photo-1567581935884-3349723552ca?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 37,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 15,
+    "specs": {
+      "Official Oman Price": "47.000 OMR",
+      "Model Series": "Honor X6b",
+      "Brand": "HONOR",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - HONOR Honor X6b",
+      "5200mAh Battery • 35W SuperCharge • 50MP AI Camera",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_honor-x6b_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 47 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_honor-x5b",
+    "title": "HONOR Honor X5b",
+    "subtitle": "5200mAh Battery • 50MP Dual Camera • 6.56\" 90Hz Display",
+    "brand": "HONOR",
+    "category": "mobiles",
+    "price": 103.9,
+    "originalPrice": 127,
+    "rating": 4.8,
+    "reviewCount": 201,
+    "images": [
+      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 41,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "40.000 OMR",
+      "Model Series": "Honor X5b",
+      "Brand": "HONOR",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - HONOR Honor X5b",
+      "5200mAh Battery • 50MP Dual Camera • 6.56\" 90Hz Display",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_honor-x5b_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 40 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_oppo-find-x8-pro",
+    "title": "OPPO OPPO Find X8 Pro",
+    "subtitle": "Hasselblad Dual Periscope • Dimensity 9400 • 5910mAh Glacier Battery",
+    "brand": "OPPO",
+    "category": "mobiles",
+    "price": 870.13,
+    "originalPrice": 1062,
+    "rating": 4.8999999999999995,
+    "reviewCount": 28,
+    "images": [
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+    ],
+    "badge": "FLAGSHIP",
+    "stock": 45,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "335.000 OMR",
+      "Model Series": "OPPO Find X8 Pro",
+      "Brand": "OPPO",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - OPPO OPPO Find X8 Pro",
+      "Hasselblad Dual Periscope • Dimensity 9400 • 5910mAh Glacier Battery",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_oppo-find-x8-pro_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 335 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_oppo-reno14",
+    "title": "OPPO OPPO Reno14",
+    "subtitle": "AI Portrait Glow • 1.5K Ultra-Clear OLED • 80W SUPERVOOC",
+    "brand": "OPPO",
+    "category": "mobiles",
+    "price": 441.56,
+    "originalPrice": 539,
+    "rating": 5,
+    "reviewCount": 35,
+    "images": [
+      "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 14,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "170.000 OMR",
+      "Model Series": "OPPO Reno14",
+      "Brand": "OPPO",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - OPPO OPPO Reno14",
+      "AI Portrait Glow • 1.5K Ultra-Clear OLED • 80W SUPERVOOC",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_oppo-reno14_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 170 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_oppo-reno13-pro",
+    "title": "OPPO OPPO Reno13 Pro",
+    "subtitle": "Dimensity 8350 • 50MP Periscope Telephoto • IP69 Waterproof",
+    "brand": "OPPO",
+    "category": "mobiles",
+    "price": 493.51,
+    "originalPrice": 602,
+    "rating": 4.8,
+    "reviewCount": 42,
+    "images": [
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 18,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "190.000 OMR",
+      "Model Series": "OPPO Reno13 Pro",
+      "Brand": "OPPO",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - OPPO OPPO Reno13 Pro",
+      "Dimensity 8350 • 50MP Periscope Telephoto • IP69 Waterproof",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_oppo-reno13-pro_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 190 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_oppo-reno13-f",
+    "title": "OPPO OPPO Reno13 F",
+    "subtitle": "AI Livephoto • 120Hz Smart Eye-Care Screen • 5000mAh",
+    "brand": "OPPO",
+    "category": "mobiles",
+    "price": 298.7,
+    "originalPrice": 364,
+    "rating": 4.8999999999999995,
+    "reviewCount": 49,
+    "images": [
+      "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 22,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 15,
+    "specs": {
+      "Official Oman Price": "115.000 OMR",
+      "Model Series": "OPPO Reno13 F",
+      "Brand": "OPPO",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - OPPO OPPO Reno13 F",
+      "AI Livephoto • 120Hz Smart Eye-Care Screen • 5000mAh",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_oppo-reno13-f_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 115 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_oppo-reno12-f",
+    "title": "OPPO OPPO Reno12 F",
+    "subtitle": "Halo Light Notifications • AI Eraser 2.0 • 45W SUPERVOOC",
+    "brand": "OPPO",
+    "category": "mobiles",
+    "price": 238.96,
+    "originalPrice": 292,
+    "rating": 5,
+    "reviewCount": 56,
+    "images": [
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 26,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "92.000 OMR",
+      "Model Series": "OPPO Reno12 F",
+      "Brand": "OPPO",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - OPPO OPPO Reno12 F",
+      "Halo Light Notifications • AI Eraser 2.0 • 45W SUPERVOOC",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_oppo-reno12-f_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 92 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_oppo-a78",
+    "title": "OPPO OPPO A78",
+    "subtitle": "67W SUPERVOOC • FHD+ AMOLED • Dual Stereo Speakers",
+    "brand": "OPPO",
+    "category": "mobiles",
+    "price": 194.81,
+    "originalPrice": 238,
+    "rating": 4.8,
+    "reviewCount": 63,
+    "images": [
+      "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 30,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "75.000 OMR",
+      "Model Series": "OPPO A78",
+      "Brand": "OPPO",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - OPPO OPPO A78",
+      "67W SUPERVOOC • FHD+ AMOLED • Dual Stereo Speakers",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_oppo-a78_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 75 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_oppo-a60",
+    "title": "OPPO OPPO A60",
+    "subtitle": "Military-Grade Shock Resistance • 950-nit Ultra-Bright Screen",
+    "brand": "OPPO",
+    "category": "mobiles",
+    "price": 161.04,
+    "originalPrice": 196,
+    "rating": 4.8999999999999995,
+    "reviewCount": 70,
+    "images": [
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 34,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "62.000 OMR",
+      "Model Series": "OPPO A60",
+      "Brand": "OPPO",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - OPPO OPPO A60",
+      "Military-Grade Shock Resistance • 950-nit Ultra-Bright Screen",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_oppo-a60_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 62 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_oppo-a5-pro",
+    "title": "OPPO OPPO A5 Pro",
+    "subtitle": "5G High Speed • 5800mAh Battery • Splash & Drop Resistant",
+    "brand": "OPPO",
+    "category": "mobiles",
+    "price": 194.81,
+    "originalPrice": 238,
+    "rating": 5,
+    "reviewCount": 77,
+    "images": [
+      "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 38,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "75.000 OMR",
+      "Model Series": "OPPO A5 Pro",
+      "Brand": "OPPO",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - OPPO OPPO A5 Pro",
+      "5G High Speed • 5800mAh Battery • Splash & Drop Resistant",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_oppo-a5-pro_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 75 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_oppo-a5",
+    "title": "OPPO OPPO A5",
+    "subtitle": "6.67\" HD+ 90Hz • 50MP AI Lens • 5100mAh Battery",
+    "brand": "OPPO",
+    "category": "mobiles",
+    "price": 148.05,
+    "originalPrice": 181,
+    "rating": 4.8,
+    "reviewCount": 84,
+    "images": [
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 42,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 15,
+    "specs": {
+      "Official Oman Price": "57.000 OMR",
+      "Model Series": "OPPO A5",
+      "Brand": "OPPO",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - OPPO OPPO A5",
+      "6.67\" HD+ 90Hz • 50MP AI Lens • 5100mAh Battery",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_oppo-a5_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 57 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_oppo-a3x",
+    "title": "OPPO OPPO A3x",
+    "subtitle": "Anti-Drop 360° Armor • 45W SUPERVOOC • 1000-nit Display",
+    "brand": "OPPO",
+    "category": "mobiles",
+    "price": 122.08,
+    "originalPrice": 149,
+    "rating": 4.8999999999999995,
+    "reviewCount": 91,
+    "images": [
+      "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 46,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "47.000 OMR",
+      "Model Series": "OPPO A3x",
+      "Brand": "OPPO",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - OPPO OPPO A3x",
+      "Anti-Drop 360° Armor • 45W SUPERVOOC • 1000-nit Display",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_oppo-a3x_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 47 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_vivo-x200-pro",
+    "title": "Vivo Vivo X200 Pro",
+    "subtitle": "ZEISS 200MP APO Telephoto • Dimensity 9400 • 6000mAh BlueVolt",
+    "brand": "Vivo",
+    "category": "mobiles",
+    "price": 922.08,
+    "originalPrice": 1125,
+    "rating": 5,
+    "reviewCount": 98,
+    "images": [
+      "https://images.unsplash.com/photo-1575695342320-d2d2d2f9b73f?auto=format&fit=crop&q=80&w=800"
+    ],
+    "badge": "FLAGSHIP",
+    "stock": 15,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "355.000 OMR",
+      "Model Series": "Vivo X200 Pro",
+      "Brand": "Vivo",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Vivo Vivo X200 Pro",
+      "ZEISS 200MP APO Telephoto • Dimensity 9400 • 6000mAh BlueVolt",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_vivo-x200-pro_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 355 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_vivo-v70",
+    "title": "Vivo Vivo V70",
+    "subtitle": "Aura Light Portrait 5.0 • 50MP Sony Sensor • 80W FlashCharge",
+    "brand": "Vivo",
+    "category": "mobiles",
+    "price": 493.51,
+    "originalPrice": 602,
+    "rating": 4.8,
+    "reviewCount": 105,
+    "images": [
+      "https://images.unsplash.com/photo-1567581935884-3349723552ca?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 19,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "190.000 OMR",
+      "Model Series": "Vivo V70",
+      "Brand": "Vivo",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Vivo Vivo V70",
+      "Aura Light Portrait 5.0 • 50MP Sony Sensor • 80W FlashCharge",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_vivo-v70_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 190 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_vivo-v60",
+    "title": "Vivo Vivo V60",
+    "subtitle": "ZEISS All Main Camera • 1.5K 120Hz 3D Curved AMOLED",
+    "brand": "Vivo",
+    "category": "mobiles",
+    "price": 433.77,
+    "originalPrice": 529,
+    "rating": 4.8999999999999995,
+    "reviewCount": 112,
+    "images": [
+      "https://images.unsplash.com/photo-1575695342320-d2d2d2f9b73f?auto=format&fit=crop&q=80&w=800"
     ],
     "stock": 23,
     "featured": false,
-    "flashDeal": true,
-    "flashDealDiscount": 20,
+    "flashDeal": false,
     "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "APPLE WATCH SE 2ND 44MM GPS",
+      "Official Oman Price": "167.000 OMR",
+      "Model Series": "Vivo V60",
+      "Brand": "Vivo",
+      "Regional Version": "Middle East / Oman Official Specs",
       "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
     },
     "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
+      "Official Middle East / Oman Regional Specification - Vivo Vivo V60",
+      "ZEISS All Main Camera • 1.5K 120Hz 3D Curved AMOLED",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
       "Worldwide Insured Express Delivery in 15 to 25 Working Days"
     ],
     "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
     ],
     "reviews": [
       {
-        "id": "rev_cleo_177_apple-watch-se-2nd-44mm-gps_1",
-        "userName": "Verified Cleopatra Buyer",
+        "id": "rev_phone_vivo-v60_1",
+        "userName": "Verified Oman Buyer",
         "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 167 OMR. Arrived pristine.",
         "verified": true,
-        "helpfulCount": 8
+        "helpfulCount": 14
       }
     ]
   },
   {
-    "id": "cleo_1_belkin-boost-charge-power-bund",
+    "id": "phone_vivo-v50",
+    "title": "Vivo Vivo V50",
+    "subtitle": "50MP Eye-AF Group Selfie • Studio Aura Light • 5500mAh",
+    "brand": "Vivo",
+    "category": "mobiles",
+    "price": 381.82,
+    "originalPrice": 466,
+    "rating": 5,
+    "reviewCount": 119,
+    "images": [
+      "https://images.unsplash.com/photo-1567581935884-3349723552ca?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 27,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 15,
+    "specs": {
+      "Official Oman Price": "147.000 OMR",
+      "Model Series": "Vivo V50",
+      "Brand": "Vivo",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Vivo Vivo V50",
+      "50MP Eye-AF Group Selfie • Studio Aura Light • 5500mAh",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_vivo-v50_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 147 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_vivo-v40",
+    "title": "Vivo Vivo V40",
+    "subtitle": "ZEISS Optics 50MP Dual • IP68 Water & Dust Proof • 5500mAh",
+    "brand": "Vivo",
+    "category": "mobiles",
+    "price": 350.65,
+    "originalPrice": 428,
+    "rating": 4.8,
+    "reviewCount": 126,
+    "images": [
+      "https://images.unsplash.com/photo-1575695342320-d2d2d2f9b73f?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 31,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "135.000 OMR",
+      "Model Series": "Vivo V40",
+      "Brand": "Vivo",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Vivo Vivo V40",
+      "ZEISS Optics 50MP Dual • IP68 Water & Dust Proof • 5500mAh",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_vivo-v40_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 135 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_vivo-y100",
+    "title": "Vivo Vivo Y100",
+    "subtitle": "Color Changing Fluorite AG Glass • 80W FlashCharge • 120Hz AMOLED",
+    "brand": "Vivo",
+    "category": "mobiles",
+    "price": 233.77,
+    "originalPrice": 285,
+    "rating": 4.8999999999999995,
+    "reviewCount": 133,
+    "images": [
+      "https://images.unsplash.com/photo-1567581935884-3349723552ca?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 35,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "90.000 OMR",
+      "Model Series": "Vivo Y100",
+      "Brand": "Vivo",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Vivo Vivo Y100",
+      "Color Changing Fluorite AG Glass • 80W FlashCharge • 120Hz AMOLED",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_vivo-y100_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 90 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_vivo-y39",
+    "title": "Vivo Vivo Y39",
+    "subtitle": "5G Fast Connection • 50MP Ultra Clear • 5000mAh Large Battery",
+    "brand": "Vivo",
+    "category": "mobiles",
+    "price": 187.01,
+    "originalPrice": 228,
+    "rating": 5,
+    "reviewCount": 140,
+    "images": [
+      "https://images.unsplash.com/photo-1575695342320-d2d2d2f9b73f?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 39,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "72.000 OMR",
+      "Model Series": "Vivo Y39",
+      "Brand": "Vivo",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Vivo Vivo Y39",
+      "5G Fast Connection • 50MP Ultra Clear • 5000mAh Large Battery",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_vivo-y39_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 72 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_vivo-y29",
+    "title": "Vivo Vivo Y29",
+    "subtitle": "6.68\" Sunlight Display • Dual Stereo 300% Audio • 44W Charge",
+    "brand": "Vivo",
+    "category": "mobiles",
+    "price": 161.04,
+    "originalPrice": 196,
+    "rating": 4.8,
+    "reviewCount": 147,
+    "images": [
+      "https://images.unsplash.com/photo-1567581935884-3349723552ca?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 43,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "62.000 OMR",
+      "Model Series": "Vivo Y29",
+      "Brand": "Vivo",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Vivo Vivo Y29",
+      "6.68\" Sunlight Display • Dual Stereo 300% Audio • 44W Charge",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_vivo-y29_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 62 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_vivo-y19e",
+    "title": "Vivo Vivo Y19e",
+    "subtitle": "5500mAh Power House • 50MP HD Camera • Eye Care 90Hz",
+    "brand": "Vivo",
+    "category": "mobiles",
+    "price": 116.88,
+    "originalPrice": 143,
+    "rating": 4.8999999999999995,
+    "reviewCount": 154,
+    "images": [
+      "https://images.unsplash.com/photo-1575695342320-d2d2d2f9b73f?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 12,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 15,
+    "specs": {
+      "Official Oman Price": "45.000 OMR",
+      "Model Series": "Vivo Y19e",
+      "Brand": "Vivo",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Vivo Vivo Y19e",
+      "5500mAh Power House • 50MP HD Camera • Eye Care 90Hz",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_vivo-y19e_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 45 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_vivo-y04",
+    "title": "Vivo Vivo Y04",
+    "subtitle": "6.74\" 90Hz Display • 5000mAh Battery • IP54 Splash Proof",
+    "brand": "Vivo",
+    "category": "mobiles",
+    "price": 90.91,
+    "originalPrice": 111,
+    "rating": 5,
+    "reviewCount": 161,
+    "images": [
+      "https://images.unsplash.com/photo-1567581935884-3349723552ca?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 16,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "35.000 OMR",
+      "Model Series": "Vivo Y04",
+      "Brand": "Vivo",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Vivo Vivo Y04",
+      "6.74\" 90Hz Display • 5000mAh Battery • IP54 Splash Proof",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_vivo-y04_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 35 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_oneplus-13-pro",
+    "title": "OnePlus OnePlus 13 Pro",
+    "subtitle": "Hasselblad 50MP Triple • Snapdragon 8 Elite • 6000mAh • 100W SUPERVOOC",
+    "brand": "OnePlus",
+    "category": "mobiles",
+    "price": 948.05,
+    "originalPrice": 1157,
+    "rating": 4.8,
+    "reviewCount": 168,
+    "images": [
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800"
+    ],
+    "badge": "FLAGSHIP",
+    "stock": 20,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "365.000 OMR",
+      "Model Series": "OnePlus 13 Pro",
+      "Brand": "OnePlus",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - OnePlus OnePlus 13 Pro",
+      "Hasselblad 50MP Triple • Snapdragon 8 Elite • 6000mAh • 100W SUPERVOOC",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_oneplus-13-pro_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 365 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_oneplus-13",
+    "title": "OnePlus OnePlus 13",
+    "subtitle": "Snapdragon 8 Elite • 2K 120Hz Oriental Screen • IP68/IP69",
+    "brand": "OnePlus",
+    "category": "mobiles",
+    "price": 753.25,
+    "originalPrice": 919,
+    "rating": 4.8999999999999995,
+    "reviewCount": 175,
+    "images": [
+      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 24,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "290.000 OMR",
+      "Model Series": "OnePlus 13",
+      "Brand": "OnePlus",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - OnePlus OnePlus 13",
+      "Snapdragon 8 Elite • 2K 120Hz Oriental Screen • IP68/IP69",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_oneplus-13_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 290 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_oneplus-13r",
+    "title": "OnePlus OnePlus 13R",
+    "subtitle": "Snapdragon 8 Gen 3 • 6000mAh Glacier Battery • 100W Charge",
+    "brand": "OnePlus",
+    "category": "mobiles",
+    "price": 524.68,
+    "originalPrice": 640,
+    "rating": 5,
+    "reviewCount": 182,
+    "images": [
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 28,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "202.000 OMR",
+      "Model Series": "OnePlus 13R",
+      "Brand": "OnePlus",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - OnePlus OnePlus 13R",
+      "Snapdragon 8 Gen 3 • 6000mAh Glacier Battery • 100W Charge",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_oneplus-13r_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 202 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_oneplus-12r",
+    "title": "OnePlus OnePlus 12R",
+    "subtitle": "Snapdragon 8 Gen 2 • 4th Gen LTPO 120Hz • 5500mAh Battery",
+    "brand": "OnePlus",
+    "category": "mobiles",
+    "price": 441.56,
+    "originalPrice": 539,
+    "rating": 4.8,
+    "reviewCount": 189,
+    "images": [
+      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 32,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 15,
+    "specs": {
+      "Official Oman Price": "170.000 OMR",
+      "Model Series": "OnePlus 12R",
+      "Brand": "OnePlus",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - OnePlus OnePlus 12R",
+      "Snapdragon 8 Gen 2 • 4th Gen LTPO 120Hz • 5500mAh Battery",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_oneplus-12r_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 170 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_oneplus-nord-5",
+    "title": "OnePlus OnePlus Nord 5",
+    "subtitle": "All-Metal Unibody • Snapdragon 7+ Gen 3 • 5500mAh 100W",
+    "brand": "OnePlus",
+    "category": "mobiles",
+    "price": 407.79,
+    "originalPrice": 498,
+    "rating": 4.8999999999999995,
+    "reviewCount": 196,
+    "images": [
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 36,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "157.000 OMR",
+      "Model Series": "OnePlus Nord 5",
+      "Brand": "OnePlus",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - OnePlus OnePlus Nord 5",
+      "All-Metal Unibody • Snapdragon 7+ Gen 3 • 5500mAh 100W",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_oneplus-nord-5_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 157 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_oneplus-nord-ce5",
+    "title": "OnePlus OnePlus Nord CE5",
+    "subtitle": "Sony LYT-600 50MP • 120Hz AMOLED • 80W SUPERVOOC",
+    "brand": "OnePlus",
+    "category": "mobiles",
+    "price": 272.73,
+    "originalPrice": 333,
+    "rating": 5,
+    "reviewCount": 203,
+    "images": [
+      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 40,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "105.000 OMR",
+      "Model Series": "OnePlus Nord CE5",
+      "Brand": "OnePlus",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - OnePlus OnePlus Nord CE5",
+      "Sony LYT-600 50MP • 120Hz AMOLED • 80W SUPERVOOC",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_oneplus-nord-ce5_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 105 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_oneplus-nord-4",
+    "title": "OnePlus OnePlus Nord 4",
+    "subtitle": "Metal Unibody 5G • 5500mAh Long Life • 100W SuperVOOC",
+    "brand": "OnePlus",
+    "category": "mobiles",
+    "price": 303.9,
+    "originalPrice": 371,
+    "rating": 4.8,
+    "reviewCount": 30,
+    "images": [
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 44,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "117.000 OMR",
+      "Model Series": "OnePlus Nord 4",
+      "Brand": "OnePlus",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - OnePlus OnePlus Nord 4",
+      "Metal Unibody 5G • 5500mAh Long Life • 100W SuperVOOC",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_oneplus-nord-4_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 117 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_oneplus-nord-ce4",
+    "title": "OnePlus OnePlus Nord CE4",
+    "subtitle": "Snapdragon 7 Gen 3 • 100W SUPERVOOC • 50MP Sony Sensor",
+    "brand": "OnePlus",
+    "category": "mobiles",
+    "price": 238.96,
+    "originalPrice": 292,
+    "rating": 4.8999999999999995,
+    "reviewCount": 37,
+    "images": [
+      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 13,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "92.000 OMR",
+      "Model Series": "OnePlus Nord CE4",
+      "Brand": "OnePlus",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - OnePlus OnePlus Nord CE4",
+      "Snapdragon 7 Gen 3 • 100W SUPERVOOC • 50MP Sony Sensor",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_oneplus-nord-ce4_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 92 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_oneplus-nord-ce4-lite",
+    "title": "OnePlus OnePlus Nord CE4 Lite",
+    "subtitle": "5500mAh Battery • 80W SUPERVOOC • 120Hz AMOLED 2100 Nits",
+    "brand": "OnePlus",
+    "category": "mobiles",
+    "price": 181.82,
+    "originalPrice": 222,
+    "rating": 5,
+    "reviewCount": 44,
+    "images": [
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 17,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 15,
+    "specs": {
+      "Official Oman Price": "70.000 OMR",
+      "Model Series": "OnePlus Nord CE4 Lite",
+      "Brand": "OnePlus",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - OnePlus OnePlus Nord CE4 Lite",
+      "5500mAh Battery • 80W SUPERVOOC • 120Hz AMOLED 2100 Nits",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_oneplus-nord-ce4-lite_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 70 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_oneplus-nord-ce-3-lite",
+    "title": "OnePlus OnePlus Nord CE 3 Lite",
+    "subtitle": "108MP Camera System • 67W SUPERVOOC • 6.72\" 120Hz Display",
+    "brand": "OnePlus",
+    "category": "mobiles",
+    "price": 161.04,
+    "originalPrice": 196,
+    "rating": 4.8,
+    "reviewCount": 51,
+    "images": [
+      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 21,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "62.000 OMR",
+      "Model Series": "OnePlus Nord CE 3 Lite",
+      "Brand": "OnePlus",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - OnePlus OnePlus Nord CE 3 Lite",
+      "108MP Camera System • 67W SUPERVOOC • 6.72\" 120Hz Display",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_oneplus-nord-ce-3-lite_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 62 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_realme-gt-7",
+    "title": "Realme Realme GT 7",
+    "subtitle": "Snapdragon 8 Elite • 6500mAh Titan Battery • 120W Ultra Charge",
+    "brand": "Realme",
+    "category": "mobiles",
+    "price": 584.42,
+    "originalPrice": 713,
+    "rating": 4.8999999999999995,
+    "reviewCount": 58,
+    "images": [
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+    ],
+    "badge": "HOT",
+    "stock": 25,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "225.000 OMR",
+      "Model Series": "Realme GT 7",
+      "Brand": "Realme",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Realme Realme GT 7",
+      "Snapdragon 8 Elite • 6500mAh Titan Battery • 120W Ultra Charge",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_realme-gt-7_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 225 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_realme-15",
+    "title": "Realme Realme 15",
+    "subtitle": "Sony 50MP OIS Camera • 120Hz Curved Vision OLED • 5200mAh",
+    "brand": "Realme",
+    "category": "mobiles",
+    "price": 290.91,
+    "originalPrice": 355,
+    "rating": 5,
+    "reviewCount": 65,
+    "images": [
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 29,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "112.000 OMR",
+      "Model Series": "Realme 15",
+      "Brand": "Realme",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Realme Realme 15",
+      "Sony 50MP OIS Camera • 120Hz Curved Vision OLED • 5200mAh",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_realme-15_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 112 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_realme-14",
+    "title": "Realme Realme 14",
+    "subtitle": "50MP AI Camera • Dimensity 5G • 45W Fast Charging",
+    "brand": "Realme",
+    "category": "mobiles",
+    "price": 251.95,
+    "originalPrice": 307,
+    "rating": 4.8,
+    "reviewCount": 72,
+    "images": [
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 33,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "97.000 OMR",
+      "Model Series": "Realme 14",
+      "Brand": "Realme",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Realme Realme 14",
+      "50MP AI Camera • Dimensity 5G • 45W Fast Charging",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_realme-14_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 97 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_realme-13",
+    "title": "Realme Realme 13",
+    "subtitle": "Dimensity 6300 5G • GT Mode Gaming • 50MP Sony LYT-600",
+    "brand": "Realme",
+    "category": "mobiles",
+    "price": 233.77,
+    "originalPrice": 285,
+    "rating": 4.8999999999999995,
+    "reviewCount": 79,
+    "images": [
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 37,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 15,
+    "specs": {
+      "Official Oman Price": "90.000 OMR",
+      "Model Series": "Realme 13",
+      "Brand": "Realme",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Realme Realme 13",
+      "Dimensity 6300 5G • GT Mode Gaming • 50MP Sony LYT-600",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_realme-13_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 90 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_realme-12",
+    "title": "Realme Realme 12",
+    "subtitle": "108MP Clear Portrait • 45W SUPERVOOC • Sunlight Display",
+    "brand": "Realme",
+    "category": "mobiles",
+    "price": 207.79,
+    "originalPrice": 254,
+    "rating": 5,
+    "reviewCount": 86,
+    "images": [
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 41,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "80.000 OMR",
+      "Model Series": "Realme 12",
+      "Brand": "Realme",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Realme Realme 12",
+      "108MP Clear Portrait • 45W SUPERVOOC • Sunlight Display",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_realme-12_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 80 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_realme-c85",
+    "title": "Realme Realme C85",
+    "subtitle": "ArmorShield Drop Proof • 50MP AI Lens • 5000mAh Battery",
+    "brand": "Realme",
+    "category": "mobiles",
+    "price": 161.04,
+    "originalPrice": 196,
+    "rating": 4.8,
+    "reviewCount": 93,
+    "images": [
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 45,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "62.000 OMR",
+      "Model Series": "Realme C85",
+      "Brand": "Realme",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Realme Realme C85",
+      "ArmorShield Drop Proof • 50MP AI Lens • 5000mAh Battery",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_realme-c85_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 62 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_realme-c75",
+    "title": "Realme Realme C75",
+    "subtitle": "IP69 Military Shockproof • 6000mAh Battery • 45W Charge",
+    "brand": "Realme",
+    "category": "mobiles",
+    "price": 148.05,
+    "originalPrice": 181,
+    "rating": 4.8999999999999995,
+    "reviewCount": 100,
+    "images": [
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 14,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "57.000 OMR",
+      "Model Series": "Realme C75",
+      "Brand": "Realme",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Realme Realme C75",
+      "IP69 Military Shockproof • 6000mAh Battery • 45W Charge",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_realme-c75_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 57 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_realme-c65",
+    "title": "Realme Realme C65",
+    "subtitle": "45W Fast Charge • TÜV SÜD 48-Month Fluency • 50MP AI",
+    "brand": "Realme",
+    "category": "mobiles",
+    "price": 135.06,
+    "originalPrice": 165,
+    "rating": 5,
+    "reviewCount": 107,
+    "images": [
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 18,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "52.000 OMR",
+      "Model Series": "Realme C65",
+      "Brand": "Realme",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Realme Realme C65",
+      "45W Fast Charge • TÜV SÜD 48-Month Fluency • 50MP AI",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_realme-c65_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 52 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_realme-c63",
+    "title": "Realme Realme C63",
+    "subtitle": "Premium Vegan Leather Back • 45W Quick Charge • Air Gestures",
+    "brand": "Realme",
+    "category": "mobiles",
+    "price": 122.08,
+    "originalPrice": 149,
+    "rating": 4.8,
+    "reviewCount": 114,
+    "images": [
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 22,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 15,
+    "specs": {
+      "Official Oman Price": "47.000 OMR",
+      "Model Series": "Realme C63",
+      "Brand": "Realme",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Realme Realme C63",
+      "Premium Vegan Leather Back • 45W Quick Charge • Air Gestures",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_realme-c63_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 47 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_realme-c61",
+    "title": "Realme Realme C61",
+    "subtitle": "Metallic Frame • Sparkle Design • 5000mAh Long-Lasting",
+    "brand": "Realme",
+    "category": "mobiles",
+    "price": 103.9,
+    "originalPrice": 127,
+    "rating": 4.8999999999999995,
+    "reviewCount": 121,
+    "images": [
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 26,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "40.000 OMR",
+      "Model Series": "Realme C61",
+      "Brand": "Realme",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Realme Realme C61",
+      "Metallic Frame • Sparkle Design • 5000mAh Long-Lasting",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_realme-c61_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 40 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_razr-60-ultra",
+    "title": "Motorola Razr 60 Ultra",
+    "subtitle": "4.0\" External pOLED • Snapdragon 8 Elite • AI Action Camera Foldable",
+    "brand": "Motorola",
+    "category": "mobiles",
+    "price": 1168.83,
+    "originalPrice": 1426,
+    "rating": 5,
+    "reviewCount": 128,
+    "images": [
+      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&q=80&w=800"
+    ],
+    "badge": "HOT",
+    "stock": 30,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "450.000 OMR",
+      "Model Series": "Razr 60 Ultra",
+      "Brand": "Motorola",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Motorola Razr 60 Ultra",
+      "4.0\" External pOLED • Snapdragon 8 Elite • AI Action Camera Foldable",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_razr-60-ultra_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 450 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_moto-edge-60-pro",
+    "title": "Motorola Moto Edge 60 Pro",
+    "subtitle": "Pantone Curated Colors • 50MP Sony LYT-800 • 125W TurboPower",
+    "brand": "Motorola",
+    "category": "mobiles",
+    "price": 532.47,
+    "originalPrice": 650,
+    "rating": 4.8,
+    "reviewCount": 135,
+    "images": [
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 34,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "205.000 OMR",
+      "Model Series": "Moto Edge 60 Pro",
+      "Brand": "Motorola",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Motorola Moto Edge 60 Pro",
+      "Pantone Curated Colors • 50MP Sony LYT-800 • 125W TurboPower",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_moto-edge-60-pro_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 205 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_moto-edge-50-pro",
+    "title": "Motorola Moto Edge 50 Pro",
+    "subtitle": "Snapdragon 7 Gen 3 • 125W Wired + 50W Wireless • IP68",
+    "brand": "Motorola",
+    "category": "mobiles",
+    "price": 467.53,
+    "originalPrice": 570,
+    "rating": 4.8999999999999995,
+    "reviewCount": 142,
+    "images": [
+      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 38,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "180.000 OMR",
+      "Model Series": "Moto Edge 50 Pro",
+      "Brand": "Motorola",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Motorola Moto Edge 50 Pro",
+      "Snapdragon 7 Gen 3 • 125W Wired + 50W Wireless • IP68",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_moto-edge-50-pro_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 180 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_moto-edge-50-fusion",
+    "title": "Motorola Moto Edge 50 Fusion",
+    "subtitle": "144Hz Endless Edge OLED • 50MP OIS LYTIA • 68W Charge",
+    "brand": "Motorola",
+    "category": "mobiles",
+    "price": 324.68,
+    "originalPrice": 396,
+    "rating": 5,
+    "reviewCount": 149,
+    "images": [
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 42,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 15,
+    "specs": {
+      "Official Oman Price": "125.000 OMR",
+      "Model Series": "Moto Edge 50 Fusion",
+      "Brand": "Motorola",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Motorola Moto Edge 50 Fusion",
+      "144Hz Endless Edge OLED • 50MP OIS LYTIA • 68W Charge",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_moto-edge-50-fusion_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 125 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_moto-g75-5g",
+    "title": "Motorola Moto G75 5G",
+    "subtitle": "Military Grade MIL-STD-810H • Snapdragon 6 Gen 3 • IP68",
+    "brand": "Motorola",
+    "category": "mobiles",
+    "price": 264.94,
+    "originalPrice": 323,
+    "rating": 4.8,
+    "reviewCount": 156,
+    "images": [
+      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 46,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "102.000 OMR",
+      "Model Series": "Moto G75 5G",
+      "Brand": "Motorola",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Motorola Moto G75 5G",
+      "Military Grade MIL-STD-810H • Snapdragon 6 Gen 3 • IP68",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_moto-g75-5g_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 102 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_moto-g55-5g",
+    "title": "Motorola Moto G55 5G",
+    "subtitle": "50MP OIS Quad Pixel • 120Hz FHD+ Screen • Dolby Atmos Audio",
+    "brand": "Motorola",
+    "category": "mobiles",
+    "price": 207.79,
+    "originalPrice": 254,
+    "rating": 4.8999999999999995,
+    "reviewCount": 163,
+    "images": [
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 15,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "80.000 OMR",
+      "Model Series": "Moto G55 5G",
+      "Brand": "Motorola",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Motorola Moto G55 5G",
+      "50MP OIS Quad Pixel • 120Hz FHD+ Screen • Dolby Atmos Audio",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_moto-g55-5g_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 80 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_moto-g35-5g",
+    "title": "Motorola Moto G35 5G",
+    "subtitle": "120Hz 1000-nit Screen • 50MP Camera • 5000mAh Power",
+    "brand": "Motorola",
+    "category": "mobiles",
+    "price": 161.04,
+    "originalPrice": 196,
+    "rating": 5,
+    "reviewCount": 170,
+    "images": [
+      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 19,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "62.000 OMR",
+      "Model Series": "Moto G35 5G",
+      "Brand": "Motorola",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Motorola Moto G35 5G",
+      "120Hz 1000-nit Screen • 50MP Camera • 5000mAh Power",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_moto-g35-5g_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 62 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_moto-g24",
+    "title": "Motorola Moto G24",
+    "subtitle": "50MP Quad Pixel • 90Hz Display • 5000mAh TurboPower",
+    "brand": "Motorola",
+    "category": "mobiles",
+    "price": 135.06,
+    "originalPrice": 165,
+    "rating": 4.8,
+    "reviewCount": 177,
+    "images": [
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 23,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "52.000 OMR",
+      "Model Series": "Moto G24",
+      "Brand": "Motorola",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Motorola Moto G24",
+      "50MP Quad Pixel • 90Hz Display • 5000mAh TurboPower",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_moto-g24_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 52 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_moto-g15",
+    "title": "Motorola Moto G15",
+    "subtitle": "FHD+ Bright Display • 5000mAh Battery • Dolby Atmos Sound",
+    "brand": "Motorola",
+    "category": "mobiles",
+    "price": 122.08,
+    "originalPrice": 149,
+    "rating": 4.8999999999999995,
+    "reviewCount": 184,
+    "images": [
+      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 27,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 15,
+    "specs": {
+      "Official Oman Price": "47.000 OMR",
+      "Model Series": "Moto G15",
+      "Brand": "Motorola",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Motorola Moto G15",
+      "FHD+ Bright Display • 5000mAh Battery • Dolby Atmos Sound",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_moto-g15_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 47 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_moto-g05",
+    "title": "Motorola Moto G05",
+    "subtitle": "6.6\" 90Hz Screen • 50MP AI Lens • 5000mAh Battery",
+    "brand": "Motorola",
+    "category": "mobiles",
+    "price": 103.9,
+    "originalPrice": 127,
+    "rating": 5,
+    "reviewCount": 191,
+    "images": [
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 31,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "40.000 OMR",
+      "Model Series": "Moto G05",
+      "Brand": "Motorola",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Motorola Moto G05",
+      "6.6\" 90Hz Screen • 50MP AI Lens • 5000mAh Battery",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_moto-g05_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 40 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_pixel-10-pro-xl",
+    "title": "Google Pixel Pixel 10 Pro XL",
+    "subtitle": "Google Tensor G5 • Gemini Nano Multimodal • Super Res Zoom 30x • 120Hz OLED",
+    "brand": "Google Pixel",
+    "category": "mobiles",
+    "price": 935.06,
+    "originalPrice": 1141,
+    "rating": 4.8,
+    "reviewCount": 198,
+    "images": [
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800"
+    ],
+    "badge": "FLAGSHIP",
+    "stock": 35,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "360.000 OMR",
+      "Model Series": "Pixel 10 Pro XL",
+      "Brand": "Google Pixel",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Google Pixel Pixel 10 Pro XL",
+      "Google Tensor G5 • Gemini Nano Multimodal • Super Res Zoom 30x • 120Hz OLED",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_pixel-10-pro-xl_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 360 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_pixel-10",
+    "title": "Google Pixel Pixel 10",
+    "subtitle": "Tensor G5 Chip • Advanced Pixel Camera • 7 Years OS Updates",
+    "brand": "Google Pixel",
+    "category": "mobiles",
+    "price": 701.3,
+    "originalPrice": 856,
+    "rating": 4.8999999999999995,
+    "reviewCount": 25,
+    "images": [
+      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 39,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "270.000 OMR",
+      "Model Series": "Pixel 10",
+      "Brand": "Google Pixel",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Google Pixel Pixel 10",
+      "Tensor G5 Chip • Advanced Pixel Camera • 7 Years OS Updates",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_pixel-10_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 270 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_pixel-9-pro-xl",
+    "title": "Google Pixel Pixel 9 Pro XL",
+    "subtitle": "Tensor G4 • 6.8\" Super Actua OLED • 50MP Triple + 5x Telephoto",
+    "brand": "Google Pixel",
+    "category": "mobiles",
+    "price": 831.17,
+    "originalPrice": 1014,
+    "rating": 5,
+    "reviewCount": 32,
+    "images": [
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800"
+    ],
+    "badge": "BEST SELLER",
+    "stock": 43,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "320.000 OMR",
+      "Model Series": "Pixel 9 Pro XL",
+      "Brand": "Google Pixel",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Google Pixel Pixel 9 Pro XL",
+      "Tensor G4 • 6.8\" Super Actua OLED • 50MP Triple + 5x Telephoto",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_pixel-9-pro-xl_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 320 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_pixel-9-pro",
+    "title": "Google Pixel Pixel 9 Pro",
+    "subtitle": "Tensor G4 • 16GB RAM • Pro Controls • Satellite SOS",
+    "brand": "Google Pixel",
+    "category": "mobiles",
+    "price": 753.25,
+    "originalPrice": 919,
+    "rating": 4.8,
+    "reviewCount": 39,
+    "images": [
+      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 12,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 15,
+    "specs": {
+      "Official Oman Price": "290.000 OMR",
+      "Model Series": "Pixel 9 Pro",
+      "Brand": "Google Pixel",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Google Pixel Pixel 9 Pro",
+      "Tensor G4 • 16GB RAM • Pro Controls • Satellite SOS",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_pixel-9-pro_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 290 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_pixel-9",
+    "title": "Google Pixel Pixel 9",
+    "subtitle": "Tensor G4 • 50MP Main + 48MP Ultrawide • Actua Display",
+    "brand": "Google Pixel",
+    "category": "mobiles",
+    "price": 584.42,
+    "originalPrice": 713,
+    "rating": 4.8999999999999995,
+    "reviewCount": 46,
+    "images": [
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 16,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "225.000 OMR",
+      "Model Series": "Pixel 9",
+      "Brand": "Google Pixel",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Google Pixel Pixel 9",
+      "Tensor G4 • 50MP Main + 48MP Ultrawide • Actua Display",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_pixel-9_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 225 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_pixel-8-pro",
+    "title": "Google Pixel Pixel 8 Pro",
+    "subtitle": "Tensor G3 • Temperature Sensor • Best Take & Magic Editor",
+    "brand": "Google Pixel",
+    "category": "mobiles",
+    "price": 675.32,
+    "originalPrice": 824,
+    "rating": 5,
+    "reviewCount": 53,
+    "images": [
+      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 20,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "260.000 OMR",
+      "Model Series": "Pixel 8 Pro",
+      "Brand": "Google Pixel",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Google Pixel Pixel 8 Pro",
+      "Tensor G3 • Temperature Sensor • Best Take & Magic Editor",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_pixel-8-pro_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 260 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_pixel-8",
+    "title": "Google Pixel Pixel 8",
+    "subtitle": "Tensor G3 • 6.2\" Actua Display 120Hz • 50MP Camera",
+    "brand": "Google Pixel",
+    "category": "mobiles",
+    "price": 493.51,
+    "originalPrice": 602,
+    "rating": 4.8,
+    "reviewCount": 60,
+    "images": [
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 24,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "190.000 OMR",
+      "Model Series": "Pixel 8",
+      "Brand": "Google Pixel",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Google Pixel Pixel 8",
+      "Tensor G3 • 6.2\" Actua Display 120Hz • 50MP Camera",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_pixel-8_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 190 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_pixel-9a",
+    "title": "Google Pixel Pixel 9a",
+    "subtitle": "Tensor G4 • Flush Camera Design • 5000mAh Battery",
+    "brand": "Google Pixel",
+    "category": "mobiles",
+    "price": 433.77,
+    "originalPrice": 529,
+    "rating": 4.8999999999999995,
+    "reviewCount": 67,
+    "images": [
+      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 28,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "167.000 OMR",
+      "Model Series": "Pixel 9a",
+      "Brand": "Google Pixel",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Google Pixel Pixel 9a",
+      "Tensor G4 • Flush Camera Design • 5000mAh Battery",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_pixel-9a_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 167 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_pixel-8a",
+    "title": "Google Pixel Pixel 8a",
+    "subtitle": "Tensor G3 • 64MP Dual Camera • 120Hz Actua OLED",
+    "brand": "Google Pixel",
+    "category": "mobiles",
+    "price": 350.65,
+    "originalPrice": 428,
+    "rating": 5,
+    "reviewCount": 74,
+    "images": [
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 32,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 15,
+    "specs": {
+      "Official Oman Price": "135.000 OMR",
+      "Model Series": "Pixel 8a",
+      "Brand": "Google Pixel",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Google Pixel Pixel 8a",
+      "Tensor G3 • 64MP Dual Camera • 120Hz Actua OLED",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_pixel-8a_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 135 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_pixel-7a",
+    "title": "Google Pixel Pixel 7a",
+    "subtitle": "Tensor G2 • 64MP Camera • Wireless Charging • 90Hz OLED",
+    "brand": "Google Pixel",
+    "category": "mobiles",
+    "price": 298.7,
+    "originalPrice": 364,
+    "rating": 4.8,
+    "reviewCount": 81,
+    "images": [
+      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 36,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "115.000 OMR",
+      "Model Series": "Pixel 7a",
+      "Brand": "Google Pixel",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Google Pixel Pixel 7a",
+      "Tensor G2 • 64MP Camera • Wireless Charging • 90Hz OLED",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_pixel-7a_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 115 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_huawei-pura-80-pro",
+    "title": "Huawei Huawei Pura 80 Pro",
+    "subtitle": "Ultra Lighting XMAGE Macro • Satellite Calling • Kunlun Glass 2",
+    "brand": "Huawei",
+    "category": "mobiles",
+    "price": 948.05,
+    "originalPrice": 1157,
+    "rating": 4.8999999999999995,
+    "reviewCount": 88,
+    "images": [
+      "https://images.unsplash.com/photo-1567581935884-3349723552ca?auto=format&fit=crop&q=80&w=800"
+    ],
+    "badge": "FLAGSHIP",
+    "stock": 40,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "365.000 OMR",
+      "Model Series": "Huawei Pura 80 Pro",
+      "Brand": "Huawei",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Huawei Huawei Pura 80 Pro",
+      "Ultra Lighting XMAGE Macro • Satellite Calling • Kunlun Glass 2",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_huawei-pura-80-pro_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 365 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_huawei-pura-80",
+    "title": "Huawei Huawei Pura 80",
+    "subtitle": "XMAGE Precision Imaging • 120Hz LTPO OLED • 66W SuperCharge",
+    "brand": "Huawei",
+    "category": "mobiles",
+    "price": 727.27,
+    "originalPrice": 887,
+    "rating": 5,
+    "reviewCount": 95,
+    "images": [
+      "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 44,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "280.000 OMR",
+      "Model Series": "Huawei Pura 80",
+      "Brand": "Huawei",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Huawei Huawei Pura 80",
+      "XMAGE Precision Imaging • 120Hz LTPO OLED • 66W SuperCharge",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_huawei-pura-80_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 280 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_huawei-pura-70-pro",
+    "title": "Huawei Huawei Pura 70 Pro",
+    "subtitle": "Ultra Speed Snapshot • 5050mAh Battery • 100W SuperCharge",
+    "brand": "Huawei",
+    "category": "mobiles",
+    "price": 805.19,
+    "originalPrice": 982,
+    "rating": 4.8,
+    "reviewCount": 102,
+    "images": [
+      "https://images.unsplash.com/photo-1567581935884-3349723552ca?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 13,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "310.000 OMR",
+      "Model Series": "Huawei Pura 70 Pro",
+      "Brand": "Huawei",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Huawei Huawei Pura 70 Pro",
+      "Ultra Speed Snapshot • 5050mAh Battery • 100W SuperCharge",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_huawei-pura-70-pro_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 310 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_huawei-pura-70",
+    "title": "Huawei Huawei Pura 70",
+    "subtitle": "Vibrant Forward Design • 50MP Ultra Lighting • IP68",
+    "brand": "Huawei",
+    "category": "mobiles",
+    "price": 636.36,
+    "originalPrice": 776,
+    "rating": 4.8999999999999995,
+    "reviewCount": 109,
+    "images": [
+      "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 17,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 15,
+    "specs": {
+      "Official Oman Price": "245.000 OMR",
+      "Model Series": "Huawei Pura 70",
+      "Brand": "Huawei",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Huawei Huawei Pura 70",
+      "Vibrant Forward Design • 50MP Ultra Lighting • IP68",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_huawei-pura-70_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 245 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_huawei-nova-13-pro",
+    "title": "Huawei Huawei Nova 13 Pro",
+    "subtitle": "Dual Front Portrait • 60MP Ultra-Wide Selfie • 100W Turbo",
+    "brand": "Huawei",
+    "category": "mobiles",
+    "price": 519.48,
+    "originalPrice": 634,
+    "rating": 5,
+    "reviewCount": 116,
+    "images": [
+      "https://images.unsplash.com/photo-1567581935884-3349723552ca?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 21,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "200.000 OMR",
+      "Model Series": "Huawei Nova 13 Pro",
+      "Brand": "Huawei",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Huawei Huawei Nova 13 Pro",
+      "Dual Front Portrait • 60MP Ultra-Wide Selfie • 100W Turbo",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_huawei-nova-13-pro_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 200 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_huawei-nova-13",
+    "title": "Huawei Huawei Nova 13",
+    "subtitle": "Ultra-Slim Dynamic Design • 5000mAh Battery • 100W Charge",
+    "brand": "Huawei",
+    "category": "mobiles",
+    "price": 350.65,
+    "originalPrice": 428,
+    "rating": 4.8,
+    "reviewCount": 123,
+    "images": [
+      "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 25,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "135.000 OMR",
+      "Model Series": "Huawei Nova 13",
+      "Brand": "Huawei",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Huawei Huawei Nova 13",
+      "Ultra-Slim Dynamic Design • 5000mAh Battery • 100W Charge",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_huawei-nova-13_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 135 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_huawei-nova-13i",
+    "title": "Huawei Huawei Nova 13i",
+    "subtitle": "108MP High-Res Portrait • 5000mAh • 40W SuperCharge",
+    "brand": "Huawei",
+    "category": "mobiles",
+    "price": 251.95,
+    "originalPrice": 307,
+    "rating": 4.8999999999999995,
+    "reviewCount": 130,
+    "images": [
+      "https://images.unsplash.com/photo-1567581935884-3349723552ca?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 29,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "97.000 OMR",
+      "Model Series": "Huawei Nova 13i",
+      "Brand": "Huawei",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Huawei Huawei Nova 13i",
+      "108MP High-Res Portrait • 5000mAh • 40W SuperCharge",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_huawei-nova-13i_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 97 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_huawei-nova-12i",
+    "title": "Huawei Huawei Nova 12i",
+    "subtitle": "108MP Camera • 5000mAh Super Battery • 40W Charge",
+    "brand": "Huawei",
+    "category": "mobiles",
+    "price": 233.77,
+    "originalPrice": 285,
+    "rating": 5,
+    "reviewCount": 137,
+    "images": [
+      "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 33,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "90.000 OMR",
+      "Model Series": "Huawei Nova 12i",
+      "Brand": "Huawei",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Huawei Huawei Nova 12i",
+      "108MP Camera • 5000mAh Super Battery • 40W Charge",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_huawei-nova-12i_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 90 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_huawei-nova-y91",
+    "title": "Huawei Huawei Nova Y91",
+    "subtitle": "7000mAh Monster Battery • 6.95\" FullView Screen • Dual Stereo",
+    "brand": "Huawei",
+    "category": "mobiles",
+    "price": 207.79,
+    "originalPrice": 254,
+    "rating": 4.8,
+    "reviewCount": 144,
+    "images": [
+      "https://images.unsplash.com/photo-1567581935884-3349723552ca?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 37,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 15,
+    "specs": {
+      "Official Oman Price": "80.000 OMR",
+      "Model Series": "Huawei Nova Y91",
+      "Brand": "Huawei",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Huawei Huawei Nova Y91",
+      "7000mAh Monster Battery • 6.95\" FullView Screen • Dual Stereo",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_huawei-nova-y91_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 80 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_huawei-nova-y72",
+    "title": "Huawei Huawei Nova Y72",
+    "subtitle": "6000mAh Battery • 50MP AI Lens • X-Button Shortcut",
+    "brand": "Huawei",
+    "category": "mobiles",
+    "price": 161.04,
+    "originalPrice": 196,
+    "rating": 4.8999999999999995,
+    "reviewCount": 151,
+    "images": [
+      "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 41,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "62.000 OMR",
+      "Model Series": "Huawei Nova Y72",
+      "Brand": "Huawei",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Huawei Huawei Nova Y72",
+      "6000mAh Battery • 50MP AI Lens • X-Button Shortcut",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_huawei-nova-y72_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 62 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_tecno-phantom-v-fold2",
+    "title": "Tecno Tecno Phantom V Fold2",
+    "subtitle": "Foldable 7.85\" 120Hz AMOLED • 5750mAh Aircell Battery • 70W Ultra",
+    "brand": "Tecno",
+    "category": "mobiles",
+    "price": 1012.99,
+    "originalPrice": 1236,
+    "rating": 5,
+    "reviewCount": 158,
+    "images": [
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+    ],
+    "badge": "HOT",
+    "stock": 45,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "390.000 OMR",
+      "Model Series": "Tecno Phantom V Fold2",
+      "Brand": "Tecno",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Tecno Tecno Phantom V Fold2",
+      "Foldable 7.85\" 120Hz AMOLED • 5750mAh Aircell Battery • 70W Ultra",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_tecno-phantom-v-fold2_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 390 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_tecno-camon-40-pro",
+    "title": "Tecno Tecno Camon 40 Pro",
+    "subtitle": "50MP Sony LYT-700 OIS • 120Hz 1.5K AMOLED • 70W FlashCharge",
+    "brand": "Tecno",
+    "category": "mobiles",
+    "price": 264.94,
+    "originalPrice": 323,
+    "rating": 4.8,
+    "reviewCount": 165,
+    "images": [
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 14,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "102.000 OMR",
+      "Model Series": "Tecno Camon 40 Pro",
+      "Brand": "Tecno",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Tecno Tecno Camon 40 Pro",
+      "50MP Sony LYT-700 OIS • 120Hz 1.5K AMOLED • 70W FlashCharge",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_tecno-camon-40-pro_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 102 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_tecno-camon-40",
+    "title": "Tecno Tecno Camon 40",
+    "subtitle": "50MP Portrait Master • 5000mAh Battery • 45W Flash Charge",
+    "brand": "Tecno",
+    "category": "mobiles",
+    "price": 212.99,
+    "originalPrice": 260,
+    "rating": 4.8999999999999995,
+    "reviewCount": 172,
+    "images": [
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 18,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "82.000 OMR",
+      "Model Series": "Tecno Camon 40",
+      "Brand": "Tecno",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Tecno Tecno Camon 40",
+      "50MP Portrait Master • 5000mAh Battery • 45W Flash Charge",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_tecno-camon-40_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 82 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_tecno-camon-30",
+    "title": "Tecno Tecno Camon 30",
+    "subtitle": "50MP Eye-AF Selfie • 70W Ultra Charge • Dual Dolby Speakers",
+    "brand": "Tecno",
+    "category": "mobiles",
+    "price": 194.81,
+    "originalPrice": 238,
+    "rating": 5,
+    "reviewCount": 179,
+    "images": [
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 22,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 15,
+    "specs": {
+      "Official Oman Price": "75.000 OMR",
+      "Model Series": "Tecno Camon 30",
+      "Brand": "Tecno",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Tecno Tecno Camon 30",
+      "50MP Eye-AF Selfie • 70W Ultra Charge • Dual Dolby Speakers",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_tecno-camon-30_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 75 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_tecno-spark-40-pro",
+    "title": "Tecno Tecno Spark 40 Pro",
+    "subtitle": "108MP Ultra Camera • 120Hz Curved Screen • 33W Fast Charge",
+    "brand": "Tecno",
+    "category": "mobiles",
+    "price": 174.03,
+    "originalPrice": 212,
+    "rating": 4.8,
+    "reviewCount": 186,
+    "images": [
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 26,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "67.000 OMR",
+      "Model Series": "Tecno Spark 40 Pro",
+      "Brand": "Tecno",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Tecno Tecno Spark 40 Pro",
+      "108MP Ultra Camera • 120Hz Curved Screen • 33W Fast Charge",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_tecno-spark-40-pro_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 67 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_tecno-spark-40",
+    "title": "Tecno Tecno Spark 40",
+    "subtitle": "50MP HD Lens • 5000mAh Battery • Dynamic Port Display",
+    "brand": "Tecno",
+    "category": "mobiles",
+    "price": 135.06,
+    "originalPrice": 165,
+    "rating": 4.8999999999999995,
+    "reviewCount": 193,
+    "images": [
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 30,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "52.000 OMR",
+      "Model Series": "Tecno Spark 40",
+      "Brand": "Tecno",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Tecno Tecno Spark 40",
+      "50MP HD Lens • 5000mAh Battery • Dynamic Port Display",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_tecno-spark-40_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 52 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_tecno-spark-30-pro",
+    "title": "Tecno Tecno Spark 30 Pro",
+    "subtitle": "108MP Camera • 120Hz AMOLED • 33W Fast Charge",
+    "brand": "Tecno",
+    "category": "mobiles",
+    "price": 148.05,
+    "originalPrice": 181,
+    "rating": 5,
+    "reviewCount": 200,
+    "images": [
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 34,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "57.000 OMR",
+      "Model Series": "Tecno Spark 30 Pro",
+      "Brand": "Tecno",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Tecno Tecno Spark 30 Pro",
+      "108MP Camera • 120Hz AMOLED • 33W Fast Charge",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_tecno-spark-30-pro_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 57 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_tecno-spark-30",
+    "title": "Tecno Tecno Spark 30",
+    "subtitle": "64MP SONY IMX682 • IP64 Rating • 5000mAh Battery",
+    "brand": "Tecno",
+    "category": "mobiles",
+    "price": 122.08,
+    "originalPrice": 149,
+    "rating": 4.8,
+    "reviewCount": 27,
+    "images": [
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 38,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "47.000 OMR",
+      "Model Series": "Tecno Spark 30",
+      "Brand": "Tecno",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Tecno Tecno Spark 30",
+      "64MP SONY IMX682 • IP64 Rating • 5000mAh Battery",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_tecno-spark-30_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 47 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_tecno-spark-go-1",
+    "title": "Tecno Tecno Spark Go 1",
+    "subtitle": "120Hz Smooth Display • DTS Dual Speakers • 5000mAh",
+    "brand": "Tecno",
+    "category": "mobiles",
+    "price": 90.91,
+    "originalPrice": 111,
+    "rating": 4.8999999999999995,
+    "reviewCount": 34,
+    "images": [
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 42,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 15,
+    "specs": {
+      "Official Oman Price": "35.000 OMR",
+      "Model Series": "Tecno Spark Go 1",
+      "Brand": "Tecno",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Tecno Tecno Spark Go 1",
+      "120Hz Smooth Display • DTS Dual Speakers • 5000mAh",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_tecno-spark-go-1_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 35 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_tecno-pop-9",
+    "title": "Tecno Tecno Pop 9",
+    "subtitle": "4.5G Lightning Network • 120Hz Hole-Screen • 5000mAh",
+    "brand": "Tecno",
+    "category": "mobiles",
+    "price": 77.92,
+    "originalPrice": 95,
+    "rating": 5,
+    "reviewCount": 41,
+    "images": [
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 46,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "30.000 OMR",
+      "Model Series": "Tecno Pop 9",
+      "Brand": "Tecno",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Tecno Tecno Pop 9",
+      "4.5G Lightning Network • 120Hz Hole-Screen • 5000mAh",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_tecno-pop-9_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 30 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_infinix-gt-30-pro",
+    "title": "Infinix Infinix GT 30 Pro",
+    "subtitle": "Cyber Mecha LED Design • 144Hz AMOLED • Dimensity 5G Gaming",
+    "brand": "Infinix",
+    "category": "mobiles",
+    "price": 298.7,
+    "originalPrice": 364,
+    "rating": 4.8,
+    "reviewCount": 48,
+    "images": [
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+    ],
+    "badge": "GAMING",
+    "stock": 15,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "115.000 OMR",
+      "Model Series": "Infinix GT 30 Pro",
+      "Brand": "Infinix",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Infinix Infinix GT 30 Pro",
+      "Cyber Mecha LED Design • 144Hz AMOLED • Dimensity 5G Gaming",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_infinix-gt-30-pro_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 115 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_infinix-gt-20-pro",
+    "title": "Infinix Infinix GT 20 Pro",
+    "subtitle": "Dimensity 8200 Ultimate • Pixelworks Gaming Chip • 144Hz",
+    "brand": "Infinix",
+    "category": "mobiles",
+    "price": 264.94,
+    "originalPrice": 323,
+    "rating": 4.8999999999999995,
+    "reviewCount": 55,
+    "images": [
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 19,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "102.000 OMR",
+      "Model Series": "Infinix GT 20 Pro",
+      "Brand": "Infinix",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Infinix Infinix GT 20 Pro",
+      "Dimensity 8200 Ultimate • Pixelworks Gaming Chip • 144Hz",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_infinix-gt-20-pro_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 102 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_infinix-note-50",
+    "title": "Infinix Infinix Note 50",
+    "subtitle": "108MP OIS Camera • 45W All-Round FastCharge • 120Hz AMOLED",
+    "brand": "Infinix",
+    "category": "mobiles",
+    "price": 207.79,
+    "originalPrice": 254,
+    "rating": 5,
+    "reviewCount": 62,
+    "images": [
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 23,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "80.000 OMR",
+      "Model Series": "Infinix Note 50",
+      "Brand": "Infinix",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Infinix Infinix Note 50",
+      "108MP OIS Camera • 45W All-Round FastCharge • 120Hz AMOLED",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_infinix-note-50_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 80 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_infinix-note-40",
+    "title": "Infinix Infinix Note 40",
+    "subtitle": "45W Wired + 20W Wireless MagCharge • 108MP 3x Superzoom",
+    "brand": "Infinix",
+    "category": "mobiles",
+    "price": 181.82,
+    "originalPrice": 222,
+    "rating": 4.8,
+    "reviewCount": 69,
+    "images": [
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 27,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 15,
+    "specs": {
+      "Official Oman Price": "70.000 OMR",
+      "Model Series": "Infinix Note 40",
+      "Brand": "Infinix",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Infinix Infinix Note 40",
+      "45W Wired + 20W Wireless MagCharge • 108MP 3x Superzoom",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_infinix-note-40_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 70 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_infinix-hot-60",
+    "title": "Infinix Infinix Hot 60",
+    "subtitle": "120Hz Punch-Hole Screen • 5000mAh Battery • 33W FastCharge",
+    "brand": "Infinix",
+    "category": "mobiles",
+    "price": 122.08,
+    "originalPrice": 149,
+    "rating": 4.8999999999999995,
+    "reviewCount": 76,
+    "images": [
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 31,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "47.000 OMR",
+      "Model Series": "Infinix Hot 60",
+      "Brand": "Infinix",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Infinix Infinix Hot 60",
+      "120Hz Punch-Hole Screen • 5000mAh Battery • 33W FastCharge",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_infinix-hot-60_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 47 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_infinix-hot-50-pro",
+    "title": "Infinix Infinix Hot 50 Pro",
+    "subtitle": "Helio G100 • 120Hz AMOLED Display • 33W Fast Charge",
+    "brand": "Infinix",
+    "category": "mobiles",
+    "price": 148.05,
+    "originalPrice": 181,
+    "rating": 5,
+    "reviewCount": 83,
+    "images": [
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 35,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "57.000 OMR",
+      "Model Series": "Infinix Hot 50 Pro",
+      "Brand": "Infinix",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Infinix Infinix Hot 50 Pro",
+      "Helio G100 • 120Hz AMOLED Display • 33W Fast Charge",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_infinix-hot-50-pro_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 57 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_infinix-hot-50",
+    "title": "Infinix Infinix Hot 50",
+    "subtitle": "Helio G100 Processor • 120Hz Smooth Screen • 50MP Sony",
+    "brand": "Infinix",
+    "category": "mobiles",
+    "price": 122.08,
+    "originalPrice": 149,
+    "rating": 4.8,
+    "reviewCount": 90,
+    "images": [
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 39,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "47.000 OMR",
+      "Model Series": "Infinix Hot 50",
+      "Brand": "Infinix",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Infinix Infinix Hot 50",
+      "Helio G100 Processor • 120Hz Smooth Screen • 50MP Sony",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_infinix-hot-50_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 47 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_infinix-hot-50i",
+    "title": "Infinix Infinix Hot 50i",
+    "subtitle": "120Hz Punch-Hole Screen • 5000mAh Battery • 18W Fast Charge",
+    "brand": "Infinix",
+    "category": "mobiles",
+    "price": 90.91,
+    "originalPrice": 111,
+    "rating": 4.8999999999999995,
+    "reviewCount": 97,
+    "images": [
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 43,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "35.000 OMR",
+      "Model Series": "Infinix Hot 50i",
+      "Brand": "Infinix",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Infinix Infinix Hot 50i",
+      "120Hz Punch-Hole Screen • 5000mAh Battery • 18W Fast Charge",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_infinix-hot-50i_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 35 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_infinix-smart-10",
+    "title": "Infinix Infinix Smart 10",
+    "subtitle": "6.7\" 120Hz Display • Dynamic Bar Notifications • 5000mAh",
+    "brand": "Infinix",
+    "category": "mobiles",
+    "price": 88.31,
+    "originalPrice": 108,
+    "rating": 5,
+    "reviewCount": 104,
+    "images": [
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 12,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 15,
+    "specs": {
+      "Official Oman Price": "34.000 OMR",
+      "Model Series": "Infinix Smart 10",
+      "Brand": "Infinix",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Infinix Infinix Smart 10",
+      "6.7\" 120Hz Display • Dynamic Bar Notifications • 5000mAh",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_infinix-smart-10_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 34 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_infinix-smart-9",
+    "title": "Infinix Infinix Smart 9",
+    "subtitle": "120Hz Smooth Display • Dual Speakers • 5000mAh Long Life",
+    "brand": "Infinix",
+    "category": "mobiles",
+    "price": 77.92,
+    "originalPrice": 95,
+    "rating": 4.8,
+    "reviewCount": 111,
+    "images": [
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 16,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "30.000 OMR",
+      "Model Series": "Infinix Smart 9",
+      "Brand": "Infinix",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Infinix Infinix Smart 9",
+      "120Hz Smooth Display • Dual Speakers • 5000mAh Long Life",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_infinix-smart-9_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 30 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_itel-rs4",
+    "title": "itel itel RS4",
+    "subtitle": "Helio G99 Ultimate Gaming • 120Hz Display • 45W PowerCharge",
+    "brand": "itel",
+    "category": "mobiles",
+    "price": 135.06,
+    "originalPrice": 165,
+    "rating": 4.8999999999999995,
+    "reviewCount": 118,
+    "images": [
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 20,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "52.000 OMR",
+      "Model Series": "itel RS4",
+      "Brand": "itel",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - itel itel RS4",
+      "Helio G99 Ultimate Gaming • 120Hz Display • 45W PowerCharge",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_itel-rs4_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 52 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_itel-s24",
+    "title": "itel itel S24",
+    "subtitle": "108MP Ultra-Clear Camera • Color Changing Back • Helio G91",
+    "brand": "itel",
+    "category": "mobiles",
+    "price": 109.09,
+    "originalPrice": 133,
+    "rating": 5,
+    "reviewCount": 125,
+    "images": [
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 24,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "42.000 OMR",
+      "Model Series": "itel S24",
+      "Brand": "itel",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - itel itel S24",
+      "108MP Ultra-Clear Camera • Color Changing Back • Helio G91",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_itel-s24_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 42 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_itel-p65",
+    "title": "itel itel P65",
+    "subtitle": "Cyberpunk Ring Light • 5000mAh + 2400mAh Case • 120Hz",
+    "brand": "itel",
+    "category": "mobiles",
+    "price": 103.9,
+    "originalPrice": 127,
+    "rating": 4.8,
+    "reviewCount": 132,
+    "images": [
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 28,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "40.000 OMR",
+      "Model Series": "itel P65",
+      "Brand": "itel",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - itel itel P65",
+      "Cyberpunk Ring Light • 5000mAh + 2400mAh Case • 120Hz",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_itel-p65_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 40 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_itel-p55",
+    "title": "itel itel P55",
+    "subtitle": "5G High Speed • 50MP AI Lens • 5000mAh • 18W Fast Charge",
+    "brand": "itel",
+    "category": "mobiles",
+    "price": 90.91,
+    "originalPrice": 111,
+    "rating": 4.8999999999999995,
+    "reviewCount": 139,
+    "images": [
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 32,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 15,
+    "specs": {
+      "Official Oman Price": "35.000 OMR",
+      "Model Series": "itel P55",
+      "Brand": "itel",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - itel itel P55",
+      "5G High Speed • 50MP AI Lens • 5000mAh • 18W Fast Charge",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_itel-p55_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 35 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_itel-p40",
+    "title": "itel itel P40",
+    "subtitle": "6000mAh Mega Battery • 6.6\" HD+ Screen • 18W Fast Charging",
+    "brand": "itel",
+    "category": "mobiles",
+    "price": 77.92,
+    "originalPrice": 95,
+    "rating": 5,
+    "reviewCount": 146,
+    "images": [
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 36,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "30.000 OMR",
+      "Model Series": "itel P40",
+      "Brand": "itel",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - itel itel P40",
+      "6000mAh Mega Battery • 6.6\" HD+ Screen • 18W Fast Charging",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_itel-p40_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 30 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_itel-a80",
+    "title": "itel itel A80",
+    "subtitle": "120Hz Punch-Hole • 50MP HDR Camera • 5000mAh Battery",
+    "brand": "itel",
+    "category": "mobiles",
+    "price": 85.71,
+    "originalPrice": 105,
+    "rating": 4.8,
+    "reviewCount": 153,
+    "images": [
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 40,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "33.000 OMR",
+      "Model Series": "itel A80",
+      "Brand": "itel",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - itel itel A80",
+      "120Hz Punch-Hole • 50MP HDR Camera • 5000mAh Battery",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_itel-a80_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 33 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_itel-a70",
+    "title": "itel itel A70",
+    "subtitle": "Dynamic Bar • Up to 256GB Big Storage • 5000mAh",
+    "brand": "itel",
+    "category": "mobiles",
+    "price": 77.92,
+    "originalPrice": 95,
+    "rating": 4.8999999999999995,
+    "reviewCount": 160,
+    "images": [
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 44,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "30.000 OMR",
+      "Model Series": "itel A70",
+      "Brand": "itel",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - itel itel A70",
+      "Dynamic Bar • Up to 256GB Big Storage • 5000mAh",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_itel-a70_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 30 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_itel-a50",
+    "title": "itel itel A50",
+    "subtitle": "6.6\" HD+ Big Screen • 5000mAh Type-C • 8MP AI Camera",
+    "brand": "itel",
+    "category": "mobiles",
+    "price": 77.92,
+    "originalPrice": 95,
+    "rating": 5,
+    "reviewCount": 167,
+    "images": [
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 13,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "30.000 OMR",
+      "Model Series": "itel A50",
+      "Brand": "itel",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - itel itel A50",
+      "6.6\" HD+ Big Screen • 5000mAh Type-C • 8MP AI Camera",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_itel-a50_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 30 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_itel-a06",
+    "title": "itel itel A06",
+    "subtitle": "4000mAh Battery • Android Go Edition • Compact Design",
+    "brand": "itel",
+    "category": "mobiles",
+    "price": 67.53,
+    "originalPrice": 82,
+    "rating": 4.8,
+    "reviewCount": 174,
+    "images": [
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 17,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 15,
+    "specs": {
+      "Official Oman Price": "26.000 OMR",
+      "Model Series": "itel A06",
+      "Brand": "itel",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - itel itel A06",
+      "4000mAh Battery • Android Go Edition • Compact Design",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_itel-a06_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 26 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_itel-a05s",
+    "title": "itel itel A05s",
+    "subtitle": "4000mAh Battery • Type-C Port • 6.6\" HD+ Waterdrop",
+    "brand": "itel",
+    "category": "mobiles",
+    "price": 62.34,
+    "originalPrice": 76,
+    "rating": 4.8999999999999995,
+    "reviewCount": 181,
+    "images": [
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 21,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "24.000 OMR",
+      "Model Series": "itel A05s",
+      "Brand": "itel",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - itel itel A05s",
+      "4000mAh Battery • Type-C Port • 6.6\" HD+ Waterdrop",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_itel-a05s_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 24 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_hmd-skyline",
+    "title": "Nokia / HMD HMD Skyline",
+    "subtitle": "108MP OIS Hybrid Zoom • Gen 2 Easy Repairability • 144Hz pOLED",
+    "brand": "Nokia / HMD",
+    "category": "mobiles",
+    "price": 272.73,
+    "originalPrice": 333,
+    "rating": 5,
+    "reviewCount": 188,
+    "images": [
+      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&q=80&w=800"
+    ],
+    "badge": "HOT",
+    "stock": 25,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "105.000 OMR",
+      "Model Series": "HMD Skyline",
+      "Brand": "Nokia / HMD",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Nokia / HMD HMD Skyline",
+      "108MP OIS Hybrid Zoom • Gen 2 Easy Repairability • 144Hz pOLED",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_hmd-skyline_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 105 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_hmd-pulse",
+    "title": "Nokia / HMD HMD Pulse",
+    "subtitle": "Self-Repairable Design • 5000mAh 3-Day Battery • 90Hz Screen",
+    "brand": "Nokia / HMD",
+    "category": "mobiles",
+    "price": 109.09,
+    "originalPrice": 133,
+    "rating": 4.8,
+    "reviewCount": 195,
+    "images": [
+      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 29,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "42.000 OMR",
+      "Model Series": "HMD Pulse",
+      "Brand": "Nokia / HMD",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Nokia / HMD HMD Pulse",
+      "Self-Repairable Design • 5000mAh 3-Day Battery • 90Hz Screen",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_hmd-pulse_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 42 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_nokia-x30-5g",
+    "title": "Nokia / HMD Nokia X30 5G",
+    "subtitle": "100% Recycled Aluminum • 50MP PureView OIS • 90Hz AMOLED",
+    "brand": "Nokia / HMD",
+    "category": "mobiles",
+    "price": 298.7,
+    "originalPrice": 364,
+    "rating": 4.8999999999999995,
+    "reviewCount": 202,
+    "images": [
+      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 33,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "115.000 OMR",
+      "Model Series": "Nokia X30 5G",
+      "Brand": "Nokia / HMD",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Nokia / HMD Nokia X30 5G",
+      "100% Recycled Aluminum • 50MP PureView OIS • 90Hz AMOLED",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_nokia-x30-5g_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 115 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_nokia-g60-5g",
+    "title": "Nokia / HMD Nokia G60 5G",
+    "subtitle": "5G Connectivity • 50MP Triple AI • 120Hz FHD+ Screen",
+    "brand": "Nokia / HMD",
+    "category": "mobiles",
+    "price": 207.79,
+    "originalPrice": 254,
+    "rating": 5,
+    "reviewCount": 29,
+    "images": [
+      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 37,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 15,
+    "specs": {
+      "Official Oman Price": "80.000 OMR",
+      "Model Series": "Nokia G60 5G",
+      "Brand": "Nokia / HMD",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Nokia / HMD Nokia G60 5G",
+      "5G Connectivity • 50MP Triple AI • 120Hz FHD+ Screen",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_nokia-g60-5g_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 80 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_nokia-g42-5g",
+    "title": "Nokia / HMD Nokia G42 5G",
+    "subtitle": "QuickFix Repairability • 50MP Camera • 3-Day Battery Life",
+    "brand": "Nokia / HMD",
+    "category": "mobiles",
+    "price": 148.05,
+    "originalPrice": 181,
+    "rating": 4.8,
+    "reviewCount": 36,
+    "images": [
+      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 41,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "57.000 OMR",
+      "Model Series": "Nokia G42 5G",
+      "Brand": "Nokia / HMD",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Nokia / HMD Nokia G42 5G",
+      "QuickFix Repairability • 50MP Camera • 3-Day Battery Life",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_nokia-g42-5g_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 57 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_nokia-g22",
+    "title": "Nokia / HMD Nokia G22",
+    "subtitle": "iFixit At-Home Repair • 50MP AI Lens • 5050mAh Battery",
+    "brand": "Nokia / HMD",
+    "category": "mobiles",
+    "price": 122.08,
+    "originalPrice": 149,
+    "rating": 4.8999999999999995,
+    "reviewCount": 43,
+    "images": [
+      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 45,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "47.000 OMR",
+      "Model Series": "Nokia G22",
+      "Brand": "Nokia / HMD",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Nokia / HMD Nokia G22",
+      "iFixit At-Home Repair • 50MP AI Lens • 5050mAh Battery",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_nokia-g22_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 47 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_nokia-c52",
+    "title": "Nokia / HMD Nokia C52",
+    "subtitle": "Tough Polycarbonate Shell • 5000mAh • Android 14",
+    "brand": "Nokia / HMD",
+    "category": "mobiles",
+    "price": 103.9,
+    "originalPrice": 127,
+    "rating": 5,
+    "reviewCount": 50,
+    "images": [
+      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 14,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "40.000 OMR",
+      "Model Series": "Nokia C52",
+      "Brand": "Nokia / HMD",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Nokia / HMD Nokia C52",
+      "Tough Polycarbonate Shell • 5000mAh • Android 14",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_nokia-c52_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 40 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_nokia-c42",
+    "title": "Nokia / HMD Nokia C42",
+    "subtitle": "Durable Drop Tested • 5000mAh Battery • 6.5\" HD+",
+    "brand": "Nokia / HMD",
+    "category": "mobiles",
+    "price": 90.91,
+    "originalPrice": 111,
+    "rating": 4.8,
+    "reviewCount": 57,
+    "images": [
+      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 18,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "35.000 OMR",
+      "Model Series": "Nokia C42",
+      "Brand": "Nokia / HMD",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Nokia / HMD Nokia C42",
+      "Durable Drop Tested • 5000mAh Battery • 6.5\" HD+",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_nokia-c42_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 35 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_nokia-c32",
+    "title": "Nokia / HMD Nokia C32",
+    "subtitle": "Toughened Glass Back • 50MP Night Camera • 3-Day Battery",
+    "brand": "Nokia / HMD",
+    "category": "mobiles",
+    "price": 90.91,
+    "originalPrice": 111,
+    "rating": 4.8999999999999995,
+    "reviewCount": 64,
+    "images": [
+      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 22,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 15,
+    "specs": {
+      "Official Oman Price": "35.000 OMR",
+      "Model Series": "Nokia C32",
+      "Brand": "Nokia / HMD",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Nokia / HMD Nokia C32",
+      "Toughened Glass Back • 50MP Night Camera • 3-Day Battery",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_nokia-c32_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 35 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_nokia-c22",
+    "title": "Nokia / HMD Nokia C22",
+    "subtitle": "IP52 Splash Protection • Metal Internal Chassis • 5000mAh",
+    "brand": "Nokia / HMD",
+    "category": "mobiles",
+    "price": 77.92,
+    "originalPrice": 95,
+    "rating": 5,
+    "reviewCount": 71,
+    "images": [
+      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 26,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "30.000 OMR",
+      "Model Series": "Nokia C22",
+      "Brand": "Nokia / HMD",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Nokia / HMD Nokia C22",
+      "IP52 Splash Protection • Metal Internal Chassis • 5000mAh",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_nokia-c22_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 30 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_xperia-1-vii",
+    "title": "Sony Xperia 1 VII",
+    "subtitle": "Exmor T Optical Telephoto 85-170mm • 4K HDR OLED 120Hz • Hi-Res Audio",
+    "brand": "Sony",
+    "category": "mobiles",
+    "price": 1012.99,
+    "originalPrice": 1236,
+    "rating": 4.8,
+    "reviewCount": 78,
+    "images": [
+      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&q=80&w=800"
+    ],
+    "badge": "FLAGSHIP",
+    "stock": 30,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "390.000 OMR",
+      "Model Series": "Xperia 1 VII",
+      "Brand": "Sony",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Sony Xperia 1 VII",
+      "Exmor T Optical Telephoto 85-170mm • 4K HDR OLED 120Hz • Hi-Res Audio",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_xperia-1-vii_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 390 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_xperia-1-vi",
+    "title": "Sony Xperia 1 VI",
+    "subtitle": "True Optical Zoom 85-170mm • Bravia Display Tech • Snapdragon 8 Gen 3",
+    "brand": "Sony",
+    "category": "mobiles",
+    "price": 935.06,
+    "originalPrice": 1141,
+    "rating": 4.8999999999999995,
+    "reviewCount": 85,
+    "images": [
+      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 34,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "360.000 OMR",
+      "Model Series": "Xperia 1 VI",
+      "Brand": "Sony",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Sony Xperia 1 VI",
+      "True Optical Zoom 85-170mm • Bravia Display Tech • Snapdragon 8 Gen 3",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_xperia-1-vi_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 360 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_xperia-1-v",
+    "title": "Sony Xperia 1 V",
+    "subtitle": "Next-Gen Exmor T Sensor • 4K 120fps HDR • Creative Look Color Modes",
+    "brand": "Sony",
+    "category": "mobiles",
+    "price": 870.13,
+    "originalPrice": 1062,
+    "rating": 5,
+    "reviewCount": 92,
+    "images": [
+      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 38,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "335.000 OMR",
+      "Model Series": "Xperia 1 V",
+      "Brand": "Sony",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Sony Xperia 1 V",
+      "Next-Gen Exmor T Sensor • 4K 120fps HDR • Creative Look Color Modes",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_xperia-1-v_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 335 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_xperia-1-iv",
+    "title": "Sony Xperia 1 IV",
+    "subtitle": "Continuous Optical Zoom 85-125mm • 4K 120Hz OLED • Cinematography Pro",
+    "brand": "Sony",
+    "category": "mobiles",
+    "price": 740.26,
+    "originalPrice": 903,
+    "rating": 4.8,
+    "reviewCount": 99,
+    "images": [
+      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 42,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 15,
+    "specs": {
+      "Official Oman Price": "285.000 OMR",
+      "Model Series": "Xperia 1 IV",
+      "Brand": "Sony",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Sony Xperia 1 IV",
+      "Continuous Optical Zoom 85-125mm • 4K 120Hz OLED • Cinematography Pro",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_xperia-1-iv_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 285 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_xperia-5-v",
+    "title": "Sony Xperia 5 V",
+    "subtitle": "Compact Flagship • Exmor T Dual Camera • Studio Stereo Speakers",
+    "brand": "Sony",
+    "category": "mobiles",
+    "price": 662.34,
+    "originalPrice": 808,
+    "rating": 4.8999999999999995,
+    "reviewCount": 106,
+    "images": [
+      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 46,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "255.000 OMR",
+      "Model Series": "Xperia 5 V",
+      "Brand": "Sony",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Sony Xperia 5 V",
+      "Compact Flagship • Exmor T Dual Camera • Studio Stereo Speakers",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_xperia-5-v_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 255 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_xperia-5-iv",
+    "title": "Sony Xperia 5 IV",
+    "subtitle": "Eye AF All Lenses • 5000mAh Long Battery • 6.1\" 120Hz OLED",
+    "brand": "Sony",
+    "category": "mobiles",
+    "price": 532.47,
+    "originalPrice": 650,
+    "rating": 5,
+    "reviewCount": 113,
+    "images": [
+      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 15,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "205.000 OMR",
+      "Model Series": "Xperia 5 IV",
+      "Brand": "Sony",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Sony Xperia 5 IV",
+      "Eye AF All Lenses • 5000mAh Long Battery • 6.1\" 120Hz OLED",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_xperia-5-iv_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 205 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_xperia-10-vii",
+    "title": "Sony Xperia 10 VII",
+    "subtitle": "Ultra-Lightweight 159g • 5000mAh 2-Day Battery • IP65/68",
+    "brand": "Sony",
+    "category": "mobiles",
+    "price": 441.56,
+    "originalPrice": 539,
+    "rating": 4.8,
+    "reviewCount": 120,
+    "images": [
+      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 19,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "170.000 OMR",
+      "Model Series": "Xperia 10 VII",
+      "Brand": "Sony",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Sony Xperia 10 VII",
+      "Ultra-Lightweight 159g • 5000mAh 2-Day Battery • IP65/68",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_xperia-10-vii_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 170 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_xperia-10-vi",
+    "title": "Sony Xperia 10 VI",
+    "subtitle": "2-Day Battery Life • Front Stereo Speakers • Optical Image Stabilization",
+    "brand": "Sony",
+    "category": "mobiles",
+    "price": 389.61,
+    "originalPrice": 475,
+    "rating": 4.8999999999999995,
+    "reviewCount": 127,
+    "images": [
+      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 23,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "150.000 OMR",
+      "Model Series": "Xperia 10 VI",
+      "Brand": "Sony",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Sony Xperia 10 VI",
+      "2-Day Battery Life • Front Stereo Speakers • Optical Image Stabilization",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_xperia-10-vi_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 150 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_xperia-10-v",
+    "title": "Sony Xperia 10 V",
+    "subtitle": "High-Capacity 5000mAh • 6.1\" 21:9 OLED • Triple Camera",
+    "brand": "Sony",
+    "category": "mobiles",
+    "price": 350.65,
+    "originalPrice": 428,
+    "rating": 5,
+    "reviewCount": 134,
+    "images": [
+      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 27,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 15,
+    "specs": {
+      "Official Oman Price": "135.000 OMR",
+      "Model Series": "Xperia 10 V",
+      "Brand": "Sony",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Sony Xperia 10 V",
+      "High-Capacity 5000mAh • 6.1\" 21:9 OLED • Triple Camera",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_xperia-10-v_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 135 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_xperia-10-iv",
+    "title": "Sony Xperia 10 IV",
+    "subtitle": "Compact 5G • 5000mAh Battery • OLED Triluminos Display",
+    "brand": "Sony",
+    "category": "mobiles",
+    "price": 298.7,
+    "originalPrice": 364,
+    "rating": 4.8,
+    "reviewCount": 141,
+    "images": [
+      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 31,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "115.000 OMR",
+      "Model Series": "Xperia 10 IV",
+      "Brand": "Sony",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Sony Xperia 10 IV",
+      "Compact 5G • 5000mAh Battery • OLED Triluminos Display",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_xperia-10-iv_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 115 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_rog-phone-9-pro",
+    "title": "ASUS / ROG ROG Phone 9 Pro",
+    "subtitle": "Snapdragon 8 Elite • AniMe Vision Matrix • 185Hz AMOLED • AirTrigger AI",
+    "brand": "ASUS / ROG",
+    "category": "mobiles",
+    "price": 1142.86,
+    "originalPrice": 1394,
+    "rating": 4.8999999999999995,
+    "reviewCount": 148,
+    "images": [
+      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=800"
+    ],
+    "badge": "GAMING",
+    "stock": 35,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "440.000 OMR",
+      "Model Series": "ROG Phone 9 Pro",
+      "Brand": "ASUS / ROG",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - ASUS / ROG ROG Phone 9 Pro",
+      "Snapdragon 8 Elite • AniMe Vision Matrix • 185Hz AMOLED • AirTrigger AI",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_rog-phone-9-pro_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 440 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_rog-phone-9",
+    "title": "ASUS / ROG ROG Phone 9",
+    "subtitle": "Snapdragon 8 Elite • 185Hz AMOLED • GameCool 9 Thermal",
+    "brand": "ASUS / ROG",
+    "category": "mobiles",
+    "price": 948.05,
+    "originalPrice": 1157,
+    "rating": 5,
+    "reviewCount": 155,
+    "images": [
+      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 39,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "365.000 OMR",
+      "Model Series": "ROG Phone 9",
+      "Brand": "ASUS / ROG",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - ASUS / ROG ROG Phone 9",
+      "Snapdragon 8 Elite • 185Hz AMOLED • GameCool 9 Thermal",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_rog-phone-9_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 365 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_rog-phone-8-pro",
+    "title": "ASUS / ROG ROG Phone 8 Pro",
+    "subtitle": "AniMe Matrix Display • Gimbal Stabilizer • IP68 Waterproof",
+    "brand": "ASUS / ROG",
+    "category": "mobiles",
+    "price": 1000,
+    "originalPrice": 1220,
+    "rating": 4.8,
+    "reviewCount": 162,
+    "images": [
+      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 43,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "385.000 OMR",
+      "Model Series": "ROG Phone 8 Pro",
+      "Brand": "ASUS / ROG",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - ASUS / ROG ROG Phone 8 Pro",
+      "AniMe Matrix Display • Gimbal Stabilizer • IP68 Waterproof",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_rog-phone-8-pro_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 385 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_rog-phone-8",
+    "title": "ASUS / ROG ROG Phone 8",
+    "subtitle": "Snapdragon 8 Gen 3 • 165Hz LTPO OLED • 5500mAh 65W HyperCharge",
+    "brand": "ASUS / ROG",
+    "category": "mobiles",
+    "price": 870.13,
+    "originalPrice": 1062,
+    "rating": 4.8999999999999995,
+    "reviewCount": 169,
+    "images": [
+      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 12,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 15,
+    "specs": {
+      "Official Oman Price": "335.000 OMR",
+      "Model Series": "ROG Phone 8",
+      "Brand": "ASUS / ROG",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - ASUS / ROG ROG Phone 8",
+      "Snapdragon 8 Gen 3 • 165Hz LTPO OLED • 5500mAh 65W HyperCharge",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_rog-phone-8_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 335 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_rog-phone-7",
+    "title": "ASUS / ROG ROG Phone 7",
+    "subtitle": "Snapdragon 8 Gen 2 • AeroActive Portal • 6000mAh Monster",
+    "brand": "ASUS / ROG",
+    "category": "mobiles",
+    "price": 740.26,
+    "originalPrice": 903,
+    "rating": 5,
+    "reviewCount": 176,
+    "images": [
+      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 16,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "285.000 OMR",
+      "Model Series": "ROG Phone 7",
+      "Brand": "ASUS / ROG",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - ASUS / ROG ROG Phone 7",
+      "Snapdragon 8 Gen 2 • AeroActive Portal • 6000mAh Monster",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_rog-phone-7_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 285 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_rog-phone-6",
+    "title": "ASUS / ROG ROG Phone 6",
+    "subtitle": "Snapdragon 8+ Gen 1 • 165Hz AMOLED • Monster 6000mAh",
+    "brand": "ASUS / ROG",
+    "category": "mobiles",
+    "price": 649.35,
+    "originalPrice": 792,
+    "rating": 4.8,
+    "reviewCount": 183,
+    "images": [
+      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 20,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "250.000 OMR",
+      "Model Series": "ROG Phone 6",
+      "Brand": "ASUS / ROG",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - ASUS / ROG ROG Phone 6",
+      "Snapdragon 8+ Gen 1 • 165Hz AMOLED • Monster 6000mAh",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_rog-phone-6_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 250 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_zenfone-12-ultra",
+    "title": "ASUS / ROG Zenfone 12 Ultra",
+    "subtitle": "Snapdragon 8 Elite • 6-Axis Hybrid Gimbal • 144Hz AMOLED",
+    "brand": "ASUS / ROG",
+    "category": "mobiles",
+    "price": 870.13,
+    "originalPrice": 1062,
+    "rating": 4.8999999999999995,
+    "reviewCount": 190,
+    "images": [
+      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 24,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "335.000 OMR",
+      "Model Series": "Zenfone 12 Ultra",
+      "Brand": "ASUS / ROG",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - ASUS / ROG Zenfone 12 Ultra",
+      "Snapdragon 8 Elite • 6-Axis Hybrid Gimbal • 144Hz AMOLED",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_zenfone-12-ultra_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 335 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_zenfone-11",
+    "title": "ASUS / ROG Zenfone 11",
+    "subtitle": "Snapdragon 8 Gen 3 • AI Transcript & Summary • 5500mAh",
+    "brand": "ASUS / ROG",
+    "category": "mobiles",
+    "price": 662.34,
+    "originalPrice": 808,
+    "rating": 5,
+    "reviewCount": 197,
+    "images": [
+      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 28,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "255.000 OMR",
+      "Model Series": "Zenfone 11",
+      "Brand": "ASUS / ROG",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - ASUS / ROG Zenfone 11",
+      "Snapdragon 8 Gen 3 • AI Transcript & Summary • 5500mAh",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_zenfone-11_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 255 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_zenfone-10",
+    "title": "ASUS / ROG Zenfone 10",
+    "subtitle": "5.9\" Compact Flagship • 6-Axis Gimbal 2.0 • Wireless Charging",
+    "brand": "ASUS / ROG",
+    "category": "mobiles",
+    "price": 584.42,
+    "originalPrice": 713,
+    "rating": 4.8,
+    "reviewCount": 24,
+    "images": [
+      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 32,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 15,
+    "specs": {
+      "Official Oman Price": "225.000 OMR",
+      "Model Series": "Zenfone 10",
+      "Brand": "ASUS / ROG",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - ASUS / ROG Zenfone 10",
+      "5.9\" Compact Flagship • 6-Axis Gimbal 2.0 • Wireless Charging",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_zenfone-10_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 225 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_zenfone-9",
+    "title": "ASUS / ROG Zenfone 9",
+    "subtitle": "Compact 5.9\" 120Hz AMOLED • Snapdragon 8+ Gen 1 • IP68",
+    "brand": "ASUS / ROG",
+    "category": "mobiles",
+    "price": 532.47,
+    "originalPrice": 650,
+    "rating": 4.8999999999999995,
+    "reviewCount": 31,
+    "images": [
+      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 36,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "205.000 OMR",
+      "Model Series": "Zenfone 9",
+      "Brand": "ASUS / ROG",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - ASUS / ROG Zenfone 9",
+      "Compact 5.9\" 120Hz AMOLED • Snapdragon 8+ Gen 1 • IP68",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_zenfone-9_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 205 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_nothing-phone-3-",
+    "title": "Nothing Nothing Phone (3)",
+    "subtitle": "Next-Gen Glyph Matrix • Snapdragon Flagship • Nothing OS 3.0 Clean UI",
+    "brand": "Nothing",
+    "category": "mobiles",
+    "price": 675.32,
+    "originalPrice": 824,
+    "rating": 5,
+    "reviewCount": 38,
+    "images": [
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800"
+    ],
+    "badge": "HOT",
+    "stock": 40,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "260.000 OMR",
+      "Model Series": "Nothing Phone (3)",
+      "Brand": "Nothing",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Nothing Nothing Phone (3)",
+      "Next-Gen Glyph Matrix • Snapdragon Flagship • Nothing OS 3.0 Clean UI",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_nothing-phone-3-_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 260 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_nothing-phone-3a-pro",
+    "title": "Nothing Nothing Phone (3a) Pro",
+    "subtitle": "Periscope Telephoto Lens • Glyph Interface 2.0 • 120Hz AMOLED",
+    "brand": "Nothing",
+    "category": "mobiles",
+    "price": 441.56,
+    "originalPrice": 539,
+    "rating": 4.8,
+    "reviewCount": 45,
+    "images": [
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 44,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "170.000 OMR",
+      "Model Series": "Nothing Phone (3a) Pro",
+      "Brand": "Nothing",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Nothing Nothing Phone (3a) Pro",
+      "Periscope Telephoto Lens • Glyph Interface 2.0 • 120Hz AMOLED",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_nothing-phone-3a-pro_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 170 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_nothing-phone-3a-",
+    "title": "Nothing Nothing Phone (3a)",
+    "subtitle": "Dimensity 7300-Pro • Transparent Aesthetic • 50MP Sony Dual",
+    "brand": "Nothing",
+    "category": "mobiles",
+    "price": 350.65,
+    "originalPrice": 428,
+    "rating": 4.8999999999999995,
+    "reviewCount": 52,
+    "images": [
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 13,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "135.000 OMR",
+      "Model Series": "Nothing Phone (3a)",
+      "Brand": "Nothing",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Nothing Nothing Phone (3a)",
+      "Dimensity 7300-Pro • Transparent Aesthetic • 50MP Sony Dual",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_nothing-phone-3a-_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 135 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_nothing-phone-2a-plus",
+    "title": "Nothing Nothing Phone (2a) Plus",
+    "subtitle": "Dimensity 7350 Pro 5G • 50MP Selfie • 50W Fast Charge",
+    "brand": "Nothing",
+    "category": "mobiles",
+    "price": 324.68,
+    "originalPrice": 396,
+    "rating": 5,
+    "reviewCount": 59,
+    "images": [
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 17,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 15,
+    "specs": {
+      "Official Oman Price": "125.000 OMR",
+      "Model Series": "Nothing Phone (2a) Plus",
+      "Brand": "Nothing",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Nothing Nothing Phone (2a) Plus",
+      "Dimensity 7350 Pro 5G • 50MP Selfie • 50W Fast Charge",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_nothing-phone-2a-plus_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 125 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_nothing-phone-2a-",
+    "title": "Nothing Nothing Phone (2a)",
+    "subtitle": "Dimensity 7200 Pro • 50MP Dual Camera • 45W Charge",
+    "brand": "Nothing",
+    "category": "mobiles",
+    "price": 264.94,
+    "originalPrice": 323,
+    "rating": 4.8,
+    "reviewCount": 66,
+    "images": [
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 21,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "102.000 OMR",
+      "Model Series": "Nothing Phone (2a)",
+      "Brand": "Nothing",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Nothing Nothing Phone (2a)",
+      "Dimensity 7200 Pro • 50MP Dual Camera • 45W Charge",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_nothing-phone-2a-_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 102 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_nothing-phone-2-",
+    "title": "Nothing Nothing Phone (2)",
+    "subtitle": "Snapdragon 8+ Gen 1 • Glyph Interface 2.0 • 50MP Sony IMX890",
+    "brand": "Nothing",
+    "category": "mobiles",
+    "price": 441.56,
+    "originalPrice": 539,
+    "rating": 4.8999999999999995,
+    "reviewCount": 73,
+    "images": [
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 25,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "170.000 OMR",
+      "Model Series": "Nothing Phone (2)",
+      "Brand": "Nothing",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Nothing Nothing Phone (2)",
+      "Snapdragon 8+ Gen 1 • Glyph Interface 2.0 • 50MP Sony IMX890",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_nothing-phone-2-_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 170 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_nothing-phone-1-",
+    "title": "Nothing Nothing Phone (1)",
+    "subtitle": "Iconic Glyph Interface • 120Hz OLED • 50MP Dual Camera",
+    "brand": "Nothing",
+    "category": "mobiles",
+    "price": 298.7,
+    "originalPrice": 364,
+    "rating": 5,
+    "reviewCount": 80,
+    "images": [
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 29,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "115.000 OMR",
+      "Model Series": "Nothing Phone (1)",
+      "Brand": "Nothing",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Nothing Nothing Phone (1)",
+      "Iconic Glyph Interface • 120Hz OLED • 50MP Dual Camera",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_nothing-phone-1-_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 115 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_cmf-phone-2-pro",
+    "title": "Nothing CMF Phone 2 Pro",
+    "subtitle": "Modular Accessory Dial • 50MP Sony Sensor • 120Hz Super AMOLED",
+    "brand": "Nothing",
+    "category": "mobiles",
+    "price": 264.94,
+    "originalPrice": 323,
+    "rating": 4.8,
+    "reviewCount": 87,
+    "images": [
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 33,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "102.000 OMR",
+      "Model Series": "CMF Phone 2 Pro",
+      "Brand": "Nothing",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Nothing CMF Phone 2 Pro",
+      "Modular Accessory Dial • 50MP Sony Sensor • 120Hz Super AMOLED",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_cmf-phone-2-pro_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 102 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_cmf-phone-2",
+    "title": "Nothing CMF Phone 2",
+    "subtitle": "Customizable Back Cover • Dimensity 5G • 5000mAh Battery",
+    "brand": "Nothing",
+    "category": "mobiles",
+    "price": 238.96,
+    "originalPrice": 292,
+    "rating": 4.8999999999999995,
+    "reviewCount": 94,
+    "images": [
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 37,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 15,
+    "specs": {
+      "Official Oman Price": "92.000 OMR",
+      "Model Series": "CMF Phone 2",
+      "Brand": "Nothing",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Nothing CMF Phone 2",
+      "Customizable Back Cover • Dimensity 5G • 5000mAh Battery",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_cmf-phone-2_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 92 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_cmf-phone-1",
+    "title": "Nothing CMF Phone 1",
+    "subtitle": "Interchangeable Back Case • Dimensity 7300 5G • 50MP Sony",
+    "brand": "Nothing",
+    "category": "mobiles",
+    "price": 207.79,
+    "originalPrice": 254,
+    "rating": 5,
+    "reviewCount": 101,
+    "images": [
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 41,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "80.000 OMR",
+      "Model Series": "CMF Phone 1",
+      "Brand": "Nothing",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - Nothing CMF Phone 1",
+      "Interchangeable Back Case • Dimensity 7300 5G • 50MP Sony",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_cmf-phone-1_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 80 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_redmagic-10s-pro",
+    "title": "ZTE / Nubia / RedMagic RedMagic 10S Pro",
+    "subtitle": "Snapdragon 8 Elite Leading Edition • 7050mAh Battery • Internal Cooling Fan",
+    "brand": "ZTE / Nubia / RedMagic",
+    "category": "mobiles",
+    "price": 948.05,
+    "originalPrice": 1157,
+    "rating": 4.8,
+    "reviewCount": 108,
+    "images": [
+      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=800"
+    ],
+    "badge": "GAMING",
+    "stock": 45,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "365.000 OMR",
+      "Model Series": "RedMagic 10S Pro",
+      "Brand": "ZTE / Nubia / RedMagic",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - ZTE / Nubia / RedMagic RedMagic 10S Pro",
+      "Snapdragon 8 Elite Leading Edition • 7050mAh Battery • Internal Cooling Fan",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_redmagic-10s-pro_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 365 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_redmagic-10-pro",
+    "title": "ZTE / Nubia / RedMagic RedMagic 10 Pro",
+    "subtitle": "True Full Screen (Under-Display Camera) • ICE X Cooling • 144Hz",
+    "brand": "ZTE / Nubia / RedMagic",
+    "category": "mobiles",
+    "price": 870.13,
+    "originalPrice": 1062,
+    "rating": 4.8999999999999995,
+    "reviewCount": 115,
+    "images": [
+      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 14,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "335.000 OMR",
+      "Model Series": "RedMagic 10 Pro",
+      "Brand": "ZTE / Nubia / RedMagic",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - ZTE / Nubia / RedMagic RedMagic 10 Pro",
+      "True Full Screen (Under-Display Camera) • ICE X Cooling • 144Hz",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_redmagic-10-pro_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 335 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_nubia-z60-ultra",
+    "title": "ZTE / Nubia / RedMagic Nubia Z60 Ultra",
+    "subtitle": "Under-Display Camera • 35mm + 18mm + 85mm Optical OIS Trio",
+    "brand": "ZTE / Nubia / RedMagic",
+    "category": "mobiles",
+    "price": 740.26,
+    "originalPrice": 903,
+    "rating": 5,
+    "reviewCount": 122,
+    "images": [
+      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 18,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "285.000 OMR",
+      "Model Series": "Nubia Z60 Ultra",
+      "Brand": "ZTE / Nubia / RedMagic",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - ZTE / Nubia / RedMagic Nubia Z60 Ultra",
+      "Under-Display Camera • 35mm + 18mm + 85mm Optical OIS Trio",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_nubia-z60-ultra_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 285 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_nubia-focus-pro",
+    "title": "ZTE / Nubia / RedMagic Nubia Focus Pro",
+    "subtitle": "108MP 5-Focal Photography • Capture Button • 5000mAh 33W",
+    "brand": "ZTE / Nubia / RedMagic",
+    "category": "mobiles",
+    "price": 238.96,
+    "originalPrice": 292,
+    "rating": 4.8,
+    "reviewCount": 129,
+    "images": [
+      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 22,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 15,
+    "specs": {
+      "Official Oman Price": "92.000 OMR",
+      "Model Series": "Nubia Focus Pro",
+      "Brand": "ZTE / Nubia / RedMagic",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - ZTE / Nubia / RedMagic Nubia Focus Pro",
+      "108MP 5-Focal Photography • Capture Button • 5000mAh 33W",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_nubia-focus-pro_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 92 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_nubia-focus",
+    "title": "ZTE / Nubia / RedMagic Nubia Focus",
+    "subtitle": "108MP AI Camera • 4K Video Capture • 5000mAh Battery",
+    "brand": "ZTE / Nubia / RedMagic",
+    "category": "mobiles",
+    "price": 168.83,
+    "originalPrice": 206,
+    "rating": 4.8999999999999995,
+    "reviewCount": 136,
+    "images": [
+      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 26,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "65.000 OMR",
+      "Model Series": "Nubia Focus",
+      "Brand": "ZTE / Nubia / RedMagic",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - ZTE / Nubia / RedMagic Nubia Focus",
+      "108MP AI Camera • 4K Video Capture • 5000mAh Battery",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_nubia-focus_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 65 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_nubia-neo-2-5g",
+    "title": "ZTE / Nubia / RedMagic Nubia Neo 2 5G",
+    "subtitle": "Dual Gaming Shoulder Triggers • 6000mAh Battery • 120Hz FHD+",
+    "brand": "ZTE / Nubia / RedMagic",
+    "category": "mobiles",
+    "price": 207.79,
+    "originalPrice": 254,
+    "rating": 5,
+    "reviewCount": 143,
+    "images": [
+      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 30,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "80.000 OMR",
+      "Model Series": "Nubia Neo 2 5G",
+      "Brand": "ZTE / Nubia / RedMagic",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - ZTE / Nubia / RedMagic Nubia Neo 2 5G",
+      "Dual Gaming Shoulder Triggers • 6000mAh Battery • 120Hz FHD+",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_nubia-neo-2-5g_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 80 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_zte-blade-v70",
+    "title": "ZTE / Nubia / RedMagic ZTE Blade V70",
+    "subtitle": "108MP Main Lens • Live Island Notifications • 66W SuperCharge",
+    "brand": "ZTE / Nubia / RedMagic",
+    "category": "mobiles",
+    "price": 148.05,
+    "originalPrice": 181,
+    "rating": 4.8,
+    "reviewCount": 150,
+    "images": [
+      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 34,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "57.000 OMR",
+      "Model Series": "ZTE Blade V70",
+      "Brand": "ZTE / Nubia / RedMagic",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - ZTE / Nubia / RedMagic ZTE Blade V70",
+      "108MP Main Lens • Live Island Notifications • 66W SuperCharge",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_zte-blade-v70_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 57 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_zte-blade-v50",
+    "title": "ZTE / Nubia / RedMagic ZTE Blade V50",
+    "subtitle": "50MP Triple Camera • 22.5W Fast Charge • 6.6\" FHD+ Screen",
+    "brand": "ZTE / Nubia / RedMagic",
+    "category": "mobiles",
+    "price": 122.08,
+    "originalPrice": 149,
+    "rating": 4.8999999999999995,
+    "reviewCount": 157,
+    "images": [
+      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 38,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "47.000 OMR",
+      "Model Series": "ZTE Blade V50",
+      "Brand": "ZTE / Nubia / RedMagic",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - ZTE / Nubia / RedMagic ZTE Blade V50",
+      "50MP Triple Camera • 22.5W Fast Charge • 6.6\" FHD+ Screen",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_zte-blade-v50_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 47 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_zte-blade-a75",
+    "title": "ZTE / Nubia / RedMagic ZTE Blade A75",
+    "subtitle": "90Hz Display • 50MP AI Dual • 5000mAh Type-C Battery",
+    "brand": "ZTE / Nubia / RedMagic",
+    "category": "mobiles",
+    "price": 90.91,
+    "originalPrice": 111,
+    "rating": 5,
+    "reviewCount": 164,
+    "images": [
+      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 42,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 15,
+    "specs": {
+      "Official Oman Price": "35.000 OMR",
+      "Model Series": "ZTE Blade A75",
+      "Brand": "ZTE / Nubia / RedMagic",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - ZTE / Nubia / RedMagic ZTE Blade A75",
+      "90Hz Display • 50MP AI Dual • 5000mAh Type-C Battery",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_zte-blade-a75_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 35 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_zte-blade-a55",
+    "title": "ZTE / Nubia / RedMagic ZTE Blade A55",
+    "subtitle": "6.75\" 90Hz Screen • 5000mAh Battery • Live Island UI",
+    "brand": "ZTE / Nubia / RedMagic",
+    "category": "mobiles",
+    "price": 77.92,
+    "originalPrice": 95,
+    "rating": 4.8,
+    "reviewCount": 171,
+    "images": [
+      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 46,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "30.000 OMR",
+      "Model Series": "ZTE Blade A55",
+      "Brand": "ZTE / Nubia / RedMagic",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - ZTE / Nubia / RedMagic ZTE Blade A55",
+      "6.75\" 90Hz Screen • 5000mAh Battery • Live Island UI",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_zte-blade-a55_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 30 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_poco-f7-pro",
+    "title": "POCO POCO F7 Pro",
+    "subtitle": "Snapdragon 8 Gen 3 • 120W HyperCharge • 2K 120Hz Flow AMOLED",
+    "brand": "POCO",
+    "category": "mobiles",
+    "price": 532.47,
+    "originalPrice": 650,
+    "rating": 4.8999999999999995,
+    "reviewCount": 178,
+    "images": [
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+    ],
+    "badge": "FLAGSHIP",
+    "stock": 15,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "205.000 OMR",
+      "Model Series": "POCO F7 Pro",
+      "Brand": "POCO",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - POCO POCO F7 Pro",
+      "Snapdragon 8 Gen 3 • 120W HyperCharge • 2K 120Hz Flow AMOLED",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_poco-f7-pro_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 205 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_poco-x7-pro",
+    "title": "POCO POCO X7 Pro",
+    "subtitle": "Dimensity 8400-Ultra • 1.5K 120Hz AMOLED • 90W HyperCharge",
+    "brand": "POCO",
+    "category": "mobiles",
+    "price": 355.84,
+    "originalPrice": 434,
+    "rating": 5,
+    "reviewCount": 185,
+    "images": [
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 19,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "137.000 OMR",
+      "Model Series": "POCO X7 Pro",
+      "Brand": "POCO",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - POCO POCO X7 Pro",
+      "Dimensity 8400-Ultra • 1.5K 120Hz AMOLED • 90W HyperCharge",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_poco-x7-pro_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 137 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_poco-x7",
+    "title": "POCO POCO X7",
+    "subtitle": "Dimensity 7300 • 50MP Sony OIS • 5110mAh Battery • 45W",
+    "brand": "POCO",
+    "category": "mobiles",
+    "price": 272.73,
+    "originalPrice": 333,
+    "rating": 4.8,
+    "reviewCount": 192,
+    "images": [
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 23,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "105.000 OMR",
+      "Model Series": "POCO X7",
+      "Brand": "POCO",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - POCO POCO X7",
+      "Dimensity 7300 • 50MP Sony OIS • 5110mAh Battery • 45W",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_poco-x7_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 105 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_poco-x6-pro",
+    "title": "POCO POCO X6 Pro",
+    "subtitle": "Dimensity 8300-Ultra • 64MP OIS Triple • 67W Turbo Charge",
+    "brand": "POCO",
+    "category": "mobiles",
+    "price": 298.7,
+    "originalPrice": 364,
+    "rating": 4.8999999999999995,
+    "reviewCount": 199,
+    "images": [
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 27,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 15,
+    "specs": {
+      "Official Oman Price": "115.000 OMR",
+      "Model Series": "POCO X6 Pro",
+      "Brand": "POCO",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - POCO POCO X6 Pro",
+      "Dimensity 8300-Ultra • 64MP OIS Triple • 67W Turbo Charge",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_poco-x6-pro_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 115 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_poco-x6",
+    "title": "POCO POCO X6",
+    "subtitle": "Snapdragon 7s Gen 2 • 64MP Triple OIS • 120Hz Flow AMOLED",
+    "brand": "POCO",
+    "category": "mobiles",
+    "price": 238.96,
+    "originalPrice": 292,
+    "rating": 5,
+    "reviewCount": 26,
+    "images": [
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 31,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "92.000 OMR",
+      "Model Series": "POCO X6",
+      "Brand": "POCO",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - POCO POCO X6",
+      "Snapdragon 7s Gen 2 • 64MP Triple OIS • 120Hz Flow AMOLED",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_poco-x6_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 92 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_poco-m7-pro-5g",
+    "title": "POCO POCO M7 Pro 5G",
+    "subtitle": "Dimensity 6300 5G • 50MP Sony AI • 5110mAh 45W Charge",
+    "brand": "POCO",
+    "category": "mobiles",
+    "price": 194.81,
+    "originalPrice": 238,
+    "rating": 4.8,
+    "reviewCount": 33,
+    "images": [
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 35,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "75.000 OMR",
+      "Model Series": "POCO M7 Pro 5G",
+      "Brand": "POCO",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - POCO POCO M7 Pro 5G",
+      "Dimensity 6300 5G • 50MP Sony AI • 5110mAh 45W Charge",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_poco-m7-pro-5g_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 75 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_poco-m7",
+    "title": "POCO POCO M7",
+    "subtitle": "6.88\" 120Hz Large Display • 50MP AI Lens • 5160mAh",
+    "brand": "POCO",
+    "category": "mobiles",
+    "price": 148.05,
+    "originalPrice": 181,
+    "rating": 4.8999999999999995,
+    "reviewCount": 40,
+    "images": [
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 39,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "57.000 OMR",
+      "Model Series": "POCO M7",
+      "Brand": "POCO",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - POCO POCO M7",
+      "6.88\" 120Hz Large Display • 50MP AI Lens • 5160mAh",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_poco-m7_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 57 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_poco-m6",
+    "title": "POCO POCO M6",
+    "subtitle": "108MP Pro-Grade Camera • 33W Fast Charge • Glass Back",
+    "brand": "POCO",
+    "category": "mobiles",
+    "price": 135.06,
+    "originalPrice": 165,
+    "rating": 5,
+    "reviewCount": 47,
+    "images": [
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 43,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "52.000 OMR",
+      "Model Series": "POCO M6",
+      "Brand": "POCO",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - POCO POCO M6",
+      "108MP Pro-Grade Camera • 33W Fast Charge • Glass Back",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_poco-m6_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 52 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_poco-c75",
+    "title": "POCO POCO C75",
+    "subtitle": "6.88\" 120Hz Immersive Screen • 50MP AI • 5160mAh",
+    "brand": "POCO",
+    "category": "mobiles",
+    "price": 109.09,
+    "originalPrice": 133,
+    "rating": 4.8,
+    "reviewCount": 54,
+    "images": [
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 12,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 15,
+    "specs": {
+      "Official Oman Price": "42.000 OMR",
+      "Model Series": "POCO C75",
+      "Brand": "POCO",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - POCO POCO C75",
+      "6.88\" 120Hz Immersive Screen • 50MP AI • 5160mAh",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_poco-c75_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 42 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "phone_poco-c61",
+    "title": "POCO POCO C61",
+    "subtitle": "Radiant Star-Ring Design • 90Hz Display • 5000mAh Battery",
+    "brand": "POCO",
+    "category": "mobiles",
+    "price": 90.91,
+    "originalPrice": 111,
+    "rating": 4.8999999999999995,
+    "reviewCount": 61,
+    "images": [
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+    ],
+    "stock": 16,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Official Oman Price": "35.000 OMR",
+      "Model Series": "POCO C61",
+      "Brand": "POCO",
+      "Regional Version": "Middle East / Oman Official Specs",
+      "Authenticity": "100% Genuine Certified",
+      "Warranty": "Official Hardware Guarantee",
+      "Delivery": "Insured Courier Delivery (15-25 Working Days)"
+    },
+    "keyFeatures": [
+      "Official Middle East / Oman Regional Specification - POCO POCO C61",
+      "Radiant Star-Ring Design • 90Hz Display • 5000mAh Battery",
+      "100% Genuine Certified Hardware & Factory Sealed Package",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal 5G / 4G LTE Oman Networks (Omantel, Ooredoo, Vodafone)",
+      "Universal USB-C / Fast Wireless Charging"
+    ],
+    "reviews": [
+      {
+        "id": "rev_phone_poco-c61_1",
+        "userName": "Verified Oman Buyer",
+        "rating": 5,
+        "date": "3 days ago",
+        "title": "Authentic Sealed Unit",
+        "comment": "Excellent product! Exactly as listed for 35 OMR. Arrived pristine.",
+        "verified": true,
+        "helpfulCount": 14
+      }
+    ]
+  },
+  {
+    "id": "cleo_belkin_boost_charge",
     "title": "Belkin Boost Charge Power Bundle Charger + 10k Power bank",
-    "subtitle": "Belkin Official Hardware • Cleopatra Web Store Oman",
+    "subtitle": "Belkin Official Hardware • Fast GaN Charging",
     "brand": "Belkin",
     "category": "chargers",
-    "price": 49.99,
-    "originalPrice": 62,
+    "price": 50,
+    "originalPrice": 62.34,
     "rating": 4.8,
-    "reviewCount": 12,
+    "reviewCount": 32,
     "images": [
       "https://cleopatraweb.com/wp-content/uploads/2026/07/Belkin-Boost-Charge-Power-Bundle-Charger-10k-Power-bank.jpg"
     ],
-    "badge": "BEST SELLER",
-    "stock": 15,
+    "badge": "POPULAR",
+    "stock": 45,
     "featured": true,
-    "flashDeal": true,
-    "flashDealDiscount": 20,
     "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Belkin Boost Charge Power Bundle Ch",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
+      "Official Oman Price": "19.250 OMR",
+      "Power Bank Capacity": "10,000 mAh",
+      "Fast Charging": "USB-C PD 20W"
     },
     "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+      "Ultra-Compact GaN Power Bundle",
+      "Dual Device Simultaneous Charging"
     ],
     "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
+      "Universal USB-C & Lightning"
     ],
-    "reviews": [
-      {
-        "id": "rev_cleo_1_belkin-boost-charge-power-bund_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
+    "reviews": []
   },
   {
-    "id": "cleo_2_jbl-powered-speaker-eon-715-15",
-    "title": "Jbl Powered Speaker Eon 715 15″ 1300w",
-    "subtitle": "JBL Official Hardware • Cleopatra Web Store Oman",
+    "id": "cleo_jbl_eon_speaker",
+    "title": "JBL Powered Speaker EON 715 15\" 1300W",
+    "subtitle": "JBL Professional Sound • Bluetooth 5.0 DSP Control",
     "brand": "JBL",
     "category": "audio",
-    "price": 399.99,
-    "originalPrice": 500,
-    "rating": 4.8999999999999995,
-    "reviewCount": 17,
+    "price": 636.36,
+    "originalPrice": 766.23,
+    "rating": 4.9,
+    "reviewCount": 28,
     "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/07/Jbl-Powered-Speaker-Eon-712-12-1300w.png"
+      "https://cleopatraweb.com/wp-content/uploads/2026/07/JBL-Powered-Speaker-EON-715-15-Inch-1300-Watts-2.jpg"
     ],
-    "badge": "NEW",
-    "stock": 18,
-    "featured": true,
-    "flashDeal": false,
+    "badge": "PRO AUDIO",
+    "stock": 10,
+    "featured": false,
     "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Jbl Powered Speaker Eon 715 15″ 130",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
+      "Official Oman Price": "245.000 OMR",
+      "Peak Power": "1,300 Watts",
+      "Woofer Size": "15-inch Custom Ferrite"
     },
     "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+      "Pro-Grade Bluetooth 5.0 Audio Streaming",
+      "Advanced dbx DriveRack Inside DSP"
     ],
     "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
+      "Bluetooth 5.0 / XLR / TRS Jack inputs"
     ],
-    "reviews": [
-      {
-        "id": "rev_cleo_2_jbl-powered-speaker-eon-715-15_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
+    "reviews": []
   },
   {
-    "id": "cleo_3_sony-ps-5-slim-digital-edition",
-    "title": "Sony PS 5 Slim Digital Edition Console 825GB CFI-2116B",
-    "subtitle": "Sony Official Hardware • Cleopatra Web Store Oman",
+    "id": "cleo_ps5_slim_console",
+    "title": "Sony PS 5 Slim Digital Edition 825GB Console",
+    "subtitle": "Sony PlayStation 5 Slim Digital • High-Speed SSD",
     "brand": "Sony",
     "category": "accessories",
-    "price": 499.99,
-    "originalPrice": 625,
+    "price": 428.57,
+    "originalPrice": 493.51,
     "rating": 5,
-    "reviewCount": 22,
+    "reviewCount": 95,
     "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/07/Sony-PS-5-Slim-Digital-Edition-Console-825GB-CFI-2116B-.png"
-    ],
-    "badge": "HOT",
-    "stock": 21,
-    "featured": true,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Sony PS 5 Slim Digital Edition Cons",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_3_sony-ps-5-slim-digital-edition_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_4_kodak-digital-camera-pixpro-c1",
-    "title": "Kodak Digital Camera PIXPRO C1",
-    "subtitle": "Kodak Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Kodak",
-    "category": "accessories",
-    "price": 149.99,
-    "originalPrice": 187,
-    "rating": 4.8,
-    "reviewCount": 27,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/06/Kodak-Digital-Camera-PIXPRO-C1.png"
-    ],
-    "badge": "240W GaN",
-    "stock": 24,
-    "featured": true,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Kodak Digital Camera PIXPRO C1",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_4_kodak-digital-camera-pixpro-c1_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_5_anker-a1664-maggo-ultra-slim-1",
-    "title": "Anker A1664 MagGo Ultra-Slim 10000mAh Qi2 Certified 15W Power Bank",
-    "subtitle": "Anker Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Anker",
-    "category": "chargers",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8999999999999995,
-    "reviewCount": 32,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/06/Anker-A1664-MagGo-Ultra-Slim-10000mAh-Qi2-Certified-15W-Power-Bank-.png"
-    ],
-    "badge": "LIMITED",
-    "stock": 27,
-    "featured": true,
-    "flashDeal": true,
-    "flashDealDiscount": 20,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Anker A1664 MagGo Ultra-Slim 10000m",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_5_anker-a1664-maggo-ultra-slim-1_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_6_haino-teko-fg-3-5g-android-sma",
-    "title": "Haino Teko FG-3 5G Android Smart Watch SIM Card Support",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "wearables",
-    "price": 249.99,
-    "originalPrice": 312,
-    "rating": 5,
-    "reviewCount": 37,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/06/Haino-Teko-FG-3-5G-Android-Smart-Watch-SIM-Card-Support-.png"
-    ],
-    "badge": "SALE",
-    "stock": 30,
-    "featured": true,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Haino Teko FG-3 5G Android Smart Wa",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_6_haino-teko-fg-3-5g-android-sma_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_7_google-fitbit-air-screen-less-",
-    "title": "Google Fitbit Air Screen less Fitness & Health Tracking Band Black",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "wearables",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8,
-    "reviewCount": 42,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/06/Google-Fitbit-Air-Screen-less-Fitness-Health-Tracking-Band-Black-.png"
+      "https://cleopatraweb.com/wp-content/uploads/2026/07/Sony-PS-5-Slim-Digital-Edition-1-Tera-.jpg"
     ],
     "badge": "BEST SELLER",
-    "stock": 33,
+    "stock": 20,
     "featured": true,
-    "flashDeal": false,
     "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Google Fitbit Air Screen less Fitne",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
+      "Official Oman Price": "165.000 OMR",
+      "Storage": "825GB Ultra-High Speed NVMe SSD",
+      "Video Output": "4K 120Hz & 8K HDR Support"
     },
     "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+      "Ray Tracing & Ultra-Fast Loading Times",
+      "Tempest 3D AudioTech & DualSense Haptic Feedback"
     ],
     "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
+      "PS5 Games & Digital PlayStation Network"
     ],
-    "reviews": [
-      {
-        "id": "rev_cleo_7_google-fitbit-air-screen-less-_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_8_cleo-hb-portable-fever-knee-ma",
-    "title": "Cleo-HB Portable Fever Knee Massager GN-D102",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "accessories",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8999999999999995,
-    "reviewCount": 47,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/05/Untitled-design-159.png"
-    ],
-    "badge": "NEW",
-    "stock": 36,
-    "featured": true,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Cleo-HB Portable Fever Knee Massage",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_8_cleo-hb-portable-fever-knee-ma_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_9_dji-gimbal-osmo-mobile-8-p-cre",
-    "title": "Dji Gimbal Osmo Mobile 8 P Creator Combo",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "accessories",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 5,
-    "reviewCount": 52,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/05/Dji-Gimbal-Osmo-Mobile-8-P-Creator-Combo.png"
-    ],
-    "stock": 39,
-    "featured": false,
-    "flashDeal": true,
-    "flashDealDiscount": 20,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Dji Gimbal Osmo Mobile 8 P Creator ",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_9_dji-gimbal-osmo-mobile-8-p-cre_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_10_dji-gimbal-osmo-mobile-8-p-adv",
-    "title": "Dji Gimbal Osmo Mobile 8 P Advance Tracking Combo",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "accessories",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8,
-    "reviewCount": 57,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/05/Dji-Gimbal-Osmo-Mobile-8-P-Advance-Tracking-Combo.png"
-    ],
-    "stock": 42,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Dji Gimbal Osmo Mobile 8 P Advance ",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_10_dji-gimbal-osmo-mobile-8-p-adv_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_11_dji-gimbal-osmo-mobile-8-p-sta",
-    "title": "Dji Gimbal Osmo Mobile 8 P Standard Combo",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "accessories",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8999999999999995,
-    "reviewCount": 62,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/05/Dji-Gimbal-Osmo-Mobile-8-P-Standard-Combo.png"
-    ],
-    "stock": 45,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Dji Gimbal Osmo Mobile 8 P Standard",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_11_dji-gimbal-osmo-mobile-8-p-sta_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_12_honor-choice-smart-watch-2-pro",
-    "title": "Honor Choice Smart Watch 2 Pro Black",
-    "subtitle": "Honor Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Honor",
-    "category": "mobiles",
-    "price": 249.99,
-    "originalPrice": 312,
-    "rating": 5,
-    "reviewCount": 67,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/05/Honor-Choice-Smart-Watch-2-Pro-Black.png"
-    ],
-    "stock": 48,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Honor Choice Smart Watch 2 Pro Blac",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_12_honor-choice-smart-watch-2-pro_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_13_honor-choice-smart-watch-2i",
-    "title": "Honor Choice Smart Watch 2i",
-    "subtitle": "Honor Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Honor",
-    "category": "mobiles",
-    "price": 249.99,
-    "originalPrice": 312,
-    "rating": 4.8,
-    "reviewCount": 72,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/05/a-gift-3-2.png"
-    ],
-    "stock": 51,
-    "featured": false,
-    "flashDeal": true,
-    "flashDealDiscount": 20,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Honor Choice Smart Watch 2i",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_13_honor-choice-smart-watch-2i_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_14_tecno-camon-50-ultra-12gb-256g",
-    "title": "Tecno Camon 50 Ultra 12gb 256gb 5g Gsm",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "accessories",
-    "price": 499.99,
-    "originalPrice": 625,
-    "rating": 4.8999999999999995,
-    "reviewCount": 77,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/05/camon-50-ultra-green-600.webp"
-    ],
-    "stock": 54,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Tecno Camon 50 Ultra 12gb 256gb 5g ",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_14_tecno-camon-50-ultra-12gb-256g_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_15_hp-used-laptop-elitebook-8470p",
-    "title": "Hp Used Laptop EliteBook 8470P i7 3rd Gen, 8 Gb Ram, 256 Gb SSd, 14 inch Screen, Win 10",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "accessories",
-    "price": 89.99,
-    "originalPrice": 112,
-    "rating": 5,
-    "reviewCount": 82,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/05/Hp-Used-Laptop-EliteBook-8470P-i7-3rd-Gen-8-Gb-Ram-256-Gb-SSd-14-inch-Screen-Win-10.jpg"
-    ],
-    "stock": 17,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Hp Used Laptop EliteBook 8470P i7 3",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_15_hp-used-laptop-elitebook-8470p_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_16_denx-water-dispenser-dx-4506",
-    "title": "Denx Water Dispenser DX-4506",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "accessories",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8,
-    "reviewCount": 87,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/Denx-Water-Dispenser-DX-4506-.png"
-    ],
-    "stock": 20,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Denx Water Dispenser DX-4506",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_16_denx-water-dispenser-dx-4506_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_17_tp-link-wifi-range-extender-ax",
-    "title": "TP-Link Wifi Range Extender AX1500 RE500X",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "accessories",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8999999999999995,
-    "reviewCount": 92,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/TP-Link-Wifi-Range-Extender-AX1500-RE500X.png"
-    ],
-    "stock": 23,
-    "featured": false,
-    "flashDeal": true,
-    "flashDealDiscount": 20,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "TP-Link Wifi Range Extender AX1500 ",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_17_tp-link-wifi-range-extender-ax_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_18_kemei-professional-hair-trimme",
-    "title": "Kemei Professional Hair Trimmer KM-1848",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "accessories",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 5,
-    "reviewCount": 97,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/Kemei-Professional-Hair-Trimmer-KM-1848-.png"
-    ],
-    "stock": 26,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Kemei Professional Hair Trimmer KM-",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_18_kemei-professional-hair-trimme_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_19_haohan-rechargeable-hair-trimm",
-    "title": "Haohan Rechargeable Hair Trimmer HL-11",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "accessories",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8,
-    "reviewCount": 102,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/Haohan-Rechargeable-Hair-Trimmer-HL-11-.png"
-    ],
-    "stock": 29,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Haohan Rechargeable Hair Trimmer HL",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_19_haohan-rechargeable-hair-trimm_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_20_haohan-rechargeable-nose-trimm",
-    "title": "Haohan Rechargeable Nose Trimmer HP-317",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "accessories",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8999999999999995,
-    "reviewCount": 107,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/Haohan-Rechargeable-Nose-Trimmer-HP-317-.png"
-    ],
-    "stock": 32,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Haohan Rechargeable Nose Trimmer HP",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_20_haohan-rechargeable-nose-trimm_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_21_haohan-electric-shaver-ht-2",
-    "title": "Haohan Electric Shaver HT-2",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "accessories",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 5,
-    "reviewCount": 112,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/Haohan-Electric-Shaver-HT-2.png"
-    ],
-    "stock": 35,
-    "featured": false,
-    "flashDeal": true,
-    "flashDealDiscount": 20,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Haohan Electric Shaver HT-2",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_21_haohan-electric-shaver-ht-2_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_22_hitachi-drum-vaccum-cleaner-cv",
-    "title": "Hitachi Drum Vaccum Cleaner CV945F240C WR 2000W",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "accessories",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8,
-    "reviewCount": 117,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/Hitachi-Drum-Vaccum-Cleaner-CV945F240C-WR-2000W-.png"
-    ],
-    "stock": 38,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Hitachi Drum Vaccum Cleaner CV945F2",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_22_hitachi-drum-vaccum-cleaner-cv_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_23_hitachi-drum-vaccum-cleaner-we",
-    "title": "Hitachi Drum Vaccum Cleaner Wet & Dry CV 975PWBKGAE 1600W",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "accessories",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8999999999999995,
-    "reviewCount": 122,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/Hitachi-Drum-Vaccum-Cleaner-Wet-Dry-CV-975PWBKGAE-1600W-.png"
-    ],
-    "stock": 41,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Hitachi Drum Vaccum Cleaner Wet & D",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_23_hitachi-drum-vaccum-cleaner-we_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_24_cleo-hb-zlade-ballistic-nose-e",
-    "title": "Cleo-HB Zlade Ballistic Nose & Ear Hair Trimmer",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "accessories",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 5,
-    "reviewCount": 127,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/Cleo-HB-Zlade-Ballistic-Nose-Ear-Hair-Trimmer.png"
-    ],
-    "stock": 44,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Cleo-HB Zlade Ballistic Nose & Ear ",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_24_cleo-hb-zlade-ballistic-nose-e_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_25_cleo-el-oud-bukhoor-bk18",
-    "title": "Cleo-EL Oud Bukhoor BK18",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "accessories",
-    "price": 19.99,
-    "originalPrice": 25,
-    "rating": 4.8,
-    "reviewCount": 132,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2025/11/Cleo-EL-Oud-Bukhoor-BK18.jpg"
-    ],
-    "stock": 47,
-    "featured": false,
-    "flashDeal": true,
-    "flashDealDiscount": 20,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Cleo-EL Oud Bukhoor BK18",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_25_cleo-el-oud-bukhoor-bk18_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_26_kodak-max-alkaline-4lr44-batte",
-    "title": "Kodak Max Alkaline 4LR44 Battery",
-    "subtitle": "Kodak Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Kodak",
-    "category": "accessories",
-    "price": 19.99,
-    "originalPrice": 25,
-    "rating": 4.8999999999999995,
-    "reviewCount": 137,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2023/10/products-oip_8.jpeg"
-    ],
-    "stock": 50,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Kodak Max Alkaline 4LR44 Battery",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_26_kodak-max-alkaline-4lr44-batte_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_27_redmi-wireless-earbuds-buds-6-",
-    "title": "Redmi Wireless Earbuds Buds 6 Play",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "mobiles",
-    "price": 19.99,
-    "originalPrice": 25,
-    "rating": 5,
-    "reviewCount": 142,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2025/11/Redmi-Wireless-Earbuds-Buds-6-Play-Black-01.webp"
-    ],
-    "stock": 53,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Redmi Wireless Earbuds Buds 6 Play",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_27_redmi-wireless-earbuds-buds-6-_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_28_honor-x6c-6gb-128gb-4g",
-    "title": "HONOR X6C 6GB 128GB 4G",
-    "subtitle": "Honor Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Honor",
-    "category": "mobiles",
-    "price": 179.99,
-    "originalPrice": 225,
-    "rating": 4.8,
-    "reviewCount": 147,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/03/HONOR-X6C-6GB-128GB-4G-1.webp"
-    ],
-    "stock": 16,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "HONOR X6C 6GB 128GB 4G",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_28_honor-x6c-6gb-128gb-4g_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_29_jbl-bluetooth-headset-tune-520",
-    "title": "Jbl Bluetooth Headset Tune 520BT",
-    "subtitle": "JBL Official Hardware • Cleopatra Web Store Oman",
-    "brand": "JBL",
-    "category": "audio",
-    "price": 39.99,
-    "originalPrice": 50,
-    "rating": 4.8999999999999995,
-    "reviewCount": 152,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2023/10/01.webp"
-    ],
-    "stock": 19,
-    "featured": false,
-    "flashDeal": true,
-    "flashDealDiscount": 20,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Jbl Bluetooth Headset Tune 520BT",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_29_jbl-bluetooth-headset-tune-520_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_30_canon-cartridge-445-and-446-co",
-    "title": "Canon Cartridge 445 And 446 Combo Pack",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "accessories",
-    "price": 39.99,
-    "originalPrice": 50,
-    "rating": 5,
-    "reviewCount": 157,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2024/05/products-untitled_design_-_2024-05-08t184913.986.jpg"
-    ],
-    "stock": 22,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Canon Cartridge 445 And 446 Combo P",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_30_canon-cartridge-445-and-446-co_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_31_anker-true-wirless-earbuds-a39",
-    "title": "Anker True Wirless EarBuds A3949 R50i",
-    "subtitle": "Anker Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Anker",
-    "category": "audio",
-    "price": 19.99,
-    "originalPrice": 25,
-    "rating": 4.8,
-    "reviewCount": 12,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2023/10/products-r50i-2.png"
-    ],
-    "stock": 25,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Anker True Wirless EarBuds A3949 R5",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_31_anker-true-wirless-earbuds-a39_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_32_canon-pg445-black-cartridge",
-    "title": "Canon PG445 Black cartridge",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "accessories",
-    "price": 39.99,
-    "originalPrice": 50,
-    "rating": 4.8999999999999995,
-    "reviewCount": 17,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2020/04/products-canon_445_cartridge.jpg"
-    ],
-    "stock": 28,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Canon PG445 Black cartridge",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_32_canon-pg445-black-cartridge_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_33_joy-professional-2-in-1-stylin",
-    "title": "JOY PROFESSIONAL 2 in 1 Styling Brush",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "accessories",
-    "price": 39.99,
-    "originalPrice": 50,
-    "rating": 5,
-    "reviewCount": 22,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2023/10/products-71vxlxcjztl._ac_sl1500_.jpg"
-    ],
-    "stock": 31,
-    "featured": false,
-    "flashDeal": true,
-    "flashDealDiscount": 20,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "JOY PROFESSIONAL 2 in 1 Styling Bru",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_33_joy-professional-2-in-1-stylin_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_34_iphone-16-pro-max-5g-8gb-256gb",
-    "title": "Iphone 16 Pro Max 5G 8Gb 256Gb",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "mobiles",
-    "price": 899.99,
-    "originalPrice": 1125,
-    "rating": 4.8,
-    "reviewCount": 27,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2024/09/products-1_117.png"
-    ],
-    "stock": 34,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Iphone 16 Pro Max 5G 8Gb 256Gb",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_34_iphone-16-pro-max-5g-8gb-256gb_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_35_enzo-8-in-1-hair-straightener-",
-    "title": "Enzo 8 IN 1 Hair Straightener 4133 Pro Max",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "mobiles",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8999999999999995,
-    "reviewCount": 32,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/Enzo-8-IN-1-Hair-Straightener-4133-Pro-Max-.png"
-    ],
-    "stock": 37,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Enzo 8 IN 1 Hair Straightener 4133 ",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_35_enzo-8-in-1-hair-straightener-_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_36_enzo-7-in-1-hair-straightener-",
-    "title": "Enzo 7 IN 1 Hair Straightener EN-760",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "accessories",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 5,
-    "reviewCount": 37,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/Enzo-7-IN-1-Hair-Straightener-EN-760-.png"
-    ],
-    "stock": 40,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Enzo 7 IN 1 Hair Straightener EN-76",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_36_enzo-7-in-1-hair-straightener-_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_37_enzo-5-in-1-hair-straightener-",
-    "title": "Enzo 5 IN 1 Hair Straightener Set EN-4142",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "accessories",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8,
-    "reviewCount": 42,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/Enzo-5-IN-1-Hair-Straightener-Set-EN-4142-.png"
-    ],
-    "stock": 43,
-    "featured": false,
-    "flashDeal": true,
-    "flashDealDiscount": 20,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Enzo 5 IN 1 Hair Straightener Set E",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_37_enzo-5-in-1-hair-straightener-_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_38_cleo-sfo-folding-table-with-4-",
-    "title": "Cleo-SFO Folding Table With 4 Chairs Set",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "accessories",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8999999999999995,
-    "reviewCount": 47,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/Cleo-SFO-Folding-Table-With-4-Chairs-Set-.png"
-    ],
-    "stock": 46,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Cleo-SFO Folding Table With 4 Chair",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_38_cleo-sfo-folding-table-with-4-_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_39_playx-compact-racing-simulator",
-    "title": "PlayX Compact Racing Simulator RS1",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "accessories",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 5,
-    "reviewCount": 52,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/PlayX-Compact-Racing-Simulator-RS1.png"
-    ],
-    "stock": 49,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "PlayX Compact Racing Simulator RS1",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_39_playx-compact-racing-simulator_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_40_playx-wireless-gaming-headset-",
-    "title": "PlayX Wireless Gaming Headset H01",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "accessories",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8,
-    "reviewCount": 57,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/PlayX-Wireless-Gaming-Headset-H01-.png"
-    ],
-    "stock": 52,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "PlayX Wireless Gaming Headset H01",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_40_playx-wireless-gaming-headset-_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_41_enzo-6-in-1-hair-straightener-",
-    "title": "Enzo 6 In 1 Hair Straightener EN 4133-5",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "accessories",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8999999999999995,
-    "reviewCount": 62,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/Enzo-6-In-1-Hair-Straightener-EN-4133-5-.png"
-    ],
-    "stock": 15,
-    "featured": false,
-    "flashDeal": true,
-    "flashDealDiscount": 20,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Enzo 6 In 1 Hair Straightener EN 41",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_41_enzo-6-in-1-hair-straightener-_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_42_keva-silicon-case-galaxy-a07-a",
-    "title": "Keva Silicon Case Galaxy A07 / A17 / A27 / A37 / A57 Clear",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "accessories",
-    "price": 899.99,
-    "originalPrice": 1125,
-    "rating": 5,
-    "reviewCount": 67,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/Keva-Silicon-Case-Galaxy-A07-A17-A27-A37-A57-Clear-.png"
-    ],
-    "stock": 18,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Keva Silicon Case Galaxy A07 / A17 ",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_42_keva-silicon-case-galaxy-a07-a_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_43_yesido-yh51-decode-direct-plug",
-    "title": "Yesido YH51 Decode Direct Plug For Lightning Earphone",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "mobiles",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8,
-    "reviewCount": 72,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/Yesido-YH51-Decode-Direct-Plug-For-Lightning-Earphone-.png"
-    ],
-    "stock": 21,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Yesido YH51 Decode Direct Plug For ",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_43_yesido-yh51-decode-direct-plug_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_44_go-des-gd-hd313-car-cup-tablet",
-    "title": "Go-des GD HD313 Car Cup Tablet Holder",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "accessories",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8999999999999995,
-    "reviewCount": 77,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/Go-des-GD-HD313-Car-Cup-Tablet-Holder-.png"
-    ],
-    "stock": 24,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Go-des GD HD313 Car Cup Tablet Hold",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_44_go-des-gd-hd313-car-cup-tablet_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_45_cleo-ma-langsdom-bluetooth-nec",
-    "title": "Cleo-MA Langsdom Bluetooth Neckband",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "wearables",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 5,
-    "reviewCount": 82,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/Cleo-MA-Langsdom-Bluetooth-Neckband-.png"
-    ],
-    "stock": 27,
-    "featured": false,
-    "flashDeal": true,
-    "flashDealDiscount": 20,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Cleo-MA Langsdom Bluetooth Neckband",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_45_cleo-ma-langsdom-bluetooth-nec_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_46_anker-data-cable-a8752h11-usb-",
-    "title": "Anker Data Cable A8752H11 Usb-C to Usb-C Braided 60w 1mtr/3.3ft",
-    "subtitle": "Anker Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Anker",
-    "category": "cables",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8,
-    "reviewCount": 87,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/Anker-Data-Cable-A8752H11-Usb-C-to-Usb-C-Braided-60w-1mtr3.3ft-.png"
-    ],
-    "stock": 30,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Anker Data Cable A8752H11 Usb-C to ",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_46_anker-data-cable-a8752h11-usb-_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_47_anker-data-cable-a8060-zolo-us",
-    "title": "Anker Data Cable A8060 Zolo Usb C To Usb C Brieded 240w 3.3ft",
-    "subtitle": "Anker Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Anker",
-    "category": "cables",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8999999999999995,
-    "reviewCount": 92,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/Anker-Data-Cable-A8060-Zolo-Usb-C-To-Usb-C-Brieded-240w-3.3ft-.png"
-    ],
-    "stock": 33,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Anker Data Cable A8060 Zolo Usb C T",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_47_anker-data-cable-a8060-zolo-us_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_48_jbl-live-780nc-wireless-over-e",
-    "title": "Jbl Live 780NC Wireless Over Ear Headphope Black",
-    "subtitle": "JBL Official Hardware • Cleopatra Web Store Oman",
-    "brand": "JBL",
-    "category": "audio",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 5,
-    "reviewCount": 97,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/Jbl-Live-780NC-Wireless-Over-Ear-Headphope-Black-.png"
-    ],
-    "stock": 36,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Jbl Live 780NC Wireless Over Ear He",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_48_jbl-live-780nc-wireless-over-e_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_49_jbl-quantum-650-wireless-gamin",
-    "title": "Jbl Quantum 650 Wireless Gaming Headset Black",
-    "subtitle": "JBL Official Hardware • Cleopatra Web Store Oman",
-    "brand": "JBL",
-    "category": "audio",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8,
-    "reviewCount": 102,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/Jbl-Quantum-650-Wireless-Gaming-Headset-Black-.png"
-    ],
-    "stock": 39,
-    "featured": false,
-    "flashDeal": true,
-    "flashDealDiscount": 20,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Jbl Quantum 650 Wireless Gaming Hea",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_49_jbl-quantum-650-wireless-gamin_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_50_jbl-quantum-650-wireless-gamin",
-    "title": "Jbl Quantum 650 Wireless Gaming Headset White",
-    "subtitle": "JBL Official Hardware • Cleopatra Web Store Oman",
-    "brand": "JBL",
-    "category": "audio",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8999999999999995,
-    "reviewCount": 107,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/Jbl-Quantum-650-Wireless-Gaming-Headset-White-.png"
-    ],
-    "stock": 42,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Jbl Quantum 650 Wireless Gaming Hea",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_50_jbl-quantum-650-wireless-gamin_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_51_digitplus-data-cable-dp-c151l-",
-    "title": "DigitPlus Data Cable DP-C151L Usb-A to Lightning 1mtr",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "cables",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 5,
-    "reviewCount": 112,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/DigitPlus-Data-Cable-DP-C151L-Usb-A-to-Lightning-1mtr-.png"
-    ],
-    "stock": 45,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "DigitPlus Data Cable DP-C151L Usb-A",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_51_digitplus-data-cable-dp-c151l-_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_52_digitplus-data-cable-dp-c145t-",
-    "title": "DigitPlus Data Cable DP-C145T Usb-A to Usb C 1.2Mtr",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "cables",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8,
-    "reviewCount": 117,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/DigitPlus-Data-Cable-DP-C145T-Usb-A-to-Usb-C-1.2Mtr-.png"
-    ],
-    "stock": 48,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "DigitPlus Data Cable DP-C145T Usb-A",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_52_digitplus-data-cable-dp-c145t-_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_53_digitplus-data-cable-dp-c106t-",
-    "title": "Digitplus Data Cable DP-C106T Usb C to Usb C 60w 3mtr",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "cables",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8999999999999995,
-    "reviewCount": 122,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/Digitplus-Data-Cable-DP-C106T-Usb-C-to-Usb-C-60w-3mtr.png"
-    ],
-    "stock": 51,
-    "featured": false,
-    "flashDeal": true,
-    "flashDealDiscount": 20,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Digitplus Data Cable DP-C106T Usb C",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_53_digitplus-data-cable-dp-c106t-_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_54_digitplus-data-cable-dp-c106l-",
-    "title": "Digitplus Data Cable DP-C106L Usb C to Lightning 30w 3mtr",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "cables",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 5,
-    "reviewCount": 127,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/Digitplus-Data-Cable-DP-C106L-Usb-C-to-Lightning-30w-3mtr-.png"
-    ],
-    "stock": 54,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Digitplus Data Cable DP-C106L Usb C",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_54_digitplus-data-cable-dp-c106l-_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_55_digitplus-data-cable-dp-c105l-",
-    "title": "Digitplus Data Cable DP-C105L Usb C to Lightning 30w 2mtr",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "cables",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8,
-    "reviewCount": 132,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/Digitplus-Data-Cable-DP-C105L-Usb-C-to-Lightning-30w-2mtr.png"
-    ],
-    "stock": 17,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Digitplus Data Cable DP-C105L Usb C",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_55_digitplus-data-cable-dp-c105l-_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_56_honor-choice-t10-4gb-64gb-4g-g",
-    "title": "Honor Choice T10 4gb 64gb 4g Gsm",
-    "subtitle": "Honor Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Honor",
-    "category": "mobiles",
-    "price": 89.99,
-    "originalPrice": 112,
-    "rating": 4.8999999999999995,
-    "reviewCount": 137,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/HONOR-T10-SILVER-1.webp"
-    ],
-    "stock": 20,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Honor Choice T10 4gb 64gb 4g Gsm",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_56_honor-choice-t10-4gb-64gb-4g-g_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_57_honor-choice-t10-3gb-32gb-4g-g",
-    "title": "Honor Choice T10 3gb 32gb 4g Gsm",
-    "subtitle": "Honor Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Honor",
-    "category": "mobiles",
-    "price": 89.99,
-    "originalPrice": 112,
-    "rating": 5,
-    "reviewCount": 142,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/honor-choice-t10-64gb-4g-black-468_grande.webp"
-    ],
-    "stock": 23,
-    "featured": false,
-    "flashDeal": true,
-    "flashDealDiscount": 20,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Honor Choice T10 3gb 32gb 4g Gsm",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_57_honor-choice-t10-3gb-32gb-4g-g_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_58_samsung-galaxy-a16-4gb-128gb-4",
-    "title": "Samsung Galaxy A16 4gb 128gb 4g Gsm",
-    "subtitle": "Samsung Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Samsung",
-    "category": "accessories",
-    "price": 89.99,
-    "originalPrice": 112,
-    "rating": 4.8,
-    "reviewCount": 147,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/sam-a16-black.jpg"
-    ],
-    "stock": 26,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Samsung Galaxy A16 4gb 128gb 4g Gsm",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_58_samsung-galaxy-a16-4gb-128gb-4_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_59_honor-x7e-plus-8gb-256gb-5g-gs",
-    "title": "Honor X7e Plus 8gb 256gb 5g Gsm",
-    "subtitle": "Honor Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Honor",
-    "category": "mobiles",
-    "price": 499.99,
-    "originalPrice": 625,
-    "rating": 4.8999999999999995,
-    "reviewCount": 152,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/x7e-plus-silver-1.webp"
-    ],
-    "stock": 29,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Honor X7e Plus 8gb 256gb 5g Gsm",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_59_honor-x7e-plus-8gb-256gb-5g-gs_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_60_honor-x7e-plus-6gb-128gb-5g-gs",
-    "title": "Honor X7e Plus 6gb 128gb 5g Gsm",
-    "subtitle": "Honor Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Honor",
-    "category": "mobiles",
-    "price": 179.99,
-    "originalPrice": 225,
-    "rating": 5,
-    "reviewCount": 157,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/x7e-plus.webp"
-    ],
-    "stock": 32,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Honor X7e Plus 6gb 128gb 5g Gsm",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_60_honor-x7e-plus-6gb-128gb-5g-gs_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_61_mi-redmi-pad-2-9-7-inch-wifi-f",
-    "title": "Mi Redmi Pad 2 9.7 Inch Wifi + Flip Cover",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "mobiles",
-    "price": 179.99,
-    "originalPrice": 225,
-    "rating": 4.8,
-    "reviewCount": 12,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/07/REDMI-PAD-2-9.7.webp"
-    ],
-    "stock": 35,
-    "featured": false,
-    "flashDeal": true,
-    "flashDealDiscount": 20,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Mi Redmi Pad 2 9.7 Inch Wifi + Flip",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_61_mi-redmi-pad-2-9-7-inch-wifi-f_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_62_honor-x7e-6gb-256gb-4g-gsm",
-    "title": "Honor X7e 6gb 256gb 4g Gsm",
-    "subtitle": "Honor Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Honor",
-    "category": "mobiles",
-    "price": 179.99,
-    "originalPrice": 225,
-    "rating": 4.8999999999999995,
-    "reviewCount": 17,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/07/X7E-BLUE.webp"
-    ],
-    "stock": 38,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Honor X7e 6gb 256gb 4g Gsm",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_62_honor-x7e-6gb-256gb-4g-gsm_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_63_samsung-galaxy-a17-5g-gsm-8gb-",
-    "title": "Samsung Galaxy A17 5g Gsm 8gb 256gb",
-    "subtitle": "Samsung Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Samsung",
-    "category": "accessories",
-    "price": 179.99,
-    "originalPrice": 225,
-    "rating": 5,
-    "reviewCount": 22,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/07/a17-5g-grey.webp"
-    ],
-    "stock": 41,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Samsung Galaxy A17 5g Gsm 8gb 256gb",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_63_samsung-galaxy-a17-5g-gsm-8gb-_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_64_huawei-nova-15-max-4g-gsm",
-    "title": "Huawei Nova 15 Max 4g Gsm",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "accessories",
-    "price": 499.99,
-    "originalPrice": 625,
-    "rating": 4.8,
-    "reviewCount": 27,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/06/HUAWEI-MAX-BLUSH-GOLD.webp"
-    ],
-    "stock": 44,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Huawei Nova 15 Max 4g Gsm",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_64_huawei-nova-15-max-4g-gsm_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_65_oneplus-15r-12gb-512gb-5g-gsm",
-    "title": "Oneplus 15r 12gb 512gb 5g Gsm",
-    "subtitle": "OnePlus Official Hardware • Cleopatra Web Store Oman",
-    "brand": "OnePlus",
-    "category": "accessories",
-    "price": 499.99,
-    "originalPrice": 625,
-    "rating": 4.8999999999999995,
-    "reviewCount": 32,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/05/oneplus-15r-mint.webp"
-    ],
-    "stock": 47,
-    "featured": false,
-    "flashDeal": true,
-    "flashDealDiscount": 20,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Oneplus 15r 12gb 512gb 5g Gsm",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_65_oneplus-15r-12gb-512gb-5g-gsm_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_66_oneplus-15-16gb-512gb-5g-gsm",
-    "title": "Oneplus 15 16gb 512gb 5g Gsm",
-    "subtitle": "OnePlus Official Hardware • Cleopatra Web Store Oman",
-    "brand": "OnePlus",
-    "category": "accessories",
-    "price": 899.99,
-    "originalPrice": 1125,
-    "rating": 5,
-    "reviewCount": 37,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/05/ONEPLUS-15-SAND-STORM.webp"
-    ],
-    "stock": 50,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Oneplus 15 16gb 512gb 5g Gsm",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_66_oneplus-15-16gb-512gb-5g-gsm_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_67_vivo-x300-pro-16gb-512gb-5g-gs",
-    "title": "Vivo X300 Pro 16gb 512gb 5g Gsm",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "accessories",
-    "price": 899.99,
-    "originalPrice": 1125,
-    "rating": 4.8,
-    "reviewCount": 42,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/05/X300-PRO-BROWN.webp"
-    ],
-    "stock": 53,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Vivo X300 Pro 16gb 512gb 5g Gsm",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_67_vivo-x300-pro-16gb-512gb-5g-gs_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_68_vivo-x200-fe-12gb-512gb-5g",
-    "title": "Vivo X200 FE 12GB 512GB 5G",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "accessories",
-    "price": 499.99,
-    "originalPrice": 625,
-    "rating": 4.8999999999999995,
-    "reviewCount": 47,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/05/X200-FE-YELLOW.webp"
-    ],
-    "stock": 16,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Vivo X200 FE 12GB 512GB 5G",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_68_vivo-x200-fe-12gb-512gb-5g_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_69_tecno-pova-curve-2-12gb-256gb-",
-    "title": "Tecno Pova Curve 2 12gb 256gb 5g Gsm",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "accessories",
-    "price": 499.99,
-    "originalPrice": 625,
-    "rating": 5,
-    "reviewCount": 52,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/05/curve-2-purple.webp"
-    ],
-    "stock": 19,
-    "featured": false,
-    "flashDeal": true,
-    "flashDealDiscount": 20,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Tecno Pova Curve 2 12gb 256gb 5g Gs",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_69_tecno-pova-curve-2-12gb-256gb-_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_70_tecno-spark-40-5g-8gb-256gb-gs",
-    "title": "Tecno Spark 40 5g 8gb 256gb Gsm",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "accessories",
-    "price": 179.99,
-    "originalPrice": 225,
-    "rating": 4.8,
-    "reviewCount": 57,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/05/SPARK-40-BLUE.webp"
-    ],
-    "stock": 22,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Tecno Spark 40 5g 8gb 256gb Gsm",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_70_tecno-spark-40-5g-8gb-256gb-gs_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_71_tecno-spark-go-3-4gb-128gb-4g",
-    "title": "Tecno Spark go 3 4gb 128gb 4g",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "accessories",
-    "price": 89.99,
-    "originalPrice": 112,
-    "rating": 4.8999999999999995,
-    "reviewCount": 62,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/05/go-3-black.webp"
-    ],
-    "stock": 25,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Tecno Spark go 3 4gb 128gb 4g",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_71_tecno-spark-go-3-4gb-128gb-4g_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_72_samsung-galaxy-s25-fe-8gb-256g",
-    "title": "Samsung Galaxy S25 fe 8gb 256gb 5g Gsm",
-    "subtitle": "Samsung Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Samsung",
-    "category": "mobiles",
-    "price": 499.99,
-    "originalPrice": 625,
-    "rating": 5,
-    "reviewCount": 67,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/05/SAM-S25-FE-NAVY.jpg"
-    ],
-    "stock": 28,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Samsung Galaxy S25 fe 8gb 256gb 5g ",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_72_samsung-galaxy-s25-fe-8gb-256g_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_73_samsung-galaxy-a57-12gb-256gb-",
-    "title": "Samsung Galaxy A57 12gb 256gb 5g Gsm",
-    "subtitle": "Samsung Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Samsung",
-    "category": "accessories",
-    "price": 499.99,
-    "originalPrice": 625,
-    "rating": 4.8,
-    "reviewCount": 72,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/05/sam-a57-iceblue-1.webp"
-    ],
-    "stock": 31,
-    "featured": false,
-    "flashDeal": true,
-    "flashDealDiscount": 20,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Samsung Galaxy A57 12gb 256gb 5g Gs",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_73_samsung-galaxy-a57-12gb-256gb-_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_74_honor-600-12gb-256gb-5g-gsm",
-    "title": "Honor 600 12gb 256gb 5g Gsm",
-    "subtitle": "Honor Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Honor",
-    "category": "mobiles",
-    "price": 499.99,
-    "originalPrice": 625,
-    "rating": 4.8999999999999995,
-    "reviewCount": 77,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/05/honor-600-black-1-1.jpg"
-    ],
-    "stock": 34,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Honor 600 12gb 256gb 5g Gsm",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_74_honor-600-12gb-256gb-5g-gsm_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_75_digitplus-data-cable-dp-c105t-",
-    "title": "Digitplus Data Cable DP-C105T Usb C to Usb C 60w 2mtr",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "cables",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 5,
-    "reviewCount": 82,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/Digitplus-Data-Cable-DP-C105T-Usb-C-to-Usb-C-60w-2mtr-.png"
-    ],
-    "stock": 37,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Digitplus Data Cable DP-C105T Usb C",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_75_digitplus-data-cable-dp-c105t-_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_76_digitplus-data-cable-dp-c103l-",
-    "title": "Digitplus Data Cable DP-C103L Usb C to Lightning 60w 2mtr",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "cables",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8,
-    "reviewCount": 87,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/Digitplus-Data-Cable-DP-C103L-Usb-C-to-Lightning-60w-2mtr.png"
-    ],
-    "stock": 40,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Digitplus Data Cable DP-C103L Usb C",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_76_digitplus-data-cable-dp-c103l-_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_77_digitplus-data-cable-dp-c103t-",
-    "title": "Digitplus Data Cable DP-C103T Usb C to Usb C 60w 2mtr",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "cables",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8999999999999995,
-    "reviewCount": 92,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/Digitplus-Data-Cable-DP-C103T-Usb-C-to-Usb-C-60w-2mtr-.png"
-    ],
-    "stock": 43,
-    "featured": false,
-    "flashDeal": true,
-    "flashDealDiscount": 20,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Digitplus Data Cable DP-C103T Usb C",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_77_digitplus-data-cable-dp-c103t-_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_78_digitplus-data-cable-dp-c164t-",
-    "title": "Digitplus Data Cable DP-C164T Usb-C to Usb-C 60w 5mtr",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "cables",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 5,
-    "reviewCount": 97,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/Digitplus-Data-Cable-DP-C164T-Usb-C-to-Usb-C-60w-5mtr.png"
-    ],
-    "stock": 46,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Digitplus Data Cable DP-C164T Usb-C",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_78_digitplus-data-cable-dp-c164t-_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_79_philips-wall-charger-dlp2629cw",
-    "title": "Philips Wall Charger DLP2629cw 20w Usb-C Adapter",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "chargers",
-    "price": 39.99,
-    "originalPrice": 50,
-    "rating": 4.8,
-    "reviewCount": 102,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/Philips-Wall-Charger-DLP2629cw-20w-Usb-C-Adapte-.png"
-    ],
-    "stock": 49,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Philips Wall Charger DLP2629cw 20w ",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_79_philips-wall-charger-dlp2629cw_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_80_philips-data-cable-dlc4561cb-u",
-    "title": "Philips Data Cable DLC4561CB Usb C to Usb C 6ft 65w",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "cables",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8999999999999995,
-    "reviewCount": 107,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/Philips-Data-Cable-DLC4561CB-Usb-C-to-Usb-C-6ft-65w-.png"
-    ],
-    "stock": 52,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Philips Data Cable DLC4561CB Usb C ",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_80_philips-data-cable-dlc4561cb-u_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_81_anker-data-cable-a81f7-usb-c-t",
-    "title": "Anker Data Cable A81F7 Usb C to Usb C 10ft/3mtr Power Line 60w",
-    "subtitle": "Anker Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Anker",
-    "category": "cables",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 5,
-    "reviewCount": 112,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/Anker-Data-Cable-A81F7-Usb-C-to-Usb-C-10ft3mtr-Power-Line-60w-.png"
-    ],
-    "stock": 15,
-    "featured": false,
-    "flashDeal": true,
-    "flashDealDiscount": 20,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Anker Data Cable A81F7 Usb C to Usb",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_81_anker-data-cable-a81f7-usb-c-t_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_82_anker-data-cable-a81h7-usb-a-t",
-    "title": "Anker Data Cable A81H7 Usb A to Usb C 10ft/3mtr Power Line 322",
-    "subtitle": "Anker Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Anker",
-    "category": "cables",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8,
-    "reviewCount": 117,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/Anker-Data-Cable-A81H7-Usb-A-to-Usb-C-10ft3mtr-Power-Line-322-.png"
-    ],
-    "stock": 18,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Anker Data Cable A81H7 Usb A to Usb",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_82_anker-data-cable-a81h7-usb-a-t_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_83_belkin-wiz040my-ultra-charger-",
-    "title": "Belkin wiz040my Ultra Charger Pro 3 in 1 Magnetic Charging Dock",
-    "subtitle": "Belkin Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Belkin",
-    "category": "chargers",
-    "price": 39.99,
-    "originalPrice": 50,
-    "rating": 4.8999999999999995,
-    "reviewCount": 122,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/Belkin-wiz040my-Ultra-Charger-Pro-3-in-1-Magnetic-Charging-Dock-.png"
-    ],
-    "stock": 21,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Belkin wiz040my Ultra Charger Pro 3",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_83_belkin-wiz040my-ultra-charger-_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_84_belkin-data-cable-cab001bt-usb",
-    "title": "Belkin Data Cable CAB001bt Usb A to Usb C Boost Caharge 1mtr",
-    "subtitle": "Belkin Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Belkin",
-    "category": "cables",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 5,
-    "reviewCount": 127,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/Belkin-Data-Cable-CAB001bt-Usb-A-to-Usb-C-Boost-Caharge-1mtr-.png"
-    ],
-    "stock": 24,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Belkin Data Cable CAB001bt Usb A to",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_84_belkin-data-cable-cab001bt-usb_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_85_beats-mdgd4zm-a-type-c-to-c-ca",
-    "title": "Beats MDGD4ZM/A Type C to C Cable (1.5 m / 5 ft) Surge Stone",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "cables",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8,
-    "reviewCount": 132,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/07/Beats-MDGD4ZMA-Type-C-to-C-Cable-1.5-m-5-ft-Surge-Stone.png"
-    ],
-    "stock": 27,
-    "featured": false,
-    "flashDeal": true,
-    "flashDealDiscount": 20,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Beats MDGD4ZM/A Type C to C Cable (",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_85_beats-mdgd4zm-a-type-c-to-c-ca_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_86_beats-mdga4ee-a-type-c-to-c-ca",
-    "title": "Beats MDGA4EE/A Type C to C Cable (1.5 m / 5 ft) Bolt Black",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "cables",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8999999999999995,
-    "reviewCount": 137,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/07/Beats-MDGA4EEA-Type-C-to-C-Cable-1.5-m-5-ft-Bolt-Black-.png"
-    ],
-    "stock": 30,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Beats MDGA4EE/A Type C to C Cable (",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_86_beats-mdga4ee-a-type-c-to-c-ca_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_87_digitplus-fast-charg-aadapter-",
-    "title": "Digitplus Fast Charg Aadapter Dp-Pd038 30w",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "chargers",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 5,
-    "reviewCount": 142,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/07/Digitplus-Fast-Charg-Aadapter-Dp-Pd038-30w-.png"
-    ],
-    "stock": 33,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Digitplus Fast Charg Aadapter Dp-Pd",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_87_digitplus-fast-charg-aadapter-_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_88_belkin-wall-charger-wca013my-a",
-    "title": "Belkin Wall Charger WCA013My Adaptor Pd 45w",
-    "subtitle": "Belkin Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Belkin",
-    "category": "chargers",
-    "price": 39.99,
-    "originalPrice": 50,
-    "rating": 4.8,
-    "reviewCount": 147,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/07/Belkin-Wall-Charger-WCA013My-Adaptor-Pd-45w-.png"
-    ],
-    "stock": 36,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Belkin Wall Charger WCA013My Adapto",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_88_belkin-wall-charger-wca013my-a_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_89_xiaomi-mi-home-charger-usb-a-t",
-    "title": "Xiaomi Mi Home Charger Usb A to Usb C Combo 120w",
-    "subtitle": "Xiaomi Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Xiaomi",
-    "category": "mobiles",
-    "price": 39.99,
-    "originalPrice": 50,
-    "rating": 4.8999999999999995,
-    "reviewCount": 152,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/06/Xiaomi-Mi-Home-Charger-Usb-A-to-Usb-C-Combo-120w-.png"
-    ],
-    "stock": 39,
-    "featured": false,
-    "flashDeal": true,
-    "flashDealDiscount": 20,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Xiaomi Mi Home Charger Usb A to Usb",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_89_xiaomi-mi-home-charger-usb-a-t_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_90_cleo-ma-ac-09cc-pd-25w-super-f",
-    "title": "Cleo-MA AC 09CC Pd 25w Super Fast Charger With C To C Cable",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "chargers",
-    "price": 39.99,
-    "originalPrice": 50,
-    "rating": 5,
-    "reviewCount": 157,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/06/Cleo-Ma-Ac-09cc-Pd-25w-Super-Fast-Charger-With-C-To-C-Cable.jpg"
-    ],
-    "stock": 42,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Cleo-MA AC 09CC Pd 25w Super Fast C",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_90_cleo-ma-ac-09cc-pd-25w-super-f_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_91_cleo-ma-smart-tracking-selfie-",
-    "title": "Cleo-MA Smart Tracking Selfie Stick Q13 NGB-847",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "accessories",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8,
-    "reviewCount": 12,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/06/Cleo-MA-Smart-Tracking-Selfie-Stick-Q13-NGB-847-.png"
-    ],
-    "stock": 45,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Cleo-MA Smart Tracking Selfie Stick",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_91_cleo-ma-smart-tracking-selfie-_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_92_haino-teko-usb-to-micro-cable-",
-    "title": "Haino Teko USB To Micro Cable 3M",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "cables",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8999999999999995,
-    "reviewCount": 17,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/06/Haino-Teko-USB-To-Micro-Cable-3M.png"
-    ],
-    "stock": 48,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Haino Teko USB To Micro Cable 3M",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_92_haino-teko-usb-to-micro-cable-_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_93_haino-teko-usb-to-type-c-cable",
-    "title": "Haino Teko USB To Type C Cable 3M",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "cables",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 5,
-    "reviewCount": 22,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/06/Haino-Teko-Usb-To-Type-C-Cable-3m-1.png"
-    ],
-    "stock": 51,
-    "featured": false,
-    "flashDeal": true,
-    "flashDealDiscount": 20,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Haino Teko USB To Type C Cable 3M",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_93_haino-teko-usb-to-type-c-cable_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_94_haino-teko-cable-usb-to-micro-",
-    "title": "Haino Teko Cable USB To Micro 1.5M",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "cables",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8,
-    "reviewCount": 27,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/06/Haino-Teko-Cable-USB-To-Micro-1.5M-1.png"
-    ],
-    "stock": 54,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Haino Teko Cable USB To Micro 1.5M",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_94_haino-teko-cable-usb-to-micro-_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_95_haino-teko-c-to-lightning-150-",
-    "title": "Haino Teko C To Lightning-150 Charging Cable 1.5M",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "chargers",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8999999999999995,
-    "reviewCount": 32,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/06/Haino-Teko-C-To-Lightning-150-Charging-Cable-1.5m.png"
-    ],
-    "stock": 17,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Haino Teko C To Lightning-150 Charg",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_95_haino-teko-c-to-lightning-150-_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_96_xkin-charger-xk-hc146-45w-usb-",
-    "title": "Xkin Charger Xk-hc146 45W USB-C Charger with Cable Fast PD Wall Adapter",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "chargers",
-    "price": 39.99,
-    "originalPrice": 50,
-    "rating": 5,
-    "reviewCount": 37,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/06/Xkin-Charger-Xk-hc45-20W-Charger-with-C-To-Lighting-Cable-1-3.png"
-    ],
-    "stock": 20,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Xkin Charger Xk-hc146 45W USB-C Cha",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_96_xkin-charger-xk-hc146-45w-usb-_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_97_philips-powerbank-dlp6731cg-20",
-    "title": "Philips PowerBank DLP6731CG 20000mah Dual port PD 100w",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "accessories",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8,
-    "reviewCount": 42,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/Philips-PowerBank-DLP6731CG-20000mah-Dual-port-PD-100w-.png"
-    ],
-    "stock": 23,
-    "featured": false,
-    "flashDeal": true,
-    "flashDealDiscount": 20,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Philips PowerBank DLP6731CG 20000ma",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_97_philips-powerbank-dlp6731cg-20_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_98_anker-powerbank-a110jh11-zolo-",
-    "title": "Anker PowerBank A110Jh11 Zolo 10000Mah Built For Endurance 30w",
-    "subtitle": "Anker Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Anker",
-    "category": "accessories",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8999999999999995,
-    "reviewCount": 47,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/Anker-PowerBank-A110Kh11-Zolo-5000Mah-Built-For-Endurance-15w-.png"
-    ],
-    "stock": 26,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Anker PowerBank A110Jh11 Zolo 10000",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_98_anker-powerbank-a110jh11-zolo-_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_99_anker-powerbank-a110lh12-zolo-",
-    "title": "Anker PowerBank A110Lh12 Zolo 10000mah Dual in-Built Usb-C Cables 35w",
-    "subtitle": "Anker Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Anker",
-    "category": "cables",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 5,
-    "reviewCount": 52,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/Anker-PowerBank-A110Lh12-Zolo-10000mah-Dual-in-Built-Usb-C-Cables-35w-.png"
-    ],
-    "stock": 29,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Anker PowerBank A110Lh12 Zolo 10000",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_99_anker-powerbank-a110lh12-zolo-_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_100_anker-powerbank-a110kh11-zolo-",
-    "title": "Anker PowerBank A110Kh11 Zolo 5000Mah Built For Endurance 15w",
-    "subtitle": "Anker Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Anker",
-    "category": "accessories",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8,
-    "reviewCount": 57,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/Anker-PowerBank-A110Kh11-Zolo-5000Mah-Built-For-Endurance-15w-.png"
-    ],
-    "stock": 32,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Anker PowerBank A110Kh11 Zolo 5000M",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_100_anker-powerbank-a110kh11-zolo-_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_101_anker-wireless-power-bank-a165",
-    "title": "Anker Wireless Power Bank A1654 Stand with display10k 15w",
-    "subtitle": "Anker Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Anker",
-    "category": "chargers",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8999999999999995,
-    "reviewCount": 62,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/07/Anker-Wireless-Power-Bank-A1654-Stand-with-display10k-15w-1-1.png"
-    ],
-    "stock": 35,
-    "featured": false,
-    "flashDeal": true,
-    "flashDealDiscount": 20,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Anker Wireless Power Bank A1654 Sta",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_101_anker-wireless-power-bank-a165_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_102_acefast-fast-charge-power-bank",
-    "title": "Acefast Fast Charge Power Bank M34 PD45W 20000mAh",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "chargers",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 5,
-    "reviewCount": 67,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/07/Acefast-Fast-Charge-Power-Bank-M34-PD45W-20000mAh-.png"
-    ],
-    "stock": 38,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Acefast Fast Charge Power Bank M34 ",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_102_acefast-fast-charge-power-bank_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_103_acefast-fast-charge-power-bank",
-    "title": "Acefast Fast Charge Power Bank M32 PD35W 10000mAh",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "chargers",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8,
-    "reviewCount": 72,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/07/Acefast-Fast-Charge-Power-Bank-M32-PD35W-10000mAh.png"
-    ],
-    "stock": 41,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Acefast Fast Charge Power Bank M32 ",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_103_acefast-fast-charge-power-bank_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_104_cleo-ma-t171p-magnetic15w-wire",
-    "title": "Cleo-MA T171P Magnetic15W Wireless Power Bank 5K Pd 20w ( CCC )",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "chargers",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8999999999999995,
-    "reviewCount": 77,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/07/Cleo-MA-T171P-Magnetic15W-Wireless-Power-Bank-5K-Pd-20w-CCC-.png"
-    ],
-    "stock": 44,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Cleo-MA T171P Magnetic15W Wireless ",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_104_cleo-ma-t171p-magnetic15w-wire_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_105_cleo-ma-t173lp-built-usb-c-cab",
-    "title": "Cleo-MA T173LP Built Usb C Cable 20000Mah 65w CCC",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "cables",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 5,
-    "reviewCount": 82,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/07/Cleo-MA-T173LP-Built-Usb-C-Cable-20000Mah-65w-CCC.png"
-    ],
-    "stock": 47,
-    "featured": false,
-    "flashDeal": true,
-    "flashDealDiscount": 20,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Cleo-MA T173LP Built Usb C Cable 20",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_105_cleo-ma-t173lp-built-usb-c-cab_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_106_anker-power-bank-165w-25000mah",
-    "title": "Anker Power Bank 165w 25000Mah Ultra-Fast Charging With Type-C Cable A1695H11",
-    "subtitle": "Anker Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Anker",
-    "category": "chargers",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8,
-    "reviewCount": 87,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/07/Anker-Power-Bank-165w-25000Mah-Ultra-Fast-Charging-With-Type-C-Cable-A1695H11.png"
-    ],
-    "stock": 50,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Anker Power Bank 165w 25000Mah Ultr",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_106_anker-power-bank-165w-25000mah_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_107_xkin-xk-pb423-super-mini-5000m",
-    "title": "Xkin Xk-pb423 Super Mini 5000mAh Power Bank with Built-in Cable",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "chargers",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8999999999999995,
-    "reviewCount": 92,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/06/Xkin-Xk-pb423-Super-Mini-5000mAh-Power-Bank-with-Built-in-Cable-1.png"
-    ],
-    "stock": 53,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Xkin Xk-pb423 Super Mini 5000mAh Po",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_107_xkin-xk-pb423-super-mini-5000m_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_108_u-green-45423b-two-way-fast-ch",
-    "title": "U Green 45423B Two Way Fast Charging Power Bank 20w",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "chargers",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 5,
-    "reviewCount": 97,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/06/Untitled-design-1-1.png"
-    ],
-    "stock": 16,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "U Green 45423B Two Way Fast Chargin",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_108_u-green-45423b-two-way-fast-ch_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_109_u-green-75701b-10000mah-55w-po",
-    "title": "U Green 75701B 10000mah 55w Power Bank",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "chargers",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8,
-    "reviewCount": 102,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/06/a-gift-17.png"
-    ],
-    "stock": 19,
-    "featured": false,
-    "flashDeal": true,
-    "flashDealDiscount": 20,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "U Green 75701B 10000mah 55w Power B",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_109_u-green-75701b-10000mah-55w-po_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_110_u-green-75982b-wireless-power-",
-    "title": "U Green 75982B Wireless Power Bank Magnetic 10000mah 30w",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "chargers",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8999999999999995,
-    "reviewCount": 107,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/06/a-gift-16.png"
-    ],
-    "stock": 22,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "U Green 75982B Wireless Power Bank ",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_110_u-green-75982b-wireless-power-_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_111_u-green-uno-q2-45337-wireless-",
-    "title": "U Green Uno Q2 45337 Wireless Power Bank Magnetic 10000mah 20w",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "chargers",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 5,
-    "reviewCount": 112,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/06/a-gift-15.png"
-    ],
-    "stock": 25,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "U Green Uno Q2 45337 Wireless Power",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_111_u-green-uno-q2-45337-wireless-_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_112_u-green-uno-35605b-wireless-po",
-    "title": "U Green Uno 35605b Wireless Power Bank Magnetic 10000mah 20w",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "chargers",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8,
-    "reviewCount": 117,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/06/a-gift-15.png"
-    ],
-    "stock": 28,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "U Green Uno 35605b Wireless Power B",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_112_u-green-uno-35605b-wireless-po_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_113_u-green-25919-wireless-power-b",
-    "title": "U Green 25919 Wireless Power Bank Magnetic 10000mah 20w",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "chargers",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8999999999999995,
-    "reviewCount": 122,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/06/a-gift-1-9.png"
-    ],
-    "stock": 31,
-    "featured": false,
-    "flashDeal": true,
-    "flashDealDiscount": 20,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "U Green 25919 Wireless Power Bank M",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_113_u-green-25919-wireless-power-b_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_114_u-green-25207-wireless-powerba",
-    "title": "U Green 25207 Wireless PowerBank Magnetic 10000mah 15w",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "accessories",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 5,
-    "reviewCount": 127,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/06/a-gift-14.png"
-    ],
-    "stock": 34,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "U Green 25207 Wireless PowerBank Ma",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_114_u-green-25207-wireless-powerba_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_115_belkin-bpd007-magnetic-15w-wir",
-    "title": "Belkin BPD007 Magnetic 15W Wireless Power Bank 8K + Stand",
-    "subtitle": "Belkin Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Belkin",
-    "category": "chargers",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8,
-    "reviewCount": 132,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/06/a-gift-13.png"
-    ],
-    "stock": 37,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Belkin BPD007 Magnetic 15W Wireless",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_115_belkin-bpd007-magnetic-15w-wir_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_116_belkin-bpd008bt-qi2-magnetic-1",
-    "title": "Belkin BPD008bt Qi2 Magnetic 15W Wireless Power Bank 10K + Stand",
-    "subtitle": "Belkin Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Belkin",
-    "category": "chargers",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8999999999999995,
-    "reviewCount": 137,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/06/a-gift-3-2.png"
-    ],
-    "stock": 40,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Belkin BPD008bt Qi2 Magnetic 15W Wi",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_116_belkin-bpd008bt-qi2-magnetic-1_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_117_belkin-bpb011bt-3-port-10k-pow",
-    "title": "Belkin BPB011bt 3-Port 10K Power Bank with USB-C 15W dual USB-A",
-    "subtitle": "Belkin Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Belkin",
-    "category": "chargers",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 5,
-    "reviewCount": 142,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/06/a-gift-3-4.png"
-    ],
-    "stock": 43,
-    "featured": false,
-    "flashDeal": true,
-    "flashDealDiscount": 20,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Belkin BPB011bt 3-Port 10K Power Ba",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_117_belkin-bpb011bt-3-port-10k-pow_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_118_belkin-bpb020-20k-65w-pd-3-por",
-    "title": "Belkin BPB020 20K 65W PD 3-Port Power Bank",
-    "subtitle": "Belkin Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Belkin",
-    "category": "chargers",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8,
-    "reviewCount": 147,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/06/a-gift-3-3.png"
-    ],
-    "stock": 46,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Belkin BPB020 20K 65W PD 3-Port Pow",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_118_belkin-bpb020-20k-65w-pd-3-por_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_119_belkin-bpd004bt-magnetic-wirel",
-    "title": "Belkin BPD004bt Magnetic Wireless Power Bank 5K",
-    "subtitle": "Belkin Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Belkin",
-    "category": "chargers",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8999999999999995,
-    "reviewCount": 152,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/06/a-gift-3-2.png"
-    ],
-    "stock": 49,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Belkin BPD004bt Magnetic Wireless P",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_119_belkin-bpd004bt-magnetic-wirel_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_120_telux-powerbank-pbvx05-voltx05",
-    "title": "Telux Powerbank PBVX05 Voltx05 20w Pd 5000mah",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "accessories",
-    "price": 19.99,
-    "originalPrice": 25,
-    "rating": 5,
-    "reviewCount": 157,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/03/Telux-Powerbank-PBVX05-Voltx05-20w-Pd-5000mah.jpg"
-    ],
-    "stock": 52,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Telux Powerbank PBVX05 Voltx05 20w ",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_120_telux-powerbank-pbvx05-voltx05_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_121_anker-powerbank-a1688-zolo-pow",
-    "title": "Anker Powerbank A1688 Zolo Powercore With Cable 10000Mah",
-    "subtitle": "Anker Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Anker",
-    "category": "cables",
-    "price": 39.99,
-    "originalPrice": 50,
-    "rating": 4.8,
-    "reviewCount": 12,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/03/Untitled-design-32.png"
-    ],
-    "stock": 15,
-    "featured": false,
-    "flashDeal": true,
-    "flashDealDiscount": 20,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Anker Powerbank A1688 Zolo Powercor",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_121_anker-powerbank-a1688-zolo-pow_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_122_anker-power-bank-a1237h11-2por",
-    "title": "Anker Power Bank A1237H11 2port 10000Mah 12w",
-    "subtitle": "Anker Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Anker",
-    "category": "chargers",
-    "price": 39.99,
-    "originalPrice": 50,
-    "rating": 4.8999999999999995,
-    "reviewCount": 17,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/03/Untitled-design-31-2.png"
-    ],
-    "stock": 18,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Anker Power Bank A1237H11 2port 100",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_122_anker-power-bank-a1237h11-2por_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_123_telux-powerbank-pbvx20-voltx20",
-    "title": "Telux Powerbank PBVX20 Voltx20 20w Pd 20000mah",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "accessories",
-    "price": 19.99,
-    "originalPrice": 25,
-    "rating": 5,
-    "reviewCount": 22,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/02/Telux-Powerbank-PBVX20-Voltx20-20w-Pd-20000mah.jpg"
-    ],
-    "stock": 21,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Telux Powerbank PBVX20 Voltx20 20w ",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_123_telux-powerbank-pbvx20-voltx20_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_124_jbl-cinema-soundbar-with-subwo",
-    "title": "Jbl Cinema Soundbar With Subwoofer SB550",
-    "subtitle": "JBL Official Hardware • Cleopatra Web Store Oman",
-    "brand": "JBL",
-    "category": "audio",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8,
-    "reviewCount": 27,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/Jbl-Cinema-Soundbar-With-Subwoofer-SB550-.png"
-    ],
-    "stock": 24,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Jbl Cinema Soundbar With Subwoofer ",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_124_jbl-cinema-soundbar-with-subwo_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_125_jbl-portable-party-speaker-clu",
-    "title": "Jbl Portable Party Speaker Club 130",
-    "subtitle": "JBL Official Hardware • Cleopatra Web Store Oman",
-    "brand": "JBL",
-    "category": "audio",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8999999999999995,
-    "reviewCount": 32,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/07/Jbl-Portable-Party-Speaker-Club-130.png"
-    ],
-    "stock": 27,
-    "featured": false,
-    "flashDeal": true,
-    "flashDealDiscount": 20,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Jbl Portable Party Speaker Club 130",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_125_jbl-portable-party-speaker-clu_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_126_jbl-powered-speaker-eon-712-12",
-    "title": "Jbl Powered Speaker Eon 712 12″ 1300w",
-    "subtitle": "JBL Official Hardware • Cleopatra Web Store Oman",
-    "brand": "JBL",
-    "category": "audio",
-    "price": 399.99,
-    "originalPrice": 500,
-    "rating": 5,
-    "reviewCount": 37,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/07/Jbl-Powered-Speaker-Eon-712-12-1300w.png"
-    ],
-    "stock": 30,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Jbl Powered Speaker Eon 712 12″ 130",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_126_jbl-powered-speaker-eon-712-12_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_127_cleo-ma-tiko-boom-box-3-super-",
-    "title": "Cleo-MA Tiko Boom Box 3 Super Bass Speaker",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "audio",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8,
-    "reviewCount": 42,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/06/Cleo-MA-Tiko-Boom-Box-3-Super-Bass-Speaker-.png"
-    ],
-    "stock": 33,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Cleo-MA Tiko Boom Box 3 Super Bass ",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_127_cleo-ma-tiko-boom-box-3-super-_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_128_cleo-el-multimedia-speaker-ms-",
-    "title": "Cleo-EL Multimedia Speaker MS-3629BT-M",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "audio",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8999999999999995,
-    "reviewCount": 47,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/06/Microphone-1-1.png"
-    ],
-    "stock": 36,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Cleo-EL Multimedia Speaker MS-3629B",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_128_cleo-el-multimedia-speaker-ms-_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_129_cleo-el-multimedia-speaker-ms-",
-    "title": "Cleo-EL Multimedia Speaker MS-3628BT",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "audio",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 5,
-    "reviewCount": 52,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/06/Microphone-8.png"
-    ],
-    "stock": 39,
-    "featured": false,
-    "flashDeal": true,
-    "flashDealDiscount": 20,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Cleo-EL Multimedia Speaker MS-3628B",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_129_cleo-el-multimedia-speaker-ms-_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_130_cleo-el-multimedia-speaker-ms-",
-    "title": "Cleo-EL Multimedia Speaker MS-2039BT",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "audio",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8,
-    "reviewCount": 57,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/06/Microphone-5.png"
-    ],
-    "stock": 42,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Cleo-EL Multimedia Speaker MS-2039B",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_130_cleo-el-multimedia-speaker-ms-_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_131_cleo-el-multimedia-speaker-ms-",
-    "title": "Cleo-EL Multimedia Speaker MS-3630BT",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "audio",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8999999999999995,
-    "reviewCount": 62,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/06/Microphone-4.png"
-    ],
-    "stock": 45,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Cleo-EL Multimedia Speaker MS-3630B",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_131_cleo-el-multimedia-speaker-ms-_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_132_cleo-el-multimedia-speaker-ms-",
-    "title": "Cleo-EL Multimedia Speaker MS-3632BT",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "audio",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 5,
-    "reviewCount": 67,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/06/Microphone-3.png"
-    ],
-    "stock": 48,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Cleo-EL Multimedia Speaker MS-3632B",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_132_cleo-el-multimedia-speaker-ms-_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_133_xtrike-me-wired-gaming-speaker",
-    "title": "Xtrike Me Wired Gaming Speaker SK-201",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "audio",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8,
-    "reviewCount": 72,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/05/Untitled-design-72.png"
-    ],
-    "stock": 51,
-    "featured": false,
-    "flashDeal": true,
-    "flashDealDiscount": 20,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Xtrike Me Wired Gaming Speaker SK-2",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_133_xtrike-me-wired-gaming-speaker_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_134_telux-bluetooth-speaker-auhb5-",
-    "title": "Telux Bluetooth Speaker AUHB5-SP Hibass 5w Waterproof",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "audio",
-    "price": 39.99,
-    "originalPrice": 50,
-    "rating": 4.8999999999999995,
-    "reviewCount": 77,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/03/Untitled-design-29-1.png"
-    ],
-    "stock": 54,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Telux Bluetooth Speaker AUHB5-SP Hi",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_134_telux-bluetooth-speaker-auhb5-_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_135_telux-bluetooth-speaker-auhb15",
-    "title": "Telux Bluetooth Speaker AUHB15-SP Hibass 15w Waterproof",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "audio",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 5,
-    "reviewCount": 82,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/03/Untitled-design-35.png"
-    ],
-    "stock": 17,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Telux Bluetooth Speaker AUHB15-SP H",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_135_telux-bluetooth-speaker-auhb15_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_136_anker-bluetooth-speaker-a31a30",
-    "title": "Anker Bluetooth Speaker A31A3012 Rave 3s Karaoke Party Dual Mic",
-    "subtitle": "Anker Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Anker",
-    "category": "audio",
-    "price": 179.99,
-    "originalPrice": 225,
-    "rating": 4.8,
-    "reviewCount": 87,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/03/Untitled-design-2-1.png"
-    ],
-    "stock": 20,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Anker Bluetooth Speaker A31A3012 Ra",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_136_anker-bluetooth-speaker-a31a30_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_137_jbl-portable-bluetooth-party-b",
-    "title": "Jbl Portable Bluetooth Party Box Speakers 720",
-    "subtitle": "JBL Official Hardware • Cleopatra Web Store Oman",
-    "brand": "JBL",
-    "category": "audio",
-    "price": 499.99,
-    "originalPrice": 625,
-    "rating": 4.8999999999999995,
-    "reviewCount": 92,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2025/12/LS_JBL_PARTYBOX_720_HERO_0041_x2.webp"
-    ],
-    "stock": 23,
-    "featured": false,
-    "flashDeal": true,
-    "flashDealDiscount": 20,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Jbl Portable Bluetooth Party Box Sp",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_137_jbl-portable-bluetooth-party-b_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_138_jbl-partybox-on-the-go-2-porta",
-    "title": "Jbl PartyBox On The Go 2 Portable Speaker With Mic",
-    "subtitle": "JBL Official Hardware • Cleopatra Web Store Oman",
-    "brand": "JBL",
-    "category": "audio",
-    "price": 499.99,
-    "originalPrice": 625,
-    "rating": 5,
-    "reviewCount": 97,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2025/11/618nde5NJ2L._AC_SL1280_.jpg"
-    ],
-    "stock": 26,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Jbl PartyBox On The Go 2 Portable S",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_138_jbl-partybox-on-the-go-2-porta_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_139_behringer-active-monitor-speak",
-    "title": "Behringer Active Monitor Speaker Pk110A 350w Built in Player",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "audio",
-    "price": 179.99,
-    "originalPrice": 225,
-    "rating": 4.8,
-    "reviewCount": 102,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2025/10/Image_BE_0313-AHH_PK110A_Front_XL-1.png"
-    ],
-    "stock": 29,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Behringer Active Monitor Speaker Pk",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_139_behringer-active-monitor-speak_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_140_behringer-studio-monitor-truth",
-    "title": "Behringer Studio Monitor Truth 3.5″ Bt Pair",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "wearables",
-    "price": 179.99,
-    "originalPrice": 225,
-    "rating": 4.8999999999999995,
-    "reviewCount": 107,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2025/10/Image_BE_0316-ABV_TRUTH-3.5-BT_Front_XL-1.png"
-    ],
-    "stock": 32,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Behringer Studio Monitor Truth 3.5″",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_140_behringer-studio-monitor-truth_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_141_behringer-studio-monitor-truth",
-    "title": "Behringer Studio Monitor Truth 4.5″ Bt Pairs",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "wearables",
-    "price": 179.99,
-    "originalPrice": 225,
-    "rating": 5,
-    "reviewCount": 112,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2025/10/Image_BE_0316-ABW_TRUTH-4.5-BT_Left_XL.png"
-    ],
-    "stock": 35,
-    "featured": false,
-    "flashDeal": true,
-    "flashDealDiscount": 20,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Behringer Studio Monitor Truth 4.5″",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_141_behringer-studio-monitor-truth_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_142_hp-multimedia-speaker-dhs-2111",
-    "title": "Hp Multimedia Speaker Dhs 2111",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "audio",
-    "price": 19.99,
-    "originalPrice": 25,
-    "rating": 4.8,
-    "reviewCount": 117,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2025/08/Hp-Multimedia-Speaker-Dhs-2111-1.jpg"
-    ],
-    "stock": 38,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Hp Multimedia Speaker Dhs 2111",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_142_hp-multimedia-speaker-dhs-2111_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_143_hp-multimedia-speaker-dhe6001",
-    "title": "Hp Multimedia Speaker Dhe6001",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "audio",
-    "price": 39.99,
-    "originalPrice": 50,
-    "rating": 4.8999999999999995,
-    "reviewCount": 122,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2025/08/Hp-Multimedia-Speaker-Dhe6001-1.jpg"
-    ],
-    "stock": 41,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Hp Multimedia Speaker Dhe6001",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_143_hp-multimedia-speaker-dhe6001_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_144_jbl-portable-bluetooth-party-s",
-    "title": "Jbl Portable Bluetooth Party Speakers 520",
-    "subtitle": "JBL Official Hardware • Cleopatra Web Store Oman",
-    "brand": "JBL",
-    "category": "audio",
-    "price": 499.99,
-    "originalPrice": 625,
-    "rating": 5,
-    "reviewCount": 127,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2025/06/Untitled-design-9.png"
-    ],
-    "stock": 44,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Jbl Portable Bluetooth Party Speake",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_144_jbl-portable-bluetooth-party-s_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_145_jbl-partybox-speaker-stage-320",
-    "title": "Jbl PartyBox Speaker Stage 320 Black",
-    "subtitle": "JBL Official Hardware • Cleopatra Web Store Oman",
-    "brand": "JBL",
-    "category": "audio",
-    "price": 499.99,
-    "originalPrice": 625,
-    "rating": 4.8,
-    "reviewCount": 132,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2025/06/jbl-320-33.png"
-    ],
-    "stock": 47,
-    "featured": false,
-    "flashDeal": true,
-    "flashDealDiscount": 20,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Jbl PartyBox Speaker Stage 320 Blac",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_145_jbl-partybox-speaker-stage-320_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_146_cpt-vintage-speaker-lk09",
-    "title": "Cpt Vintage Speaker lk09",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "audio",
-    "price": 49.99,
-    "originalPrice": 62,
-    "rating": 4.8999999999999995,
-    "reviewCount": 137,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2025/05/vintage-02.jpg"
-    ],
-    "stock": 50,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Cpt Vintage Speaker lk09",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_146_cpt-vintage-speaker-lk09_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_147_alhaan-speaker-sws-30w-2-way10",
-    "title": "Alhaan Speaker Sws 30w 2 way100v/8",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "audio",
-    "price": 89.99,
-    "originalPrice": 112,
-    "rating": 5,
-    "reviewCount": 142,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2025/05/Untitled-design-2025-05-07T190238.083.png"
-    ],
-    "stock": 53,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Alhaan Speaker Sws 30w 2 way100v/8",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_147_alhaan-speaker-sws-30w-2-way10_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_148_ahuja-csd6303t-speaker",
-    "title": "Ahuja Csd6303t Speaker",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "audio",
-    "price": 89.99,
-    "originalPrice": 112,
-    "rating": 4.8,
-    "reviewCount": 147,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2025/05/Untitled-design-2025-05-03T180158.623.png"
-    ],
-    "stock": 16,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Ahuja Csd6303t Speaker",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_148_ahuja-csd6303t-speaker_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_149_yamaha-stagepas-400-bt",
-    "title": "Yamaha Stagepas 400 Bt",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "accessories",
-    "price": 899.99,
-    "originalPrice": 1125,
-    "rating": 4.8999999999999995,
-    "reviewCount": 152,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2025/04/Untitled-design-2025-04-27T182829.605.png"
-    ],
-    "stock": 19,
-    "featured": false,
-    "flashDeal": true,
-    "flashDealDiscount": 20,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Yamaha Stagepas 400 Bt",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_149_yamaha-stagepas-400-bt_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_150_alto-ts-408-speaker",
-    "title": "Alto Ts 408 Speaker",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "audio",
-    "price": 179.99,
-    "originalPrice": 225,
-    "rating": 5,
-    "reviewCount": 157,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2025/04/Untitled-design-2025-04-27T181236.516.png"
-    ],
-    "stock": 22,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Alto Ts 408 Speaker",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_150_alto-ts-408-speaker_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_151_alto-ts-410-speaker",
-    "title": "Alto Ts 410 Speaker",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "audio",
-    "price": 499.99,
-    "originalPrice": 625,
-    "rating": 4.8,
-    "reviewCount": 12,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2025/04/Untitled-design-2025-04-27T180714.975.png"
-    ],
-    "stock": 25,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Alto Ts 410 Speaker",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_151_alto-ts-410-speaker_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_152_borl-bo-0815usb-15-portable-sp",
-    "title": "Borl Bo 0815usb 15″ Portable Speaker 500w/800w",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "audio",
-    "price": 179.99,
-    "originalPrice": 225,
-    "rating": 4.8999999999999995,
-    "reviewCount": 17,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2024/10/products-untitled_design_-_2024-10-13t193356.485.png"
-    ],
-    "stock": 28,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Borl Bo 0815usb 15″ Portable Speake",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_152_borl-bo-0815usb-15-portable-sp_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_153_redmi-m2523-smart-watch-6-silv",
-    "title": "Redmi M2523 Smart Watch 6 Silver Gray",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "mobiles",
-    "price": 249.99,
-    "originalPrice": 312,
-    "rating": 5,
-    "reviewCount": 22,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/08/Redmi-M2523-Smart-Watch-6-Silver-Gray-.png"
-    ],
-    "stock": 31,
-    "featured": false,
-    "flashDeal": true,
-    "flashDealDiscount": 20,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Redmi M2523 Smart Watch 6 Silver Gr",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_153_redmi-m2523-smart-watch-6-silv_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_154_cleo-ma-smart-watch-y99-series",
-    "title": "Cleo-MA Smart Watch Y99 Series 9 45mm",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "wearables",
-    "price": 249.99,
-    "originalPrice": 312,
-    "rating": 4.8,
-    "reviewCount": 27,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/07/Cleo-MA-Smart-Watch-Y99-Series-9-45mm-.png"
-    ],
-    "stock": 34,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Cleo-MA Smart Watch Y99 Series 9 45",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_154_cleo-ma-smart-watch-y99-series_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_155_cleo-ma-smart-watch-yh-1000-ul",
-    "title": "Cleo-MA Smart Watch YH-1000 Ultra 2 in 1",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "wearables",
-    "price": 249.99,
-    "originalPrice": 312,
-    "rating": 4.8999999999999995,
-    "reviewCount": 32,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/07/Cleo-MA-Smart-Watch-YH-1000-Ultra-2-in-1.png"
-    ],
-    "stock": 37,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Cleo-MA Smart Watch YH-1000 Ultra 2",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_155_cleo-ma-smart-watch-yh-1000-ul_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_156_cleo-ma-smart-watch-y90-ultra-",
-    "title": "Cleo-MA Smart Watch Y90 Ultra 3 3 Straps",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "wearables",
-    "price": 249.99,
-    "originalPrice": 312,
-    "rating": 5,
-    "reviewCount": 37,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/07/Cleo-MA-Smart-Watch-Y90-Ultra-3-3-Straps-.png"
-    ],
-    "stock": 40,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Cleo-MA Smart Watch Y90 Ultra 3 3 S",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_156_cleo-ma-smart-watch-y90-ultra-_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_157_cleo-ma-smart-watch-yh88-ultra",
-    "title": "Cleo-MA Smart Watch YH88 Ultra 3 3+1 Strap",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "wearables",
-    "price": 249.99,
-    "originalPrice": 312,
-    "rating": 4.8,
-    "reviewCount": 42,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/07/Cleo-MA-Smart-Watch-YH88-Ultra-3-31-Strap.png"
-    ],
-    "stock": 43,
-    "featured": false,
-    "flashDeal": true,
-    "flashDealDiscount": 20,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Cleo-MA Smart Watch YH88 Ultra 3 3+",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_157_cleo-ma-smart-watch-yh88-ultra_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_158_amazfit-t-rex-3-pro-44mm-smart",
-    "title": "Amazfit T-Rex 3 Pro 44mm Smart Watch Tactical Black",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "wearables",
-    "price": 249.99,
-    "originalPrice": 312,
-    "rating": 4.8999999999999995,
-    "reviewCount": 47,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/07/Amazfit-T-Rex-3-Pro-44mm-Smart-Watch-Tactical-Black-.png"
-    ],
-    "stock": 46,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Amazfit T-Rex 3 Pro 44mm Smart Watc",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_158_amazfit-t-rex-3-pro-44mm-smart_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_159_keqiwear-smart-watch-kw102-ult",
-    "title": "Keqiwear Smart Watch KW102 Ultra 3",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "wearables",
-    "price": 19.99,
-    "originalPrice": 25,
-    "rating": 5,
-    "reviewCount": 52,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/07/Keqiwear-Smart-Watch-KW102-Ultra-3-.png"
-    ],
-    "stock": 49,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Keqiwear Smart Watch KW102 Ultra 3",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_159_keqiwear-smart-watch-kw102-ult_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_160_keqiwear-smart-watch-kw81-max-",
-    "title": "Keqiwear Smart Watch KW81 Max Series11",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "wearables",
-    "price": 19.99,
-    "originalPrice": 25,
-    "rating": 4.8,
-    "reviewCount": 57,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/07/Keqiwear-Smart-Watch-KW81-Max-Series11-.png"
-    ],
-    "stock": 52,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Keqiwear Smart Watch KW81 Max Serie",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_160_keqiwear-smart-watch-kw81-max-_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_161_keqiwear-smart-watch-kw23-ultr",
-    "title": "Keqiwear Smart Watch KW23 Ultra 3 ( 3+ 1 )",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "wearables",
-    "price": 19.99,
-    "originalPrice": 25,
-    "rating": 4.8999999999999995,
-    "reviewCount": 62,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/07/Keqiwear-Smart-Watch-KW23-Ultra-3-3-1-.png"
-    ],
-    "stock": 15,
-    "featured": false,
-    "flashDeal": true,
-    "flashDealDiscount": 20,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Keqiwear Smart Watch KW23 Ultra 3 (",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_161_keqiwear-smart-watch-kw23-ultr_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_162_jsyes-smart-watch-ms9-mini-lad",
-    "title": "Jsyes Smart Watch MS9 Mini Ladies Pink 3 Straps",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "wearables",
-    "price": 19.99,
-    "originalPrice": 25,
-    "rating": 5,
-    "reviewCount": 67,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/07/Jsyes-Smart-Watch-MS9-Mini-Ladies-Pink-3-Straps-.png"
-    ],
-    "stock": 18,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Jsyes Smart Watch MS9 Mini Ladies P",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_162_jsyes-smart-watch-ms9-mini-lad_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_163_jsyes-smart-watch-m75-max-with",
-    "title": "Jsyes Smart Watch M75 Max With 6 Straps",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "wearables",
-    "price": 249.99,
-    "originalPrice": 312,
-    "rating": 4.8,
-    "reviewCount": 72,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/07/Jsyes-Smart-Watch-M75-Max-With-6-Straps.jpg"
-    ],
-    "stock": 21,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Jsyes Smart Watch M75 Max With 6 St",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_163_jsyes-smart-watch-m75-max-with_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_164_jsyes-smart-watch-ms8-mini-wit",
-    "title": "Jsyes Smart Watch MS8 Mini With 3 Strap and 2 Wearables",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "wearables",
-    "price": 249.99,
-    "originalPrice": 312,
-    "rating": 4.8999999999999995,
-    "reviewCount": 77,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/07/Jsyes-Smart-Watch-Ms8-Mini-With-3-Strap-And-2-Wearables-1.jpg"
-    ],
-    "stock": 24,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Jsyes Smart Watch MS8 Mini With 3 S",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_164_jsyes-smart-watch-ms8-mini-wit_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_165_jsyes-smart-watch-m59-pro-max-",
-    "title": "Jsyes Smart Watch M59 Pro Max With 7 Straps",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "mobiles",
-    "price": 249.99,
-    "originalPrice": 312,
-    "rating": 5,
-    "reviewCount": 82,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/07/Jsyes-Smart-Watch-M59-Pro-Max-With-7-Straps.jpg"
-    ],
-    "stock": 27,
-    "featured": false,
-    "flashDeal": true,
-    "flashDealDiscount": 20,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Jsyes Smart Watch M59 Pro Max With ",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_165_jsyes-smart-watch-m59-pro-max-_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_166_huawei-watch-fit-5-pro-gps-46m",
-    "title": "Huawei Watch Fit 5 Pro Gps 46mm",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "wearables",
-    "price": 179.99,
-    "originalPrice": 225,
-    "rating": 4.8,
-    "reviewCount": 87,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/05/huawei-watch-fit-5-pro-1.webp"
-    ],
-    "stock": 30,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Huawei Watch Fit 5 Pro Gps 46mm",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_166_huawei-watch-fit-5-pro-gps-46m_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_168_cleo-ma-smart-bracelet-band-li",
-    "title": "Cleo-MA Smart Bracelet Band Life Sensor 838",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "wearables",
-    "price": 39.99,
-    "originalPrice": 50,
-    "rating": 5,
-    "reviewCount": 97,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/03/Cleo-MA-Smart-Bracelet-Band-Life-Sensor-838.jpg"
-    ],
-    "stock": 36,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Cleo-MA Smart Bracelet Band Life Se",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_168_cleo-ma-smart-bracelet-band-li_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_169_cleo-ma-smart-bracelet-band-li",
-    "title": "Cleo-MA Smart Bracelet Band Life Sensor Silm B3",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "wearables",
-    "price": 39.99,
-    "originalPrice": 50,
-    "rating": 4.8,
-    "reviewCount": 102,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/03/Cleo-MA-Smart-Bracelet-Band-Life-Sensor-Silm-B3.jpg"
-    ],
-    "stock": 39,
-    "featured": false,
-    "flashDeal": true,
-    "flashDealDiscount": 20,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Cleo-MA Smart Bracelet Band Life Se",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_169_cleo-ma-smart-bracelet-band-li_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_170_samsung-galaxy-watch-8-40mm-wi",
-    "title": "Samsung Galaxy Watch 8 40mm Wifi GPS",
-    "subtitle": "Samsung Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Samsung",
-    "category": "wearables",
-    "price": 179.99,
-    "originalPrice": 225,
-    "rating": 4.8999999999999995,
-    "reviewCount": 107,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2025/11/Samsung-Galaxy-Watch-8-40mm-Gps-Graphite.png"
-    ],
-    "stock": 42,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Samsung Galaxy Watch 8 40mm Wifi GP",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_170_samsung-galaxy-watch-8-40mm-wi_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_171_huawei-smart-watch-band-10",
-    "title": "Huawei Smart Watch Band 10",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "wearables",
-    "price": 89.99,
-    "originalPrice": 112,
-    "rating": 5,
-    "reviewCount": 112,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2025/08/S500920751_2.webp"
-    ],
-    "stock": 45,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Huawei Smart Watch Band 10",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_171_huawei-smart-watch-band-10_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_172_keqiwear-smart-watch-kw30-max-",
-    "title": "Keqiwear Smart Watch KW30 Max Series-10 7strap",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "wearables",
-    "price": 19.99,
-    "originalPrice": 25,
-    "rating": 4.8,
-    "reviewCount": 117,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2025/07/Keqiwear-Smart-Watch-KW30-Max-Series-10-7strap.jpg"
-    ],
-    "stock": 48,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Keqiwear Smart Watch KW30 Max Serie",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_172_keqiwear-smart-watch-kw30-max-_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_173_redmi-mi-m2351-watch5-active-s",
-    "title": "Redmi MI M2351 Watch5 Active Smart Watch",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "mobiles",
-    "price": 39.99,
-    "originalPrice": 50,
-    "rating": 4.8999999999999995,
-    "reviewCount": 122,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2024/10/000000.jpg"
-    ],
-    "stock": 51,
-    "featured": false,
-    "flashDeal": true,
-    "flashDealDiscount": 20,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "Redmi MI M2351 Watch5 Active Smart ",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_173_redmi-mi-m2351-watch5-active-s_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_174_huawei-kim-b19-smart-band-9",
-    "title": "HUAWEI KIM-B19 Smart Band 9",
-    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Cleopatra Official",
-    "category": "wearables",
-    "price": 89.99,
-    "originalPrice": 112,
-    "rating": 5,
-    "reviewCount": 127,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2024/08/products-2_82_3.png"
-    ],
-    "stock": 54,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "HUAWEI KIM-B19 Smart Band 9",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_174_huawei-kim-b19-smart-band-9_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
-  },
-  {
-    "id": "cleo_175_xiaomi-mi-m2116w1-s1-active-sm",
-    "title": "XIAOMI MI (M2116W1) S1 ACTIVE SMART WATCH",
-    "subtitle": "Xiaomi Official Hardware • Cleopatra Web Store Oman",
-    "brand": "Xiaomi",
-    "category": "mobiles",
-    "price": 89.99,
-    "originalPrice": 112,
-    "rating": 4.8,
-    "reviewCount": 132,
-    "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2023/12/XIAOMI-MI-M2116W1-S1-ACTIVE-SMART-WATCH-.png"
-    ],
-    "stock": 17,
-    "featured": false,
-    "flashDeal": false,
-    "specs": {
-      "Origin": "Cleopatra Web Store Official Import",
-      "Model / Series": "XIAOMI MI (M2116W1) S1 ACTIVE SMART",
-      "Authenticity": "100% Genuine Certified",
-      "Dispatch": "Global Insured Express (15-25 Days)"
-    },
-    "keyFeatures": [
-      "100% Genuine Certified Hardware from Cleopatra Oman",
-      "Factory Sealed Direct Packaging & Quality Inspected",
-      "Universal Compatibility & High-Efficiency Performance",
-      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
-    ],
-    "compatibility": [
-      "Universal USB-C / Lightning / Wireless",
-      "iOS / Android / MacOS / Windows"
-    ],
-    "reviews": [
-      {
-        "id": "rev_cleo_175_xiaomi-mi-m2116w1-s1-active-sm_1",
-        "userName": "Verified Cleopatra Buyer",
-        "rating": 5,
-        "date": "1 week ago",
-        "title": "Authentic & Fast Dispatch",
-        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
-        "verified": true,
-        "helpfulCount": 8
-      }
-    ]
+    "reviews": []
   }
 ];
 
@@ -8263,7 +10436,7 @@ export const TECH_BUNDLE_DEAL = {
   description: 'Combine Apple flagship hardware and save 25% instantly on your complete ultimate setup.',
   bundleDiscountPercent: 25,
   productIds: [
-    'apple-iphone-17-pro-max',
+    'phone_iphone-17-pro-max',
     'apple-airpods-pro-2-usbc',
     'apple-watch-ultra-2'
   ]

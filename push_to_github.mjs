@@ -18,7 +18,7 @@ const headers = {
   'Content-Type': 'application/json'
 };
 
-async function api(endpoint, options = {}, retries = 3) {
+async function api(endpoint, options = {}, retries = 8) {
   const url = `https://api.github.com${endpoint}`;
   for (let attempt = 1; attempt <= retries; attempt++) {
     try {
@@ -32,7 +32,8 @@ async function api(endpoint, options = {}, retries = 3) {
       }
       if (!res.ok) {
         if ((res.status >= 500 || res.status === 429) && attempt < retries) {
-          await new Promise(r => setTimeout(r, attempt * 1500));
+          console.log(`⚠️ GitHub returned ${res.status}, retrying in ${attempt * 2}s (attempt ${attempt}/${retries})...`);
+          await new Promise(r => setTimeout(r, attempt * 2000));
           continue;
         }
         throw new Error(`API Error ${res.status} on ${endpoint}: ${typeof json === 'object' ? JSON.stringify(json) : json}`);
@@ -40,7 +41,8 @@ async function api(endpoint, options = {}, retries = 3) {
       return json;
     } catch (err) {
       if (attempt < retries) {
-        await new Promise(r => setTimeout(r, attempt * 1500));
+        console.log(`⚠️ Network retry in ${attempt * 2}s (attempt ${attempt}/${retries}): ${err.message}`);
+        await new Promise(r => setTimeout(r, attempt * 2000));
         continue;
       }
       throw err;
@@ -101,15 +103,15 @@ async function run() {
     const isBinary = file.relPath.match(/\.(png|jpg|jpeg|gif|ico|webp|woff|woff2|ttf|eot)$/i);
     const stat = fs.statSync(file.fullPath);
 
-    if (isBinary || stat.size > 40000) {
+    if (isBinary) {
       const content = fs.readFileSync(file.fullPath);
       const blobData = await api(`/repos/${REPO_OWNER}/${REPO_NAME}/git/blobs`, {
         method: 'POST',
         body: JSON.stringify({
-          content: isBinary ? content.toString('base64') : content.toString('utf8'),
-          encoding: isBinary ? 'base64' : 'utf-8'
+          content: content.toString('base64'),
+          encoding: 'base64'
         })
-      }, 5);
+      });
       treeItems.push({
         path: file.relPath,
         mode: '100644',

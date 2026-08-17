@@ -41,7 +41,7 @@ export interface Product {
   rating: number;
   reviewCount: number;
   images: string[];
-  badge?: 'HOT' | 'SALE' | 'NEW' | 'BEST SELLER' | 'LIMITED' | '240W GaN';
+  badge?: string;
   stock: number;
   featured?: boolean;
   flashDeal?: boolean;
