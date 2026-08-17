@@ -447,15 +447,20 @@ export const CategoryFilterBar: React.FC = () => {
                 padding: '0.4rem 0.8rem',
                 borderRadius: 'var(--radius-md)',
                 fontSize: '0.82rem',
-                fontWeight: 600
+                fontWeight: 600,
+                cursor: 'pointer'
               }}
             >
-              <option value="featured">Featured Picks</option>
-              <option value="bestselling">Best Selling</option>
-              <option value="price-asc">Price: Low to High</option>
-              <option value="price-desc">Price: High to Low</option>
-              <option value="rating">Top Customer Rated</option>
-              <option value="newest">Newest Releases</option>
+              <option value="featured">✨ Featured (Apple on Top)</option>
+              <option value="category">📁 Sort Categorically</option>
+              <option value="brand-asc">🏷️ Company: A to Z</option>
+              <option value="brand-desc">🏷️ Company: Z to A</option>
+              <option value="price-asc">💵 Price: Low to High</option>
+              <option value="price-desc">💎 Price: High to Low</option>
+              <option value="rating">⭐ Highest Rated</option>
+              <option value="bestselling">🔥 Most Popular</option>
+              <option value="newest">🚀 Newest Flagships</option>
+              <option value="name-asc">🔤 Product Name: A-Z</option>
             </select>
           </div>
 

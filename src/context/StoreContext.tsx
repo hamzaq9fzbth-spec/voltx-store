@@ -800,12 +800,65 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
     }
     return true;
   }).sort((a, b) => {
+    // 1. Explicit Category Grouping Sort
+    if (sortBy === 'category') {
+      const categoryOrder: Record<string, number> = {
+        mobiles: 1,
+        audio: 2,
+        wearables: 3,
+        chargers: 4,
+        cables: 5,
+        accessories: 6
+      };
+      const catDiff = (categoryOrder[a.category] || 99) - (categoryOrder[b.category] || 99);
+      if (catDiff !== 0) return catDiff;
+      if (a.brand === 'Apple' && b.brand !== 'Apple') return -1;
+      if (b.brand === 'Apple' && a.brand !== 'Apple') return 1;
+      return b.price - a.price;
+    }
+
+    // 2. Brand Alphabetical Sort
+    if (sortBy === 'brand-asc') {
+      if (a.brand === 'Apple' && b.brand !== 'Apple') return -1;
+      if (b.brand === 'Apple' && a.brand !== 'Apple') return 1;
+      const brandDiff = a.brand.localeCompare(b.brand);
+      if (brandDiff !== 0) return brandDiff;
+      return b.price - a.price;
+    }
+    if (sortBy === 'brand-desc') {
+      const brandDiff = b.brand.localeCompare(a.brand);
+      if (brandDiff !== 0) return brandDiff;
+      return b.price - a.price;
+    }
+
+    // 3. Price Sorts
     if (sortBy === 'price-asc') return a.price - b.price;
     if (sortBy === 'price-desc') return b.price - a.price;
-    if (sortBy === 'rating') return b.rating - a.rating;
+
+    // 4. Rating & Reviews Sort
+    if (sortBy === 'rating') {
+      const ratingDiff = b.rating - a.rating;
+      if (ratingDiff !== 0) return ratingDiff;
+      return b.reviewCount - a.reviewCount;
+    }
     if (sortBy === 'bestselling') return b.reviewCount - a.reviewCount;
-    if (sortBy === 'newest') return (b.badge === 'NEW' ? 1 : 0) - (a.badge === 'NEW' ? 1 : 0);
-    return (b.featured ? 1 : 0) - (a.featured ? 1 : 0);
+
+    // 5. Newest Releases
+    if (sortBy === 'newest') {
+      if (a.badge === 'NEW' && b.badge !== 'NEW') return -1;
+      if (b.badge === 'NEW' && a.badge !== 'NEW') return 1;
+      return b.price - a.price;
+    }
+
+    // 6. Alphabetical Name
+    if (sortBy === 'name-asc') return a.title.localeCompare(b.title);
+
+    // Default 'featured': Apple Flagships First, then Featured Flags, then highest value
+    if (a.brand === 'Apple' && b.brand !== 'Apple') return -1;
+    if (b.brand === 'Apple' && a.brand !== 'Apple') return 1;
+    if (a.featured && !b.featured) return -1;
+    if (!a.featured && b.featured) return 1;
+    return b.price - a.price;
   });
 
   // 10. Cart State
