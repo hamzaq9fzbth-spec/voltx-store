@@ -12,7 +12,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 24,
     "images": [
-      "https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&q=80&w=800"
+      "https://www.pngmart.com/files/24/Apple-iPhone-17-Pro-Max-PNG-File.png"
     ],
     "badge": "HOT",
     "stock": 12,
@@ -62,7 +62,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 31,
     "images": [
-      "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&q=80&w=800"
+      "https://d1tydw6090df56.cloudfront.net/products/1280x960/iphone-17-white-0-46c7c2f.jpg"
     ],
     "badge": "NEW",
     "stock": 16,
@@ -111,7 +111,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 38,
     "images": [
-      "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&q=80&w=800"
+      "https://media.tatacroma.com/Croma%20Assets/Communication/Mobiles/Images/309744_0_ht3s5b.png"
     ],
     "badge": "BEST SELLER",
     "stock": 20,
@@ -160,7 +160,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 45,
     "images": [
-      "https://images.unsplash.com/photo-1574755393849-623942496936?auto=format&fit=crop&q=80&w=800"
+      "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-16-finish-select-202409-6-1inch-white?wid=2560&hei=1440&fmt=jpeg&qlt=95&.v=1723677130220"
     ],
     "badge": "FLAGSHIP",
     "stock": 24,
@@ -209,7 +209,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 52,
     "images": [
-      "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?auto=format&fit=crop&q=80&w=800"
+      "https://media.tatacroma.com/Croma%20Assets/Communication/Mobiles/Images/309713_0_jcuwf8.png"
     ],
     "stock": 28,
     "featured": true,
@@ -257,7 +257,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 59,
     "images": [
-      "https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&q=80&w=800"
+      "https://media.tatacroma.com/Croma%20Assets/Communication/Mobiles/Images/309713_0_jcuwf8.png"
     ],
     "stock": 32,
     "featured": true,
@@ -306,7 +306,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 66,
     "images": [
-      "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&q=80&w=800"
+      "https://avatars.mds.yandex.net/get-mpic/11312687/img_id2353850840373510337.jpeg/orig"
     ],
     "stock": 36,
     "featured": true,
@@ -354,7 +354,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 73,
     "images": [
-      "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&q=80&w=800"
+      "https://avatars.mds.yandex.net/get-mpic/11312687/img_id2353850840373510337.jpeg/orig"
     ],
     "stock": 40,
     "featured": true,
@@ -402,7 +402,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 80,
     "images": [
-      "https://images.unsplash.com/photo-1574755393849-623942496936?auto=format&fit=crop&q=80&w=800"
+      "https://toppng.com/uploads/preview/hd-apple-iphone-15-plus-blue-front-and-back-view-png-image-11695041100rehlukffig.png"
     ],
     "stock": 44,
     "featured": true,
@@ -450,7 +450,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 87,
     "images": [
-      "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?auto=format&fit=crop&q=80&w=800"
+      "https://i.pinimg.com/originals/e5/25/bf/e525bfe1a9d4703c6a581388c70e61f8.jpg"
     ],
     "stock": 13,
     "featured": true,
@@ -498,7 +498,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 94,
     "images": [
-      "https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&q=80&w=800"
+      "https://static.vecteezy.com/system/resources/previews/011/765/918/original/white-smartphone-model-apple-iphone-14-new-it-industry-original-wallpaper-mockup-for-web-design-on-a-white-background-free-vector.jpg"
     ],
     "stock": 17,
     "featured": true,
@@ -547,7 +547,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 101,
     "images": [
-      "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&q=80&w=800"
+      "https://static.vecteezy.com/system/resources/previews/011/765/918/original/white-smartphone-model-apple-iphone-14-new-it-industry-original-wallpaper-mockup-for-web-design-on-a-white-background-free-vector.jpg"
     ],
     "stock": 21,
     "featured": true,
@@ -595,7 +595,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 108,
     "images": [
-      "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&q=80&w=800"
+      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/refurb-iphone-13-starlight-2023?wid=2000&hei=1897&fmt=jpeg&qlt=95&.v=1679072987025"
     ],
     "stock": 25,
     "featured": true,
@@ -643,7 +643,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 52,
     "images": [
-      "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&q=80&w=800"
+      "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6560/6560065cv12d.jpg"
     ],
     "badge": "HOT",
     "stock": 18,
@@ -673,7 +673,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.9,
     "reviewCount": 140,
     "images": [
-      "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?auto=format&fit=crop&q=80&w=800"
+      "https://cellularstockpile.com/wp-content/uploads/2024/03/apple-airpods-pro-2nd-gen-with-magsafe-case-usbc-mtjv3am-a-2.jpg"
     ],
     "badge": "BEST SELLER",
     "stock": 50,
@@ -703,7 +703,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 115,
     "images": [
-      "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&q=80&w=800"
+      "https://www.mozillion.com/storage/product_model_images/1772098843_samsung-galaxy-s26-ultra-white-back-front.png"
     ],
     "badge": "FLAGSHIP",
     "stock": 29,
@@ -752,7 +752,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 122,
     "images": [
-      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&q=80&w=800"
+      "https://img-prd-pim.poorvika.com/product/Samsung-galaxy-s26-5g-white-12gb-512gb-Front-Back-View.webp"
     ],
     "stock": 33,
     "featured": true,
@@ -800,7 +800,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 129,
     "images": [
-      "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?auto=format&fit=crop&q=80&w=800"
+      "https://img-prd-pim.poorvika.com/product/Samsung-galaxy-s26-5g-white-12gb-512gb-Front-Back-View.webp"
     ],
     "stock": 37,
     "featured": false,
@@ -849,7 +849,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 136,
     "images": [
-      "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&q=80&w=800"
+      "https://img.global.news.samsung.com/global/wp-content/uploads/2025/07/Samsung-Mobile-Galaxy-Unpacked-July-2025-Galaxy-Z-Fold7-PR_main7.jpg"
     ],
     "badge": "HOT",
     "stock": 41,
@@ -898,7 +898,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 143,
     "images": [
-      "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&q=80&w=800"
+      "https://cdn.neowin.com/news/images/uploaded/2025/02/1740584115_galaxy-z-flip7_story.jpg"
     ],
     "badge": "TRENDING",
     "stock": 45,
@@ -947,7 +947,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 150,
     "images": [
-      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&q=80&w=800"
+      "https://www.mobiledokan.com/media/samsung-galaxy-s25-ultra-titanium-blue-official-image_1.webp"
     ],
     "badge": "BEST SELLER",
     "stock": 14,
@@ -996,7 +996,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 157,
     "images": [
-      "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?auto=format&fit=crop&q=80&w=800"
+      "https://scr.wfcdn.de/28444/Samsung-Galaxy-S25-1726212968-0-0.jpg"
     ],
     "stock": 18,
     "featured": false,
@@ -1044,7 +1044,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 164,
     "images": [
-      "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&q=80&w=800"
+      "https://scr.wfcdn.de/28444/Samsung-Galaxy-S25-1726212968-0-0.jpg"
     ],
     "stock": 22,
     "featured": false,
@@ -1093,7 +1093,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 171,
     "images": [
-      "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&q=80&w=800"
+      "https://www.smartprix.com/bytes/wp-content/uploads/2023/09/Samsung-Galaxy-S24-5K2-scaled.jpg"
     ],
     "stock": 26,
     "featured": false,
@@ -1141,7 +1141,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 178,
     "images": [
-      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&q=80&w=800"
+      "https://gagadget.com/media/post_big/Galaxy-A56-leaked-specifications_jjAMU8D.jpg"
     ],
     "stock": 30,
     "featured": false,
@@ -1189,7 +1189,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 185,
     "images": [
-      "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?auto=format&fit=crop&q=80&w=800"
+      "https://cdn.movertix.com/media/catalog/product/cache/image/1200x/s/a/samsung-galaxy-a36-5g-dual-sim-awesome-white-256gb-and-8gb-ram-sm-a366b-ds_1.jpg"
     ],
     "stock": 34,
     "featured": false,
@@ -1237,7 +1237,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 192,
     "images": [
-      "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&q=80&w=800"
+      "https://cdn.movertix.com/media/catalog/product/s/a/samsung-galaxy-a26-5g-dual-sim-white-128gb-and-6gb-ram-sm-a266b-ds.jpg"
     ],
     "stock": 38,
     "featured": false,
@@ -1285,7 +1285,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 199,
     "images": [
-      "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&q=80&w=800"
+      "https://img.global.news.samsung.com/uk/wp-content/uploads/2025/08/SM-A175_Galaxy-A17_LTE_Gray_Front.jpg"
     ],
     "stock": 42,
     "featured": false,
@@ -1334,7 +1334,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 26,
     "images": [
-      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&q=80&w=800"
+      "http://prattspodsshop.co.uk/cdn/shop/files/IMG-4970.webp?v=1731883382"
     ],
     "stock": 46,
     "featured": false,
@@ -1382,7 +1382,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 33,
     "images": [
-      "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?auto=format&fit=crop&q=80&w=800"
+      "https://www.sammyfans.com/wp-content/uploads/2024/08/galaxy-a06-render-img.jpg"
     ],
     "stock": 15,
     "featured": false,
@@ -1430,7 +1430,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 40,
     "images": [
-      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+      "https://cdn.movertix.com/media/catalog/product/x/i/xiaomi-15-ultra-5g-dual-sim-silver-chrome-512gb-and-16gb-ram_2.jpg"
     ],
     "badge": "FLAGSHIP",
     "stock": 19,
@@ -1479,7 +1479,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 47,
     "images": [
-      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=800"
+      "https://media.ldlc.com/r1600/ld/products/00/06/21/88/LD0006218872.jpg"
     ],
     "stock": 23,
     "featured": false,
@@ -1527,7 +1527,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 54,
     "images": [
-      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800"
+      "https://www.dxomark.com/wp-content/uploads/medias/post-178853/Xiaomi-14T-Pro_featured-image-packshot-review.jpg"
     ],
     "stock": 27,
     "featured": false,
@@ -1576,7 +1576,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 61,
     "images": [
-      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+      "https://congngheviet.com/wp-content/uploads/2024/09/xiaomi-14t-va-xiaomi-14t-pro-12.webp"
     ],
     "stock": 31,
     "featured": false,
@@ -1624,7 +1624,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 68,
     "images": [
-      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=800"
+      "https://techcart.com.au/wp-content/uploads/2023/11/75770-Xiaomi-Mi-14-5G-1TB16GB-White-China-Version.png"
     ],
     "stock": 35,
     "featured": false,
@@ -1768,7 +1768,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 89,
     "images": [
-      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=800"
+      "https://cdn.beebom.com/mobile/redmi-note-15-front-and-back.png"
     ],
     "stock": 12,
     "featured": false,
@@ -1817,7 +1817,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 96,
     "images": [
-      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800"
+      "https://files.tecnoblog.net/wp-content/uploads/2025/01/Redmi-14-Pro-5G-Verde-coral.png"
     ],
     "stock": 16,
     "featured": false,
@@ -2397,7 +2397,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 180,
     "images": [
-      "https://images.unsplash.com/photo-1567581935884-3349723552ca?auto=format&fit=crop&q=80&w=800"
+      "https://honorstore.ec/cdn/shop/files/X8c_Blanco_00_800x.webp?v=1745343203"
     ],
     "stock": 29,
     "featured": false,
@@ -2445,7 +2445,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 187,
     "images": [
-      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&q=80&w=800"
+      "https://cdn.mediapark.uz/imgs/73985646-d905-44e3-9da9-605f0be1ae11_Artboard-1.webp"
     ],
     "stock": 33,
     "featured": false,
@@ -2493,7 +2493,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 194,
     "images": [
-      "https://images.unsplash.com/photo-1567581935884-3349723552ca?auto=format&fit=crop&q=80&w=800"
+      "https://m.media-amazon.com/images/I/81IQY2JV0vL._AC_SL1500_.jpg"
     ],
     "stock": 37,
     "featured": false,
@@ -2542,7 +2542,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 201,
     "images": [
-      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&q=80&w=800"
+      "https://de2kqc9pq55cj.cloudfront.net/_img_productos/honor-x5b-4-128gb-violeta-foto1.jpg"
     ],
     "stock": 41,
     "featured": false,
@@ -2590,7 +2590,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 28,
     "images": [
-      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+      "https://www.gizmochina.com/wp-content/uploads/2024/10/Oppo-Find-X8-white.png"
     ],
     "badge": "FLAGSHIP",
     "stock": 45,
@@ -2639,7 +2639,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 35,
     "images": [
-      "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&q=80&w=800"
+      "https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/reno14-series/navigation/reno14/440-440-white-v1.png"
     ],
     "stock": 14,
     "featured": false,
@@ -2687,7 +2687,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 42,
     "images": [
-      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+      "https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/reno13-series/navigation/reno13-5g/white-440-440.png"
     ],
     "stock": 18,
     "featured": false,
@@ -2735,7 +2735,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 49,
     "images": [
-      "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&q=80&w=800"
+      "https://www.oppo.com/content/dam/oppo/product-asset-library/reno/reno13-series/en/reno13/blue-white/v1/assets/images-design-mo-phone.png"
     ],
     "stock": 22,
     "featured": false,
@@ -2832,7 +2832,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 63,
     "images": [
-      "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&q=80&w=800"
+      "https://storage.googleapis.com/landtop_prod/productimage/167/image/3ecc74b800be274a766523436906de99.png"
     ],
     "stock": 30,
     "featured": false,
@@ -2880,7 +2880,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 70,
     "images": [
-      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+      "https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/a40-a3-a40m-a60/product/black-white.png"
     ],
     "stock": 34,
     "featured": false,
@@ -2928,7 +2928,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 77,
     "images": [
-      "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&q=80&w=800"
+      "https://cdn.renderhub.com/rever-art/oppo-a5-pro-white/oppo-a5-pro-white-03.jpg"
     ],
     "stock": 38,
     "featured": false,
@@ -2976,7 +2976,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 84,
     "images": [
-      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+      "https://bindutel.com/wp-content/uploads/2025/10/oppo-a5-official-600x600.webp"
     ],
     "stock": 42,
     "featured": false,
@@ -3025,7 +3025,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 91,
     "images": [
-      "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&q=80&w=800"
+      "https://cdn.renderhub.com/rever-art/oppo-a3x-5g-white/oppo-a3x-5g-white-07.jpg"
     ],
     "stock": 46,
     "featured": false,
@@ -3073,7 +3073,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 98,
     "images": [
-      "https://images.unsplash.com/photo-1575695342320-d2d2d2f9b73f?auto=format&fit=crop&q=80&w=800"
+      "https://bludiode.com/53371-large_default/vivo-x200-pro-16gb512gb-white.jpg"
     ],
     "badge": "FLAGSHIP",
     "stock": 15,
@@ -3122,7 +3122,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 105,
     "images": [
-      "https://images.unsplash.com/photo-1567581935884-3349723552ca?auto=format&fit=crop&q=80&w=800"
+      "https://tech101.com.ph/wp-content/uploads/2026/03/ALL.jpg"
     ],
     "stock": 19,
     "featured": false,
@@ -3170,7 +3170,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 112,
     "images": [
-      "https://images.unsplash.com/photo-1575695342320-d2d2d2f9b73f?auto=format&fit=crop&q=80&w=800"
+      "https://cdn.beebom.com/mobile/vivo-v60-front-back.png"
     ],
     "stock": 23,
     "featured": false,
@@ -3218,7 +3218,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 119,
     "images": [
-      "https://images.unsplash.com/photo-1567581935884-3349723552ca?auto=format&fit=crop&q=80&w=800"
+      "https://www.mobiledokan.com/media/vivo-v50-white-official-image.webp"
     ],
     "stock": 27,
     "featured": false,
@@ -3267,7 +3267,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 126,
     "images": [
-      "https://images.unsplash.com/photo-1575695342320-d2d2d2f9b73f?auto=format&fit=crop&q=80&w=800"
+      "https://eu-exstatic-vivofs.vivo.com/8Xa6evfY85lu15Pb/1717745436142/78cc0ae6dc49812ae7d4f2453469875f.png"
     ],
     "stock": 31,
     "featured": false,
@@ -3315,7 +3315,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 133,
     "images": [
-      "https://images.unsplash.com/photo-1567581935884-3349723552ca?auto=format&fit=crop&q=80&w=800"
+      "https://fdn2.gsmarena.com/vv/pics/vivo/vivo-y100-1.jpg"
     ],
     "stock": 35,
     "featured": false,
@@ -3363,7 +3363,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 140,
     "images": [
-      "https://images.unsplash.com/photo-1575695342320-d2d2d2f9b73f?auto=format&fit=crop&q=80&w=800"
+      "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1742974693864/e72c6551cb4503c4ddfbc1711e6a9b8b.png"
     ],
     "stock": 39,
     "featured": false,
@@ -3411,7 +3411,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 147,
     "images": [
-      "https://images.unsplash.com/photo-1567581935884-3349723552ca?auto=format&fit=crop&q=80&w=800"
+      "https://mobilebuzzbd.com/wp-content/uploads/2025/03/Vivo-Y29-Smartphone-Elegant-White-Colour.jpg"
     ],
     "stock": 43,
     "featured": false,
@@ -3459,7 +3459,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 154,
     "images": [
-      "https://images.unsplash.com/photo-1575695342320-d2d2d2f9b73f?auto=format&fit=crop&q=80&w=800"
+      "https://m.media-amazon.com/images/I/71Zo3SaD9HL._SL1500_.jpg"
     ],
     "stock": 12,
     "featured": false,
@@ -3508,7 +3508,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 161,
     "images": [
-      "https://images.unsplash.com/photo-1567581935884-3349723552ca?auto=format&fit=crop&q=80&w=800"
+      "https://bf1af2.akinoncloudcdn.com/products/2025/03/19/355645/af3607ee-26d1-4ae2-b405-311e3f83485a_size3840_cropCenter.jpg"
     ],
     "stock": 16,
     "featured": false,
@@ -3556,7 +3556,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 168,
     "images": [
-      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800"
+      "https://oasis.opstatics.com/content/dam/oasis/page/2024/global/phones/13/specs/13-white.png"
     ],
     "badge": "FLAGSHIP",
     "stock": 20,
@@ -3605,7 +3605,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 175,
     "images": [
-      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&q=80&w=800"
+      "https://s13emagst.akamaized.net/products/83560/83559531/images/res_7b0ad0baf7748594f6dc92b65d94a53b.jpg"
     ],
     "stock": 24,
     "featured": false,
@@ -3653,7 +3653,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 182,
     "images": [
-      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800"
+      "https://oasis.opstatics.com/content/dam/oasis/page/2024/global/phones/13r/specs/13R-Trail.png"
     ],
     "stock": 28,
     "featured": false,
@@ -3701,7 +3701,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 189,
     "images": [
-      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&q=80&w=800"
+      "https://www.notebookcheck.net/fileadmin/_processed_/e/5/csm_OnePlus-12R-5K1_c202e6fbed.jpg"
     ],
     "stock": 32,
     "featured": false,
@@ -3750,7 +3750,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 196,
     "images": [
-      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800"
+      "https://static.digit.in/OnePlusNord5-white.png"
     ],
     "stock": 36,
     "featured": false,
@@ -3798,7 +3798,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 203,
     "images": [
-      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&q=80&w=800"
+      "https://www.mobiledokan.com/media/oneplus-nord-ce5-marble-mist-official-image.webp"
     ],
     "stock": 40,
     "featured": false,
@@ -3846,7 +3846,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 30,
     "images": [
-      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800"
+      "https://static.androidplanet.nl/orca/products/22363/oneplus-nord-4.jpg"
     ],
     "stock": 44,
     "featured": false,
@@ -3894,7 +3894,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 37,
     "images": [
-      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&q=80&w=800"
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord-ce4-12.jpg"
     ],
     "stock": 13,
     "featured": false,
@@ -3991,7 +3991,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 51,
     "images": [
-      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&q=80&w=800"
+      "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord-ce-3-lite-2.jpg"
     ],
     "stock": 21,
     "featured": false,
@@ -4039,7 +4039,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 58,
     "images": [
-      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+      "https://image05.realme.net/general/20250715/17525709530860d81d81c180b46d89a2a0e3338f5a5b7.png"
     ],
     "badge": "HOT",
     "stock": 25,
@@ -4088,7 +4088,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 65,
     "images": [
-      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+      "https://bludiode.com/63922-large_default/realme-15-pro-12-gb-256-gb-branco.jpg"
     ],
     "stock": 29,
     "featured": false,
@@ -4136,7 +4136,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 72,
     "images": [
-      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+      "https://image01.realme.net/general/20250421/1745227754823f2c147a0b48c40bdab0839926e2cb1fa.png"
     ],
     "stock": 33,
     "featured": false,
@@ -4184,7 +4184,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 79,
     "images": [
-      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+      "https://image01.realme.net/general/20241018/1729223327849f2ece049fa1944aca5dca943b4a83026.png"
     ],
     "stock": 37,
     "featured": false,
@@ -4281,7 +4281,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 93,
     "images": [
-      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+      "https://www.mobiledokan.co/wp-content/uploads/2025/05/Realme-C75-5G-Lily-White.webp"
     ],
     "stock": 45,
     "featured": false,
@@ -4329,7 +4329,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 100,
     "images": [
-      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+      "https://image01.realme.net/general/20250430/1746003625917a2ee47fff4e844baa9438b4d1120a07e.png?width=1440&height=1440&size=1531413"
     ],
     "stock": 14,
     "featured": false,
@@ -4425,7 +4425,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 114,
     "images": [
-      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+      "https://m.media-amazon.com/images/I/81g0zd+E2tL.jpg"
     ],
     "stock": 22,
     "featured": false,
@@ -4474,7 +4474,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 121,
     "images": [
-      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+      "https://image01.realme.net/general/20250423/17453890281684002e8b2151742eca5404a7d661a8f0b.png"
     ],
     "stock": 26,
     "featured": false,
@@ -4812,7 +4812,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 170,
     "images": [
-      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&q=80&w=800"
+      "https://clmoto.vtexassets.com/arquivos/ids/164150-800-auto?v=638651370882930000&width=800&height=auto&aspect=true"
     ],
     "stock": 19,
     "featured": false,
@@ -4860,7 +4860,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 177,
     "images": [
-      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800"
+      "https://i5.walmartimages.com/asr/746c8914-df04-4977-b9a6-9288efc4ad20.d352d8b51d166f6d78eea03eb7d3e4fe.jpeg"
     ],
     "stock": 23,
     "featured": false,
@@ -4908,7 +4908,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 184,
     "images": [
-      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&q=80&w=800"
+      "https://motoecuador.vtexassets.com/arquivos/ids/157600/Moto-G15--01---Tornado.png?v=638725731435600000"
     ],
     "stock": 27,
     "featured": false,
@@ -4957,7 +4957,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 191,
     "images": [
-      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800"
+      "https://brmotorolanew.vtexassets.com/assets/vtex.file-manager-graphql/images/599763d8-6082-4113-b927-a51138d099dd___c6aa79580394dd3dcc4e08e242dc2bb1.png"
     ],
     "stock": 31,
     "featured": false,
@@ -5005,7 +5005,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 198,
     "images": [
-      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800"
+      "https://media.bechtle.com/is/180712/1c4b3d4ee288fc9434f5175bf56070570/c3/-/80a43dd13d7148c98ebd63f624b5937e?version=0&x=3840&quality=75"
     ],
     "badge": "FLAGSHIP",
     "stock": 35,
@@ -5054,7 +5054,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 25,
     "images": [
-      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&q=80&w=800"
+      "https://media.bechtle.com/is/180712/1c4b3d4ee288fc9434f5175bf56070570/c3/-/80a43dd13d7148c98ebd63f624b5937e?version=0&x=3840&quality=75"
     ],
     "stock": 39,
     "featured": false,
@@ -5102,7 +5102,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 32,
     "images": [
-      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800"
+      "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/1bed06b8-80f7-4745-9d1e-af654002306c.jpg"
     ],
     "badge": "BEST SELLER",
     "stock": 43,
@@ -5151,7 +5151,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 39,
     "images": [
-      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&q=80&w=800"
+      "https://static1.anpoimages.com/wordpress/wp-content/uploads/2024/08/google-pixel-9-pro-xl.png"
     ],
     "stock": 12,
     "featured": false,
@@ -5200,7 +5200,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 46,
     "images": [
-      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800"
+      "https://static1.anpoimages.com/wordpress/wp-content/uploads/2024/08/google-pixel-9-pro-xl.png"
     ],
     "stock": 16,
     "featured": false,
@@ -5248,7 +5248,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 53,
     "images": [
-      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&q=80&w=800"
+      "https://static1.anpoimages.com/wordpress/wp-content/uploads/2023/03/pixel-8-5k2.jpg"
     ],
     "stock": 20,
     "featured": false,
@@ -5296,7 +5296,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 60,
     "images": [
-      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800"
+      "https://static1.anpoimages.com/wordpress/wp-content/uploads/2023/03/pixel-8-5k1.jpg"
     ],
     "stock": 24,
     "featured": false,
@@ -5344,7 +5344,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 67,
     "images": [
-      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&q=80&w=800"
+      "https://www.notebookcheck.net/fileadmin/_processed_/b/a/csm_Google_Pixel_9ac_fc7ba5bf8b.jpg"
     ],
     "stock": 28,
     "featured": false,
@@ -5392,7 +5392,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 74,
     "images": [
-      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800"
+      "https://www.digitaltrends.com/wp-content/uploads/2024/04/google-pixel-8a-color-leak-white.jpg?fit=2000%2C1333&p=1"
     ],
     "stock": 32,
     "featured": false,
@@ -5441,7 +5441,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 81,
     "images": [
-      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&q=80&w=800"
+      "https://www.smartprix.com/bytes/wp-content/uploads/2022/11/Google-Pixel-7a-5K1-1-scaled.jpg"
     ],
     "stock": 36,
     "featured": false,
@@ -5489,7 +5489,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 88,
     "images": [
-      "https://images.unsplash.com/photo-1567581935884-3349723552ca?auto=format&fit=crop&q=80&w=800"
+      "https://www.techspecs.info/_next/image/?url=https:%2F%2Fwww.techspecs.info%2Fuploads%2FHuawei_Pura_80_Pro_315460e7cc.png&w=3840&q=75"
     ],
     "badge": "FLAGSHIP",
     "stock": 40,
@@ -5538,7 +5538,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 95,
     "images": [
-      "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&q=80&w=800"
+      "https://www.greentelcom.ph/wp-content/uploads/2025/09/Huawei-Pura-80-2.png"
     ],
     "stock": 44,
     "featured": false,
@@ -5586,7 +5586,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 102,
     "images": [
-      "https://images.unsplash.com/photo-1567581935884-3349723552ca?auto=format&fit=crop&q=80&w=800"
+      "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/plp-x/phones/view-all/pura70-pro-all.jpg"
     ],
     "stock": 13,
     "featured": false,
@@ -5634,7 +5634,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 109,
     "images": [
-      "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&q=80&w=800"
+      "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/phones/pura70/images/sec1/huawei-pura70-color-white-r-2x.png"
     ],
     "stock": 17,
     "featured": false,
@@ -5683,7 +5683,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 116,
     "images": [
-      "https://images.unsplash.com/photo-1567581935884-3349723552ca?auto=format&fit=crop&q=80&w=800"
+      "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/phones/nova13-pro/specs/white.png"
     ],
     "stock": 21,
     "featured": false,
@@ -5731,7 +5731,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 123,
     "images": [
-      "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&q=80&w=800"
+      "https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/phones/nova13/list/white.png"
     ],
     "stock": 25,
     "featured": false,
@@ -5779,7 +5779,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 130,
     "images": [
-      "https://images.unsplash.com/photo-1567581935884-3349723552ca?auto=format&fit=crop&q=80&w=800"
+      "https://www.courtsmammouth.mu/122432-product_set/huawei-nova-13i-white.jpg"
     ],
     "stock": 29,
     "featured": false,
@@ -5827,7 +5827,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 137,
     "images": [
-      "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&q=80&w=800"
+      "https://welectronics.com/images/stories/virtuemart/product/Huaweinova12iwht9.jpg"
     ],
     "stock": 33,
     "featured": false,
@@ -5875,7 +5875,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 144,
     "images": [
-      "https://images.unsplash.com/photo-1567581935884-3349723552ca?auto=format&fit=crop&q=80&w=800"
+      "https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/phones/nova-y91/img/huawei-nova-y91-colours-white.jpg"
     ],
     "stock": 37,
     "featured": false,
@@ -5924,7 +5924,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 151,
     "images": [
-      "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&q=80&w=800"
+      "https://gadgetsfriend.com/wp-content/uploads/2024/01/Huawei-nova-Y72-white.jpg"
     ],
     "stock": 41,
     "featured": false,
@@ -5972,7 +5972,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 158,
     "images": [
-      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+      "https://d13pvy8xd75yde.cloudfront.net/global/india/menu/Phantom-V-FOLD-2-Image.png"
     ],
     "badge": "HOT",
     "stock": 45,
@@ -6021,7 +6021,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 165,
     "images": [
-      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+      "https://d13pvy8xd75yde.cloudfront.net/global/phones/camon/camon40/camon%2040%20pro%205g/CM7G.png"
     ],
     "stock": 14,
     "featured": false,
@@ -6069,7 +6069,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 172,
     "images": [
-      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+      "https://d13pvy8xd75yde.cloudfront.net/global/phones/camon/camon40/camon%2040/CM5%20W.png"
     ],
     "stock": 18,
     "featured": false,
@@ -6117,7 +6117,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 179,
     "images": [
-      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+      "https://d13pvy8xd75yde.cloudfront.net/global/phones/camon/camon30/20231032.png"
     ],
     "stock": 22,
     "featured": false,
@@ -6166,7 +6166,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 186,
     "images": [
-      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+      "https://mumbd.com/public/uploads/product/1759521593-tecno-spark-40-pro-plus-moon-titanium573.jpeg"
     ],
     "stock": 26,
     "featured": false,
@@ -6214,7 +6214,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 193,
     "images": [
-      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+      "https://d13pvy8xd75yde.cloudfront.net/global/spark-40/5_5N-grey.png"
     ],
     "stock": 30,
     "featured": false,
@@ -6310,7 +6310,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 27,
     "images": [
-      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+      "https://d13pvy8xd75yde.cloudfront.net/global/spark30_kl6/kl6/800*800/KL6%20bai.png"
     ],
     "stock": 38,
     "featured": false,
@@ -6358,7 +6358,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 34,
     "images": [
-      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+      "https://www.pakmobizone.pk/wp-content/uploads/2024/08/Tecno-Spark-Go-1-Glittery-White-1.png"
     ],
     "stock": 42,
     "featured": false,
@@ -6504,7 +6504,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 55,
     "images": [
-      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+      "https://spacenet.tn/246495-large_default/smartphone-infinix-gt-20-pro-5g-12go-256go-silver.jpg"
     ],
     "stock": 19,
     "featured": false,
@@ -6697,7 +6697,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 83,
     "images": [
-      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+      "https://images.priceoye.pk/infinix-hot-50-pro-plus-pakistan-priceoye-7mekx-500x500.webp"
     ],
     "stock": 35,
     "featured": false,
@@ -6745,7 +6745,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 90,
     "images": [
-      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+      "https://www.mobiledokan.com/media/infinix-hot-50-5g-sage-green-official-image_1.webp"
     ],
     "stock": 39,
     "featured": false,
@@ -6793,7 +6793,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 97,
     "images": [
-      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+      "https://app-area.riointernational.com.bd/productImages/1737969470pwINP.png"
     ],
     "stock": 43,
     "featured": false,
@@ -6841,7 +6841,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 104,
     "images": [
-      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+      "https://cdn.beebom.com/mobile/infinix-smart-10-front-and-back.png.png"
     ],
     "stock": 12,
     "featured": false,
@@ -6890,7 +6890,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 111,
     "images": [
-      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+      "https://99mobilebn.com/wp-content/uploads/2025/05/Overall.jpg"
     ],
     "stock": 16,
     "featured": false,
@@ -6938,7 +6938,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 118,
     "images": [
-      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+      "https://arafatelecom.com/wp-content/uploads/2024/06/Itel-RS4-All-Color.jpg"
     ],
     "stock": 20,
     "featured": false,
@@ -6986,7 +6986,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 125,
     "images": [
-      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+      "https://www.pakmobizone.pk/wp-content/uploads/2024/04/itel-S24-Dawn-White-1.png"
     ],
     "stock": 24,
     "featured": false,
@@ -7034,7 +7034,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 132,
     "images": [
-      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+      "https://mlqqktnk6rbj.i.optimole.com/cb:A6q4.e96/w:1000/h:1000/q:mauto/f:best/https://gamersvalhalla.com/wp-content/uploads/2026/02/itel-P65-Cyber-Titanium-4.jpg"
     ],
     "stock": 28,
     "featured": false,
@@ -7082,7 +7082,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 139,
     "images": [
-      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+      "https://itel.co.zw/wp-content/uploads/2024/01/Itel-P55__02.png"
     ],
     "stock": 32,
     "featured": false,
@@ -7131,7 +7131,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 146,
     "images": [
-      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+      "https://mobileinto.com/images/largepic/large_itel-p40_2.jpg"
     ],
     "stock": 36,
     "featured": false,
@@ -7179,7 +7179,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 153,
     "images": [
-      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+      "https://cdn.beebom.com/mobile/itel-a80/itel-a80-front-and-back-1.png"
     ],
     "stock": 40,
     "featured": false,
@@ -7227,7 +7227,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 160,
     "images": [
-      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+      "http://itel.co.zw/wp-content/uploads/2024/01/itel-A70-Azure_Blue.png"
     ],
     "stock": 44,
     "featured": false,
@@ -7275,7 +7275,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 167,
     "images": [
-      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+      "http://wincomtech.tn/img/cms/Itel/Smartphone%20Itel%20A50%202Go%2064Go%20Lime%20Green5.jpg"
     ],
     "stock": 13,
     "featured": false,
@@ -7323,7 +7323,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 174,
     "images": [
-      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+      "https://phones.co.ke/wp-content/uploads/2025/05/itel-A06.png"
     ],
     "stock": 17,
     "featured": false,
@@ -7372,7 +7372,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 181,
     "images": [
-      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
+      "https://companies.mybroadband.co.za/tecno/files/2023/10/itel-A05s4.jpg"
     ],
     "stock": 21,
     "featured": false,
@@ -7420,7 +7420,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 188,
     "images": [
-      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&q=80&w=800"
+      "https://liliputing.com/wp-content/uploads/2024/06/skyline_02.jpg"
     ],
     "badge": "HOT",
     "stock": 25,
@@ -7469,7 +7469,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 195,
     "images": [
-      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&q=80&w=800"
+      "https://img.tuttoandroid.net/wp-content/uploads/2024/04/HDM-Pulse.jpg"
     ],
     "stock": 29,
     "featured": false,
@@ -7517,7 +7517,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 202,
     "images": [
-      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&q=80&w=800"
+      "https://images.ctfassets.net/wcfotm6rrl7u/6LPZU89jtjd4vRdwvqUCTP/446d08ff00587e73b214cea0af763114/nokia-X30_5G-ice_white-front_back-int.png?h=1000&fm=png&fl=png8"
     ],
     "stock": 33,
     "featured": false,
@@ -7565,7 +7565,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 29,
     "images": [
-      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&q=80&w=800"
+      "https://m.media-amazon.com/images/I/61ULOdDnA-L._AC_SL1500_.jpg"
     ],
     "stock": 37,
     "featured": false,
@@ -7614,7 +7614,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 36,
     "images": [
-      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&q=80&w=800"
+      "https://bf1af2.akinoncloudcdn.com/products/2024/09/10/32423/64ee2a5c-4e8d-4b99-a6f2-12fb2dcfad9b_size3840_cropCenter.jpg"
     ],
     "stock": 41,
     "featured": false,
@@ -7662,7 +7662,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 43,
     "images": [
-      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&q=80&w=800"
+      "https://fdn2.gsmarena.com/vv/pics/nokia/nokia-g22-2023-2.jpg"
     ],
     "stock": 45,
     "featured": false,
@@ -7710,7 +7710,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 50,
     "images": [
-      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&q=80&w=800"
+      "https://itmania.ro/wp-content/uploads/2022/02/Nokia-C2-2nd-Edition.jpg"
     ],
     "stock": 14,
     "featured": false,
@@ -7758,7 +7758,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 57,
     "images": [
-      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&q=80&w=800"
+      "https://www.todoandroid.es/wp-content/uploads/2025/08/relacion-entre-hmd-global-y-nokia-2-1536x864.jpg"
     ],
     "stock": 18,
     "featured": false,
@@ -7806,7 +7806,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 64,
     "images": [
-      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&q=80&w=800"
+      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi62uE4x2mDCer7R2tIorndAC0j2SN5uAtemf2j11vHtNE0Vo43Z9yKQAVtA1vjYlIFn4Y2QDXhBYa0t1u8b7jYQgM47aXMKM5Zd0up7LKI5ljqjlOGjfxhm9lZctkHFOHgIABDx2DDGX8zwDjgExs3fRCiNamqj38ozOHpvI0rAuhXYakn0DISgk6i/s2000/Main%20-%20%20Color%203.png"
     ],
     "stock": 22,
     "featured": false,
@@ -7855,7 +7855,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 71,
     "images": [
-      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&q=80&w=800"
+      "https://www.renderhub.com/rever-art/nokia-c22-white/nokia-c22-white-01.jpg"
     ],
     "stock": 26,
     "featured": false,
@@ -7903,7 +7903,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 78,
     "images": [
-      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&q=80&w=800"
+      "https://www.mobiledokan.com/media/sony-xperia-1-vii-moss-green-official-image.webp"
     ],
     "badge": "FLAGSHIP",
     "stock": 30,
@@ -7952,7 +7952,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 85,
     "images": [
-      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&q=80&w=800"
+      "https://fdn2.gsmarena.com/vv/pics/sony/sony-xperia-1-vi-1.jpg"
     ],
     "stock": 34,
     "featured": false,
@@ -8000,7 +8000,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 92,
     "images": [
-      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&q=80&w=800"
+      "https://totomobile.vn/wp-content/uploads/2025/03/xperia-1-V-1-mark-5-White-toto-mobile.png"
     ],
     "stock": 38,
     "featured": false,
@@ -8048,7 +8048,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 99,
     "images": [
-      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&q=80&w=800"
+      "http://elcytec.com/cdn/shop/files/elcytec_sony_xperia_1_mark_4_white.webp?v=1759331910"
     ],
     "stock": 42,
     "featured": false,
@@ -8097,7 +8097,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 106,
     "images": [
-      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&q=80&w=800"
+      "https://mob4g.com/wp-content/uploads/2023/09/Sony-Xperia-5-V-2.webp"
     ],
     "stock": 46,
     "featured": false,
@@ -8145,7 +8145,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 113,
     "images": [
-      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&q=80&w=800"
+      "https://www.sony.jp/xperia/xperia/xperia5m4/_common/img/top/design_white.png"
     ],
     "stock": 15,
     "featured": false,
@@ -8289,7 +8289,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 134,
     "images": [
-      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&q=80&w=800"
+      "https://store.sony.com.tw/resource/file/product_files/XQ-DC72-W2/01.jpg"
     ],
     "stock": 27,
     "featured": false,
@@ -8338,7 +8338,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 141,
     "images": [
-      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&q=80&w=800"
+      "https://www.tabletowo.pl/wp-content/uploads/2022/03/sony_xperia_10_iv_2.jpg"
     ],
     "stock": 31,
     "featured": false,
@@ -8386,7 +8386,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 148,
     "images": [
-      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=800"
+      "https://dlcdnwebimgs.asus.com/files/media/30106838-7820-415e-baac-f0971bfa65b3/v1/features/images/large/1x/kv/phone_right.png"
     ],
     "badge": "GAMING",
     "stock": 35,
@@ -8435,7 +8435,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 155,
     "images": [
-      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=800"
+      "https://dlcdnwebimgs.asus.com/files/media/30106838-7820-415e-baac-f0971bfa65b3/v1/features/images/large/1x/kv/phone_right.png"
     ],
     "stock": 39,
     "featured": false,
@@ -8483,7 +8483,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 162,
     "images": [
-      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=800"
+      "https://press.asus.com/assets/w_894,h_894/f0ed9ee0-f7e2-4b22-b80a-136264777ae5/ROG%20Phone%208_8%20pro_Group%20Photo_04.png"
     ],
     "stock": 43,
     "featured": false,
@@ -8531,7 +8531,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 169,
     "images": [
-      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=800"
+      "https://dlcdnwebimgs.asus.com/gain/F3663637-18B0-43B7-8315-E0BA9B9ABD25/w1000/h732"
     ],
     "stock": 12,
     "featured": false,
@@ -8628,7 +8628,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 183,
     "images": [
-      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=800"
+      "https://www.notebookcheck.net/fileadmin/_processed_/5/3/csm_asus_rog_phone_6_c538878ca1.png"
     ],
     "stock": 20,
     "featured": false,
@@ -8676,7 +8676,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 190,
     "images": [
-      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=800"
+      "https://www.oficinadanet.com.br/imagens/obj_item/2057/zenfone-12-ultra.jpg"
     ],
     "stock": 24,
     "featured": false,
@@ -9159,7 +9159,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 80,
     "images": [
-      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800"
+      "https://smhn.info/wp-content/uploads/2023/02/nothingphone1.jpg"
     ],
     "stock": 29,
     "featured": false,
@@ -9207,7 +9207,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 87,
     "images": [
-      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800"
+      "https://cubeonline.pk/cdn/shop/files/Nothing_CMF_Phone_2_Pro_White_2_2048x2048_2af952cd-edab-4e22-af07-3f0a2f4ce2e9_1024x1024.jpg?v=1757156306"
     ],
     "stock": 33,
     "featured": false,
@@ -9255,7 +9255,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 94,
     "images": [
-      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800"
+      "https://cdn.nothingshop.pk/mobiles/cmf-phone-2-pro-white.webp"
     ],
     "stock": 37,
     "featured": false,
@@ -9304,7 +9304,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 101,
     "images": [
-      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800"
+      "https://www.pngall.com/wp-content/uploads/13/Nothing-Phone-1-PNG-Photos.png"
     ],
     "stock": 41,
     "featured": false,
@@ -9352,7 +9352,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 108,
     "images": [
-      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=800"
+      "https://www.geekwills.com/media/catalog/product/cache/d368225e56c0af8fed569f12698f474d/r/e/red_magic_10s_pro_plus-.png"
     ],
     "badge": "GAMING",
     "stock": 45,
@@ -9401,7 +9401,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 115,
     "images": [
-      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=800"
+      "https://fdn2.gsmarena.com/vv/pics/zte/zte-nubia-red-magic-10-pro-2.jpg"
     ],
     "stock": 14,
     "featured": false,
@@ -9449,7 +9449,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 122,
     "images": [
-      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=800"
+      "https://cdn.smart-gsm.com/blog/wp-content/uploads/2023/12/zte-nubia-z60-ultra_4.jpg"
     ],
     "stock": 18,
     "featured": false,
@@ -9497,7 +9497,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 129,
     "images": [
-      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=800"
+      "https://cdn.grupoelcorteingles.es/SGFM/dctm/MEDIA03/202409/27/00157063609655009_6__1200x1200.jpg"
     ],
     "stock": 22,
     "featured": false,
@@ -9546,7 +9546,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 136,
     "images": [
-      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=800"
+      "https://www.nubia.com/content/dam/zte-devices/global/products/smartphones/nubia/nubia-focus-5g/nubiaFocus5G-front.png"
     ],
     "stock": 26,
     "featured": false,
@@ -9594,7 +9594,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 143,
     "images": [
-      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=800"
+      "https://cdn.gamerbraves.com/2024/04/nubia-Neo-2-5G-FI.jpg"
     ],
     "stock": 30,
     "featured": false,
@@ -9642,7 +9642,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 150,
     "images": [
-      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=800"
+      "https://www.nubia.com/content/dam/zte-devices/global/products/smartphones/blade/zte-blade-v70/ZTE%20Blade%20V70-front.png"
     ],
     "stock": 34,
     "featured": false,
@@ -9690,7 +9690,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 157,
     "images": [
-      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=800"
+      "https://www.ztedevices.com/content/dam/zte-devices/global/products/smartphones/blade/zte-blade-v50-design/ZTE%20Blade%20V50%20Design-front.png"
     ],
     "stock": 38,
     "featured": false,
@@ -9738,7 +9738,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 164,
     "images": [
-      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=800"
+      "https://www.ztedevices.com/content/dam/zte-devices/global/products/smartphones/blade/zte-blade-a75/ZTE%20Blade%20A75-front.png"
     ],
     "stock": 42,
     "featured": false,
@@ -9787,7 +9787,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 171,
     "images": [
-      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=800"
+      "https://www.ztedevices.com/content/dam/zte-devices/global/products/smartphones/blade/zte-blade-a55/pc/01.jpg"
     ],
     "stock": 46,
     "featured": false,
@@ -9835,7 +9835,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 178,
     "images": [
-      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+      "https://i02.appmifile.com/mi-com-product/fly-birds/poco-f7-pro/pc/1e7c743971c5d34b1d27e82b5c070da1.jpg"
     ],
     "badge": "FLAGSHIP",
     "stock": 15,
@@ -9884,7 +9884,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 185,
     "images": [
-      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+      "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-poco-x7-pro-1.jpg"
     ],
     "stock": 19,
     "featured": false,
@@ -9932,7 +9932,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 192,
     "images": [
-      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+      "https://files.tecnoblog.net/wp-content/uploads/2025/02/Poco-X7-Prata-1060x1060.png"
     ],
     "stock": 23,
     "featured": false,
@@ -9980,7 +9980,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 199,
     "images": [
-      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+      "https://www.talkandroid.com/wp-content/uploads/2024/01/Poco-X6-Pro.png"
     ],
     "stock": 27,
     "featured": false,
@@ -10029,7 +10029,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 26,
     "images": [
-      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+      "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-poco-x6-10.jpg"
     ],
     "stock": 31,
     "featured": false,
@@ -10077,7 +10077,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 33,
     "images": [
-      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+      "https://cdn.kalvo.com/uploads/img/gallery/67641-xiaomi-poco-m7-pro-5g-3.jpg"
     ],
     "stock": 35,
     "featured": false,
@@ -10125,7 +10125,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 40,
     "images": [
-      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+      "https://cdn.renderhub.com/rever-art/xiaomi-poco-m7-pro-5g-silver/xiaomi-poco-m7-pro-5g-silver-08.jpg"
     ],
     "stock": 39,
     "featured": false,
@@ -10173,7 +10173,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 47,
     "images": [
-      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+      "https://chobs.mistoremx.com/images/202406/goods_img/_P_1718852099545.jpg"
     ],
     "stock": 43,
     "featured": false,
@@ -10221,7 +10221,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 54,
     "images": [
-      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+      "https://i02.appmifile.com/403_item_my/05/11/2024/541e66f46808f5a5c691dd36b1f4e3e7.png"
     ],
     "stock": 12,
     "featured": false,
@@ -10270,7 +10270,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 61,
     "images": [
-      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+      "https://moneyfromnothing.ru/phones/poco-c61/pics/poco-c61-white.webp"
     ],
     "stock": 16,
     "featured": false,
@@ -10318,7 +10318,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 32,
     "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/07/Belkin-Boost-Charge-Power-Bundle-Charger-10k-Power-bank.jpg"
+      "https://media.ldlc.com/r1600/ld/products/00/05/92/16/LD0005921655_1.jpeg"
     ],
     "badge": "POPULAR",
     "stock": 45,
@@ -10348,7 +10348,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.9,
     "reviewCount": 28,
     "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/07/JBL-Powered-Speaker-EON-715-15-Inch-1300-Watts-2.jpg"
+      "https://ultramaraudio.com/wp-content/uploads/2023/01/3a._JBL_EON715_Right_3-4_1_original-500x667.png"
     ],
     "badge": "PRO AUDIO",
     "stock": 10,
@@ -10378,7 +10378,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 95,
     "images": [
-      "https://cleopatraweb.com/wp-content/uploads/2026/07/Sony-PS-5-Slim-Digital-Edition-1-Tera-.jpg"
+      "https://media.ldlc.com/r1600/ld/products/00/06/08/65/LD0006086501.jpg"
     ],
     "badge": "BEST SELLER",
     "stock": 20,
