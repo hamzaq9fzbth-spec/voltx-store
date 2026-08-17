@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState, useEffect } from 'react';
+import React, { createContext, useContext, useState, useEffect, useMemo } from 'react';
 import { 
   Product, 
   CartItem, 
@@ -41,6 +41,9 @@ interface StoreContextType {
   setSearchQuery: (query: string) => void;
   selectedCategory: ProductCategory;
   setSelectedCategory: (category: ProductCategory) => void;
+  selectedBrand: string;
+  setSelectedBrand: (brand: string) => void;
+  availableBrands: string[];
   priceRange: [number, number];
   setPriceRange: (range: [number, number]) => void;
   minRating: number;
@@ -745,6 +748,7 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
   // 9. Storefront Search & Filter State
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<ProductCategory>('all');
+  const [selectedBrand, setSelectedBrand] = useState<string>('all');
   const [priceRange, setPriceRange] = useState<[number, number]>([0, 1500]);
   const [minRating, setMinRating] = useState<number>(0);
   const [inStockOnly, setInStockOnly] = useState(false);
@@ -752,8 +756,23 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
   const [sortBy, setSortBy] = useState('featured');
   const [viewMode, setViewMode] = useState<'grid4' | 'grid3' | 'list'>('grid4');
 
+  const availableBrands = useMemo(() => {
+    const brandsSet = new Set<string>();
+    products.forEach(p => {
+      if (p.brand) brandsSet.add(p.brand);
+    });
+    return Array.from(brandsSet).sort((a, b) => {
+      if (a === 'Apple') return -1;
+      if (b === 'Apple') return 1;
+      return a.localeCompare(b);
+    });
+  }, [products]);
+
   const filteredProducts = products.filter(product => {
     if (selectedCategory !== 'all' && product.category !== selectedCategory) {
+      return false;
+    }
+    if (selectedBrand !== 'all' && product.brand.toLowerCase() !== selectedBrand.toLowerCase()) {
       return false;
     }
     if (searchQuery.trim()) {
@@ -1175,6 +1194,9 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
       setSearchQuery,
       selectedCategory,
       setSelectedCategory,
+      selectedBrand,
+      setSelectedBrand,
+      availableBrands,
       priceRange,
       setPriceRange,
       minRating,

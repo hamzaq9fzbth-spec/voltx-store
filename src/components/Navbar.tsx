@@ -32,7 +32,11 @@ export const Navbar: React.FC = () => {
     setIsCurrencyModalOpen,
     searchQuery,
     setSearchQuery,
+    selectedCategory,
     setSelectedCategory,
+    selectedBrand,
+    setSelectedBrand,
+    availableBrands,
     user,
     setIsAuthModalOpen,
     setIsProfileModalOpen,
@@ -42,7 +46,7 @@ export const Navbar: React.FC = () => {
 
   const [isSearchFocused, setIsSearchFocused] = useState(false);
 
-  const quickSearchTags = ['iPhone 17 Pro', 'Apple Watch', 'AirPods Pro', 'GaN Chargers', 'Sony PS5'];
+  const quickSearchTags = ['Apple', 'Samsung', 'Xiaomi', 'HONOR', 'OnePlus', 'Google Pixel', 'Vivo', 'OPPO', 'Realme', 'Motorola'];
 
   return (
     <header className="glass-panel" style={{
@@ -168,21 +172,28 @@ export const Navbar: React.FC = () => {
               boxShadow: 'var(--shadow-lg)',
               zIndex: 1000
             }}>
-              <div style={{ fontSize: '0.75rem', fontWeight: 600, color: 'var(--text-muted)', marginBottom: '0.5rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
-                Trending Searches:
+              <div style={{ fontSize: '0.75rem', fontWeight: 600, color: 'var(--accent-cyan)', marginBottom: '0.5rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                Search by Mobile Company:
               </div>
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.4rem' }}>
                 {quickSearchTags.map(tag => (
                   <button 
                     key={tag}
-                    onClick={() => setSearchQuery(tag)}
+                    onClick={() => {
+                      setSelectedBrand(tag);
+                      setSelectedCategory('mobiles');
+                      setSearchQuery('');
+                      document.getElementById('product-catalog')?.scrollIntoView({ behavior: 'smooth' });
+                    }}
                     style={{
                       fontSize: '0.78rem',
+                      fontWeight: 600,
                       padding: '0.3rem 0.75rem',
                       background: 'var(--bg-elevated)',
                       border: '1px solid var(--border-subtle)',
                       borderRadius: 'var(--radius-full)',
-                      color: 'var(--text-secondary)'
+                      color: 'var(--text-primary)',
+                      cursor: 'pointer'
                     }}
                   >
                     {tag}
