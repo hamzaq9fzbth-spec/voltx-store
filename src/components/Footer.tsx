@@ -135,7 +135,7 @@ export const Footer: React.FC = () => {
                 <span style={{ color: 'var(--text-secondary)' }}>2-Year Hardware Warranty</span>
               </li>
               <li>
-                <span style={{ color: 'var(--text-secondary)' }}>30-Day Hassle-Free Returns</span>
+                <span style={{ color: 'var(--text-secondary)' }}>Order Dispatch Verification</span>
               </li>
               <li>
                 <span style={{ color: 'var(--text-secondary)' }}>Device Compatibility Guide</span>

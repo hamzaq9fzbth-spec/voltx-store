@@ -18,20 +18,34 @@ const headers = {
   'Content-Type': 'application/json'
 };
 
-async function api(endpoint, options = {}) {
+async function api(endpoint, options = {}, retries = 3) {
   const url = `https://api.github.com${endpoint}`;
-  const res = await fetch(url, { ...options, headers: { ...headers, ...options.headers } });
-  const text = await res.text();
-  let json;
-  try {
-    json = JSON.parse(text);
-  } catch {
-    json = text;
+  for (let attempt = 1; attempt <= retries; attempt++) {
+    try {
+      const res = await fetch(url, { ...options, headers: { ...headers, ...options.headers } });
+      const text = await res.text();
+      let json;
+      try {
+        json = JSON.parse(text);
+      } catch {
+        json = text;
+      }
+      if (!res.ok) {
+        if ((res.status >= 500 || res.status === 429) && attempt < retries) {
+          await new Promise(r => setTimeout(r, attempt * 1500));
+          continue;
+        }
+        throw new Error(`API Error ${res.status} on ${endpoint}: ${typeof json === 'object' ? JSON.stringify(json) : json}`);
+      }
+      return json;
+    } catch (err) {
+      if (attempt < retries) {
+        await new Promise(r => setTimeout(r, attempt * 1500));
+        continue;
+      }
+      throw err;
+    }
   }
-  if (!res.ok) {
-    throw new Error(`API Error ${res.status} on ${endpoint}: ${typeof json === 'object' ? JSON.stringify(json) : json}`);
-  }
-  return json;
 }
 
 // Recursively gather project files
@@ -80,35 +94,40 @@ async function run() {
   const files = getFiles(PROJECT_DIR);
   console.log(`📂 Found ${files.length} project source files to upload.`);
 
-  // 3. Create blobs for each file
+  // 3. Prepare Tree Items (single batch tree creation)
   const treeItems = [];
   for (let i = 0; i < files.length; i++) {
     const file = files[i];
-    const content = fs.readFileSync(file.fullPath);
     const isBinary = file.relPath.match(/\.(png|jpg|jpeg|gif|ico|webp|woff|woff2|ttf|eot)$/i);
 
-    const blobData = await api(`/repos/${REPO_OWNER}/${REPO_NAME}/git/blobs`, {
-      method: 'POST',
-      body: JSON.stringify({
-        content: isBinary ? content.toString('base64') : content.toString('utf8'),
-        encoding: isBinary ? 'base64' : 'utf-8'
-      })
-    });
-
-    treeItems.push({
-      path: file.relPath,
-      mode: '100644',
-      type: 'blob',
-      sha: blobData.sha
-    });
-
-    if ((i + 1) % 10 === 0 || i === files.length - 1) {
-      console.log(`📤 Uploaded ${i + 1}/${files.length} files...`);
+    if (isBinary) {
+      const content = fs.readFileSync(file.fullPath);
+      const blobData = await api(`/repos/${REPO_OWNER}/${REPO_NAME}/git/blobs`, {
+        method: 'POST',
+        body: JSON.stringify({
+          content: content.toString('base64'),
+          encoding: 'base64'
+        })
+      });
+      treeItems.push({
+        path: file.relPath,
+        mode: '100644',
+        type: 'blob',
+        sha: blobData.sha
+      });
+    } else {
+      const content = fs.readFileSync(file.fullPath, 'utf8');
+      treeItems.push({
+        path: file.relPath,
+        mode: '100644',
+        type: 'blob',
+        content
+      });
     }
   }
 
-  // 4. Create Git Tree
-  console.log('🌲 Generating Git Tree structure...');
+  // 4. Create Git Tree in one single call
+  console.log('🌲 Generating Git Tree structure in single batch...');
   const tree = await api(`/repos/${REPO_OWNER}/${REPO_NAME}/git/trees`, {
     method: 'POST',
     body: JSON.stringify({

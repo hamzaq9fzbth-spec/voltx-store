@@ -4,6 +4,7 @@ import {
   Shield, 
   Truck, 
   RotateCcw, 
+  CheckCircle,
   Headphones, 
   Smartphone, 
   BatteryCharging, 
@@ -33,7 +34,7 @@ export const Hero: React.FC = () => {
   const trustBadges = [
     { icon: <Truck size={20} color="var(--accent-cyan)" />, title: 'Free Express Shipping', desc: 'On all orders above $50' },
     { icon: <Shield size={20} color="var(--accent-emerald)" />, title: '2-Year VOLTX Warranty', desc: 'Zero hassle hardware coverage' },
-    { icon: <RotateCcw size={20} color="var(--accent-amber)" />, title: '30-Day Trial Period', desc: '100% money-back guarantee' },
+    { icon: <CheckCircle size={20} color="var(--accent-amber)" />, title: 'Official Authenticity', desc: '100% genuine tested components' },
     { icon: <Zap size={20} color="var(--accent-cyan)" />, title: '240W GaN Certification', desc: 'Navitas & Intel certified labs' }
   ];
 
