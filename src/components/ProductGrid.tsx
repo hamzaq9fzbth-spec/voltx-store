@@ -10,7 +10,7 @@ import {
   ChevronsRight 
 } from 'lucide-react';
 
-const ITEMS_PER_PAGE_DEFAULT = 20;
+const ITEMS_PER_PAGE_DEFAULT = 10;
 
 export const ProductGrid: React.FC = () => {
   const { 
@@ -171,9 +171,9 @@ export const ProductGrid: React.FC = () => {
               cursor: 'pointer'
             }}
           >
-            <option value={20}>20 items (Top 20)</option>
-            <option value={40}>40 items</option>
-            <option value={60}>60 items</option>
+            <option value={10}>10 items (Top 10)</option>
+            <option value={20}>20 items</option>
+            <option value={50}>50 items</option>
             <option value={250}>All items</option>
           </select>
         </div>
