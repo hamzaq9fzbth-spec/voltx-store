@@ -123,10 +123,10 @@ export const AuthModal: React.FC = () => {
           </div>
 
           <h3 style={{ fontSize: '1.5rem', fontWeight: 800, color: 'var(--text-primary)', marginBottom: '0.3rem' }}>
-            {mode === 'login' ? 'Sign In to VOLTX Tech ID' : 'Create Your Hardware Account'}
+            {mode === 'login' ? 'Sign In to Your Account' : 'Create Your Customer Account'}
           </h3>
           <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>
-            Sign in to track orders, save shipping addresses, and unlock VIP hardware benefits.
+            Sign in to track orders, save shipping addresses, and unlock VIP member benefits.
           </p>
         </div>
 

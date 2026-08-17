@@ -42,7 +42,7 @@ export const Navbar: React.FC = () => {
 
   const [isSearchFocused, setIsSearchFocused] = useState(false);
 
-  const quickSearchTags = ['140W GaN', '240W Cable', 'Titan Ultra', 'MagSafe', 'Thunderbolt'];
+  const quickSearchTags = ['iPhone 17 Pro', 'Apple Watch', 'AirPods Pro', 'GaN Chargers', 'Sony PS5'];
 
   return (
     <header className="glass-panel" style={{
@@ -87,7 +87,7 @@ export const Navbar: React.FC = () => {
           </div>
           <div>
             <div style={{
-              fontSize: '1.45rem',
+              fontSize: '1.35rem',
               fontWeight: 800,
               letterSpacing: '-0.02em',
               lineHeight: 1.1,
@@ -95,8 +95,7 @@ export const Navbar: React.FC = () => {
               alignItems: 'center',
               gap: '0.2rem'
             }}>
-              <span>VOLT</span>
-              <span style={{ color: 'var(--accent-cyan)' }}>X</span>
+              <span>CLEOPATRA</span>
             </div>
             <div style={{
               fontSize: '0.62rem',
@@ -105,7 +104,7 @@ export const Navbar: React.FC = () => {
               color: 'var(--text-muted)',
               textTransform: 'uppercase'
             }}>
-              Tech & Gadgets
+              Electronics & Tech
             </div>
           </div>
         </div>

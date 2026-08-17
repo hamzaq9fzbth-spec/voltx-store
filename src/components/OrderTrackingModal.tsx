@@ -75,7 +75,7 @@ export const OrderTrackingModal: React.FC = () => {
               Live Order & Shipment Tracking
             </h3>
             <span style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>
-              Real-time automated status updates from the VOLTX logistics grid
+              Real-time automated status updates from the global logistics grid
             </span>
           </div>
         </div>
@@ -192,7 +192,7 @@ export const OrderTrackingModal: React.FC = () => {
                   Package Processed & Barcode Scanned
                 </div>
                 <div style={{ fontSize: '0.75rem', color: 'var(--text-secondary)' }}>
-                  VOLTX Smart Fulfillment Center #04 • Today, 8:40 AM
+                  Express Logistics Hub #04 • Today, 8:40 AM
                 </div>
               </div>
 

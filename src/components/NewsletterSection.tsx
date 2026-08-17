@@ -12,7 +12,7 @@ export const NewsletterSection: React.FC = () => {
     if (!email.trim() || !email.includes('@')) return;
 
     setIsSubscribed(true);
-    showToast('Subscribed! Promo code VOLT15 is now ready to use at checkout.', 'success', 'Welcome to VOLTX VIP');
+    showToast('Subscribed! Promo code CLEO15 is now ready to use at checkout.', 'success', 'Welcome to VIP Club');
   };
 
   return (
@@ -32,7 +32,7 @@ export const NewsletterSection: React.FC = () => {
           overflow: 'hidden'
         }}>
           <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', marginBottom: '1rem' }} className="badge badge-cyan">
-            <Sparkles size={13} /> VOLTX VIP Hardware Club
+            <Sparkles size={13} /> VIP Electronics Club
           </div>
 
           <h2 style={{ fontSize: '2rem', fontWeight: 800, color: 'var(--text-primary)', marginBottom: '0.75rem' }}>

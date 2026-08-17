@@ -74,8 +74,8 @@ export const AdminPortal: React.FC = () => {
 
   const [newTitle, setNewTitle] = useState('');
   const [newSubtitle, setNewSubtitle] = useState('');
-  const [newBrand, setNewBrand] = useState('VOLTX');
-  const [newCategory, setNewCategory] = useState<ProductCategory>('chargers');
+  const [newBrand, setNewBrand] = useState('Apple');
+  const [newCategory, setNewCategory] = useState<ProductCategory>('mobiles');
   const [newPrice, setNewPrice] = useState<number>(49.99);
   const [newOriginalPrice, setNewOriginalPrice] = useState<number>(69.99);
   const [newStock, setNewStock] = useState<number>(50);
@@ -140,8 +140,8 @@ export const AdminPortal: React.FC = () => {
     setEditingProductId(null);
     setNewTitle('');
     setNewSubtitle('');
-    setNewBrand('VOLTX');
-    setNewCategory('chargers');
+    setNewBrand('Apple');
+    setNewCategory('mobiles');
     setNewPrice(49.99);
     setNewOriginalPrice(69.99);
     setNewStock(50);
@@ -267,7 +267,7 @@ export const AdminPortal: React.FC = () => {
             </div>
             <div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                <span style={{ fontSize: '1.15rem', fontWeight: 800 }}>VOLTX Master Command Center</span>
+                <span style={{ fontSize: '1.15rem', fontWeight: 800 }}>Cleopatra Master Command Center</span>
                 <span style={{
                   fontSize: '0.65rem',
                   fontWeight: 800,
@@ -1403,7 +1403,7 @@ export const AdminPortal: React.FC = () => {
                   <input 
                     type="text" 
                     required
-                    placeholder="e.g. VOLTX 140W GaN SuperCharger"
+                    placeholder="e.g. Apple iPhone 17 Pro Max"
                     value={newTitle}
                     onChange={(e) => setNewTitle(e.target.value)}
                     style={{

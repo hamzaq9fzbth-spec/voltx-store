@@ -20,22 +20,22 @@ import { ProductCategory } from '../types';
 export const Hero: React.FC = () => {
   const { setSelectedCategory, setSelectedProductForDetail, products, formatPrice, addToCart } = useStore();
 
-  const featuredProduct = products.find(p => p.id === 'titan-ultra-5g') || products[0];
+  const featuredProduct = products.find(p => p.id === 'apple-iphone-17-pro-max' || p.title.toLowerCase().includes('iphone 17')) || products[0];
 
   const categoryChips: { label: string; cat: ProductCategory; icon: React.ReactNode }[] = [
-    { label: 'Smartphones', cat: 'mobiles', icon: <Smartphone size={16} /> },
-    { label: 'GaN Chargers', cat: 'chargers', icon: <BatteryCharging size={16} /> },
-    { label: 'Heavy Cables', cat: 'cables', icon: <Cable size={16} /> },
-    { label: 'Audio & ANC', cat: 'audio', icon: <Headphones size={16} /> },
-    { label: 'Smart Wearables', cat: 'wearables', icon: <Watch size={16} /> },
+    { label: 'Smartphones & iPhones', cat: 'mobiles', icon: <Smartphone size={16} /> },
+    { label: 'GaN Fast Chargers', cat: 'chargers', icon: <BatteryCharging size={16} /> },
+    { label: 'Heavy Duty Cables', cat: 'cables', icon: <Cable size={16} /> },
+    { label: 'Audio & AirPods', cat: 'audio', icon: <Headphones size={16} /> },
+    { label: 'Smart Watches', cat: 'wearables', icon: <Watch size={16} /> },
     { label: 'Tech Accessories', cat: 'accessories', icon: <Layers size={16} /> }
   ];
 
   const trustBadges = [
     { icon: <Truck size={20} color="var(--accent-cyan)" />, title: 'Free Express Shipping', desc: 'On all orders above $50' },
-    { icon: <Shield size={20} color="var(--accent-emerald)" />, title: '2-Year VOLTX Warranty', desc: 'Zero hassle hardware coverage' },
+    { icon: <Shield size={20} color="var(--accent-emerald)" />, title: 'Official Hardware Warranty', desc: '100% Genuine Guaranteed Coverage' },
     { icon: <CheckCircle size={20} color="var(--accent-amber)" />, title: 'Official Authenticity', desc: '100% genuine tested components' },
-    { icon: <Zap size={20} color="var(--accent-cyan)" />, title: '240W GaN Certification', desc: 'Navitas & Intel certified labs' }
+    { icon: <Zap size={20} color="var(--accent-cyan)" />, title: 'Fast Insured Courier', desc: 'Direct dispatch to your doorstep' }
   ];
 
   return (
@@ -56,12 +56,12 @@ export const Hero: React.FC = () => {
         }}>
           {/* Left Column: Headline & Value Prop */}
           <div>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '1rem' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '1rem', flexWrap: 'wrap' }}>
               <span className="badge badge-cyan">
-                <Sparkles size={12} /> Next-Gen Hardware Drop 2026
+                <Sparkles size={12} /> Apple Flagship Collection 2026
               </span>
               <span className="badge badge-amber">
-                <Zap size={12} /> Up to 240W HyperCharge
+                <Zap size={12} /> A19 Pro Silicon Architecture
               </span>
             </div>
 
@@ -73,13 +73,13 @@ export const Hero: React.FC = () => {
               marginBottom: '1.25rem',
               color: 'var(--text-primary)'
             }}>
-              Engineered for <br />
+              The Next Era of <br />
               <span style={{
                 background: 'var(--gradient-tech)',
                 WebkitBackgroundClip: 'text',
                 WebkitTextFillColor: 'transparent'
               }}>
-                Pure Speed & Power.
+                Apple iPhone 17.
               </span>
             </h1>
 
@@ -90,34 +90,34 @@ export const Hero: React.FC = () => {
               marginBottom: '2rem',
               maxWidth: '520px'
             }}>
-              Discover aerospace-grade smartphones, ultra-compact GaN fast chargers, indestructible Kevlar cables, and spatial acoustics built without compromise.
+              Discover aerospace-grade titanium smartphones, genuine Apple Silicon hardware, ultra-fast GaN chargers, and high-fidelity acoustics.
             </p>
 
             {/* CTAs */}
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', marginBottom: '2rem' }}>
               <button 
                 onClick={() => {
-                  setSelectedCategory('chargers');
+                  setSelectedCategory('mobiles');
                   const target = document.getElementById('product-catalog');
                   target?.scrollIntoView({ behavior: 'smooth' });
                 }}
                 className="btn btn-primary"
                 style={{ padding: '0.85rem 1.6rem', fontSize: '1rem' }}
               >
-                <span>Shop Fast Chargers</span>
+                <span>Explore Apple & Mobiles</span>
                 <ArrowRight size={18} />
               </button>
 
               <button 
                 onClick={() => {
-                  setSelectedCategory('mobiles');
+                  setSelectedCategory('all');
                   const target = document.getElementById('product-catalog');
                   target?.scrollIntoView({ behavior: 'smooth' });
                 }}
                 className="btn btn-secondary"
                 style={{ padding: '0.85rem 1.6rem', fontSize: '1rem' }}
               >
-                <span>Explore Smartphones</span>
+                <span>Browse All Products</span>
               </button>
             </div>
 
@@ -241,13 +241,13 @@ export const Hero: React.FC = () => {
                 {/* Specs Pill List */}
                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.4rem', marginBottom: '1.5rem' }}>
                   <span style={{ fontSize: '0.75rem', padding: '0.2rem 0.6rem', background: 'var(--bg-elevated)', borderRadius: 'var(--radius-sm)', border: '1px solid var(--border-subtle)' }}>
-                    ⚡ 100W HyperCharge
+                    ⚡ Apple A19 Pro Silicon
                   </span>
                   <span style={{ fontSize: '0.75rem', padding: '0.2rem 0.6rem', background: 'var(--bg-elevated)', borderRadius: 'var(--radius-sm)', border: '1px solid var(--border-subtle)' }}>
-                    📸 200MP Quad AI
+                    📸 48MP Quad-Prism Fusion
                   </span>
                   <span style={{ fontSize: '0.75rem', padding: '0.2rem 0.6rem', background: 'var(--bg-elevated)', borderRadius: 'var(--radius-sm)', border: '1px solid var(--border-subtle)' }}>
-                    🛡️ Titanium Frame
+                    🛡️ Grade 5 Titanium Frame
                   </span>
                 </div>
 

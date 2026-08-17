@@ -80,7 +80,7 @@ export const AdminAuthModal: React.FC = () => {
               <input 
                 type="text"
                 required
-                placeholder="admin@voltxtech.com"
+                placeholder="admin@cleopatraweb.com"
                 value={adminId}
                 onChange={(e) => setAdminId(e.target.value)}
                 style={{

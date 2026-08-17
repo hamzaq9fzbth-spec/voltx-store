@@ -375,11 +375,11 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
       reviews: [
         {
           id: 'rev_initial_' + Date.now(),
-          userName: 'VOLTX Verified Team',
+          userName: 'Cleopatra Quality Inspector',
           rating: 5,
           date: 'Just now',
           title: 'Official Launch',
-          comment: 'Aerospace-grade verified hardware unit directly from VOLTX labs.',
+          comment: 'Verified factory sealed genuine hardware with full authenticity guarantee.',
           verified: true,
           helpfulCount: 3
         }

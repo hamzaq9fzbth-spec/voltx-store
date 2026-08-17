@@ -330,7 +330,7 @@ export const CheckoutModal: React.FC = () => {
                 <input 
                   type="email" 
                   required
-                  placeholder="alex.vance@voltxtech.com"
+                  placeholder="customer@example.com"
                   value={customer.email}
                   onChange={(e) => setCustomer({ ...customer, email: e.target.value })}
                   style={{
@@ -781,7 +781,7 @@ export const CheckoutModal: React.FC = () => {
                 }}>
                   <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.5rem' }}>
                     <span style={{ fontSize: '0.75rem', fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--accent-cyan)' }}>
-                      VOLTX TECH PASSPORT
+                      DIGITAL CARD VAULT
                     </span>
                     <span style={{ fontWeight: 800, fontSize: '1rem', fontFamily: 'var(--font-mono)' }}>
                       {payment.cardBrand || 'VISA'}

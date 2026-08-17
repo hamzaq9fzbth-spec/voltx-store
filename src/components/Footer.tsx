@@ -61,27 +61,26 @@ export const Footer: React.FC = () => {
                 <Zap size={20} color="#090d16" fill="#090d16" />
               </div>
               <div style={{ fontSize: '1.4rem', fontWeight: 800, color: 'var(--text-primary)', letterSpacing: '-0.02em' }}>
-                <span>VOLT</span>
-                <span style={{ color: 'var(--accent-cyan)' }}>X</span>
+                <span>CLEOPATRA</span>
               </div>
             </div>
 
             <p style={{ fontSize: '0.88rem', lineHeight: 1.6, marginBottom: '1.25rem', color: 'var(--text-secondary)' }}>
-              Engineered for speed, durability, and daily performance. Discover aerospace-grade smartphones, GaN III fast chargers, and indestructible Kevlar cables.
+              Your trusted destination for genuine Apple iPhones, smartphones, certified GaN fast chargers, and premium consumer electronics.
             </p>
 
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.4rem', fontSize: '0.82rem' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                 <MapPin size={14} color="var(--accent-cyan)" />
-                <span>San Francisco, California, USA</span>
+                <span>Muscat / Ruwi, Sultanate of Oman</span>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                 <Phone size={14} color="var(--accent-cyan)" />
-                <span>+1 (800) 489-VOLTX</span>
+                <span>+968 2470 0000</span>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                 <Mail size={14} color="var(--accent-cyan)" />
-                <span>support@voltxtech.com</span>
+                <span>support@cleopatraweb.com</span>
               </div>
             </div>
           </div>
@@ -206,7 +205,7 @@ export const Footer: React.FC = () => {
           fontSize: '0.8rem'
         }}>
           <div>
-            © {new Date().getFullYear()} VOLTX Inc. All Rights Reserved. Built with React & Vite.
+            © {new Date().getFullYear()} CLEOPATRA Oman. All Rights Reserved. Built with React & Vite.
           </div>
           <div style={{ display: 'flex', alignItems: 'center', gap: '1.25rem' }}>
             <button 
