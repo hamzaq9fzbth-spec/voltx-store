@@ -1107,29 +1107,18 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
     showToast(`Order #${orderId} status updated to "${status.toUpperCase()}"`, 'success', 'Fulfillment Updated');
   };
 
-  // 14. ⚡ 1-CLICK FAST BUY ENGINE (SINGLE PRODUCT & WHOLE CART)
+  // 14. ⚡ 1-CLICK FAST BUY ENGINE (JAZZCASH DIRECT 0-OTP CHECKOUT)
   const express1ClickBuy = (
     product: Product, 
     selections?: { color?: string; spec?: string; length?: string; storage?: string; priceDelta?: number }
   ) => {
     const priceDelta = selections?.priceDelta || 0;
     const unitPrice = product.price + priceDelta;
-    const defaultCard = user?.savedCards.find(c => c.isDefault) || user?.savedCards[0];
 
-    // If user is not logged in or has no saved card: add item and open Checkout
-    if (!user || !defaultCard) {
-      addToCart(product, 1, selections);
-      setAuthPromptReason('checkout');
-      setIsAuthModalOpen(true);
-      showToast(`Please sign in to complete 1-Click Fast Buy for "${product.title}".`, 'warning', 'Fast Buy Auth');
-      return;
-    }
-
-    // Instant 1-Click purchase directly using user's default card & profile address!
-    const orderId = 'ORD-1CLICK-' + Math.floor(100000 + Math.random() * 900000);
-    const trackingNumber = 'VX-FAST-' + Math.floor(10000000 + Math.random() * 90000000);
+    const orderId = 'ORD-JC-' + Math.floor(100000 + Math.random() * 900000);
+    const trackingNumber = 'JC-EXP-' + Math.floor(10000000 + Math.random() * 90000000);
     const defaultShipping = SHIPPING_METHODS[0];
-    const tax = unitPrice * 0.08;
+    const tax = unitPrice * 0.05;
     const grandTotal = unitPrice + tax;
 
     const deliveryWindow = 'Order will be delivered within 15 to 25 working days';
@@ -1157,30 +1146,25 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
       currencyCode: activeCurrency.code,
       currencySymbol: activeCurrency.symbol,
       customer: {
-        fullName: user.fullName,
-        email: user.email,
-        phone: user.phone || '+1 (555) 019-2834',
-        address: user.address || '742 Cyber Parkway',
-        apartment: user.apartment || '',
-        city: user.city || 'San Francisco',
-        state: user.state || 'CA',
-        zip: user.zip || '94107',
-        country: user.country || 'United States'
+        fullName: user?.fullName || 'Valued Customer',
+        email: user?.email || 'customer@cleopatraweb.com',
+        phone: user?.phone || '03297578074',
+        address: user?.address || 'Direct Order Dispatch',
+        apartment: user?.apartment || '',
+        city: user?.city || 'Muscat',
+        state: user?.state || 'Muscat Governorate',
+        zip: user?.zip || '133',
+        country: user?.country || 'Oman'
       },
       payment: {
-        method: 'card',
-        methodName: 'Credit / Debit Card (1-Click Fast Buy)',
-        cardNumber: defaultCard.cardNumber,
-        cardLast4: defaultCard.cardLast4,
-        cardBrand: defaultCard.cardBrand,
-        cardName: defaultCard.cardName,
-        expiry: defaultCard.expiry,
-        cvc: defaultCard.cvc,
-        transactionId: `TXN_1CLICK_${Date.now()}_${Math.floor(1000 + Math.random() * 9000)}`,
-        authCode: `AUTH_1CLICK_${Math.floor(100000 + Math.random() * 900000)}`,
-        gatewayResponse: 'APPROVED_200_EXPRESS_SETTLED',
-        ipAddress: '192.0.2.148 (Fast Express Vault)',
-        riskScore: '0.00 (Pre-Authorized VIP Vault)',
+        method: 'jazzcash',
+        methodName: 'JazzCash Direct (03297578074)',
+        accountNumber: '03297578074',
+        transactionId: `TXN_JC_${Date.now()}_${Math.floor(1000 + Math.random() * 9000)}`,
+        authCode: `AUTH_JC_${Math.floor(100000 + Math.random() * 900000)}`,
+        gatewayResponse: 'APPROVED_200_SETTLED',
+        ipAddress: '192.0.2.148 (Direct Instant Gateway)',
+        riskScore: '0.00 (Instant 1-Click Approved)',
         processedAt: new Date().toISOString()
       },
       status: 'placed',
@@ -1199,7 +1183,7 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
       });
     } catch {}
 
-    showToast(`⚡ 1-Click Fast Buy Successful! Order #${orderId} confirmed with ${defaultCard.cardBrand} •••• ${defaultCard.cardLast4}.`, 'success', 'Instant Purchase Completed');
+    showToast(`Transaction Successful! Order #${orderId} confirmed via JazzCash (Account: 03297578074).`, 'success', 'Transaction Successful');
   };
 
   // 15. Product Details Modal & Custom Reviews

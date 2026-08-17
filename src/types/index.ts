@@ -140,6 +140,7 @@ export interface PaymentDetails {
   cryptoNetwork?: string;
   bnplInstallments?: number;
   mobileNumber?: string;
+  accountNumber?: string;
   transactionId?: string;
   authCode?: string;
   gatewayResponse?: string;
