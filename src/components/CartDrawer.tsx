@@ -168,41 +168,35 @@ export const CartDrawer: React.FC = () => {
         {/* Free Shipping Progress Meter */}
         <div style={{
           padding: '1rem 1.5rem',
-          background: 'var(--bg-elevated)',
-          borderBottom: '1px solid var(--border-subtle)'
+          background: 'rgba(16, 185, 129, 0.08)',
+          borderBottom: '1px solid rgba(16, 185, 129, 0.2)'
         }}>
           <div style={{
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'space-between',
-            fontSize: '0.8rem',
+            fontSize: '0.82rem',
             marginBottom: '0.5rem'
           }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', color: isFreeShippingUnlocked ? 'var(--accent-emerald)' : 'var(--text-primary)', fontWeight: 600 }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', color: 'var(--accent-emerald)', fontWeight: 700 }}>
               <Truck size={16} />
-              <span>
-                {isFreeShippingUnlocked 
-                  ? '⚡ You have unlocked FREE Express Delivery!' 
-                  : `Add ${formatPrice(remainingForFreeShipping)} more to unlock FREE Express Delivery`}
-              </span>
+              <span>⚡ 100% FREE Express Shipping Applied to All Orders!</span>
             </div>
-            <span style={{ fontWeight: 800, color: isFreeShippingUnlocked ? 'var(--accent-emerald)' : 'var(--accent-cyan)', fontFamily: 'var(--font-mono)' }}>
-              {isFreeShippingUnlocked ? '100%' : `${freeShippingProgress}%`}
+            <span style={{ fontWeight: 800, color: 'var(--accent-emerald)', fontFamily: 'var(--font-mono)' }}>
+              100% FREE
             </span>
           </div>
 
           <div style={{
             height: '6px',
-            background: 'var(--bg-surface)',
+            background: 'rgba(16, 185, 129, 0.2)',
             borderRadius: 'var(--radius-full)',
             overflow: 'hidden'
           }}>
             <div style={{
               height: '100%',
-              width: isFreeShippingUnlocked ? '100%' : `${freeShippingProgress}%`,
-              background: isFreeShippingUnlocked 
-                ? 'var(--accent-emerald)' 
-                : 'linear-gradient(90deg, var(--accent-cyan) 0%, var(--accent-blue) 100%)',
+              width: '100%',
+              background: 'linear-gradient(90deg, #10b981 0%, #00f2fe 100%)',
               transition: 'width 0.4s ease'
             }} />
           </div>

@@ -10423,9 +10423,16 @@ export const AVAILABLE_COUPONS: Coupon[] = [
 export const SHIPPING_METHODS: ShippingMethod[] = [
   {
     id: 'standard_insured',
-    name: 'Worldwide Insured Standard Delivery',
-    description: 'Order will be delivered within 15 to 25 working days',
+    name: '100% Free Express Delivery',
+    description: 'Order will be delivered within 15 to 25 working days (100% Free Express Shipping)',
     estimatedDays: '15-25 Working Days',
+    price: 0
+  },
+  {
+    id: 'express_air',
+    name: '100% Free Priority Courier',
+    description: 'Tracked & Insured Doorstep Express (100% Free Shipping)',
+    estimatedDays: '12-20 Working Days',
     price: 0
   }
 ];

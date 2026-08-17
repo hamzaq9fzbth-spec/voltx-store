@@ -54,8 +54,8 @@ export const AnnouncementBar: React.FC = () => {
       }}>
         {/* Left item */}
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
-          <Truck size={14} color="var(--accent-cyan)" />
-          <span>FREE Delivery on orders over <strong style={{ color: 'var(--accent-cyan)' }}>{formatPrice(freeShippingThreshold)}</strong></span>
+          <Truck size={14} color="var(--accent-emerald)" />
+          <span>🚚 <strong style={{ color: 'var(--accent-emerald)' }}>100% FREE EXPRESS SHIPPING</strong> on all orders!</span>
         </div>
 
         {/* Center item - Dynamic Admin Announcement Message */}

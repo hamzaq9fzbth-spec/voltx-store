@@ -70,7 +70,7 @@ export const Hero: React.FC = () => {
   ];
 
   const trustBadges = [
-    { icon: <Truck size={20} color="var(--accent-cyan)" />, title: 'Free Express Shipping', desc: 'On all orders above $50' },
+    { icon: <Truck size={20} color="var(--accent-emerald)" />, title: '100% Free Express Shipping', desc: 'On all orders with zero minimum' },
     { icon: <Shield size={20} color="var(--accent-emerald)" />, title: 'Official Hardware Warranty', desc: '100% Genuine Guaranteed Coverage' },
     { icon: <CheckCircle size={20} color="var(--accent-amber)" />, title: 'Official Authenticity', desc: '100% genuine tested components' },
     { icon: <Zap size={20} color="var(--accent-cyan)" />, title: 'Fast Insured Courier', desc: 'Direct dispatch to your doorstep' }

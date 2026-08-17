@@ -188,8 +188,8 @@ const INITIAL_REGISTERED_USERS: UserProfile[] = [];
 const INITIAL_ORDERS_SAMPLE: Order[] = [];
 
 const DEFAULT_ANNOUNCEMENT: AnnouncementConfig = {
-  message: '⚡ CLEOPATRA OMAN: 15% OFF ALL SMARTPHONES & ACCESSORIES | FREE EXPRESS DELIVERY IN OMAN',
-  badge: '🔥 OMAN SPECIAL',
+  message: '🚚 100% FREE EXPRESS SHIPPING ON ALL ORDERS | NO MINIMUM PURCHASE REQUIRED',
+  badge: '🔥 100% FREE SHIPPING',
   linkText: 'Shop Now',
   enabled: true
 };
@@ -935,8 +935,8 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
 
   const cartCount = cart.reduce((total, item) => total + item.quantity, 0);
   const cartSubtotal = cart.reduce((total, item) => total + (item.unitPrice * item.quantity), 0);
-  const freeShippingThreshold = 50.0;
-  const freeShippingProgress = Math.min(100, Math.round((cartSubtotal / freeShippingThreshold) * 100));
+  const freeShippingThreshold = 0;
+  const freeShippingProgress = 100;
 
   // 11. Wishlist State
   const [wishlist, setWishlist] = useState<Product[]>(() => {
