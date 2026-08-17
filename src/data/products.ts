@@ -1,822 +1,2544 @@
-import { Product, Coupon, ShippingMethod, Currency } from '../types';
+import { Product, Currency, Coupon, ShippingMethod } from '../types';
+
+export const INITIAL_PRODUCTS: Product[] = [
+  {
+    "id": "cleo_1_belkin-boost-charge-power-bund",
+    "title": "Belkin Boost Charge Power Bundle Charger + 10k Power bank",
+    "subtitle": "Belkin Official Hardware • Cleopatra Web Store Oman",
+    "brand": "Belkin",
+    "category": "chargers",
+    "price": 49.99,
+    "originalPrice": 62,
+    "rating": 4.8,
+    "reviewCount": 12,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2026/07/Belkin-Boost-Charge-Power-Bundle-Charger-10k-Power-bank.jpg"
+    ],
+    "badge": "BEST SELLER",
+    "stock": 15,
+    "featured": true,
+    "flashDeal": true,
+    "flashDealDiscount": 20,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "Belkin Boost Charge Power Bundle Ch",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_1_belkin-boost-charge-power-bund_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_2_jbl-powered-speaker-eon-715-15",
+    "title": "Jbl Powered Speaker Eon 715 15″ 1300w",
+    "subtitle": "JBL Official Hardware • Cleopatra Web Store Oman",
+    "brand": "JBL",
+    "category": "audio",
+    "price": 399.99,
+    "originalPrice": 500,
+    "rating": 4.8999999999999995,
+    "reviewCount": 17,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2026/07/Jbl-Powered-Speaker-Eon-712-12-1300w.png"
+    ],
+    "badge": "NEW",
+    "stock": 18,
+    "featured": true,
+    "flashDeal": false,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "Jbl Powered Speaker Eon 715 15″ 130",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_2_jbl-powered-speaker-eon-715-15_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_3_sony-ps-5-slim-digital-edition",
+    "title": "Sony PS 5 Slim Digital Edition Console 825GB CFI-2116B",
+    "subtitle": "Sony Official Hardware • Cleopatra Web Store Oman",
+    "brand": "Sony",
+    "category": "accessories",
+    "price": 499.99,
+    "originalPrice": 625,
+    "rating": 5,
+    "reviewCount": 22,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2026/07/Sony-PS-5-Slim-Digital-Edition-Console-825GB-CFI-2116B-.png"
+    ],
+    "badge": "HOT",
+    "stock": 21,
+    "featured": true,
+    "flashDeal": false,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "Sony PS 5 Slim Digital Edition Cons",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_3_sony-ps-5-slim-digital-edition_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_4_kodak-digital-camera-pixpro-c1",
+    "title": "Kodak Digital Camera PIXPRO C1",
+    "subtitle": "Kodak Official Hardware • Cleopatra Web Store Oman",
+    "brand": "Kodak",
+    "category": "accessories",
+    "price": 149.99,
+    "originalPrice": 187,
+    "rating": 4.8,
+    "reviewCount": 27,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2026/06/Kodak-Digital-Camera-PIXPRO-C1.png"
+    ],
+    "badge": "240W GaN",
+    "stock": 24,
+    "featured": true,
+    "flashDeal": false,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "Kodak Digital Camera PIXPRO C1",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_4_kodak-digital-camera-pixpro-c1_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_5_anker-a1664-maggo-ultra-slim-1",
+    "title": "Anker A1664 MagGo Ultra-Slim 10000mAh Qi2 Certified 15W Power Bank",
+    "subtitle": "Anker Official Hardware • Cleopatra Web Store Oman",
+    "brand": "Anker",
+    "category": "chargers",
+    "price": 49.99,
+    "originalPrice": 62,
+    "rating": 4.8999999999999995,
+    "reviewCount": 32,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2026/06/Anker-A1664-MagGo-Ultra-Slim-10000mAh-Qi2-Certified-15W-Power-Bank-.png"
+    ],
+    "badge": "LIMITED",
+    "stock": 27,
+    "featured": true,
+    "flashDeal": true,
+    "flashDealDiscount": 20,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "Anker A1664 MagGo Ultra-Slim 10000m",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_5_anker-a1664-maggo-ultra-slim-1_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_6_haino-teko-fg-3-5g-android-sma",
+    "title": "Haino Teko FG-3 5G Android Smart Watch SIM Card Support",
+    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
+    "brand": "Cleopatra Official",
+    "category": "wearables",
+    "price": 249.99,
+    "originalPrice": 312,
+    "rating": 5,
+    "reviewCount": 37,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2026/06/Haino-Teko-FG-3-5G-Android-Smart-Watch-SIM-Card-Support-.png"
+    ],
+    "badge": "SALE",
+    "stock": 30,
+    "featured": true,
+    "flashDeal": false,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "Haino Teko FG-3 5G Android Smart Wa",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_6_haino-teko-fg-3-5g-android-sma_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_7_google-fitbit-air-screen-less-",
+    "title": "Google Fitbit Air Screen less Fitness & Health Tracking Band Black",
+    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
+    "brand": "Cleopatra Official",
+    "category": "wearables",
+    "price": 49.99,
+    "originalPrice": 62,
+    "rating": 4.8,
+    "reviewCount": 42,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2026/06/Google-Fitbit-Air-Screen-less-Fitness-Health-Tracking-Band-Black-.png"
+    ],
+    "badge": "BEST SELLER",
+    "stock": 33,
+    "featured": true,
+    "flashDeal": false,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "Google Fitbit Air Screen less Fitne",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_7_google-fitbit-air-screen-less-_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_8_cleo-hb-portable-fever-knee-ma",
+    "title": "Cleo-HB Portable Fever Knee Massager GN-D102",
+    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
+    "brand": "Cleopatra Official",
+    "category": "accessories",
+    "price": 49.99,
+    "originalPrice": 62,
+    "rating": 4.8999999999999995,
+    "reviewCount": 47,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2026/05/Untitled-design-159.png"
+    ],
+    "badge": "NEW",
+    "stock": 36,
+    "featured": true,
+    "flashDeal": false,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "Cleo-HB Portable Fever Knee Massage",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_8_cleo-hb-portable-fever-knee-ma_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_9_dji-gimbal-osmo-mobile-8-p-cre",
+    "title": "Dji Gimbal Osmo Mobile 8 P Creator Combo",
+    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
+    "brand": "Cleopatra Official",
+    "category": "accessories",
+    "price": 49.99,
+    "originalPrice": 62,
+    "rating": 5,
+    "reviewCount": 52,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2026/05/Dji-Gimbal-Osmo-Mobile-8-P-Creator-Combo.png"
+    ],
+    "stock": 39,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 20,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "Dji Gimbal Osmo Mobile 8 P Creator ",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_9_dji-gimbal-osmo-mobile-8-p-cre_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_10_dji-gimbal-osmo-mobile-8-p-adv",
+    "title": "Dji Gimbal Osmo Mobile 8 P Advance Tracking Combo",
+    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
+    "brand": "Cleopatra Official",
+    "category": "accessories",
+    "price": 49.99,
+    "originalPrice": 62,
+    "rating": 4.8,
+    "reviewCount": 57,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2026/05/Dji-Gimbal-Osmo-Mobile-8-P-Advance-Tracking-Combo.png"
+    ],
+    "stock": 42,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "Dji Gimbal Osmo Mobile 8 P Advance ",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_10_dji-gimbal-osmo-mobile-8-p-adv_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_11_dji-gimbal-osmo-mobile-8-p-sta",
+    "title": "Dji Gimbal Osmo Mobile 8 P Standard Combo",
+    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
+    "brand": "Cleopatra Official",
+    "category": "accessories",
+    "price": 49.99,
+    "originalPrice": 62,
+    "rating": 4.8999999999999995,
+    "reviewCount": 62,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2026/05/Dji-Gimbal-Osmo-Mobile-8-P-Standard-Combo.png"
+    ],
+    "stock": 45,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "Dji Gimbal Osmo Mobile 8 P Standard",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_11_dji-gimbal-osmo-mobile-8-p-sta_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_12_honor-choice-smart-watch-2-pro",
+    "title": "Honor Choice Smart Watch 2 Pro Black",
+    "subtitle": "Honor Official Hardware • Cleopatra Web Store Oman",
+    "brand": "Honor",
+    "category": "mobiles",
+    "price": 249.99,
+    "originalPrice": 312,
+    "rating": 5,
+    "reviewCount": 67,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2026/05/Honor-Choice-Smart-Watch-2-Pro-Black.png"
+    ],
+    "stock": 48,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "Honor Choice Smart Watch 2 Pro Blac",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_12_honor-choice-smart-watch-2-pro_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_13_honor-choice-smart-watch-2i",
+    "title": "Honor Choice Smart Watch 2i",
+    "subtitle": "Honor Official Hardware • Cleopatra Web Store Oman",
+    "brand": "Honor",
+    "category": "mobiles",
+    "price": 249.99,
+    "originalPrice": 312,
+    "rating": 4.8,
+    "reviewCount": 72,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2026/05/a-gift-3-2.png"
+    ],
+    "stock": 51,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 20,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "Honor Choice Smart Watch 2i",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_13_honor-choice-smart-watch-2i_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_14_tecno-camon-50-ultra-12gb-256g",
+    "title": "Tecno Camon 50 Ultra 12gb 256gb 5g Gsm",
+    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
+    "brand": "Cleopatra Official",
+    "category": "accessories",
+    "price": 499.99,
+    "originalPrice": 625,
+    "rating": 4.8999999999999995,
+    "reviewCount": 77,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2026/05/camon-50-ultra-green-600.webp"
+    ],
+    "stock": 54,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "Tecno Camon 50 Ultra 12gb 256gb 5g ",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_14_tecno-camon-50-ultra-12gb-256g_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_15_hp-used-laptop-elitebook-8470p",
+    "title": "Hp Used Laptop EliteBook 8470P i7 3rd Gen, 8 Gb Ram, 256 Gb SSd, 14 inch Screen, Win 10",
+    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
+    "brand": "Cleopatra Official",
+    "category": "accessories",
+    "price": 89.99,
+    "originalPrice": 112,
+    "rating": 5,
+    "reviewCount": 82,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2026/05/Hp-Used-Laptop-EliteBook-8470P-i7-3rd-Gen-8-Gb-Ram-256-Gb-SSd-14-inch-Screen-Win-10.jpg"
+    ],
+    "stock": 17,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "Hp Used Laptop EliteBook 8470P i7 3",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_15_hp-used-laptop-elitebook-8470p_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_16_denx-water-dispenser-dx-4506",
+    "title": "Denx Water Dispenser DX-4506",
+    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
+    "brand": "Cleopatra Official",
+    "category": "accessories",
+    "price": 49.99,
+    "originalPrice": 62,
+    "rating": 4.8,
+    "reviewCount": 87,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2026/08/Denx-Water-Dispenser-DX-4506-.png"
+    ],
+    "stock": 20,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "Denx Water Dispenser DX-4506",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_16_denx-water-dispenser-dx-4506_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_17_tp-link-wifi-range-extender-ax",
+    "title": "TP-Link Wifi Range Extender AX1500 RE500X",
+    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
+    "brand": "Cleopatra Official",
+    "category": "accessories",
+    "price": 49.99,
+    "originalPrice": 62,
+    "rating": 4.8999999999999995,
+    "reviewCount": 92,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2026/08/TP-Link-Wifi-Range-Extender-AX1500-RE500X.png"
+    ],
+    "stock": 23,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 20,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "TP-Link Wifi Range Extender AX1500 ",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_17_tp-link-wifi-range-extender-ax_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_18_kemei-professional-hair-trimme",
+    "title": "Kemei Professional Hair Trimmer KM-1848",
+    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
+    "brand": "Cleopatra Official",
+    "category": "accessories",
+    "price": 49.99,
+    "originalPrice": 62,
+    "rating": 5,
+    "reviewCount": 97,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2026/08/Kemei-Professional-Hair-Trimmer-KM-1848-.png"
+    ],
+    "stock": 26,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "Kemei Professional Hair Trimmer KM-",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_18_kemei-professional-hair-trimme_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_19_haohan-rechargeable-hair-trimm",
+    "title": "Haohan Rechargeable Hair Trimmer HL-11",
+    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
+    "brand": "Cleopatra Official",
+    "category": "accessories",
+    "price": 49.99,
+    "originalPrice": 62,
+    "rating": 4.8,
+    "reviewCount": 102,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2026/08/Haohan-Rechargeable-Hair-Trimmer-HL-11-.png"
+    ],
+    "stock": 29,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "Haohan Rechargeable Hair Trimmer HL",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_19_haohan-rechargeable-hair-trimm_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_20_haohan-rechargeable-nose-trimm",
+    "title": "Haohan Rechargeable Nose Trimmer HP-317",
+    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
+    "brand": "Cleopatra Official",
+    "category": "accessories",
+    "price": 49.99,
+    "originalPrice": 62,
+    "rating": 4.8999999999999995,
+    "reviewCount": 107,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2026/08/Haohan-Rechargeable-Nose-Trimmer-HP-317-.png"
+    ],
+    "stock": 32,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "Haohan Rechargeable Nose Trimmer HP",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_20_haohan-rechargeable-nose-trimm_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_21_haohan-electric-shaver-ht-2",
+    "title": "Haohan Electric Shaver HT-2",
+    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
+    "brand": "Cleopatra Official",
+    "category": "accessories",
+    "price": 49.99,
+    "originalPrice": 62,
+    "rating": 5,
+    "reviewCount": 112,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2026/08/Haohan-Electric-Shaver-HT-2.png"
+    ],
+    "stock": 35,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 20,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "Haohan Electric Shaver HT-2",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_21_haohan-electric-shaver-ht-2_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_22_hitachi-drum-vaccum-cleaner-cv",
+    "title": "Hitachi Drum Vaccum Cleaner CV945F240C WR 2000W",
+    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
+    "brand": "Cleopatra Official",
+    "category": "accessories",
+    "price": 49.99,
+    "originalPrice": 62,
+    "rating": 4.8,
+    "reviewCount": 117,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2026/08/Hitachi-Drum-Vaccum-Cleaner-CV945F240C-WR-2000W-.png"
+    ],
+    "stock": 38,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "Hitachi Drum Vaccum Cleaner CV945F2",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_22_hitachi-drum-vaccum-cleaner-cv_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_23_hitachi-drum-vaccum-cleaner-we",
+    "title": "Hitachi Drum Vaccum Cleaner Wet & Dry CV 975PWBKGAE 1600W",
+    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
+    "brand": "Cleopatra Official",
+    "category": "accessories",
+    "price": 49.99,
+    "originalPrice": 62,
+    "rating": 4.8999999999999995,
+    "reviewCount": 122,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2026/08/Hitachi-Drum-Vaccum-Cleaner-Wet-Dry-CV-975PWBKGAE-1600W-.png"
+    ],
+    "stock": 41,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "Hitachi Drum Vaccum Cleaner Wet & D",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_23_hitachi-drum-vaccum-cleaner-we_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_24_cleo-hb-zlade-ballistic-nose-e",
+    "title": "Cleo-HB Zlade Ballistic Nose & Ear Hair Trimmer",
+    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
+    "brand": "Cleopatra Official",
+    "category": "accessories",
+    "price": 49.99,
+    "originalPrice": 62,
+    "rating": 5,
+    "reviewCount": 127,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2026/08/Cleo-HB-Zlade-Ballistic-Nose-Ear-Hair-Trimmer.png"
+    ],
+    "stock": 44,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "Cleo-HB Zlade Ballistic Nose & Ear ",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_24_cleo-hb-zlade-ballistic-nose-e_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_25_cleo-el-oud-bukhoor-bk18",
+    "title": "Cleo-EL Oud Bukhoor BK18",
+    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
+    "brand": "Cleopatra Official",
+    "category": "accessories",
+    "price": 19.99,
+    "originalPrice": 25,
+    "rating": 4.8,
+    "reviewCount": 132,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2025/11/Cleo-EL-Oud-Bukhoor-BK18.jpg"
+    ],
+    "stock": 47,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 20,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "Cleo-EL Oud Bukhoor BK18",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_25_cleo-el-oud-bukhoor-bk18_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_26_kodak-max-alkaline-4lr44-batte",
+    "title": "Kodak Max Alkaline 4LR44 Battery",
+    "subtitle": "Kodak Official Hardware • Cleopatra Web Store Oman",
+    "brand": "Kodak",
+    "category": "accessories",
+    "price": 19.99,
+    "originalPrice": 25,
+    "rating": 4.8999999999999995,
+    "reviewCount": 137,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2023/10/products-oip_8.jpeg"
+    ],
+    "stock": 50,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "Kodak Max Alkaline 4LR44 Battery",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_26_kodak-max-alkaline-4lr44-batte_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_27_redmi-wireless-earbuds-buds-6-",
+    "title": "Redmi Wireless Earbuds Buds 6 Play",
+    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
+    "brand": "Cleopatra Official",
+    "category": "mobiles",
+    "price": 19.99,
+    "originalPrice": 25,
+    "rating": 5,
+    "reviewCount": 142,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2025/11/Redmi-Wireless-Earbuds-Buds-6-Play-Black-01.webp"
+    ],
+    "stock": 53,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "Redmi Wireless Earbuds Buds 6 Play",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_27_redmi-wireless-earbuds-buds-6-_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_28_honor-x6c-6gb-128gb-4g",
+    "title": "HONOR X6C 6GB 128GB 4G",
+    "subtitle": "Honor Official Hardware • Cleopatra Web Store Oman",
+    "brand": "Honor",
+    "category": "mobiles",
+    "price": 179.99,
+    "originalPrice": 225,
+    "rating": 4.8,
+    "reviewCount": 147,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2026/03/HONOR-X6C-6GB-128GB-4G-1.webp"
+    ],
+    "stock": 16,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "HONOR X6C 6GB 128GB 4G",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_28_honor-x6c-6gb-128gb-4g_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_29_jbl-bluetooth-headset-tune-520",
+    "title": "Jbl Bluetooth Headset Tune 520BT",
+    "subtitle": "JBL Official Hardware • Cleopatra Web Store Oman",
+    "brand": "JBL",
+    "category": "audio",
+    "price": 39.99,
+    "originalPrice": 50,
+    "rating": 4.8999999999999995,
+    "reviewCount": 152,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2023/10/01.webp"
+    ],
+    "stock": 19,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 20,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "Jbl Bluetooth Headset Tune 520BT",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_29_jbl-bluetooth-headset-tune-520_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_30_canon-cartridge-445-and-446-co",
+    "title": "Canon Cartridge 445 And 446 Combo Pack",
+    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
+    "brand": "Cleopatra Official",
+    "category": "accessories",
+    "price": 39.99,
+    "originalPrice": 50,
+    "rating": 5,
+    "reviewCount": 157,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2024/05/products-untitled_design_-_2024-05-08t184913.986.jpg"
+    ],
+    "stock": 22,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "Canon Cartridge 445 And 446 Combo P",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_30_canon-cartridge-445-and-446-co_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_31_anker-true-wirless-earbuds-a39",
+    "title": "Anker True Wirless EarBuds A3949 R50i",
+    "subtitle": "Anker Official Hardware • Cleopatra Web Store Oman",
+    "brand": "Anker",
+    "category": "audio",
+    "price": 19.99,
+    "originalPrice": 25,
+    "rating": 4.8,
+    "reviewCount": 12,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2023/10/products-r50i-2.png"
+    ],
+    "stock": 25,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "Anker True Wirless EarBuds A3949 R5",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_31_anker-true-wirless-earbuds-a39_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_32_canon-pg445-black-cartridge",
+    "title": "Canon PG445 Black cartridge",
+    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
+    "brand": "Cleopatra Official",
+    "category": "accessories",
+    "price": 39.99,
+    "originalPrice": 50,
+    "rating": 4.8999999999999995,
+    "reviewCount": 17,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2020/04/products-canon_445_cartridge.jpg"
+    ],
+    "stock": 28,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "Canon PG445 Black cartridge",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_32_canon-pg445-black-cartridge_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_33_joy-professional-2-in-1-stylin",
+    "title": "JOY PROFESSIONAL 2 in 1 Styling Brush",
+    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
+    "brand": "Cleopatra Official",
+    "category": "accessories",
+    "price": 39.99,
+    "originalPrice": 50,
+    "rating": 5,
+    "reviewCount": 22,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2023/10/products-71vxlxcjztl._ac_sl1500_.jpg"
+    ],
+    "stock": 31,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 20,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "JOY PROFESSIONAL 2 in 1 Styling Bru",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_33_joy-professional-2-in-1-stylin_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_34_iphone-16-pro-max-5g-8gb-256gb",
+    "title": "Iphone 16 Pro Max 5G 8Gb 256Gb",
+    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
+    "brand": "Cleopatra Official",
+    "category": "mobiles",
+    "price": 899.99,
+    "originalPrice": 1125,
+    "rating": 4.8,
+    "reviewCount": 27,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2024/09/products-1_117.png"
+    ],
+    "stock": 34,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "Iphone 16 Pro Max 5G 8Gb 256Gb",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_34_iphone-16-pro-max-5g-8gb-256gb_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_35_enzo-8-in-1-hair-straightener-",
+    "title": "Enzo 8 IN 1 Hair Straightener 4133 Pro Max",
+    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
+    "brand": "Cleopatra Official",
+    "category": "mobiles",
+    "price": 49.99,
+    "originalPrice": 62,
+    "rating": 4.8999999999999995,
+    "reviewCount": 32,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2026/08/Enzo-8-IN-1-Hair-Straightener-4133-Pro-Max-.png"
+    ],
+    "stock": 37,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "Enzo 8 IN 1 Hair Straightener 4133 ",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_35_enzo-8-in-1-hair-straightener-_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_36_enzo-7-in-1-hair-straightener-",
+    "title": "Enzo 7 IN 1 Hair Straightener EN-760",
+    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
+    "brand": "Cleopatra Official",
+    "category": "accessories",
+    "price": 49.99,
+    "originalPrice": 62,
+    "rating": 5,
+    "reviewCount": 37,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2026/08/Enzo-7-IN-1-Hair-Straightener-EN-760-.png"
+    ],
+    "stock": 40,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "Enzo 7 IN 1 Hair Straightener EN-76",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_36_enzo-7-in-1-hair-straightener-_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_37_enzo-5-in-1-hair-straightener-",
+    "title": "Enzo 5 IN 1 Hair Straightener Set EN-4142",
+    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
+    "brand": "Cleopatra Official",
+    "category": "accessories",
+    "price": 49.99,
+    "originalPrice": 62,
+    "rating": 4.8,
+    "reviewCount": 42,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2026/08/Enzo-5-IN-1-Hair-Straightener-Set-EN-4142-.png"
+    ],
+    "stock": 43,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 20,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "Enzo 5 IN 1 Hair Straightener Set E",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_37_enzo-5-in-1-hair-straightener-_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_38_cleo-sfo-folding-table-with-4-",
+    "title": "Cleo-SFO Folding Table With 4 Chairs Set",
+    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
+    "brand": "Cleopatra Official",
+    "category": "accessories",
+    "price": 49.99,
+    "originalPrice": 62,
+    "rating": 4.8999999999999995,
+    "reviewCount": 47,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2026/08/Cleo-SFO-Folding-Table-With-4-Chairs-Set-.png"
+    ],
+    "stock": 46,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "Cleo-SFO Folding Table With 4 Chair",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_38_cleo-sfo-folding-table-with-4-_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_39_playx-compact-racing-simulator",
+    "title": "PlayX Compact Racing Simulator RS1",
+    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
+    "brand": "Cleopatra Official",
+    "category": "accessories",
+    "price": 49.99,
+    "originalPrice": 62,
+    "rating": 5,
+    "reviewCount": 52,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2026/08/PlayX-Compact-Racing-Simulator-RS1.png"
+    ],
+    "stock": 49,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "PlayX Compact Racing Simulator RS1",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_39_playx-compact-racing-simulator_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_40_playx-wireless-gaming-headset-",
+    "title": "PlayX Wireless Gaming Headset H01",
+    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
+    "brand": "Cleopatra Official",
+    "category": "accessories",
+    "price": 49.99,
+    "originalPrice": 62,
+    "rating": 4.8,
+    "reviewCount": 57,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2026/08/PlayX-Wireless-Gaming-Headset-H01-.png"
+    ],
+    "stock": 52,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "PlayX Wireless Gaming Headset H01",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_40_playx-wireless-gaming-headset-_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_41_enzo-6-in-1-hair-straightener-",
+    "title": "Enzo 6 In 1 Hair Straightener EN 4133-5",
+    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
+    "brand": "Cleopatra Official",
+    "category": "accessories",
+    "price": 49.99,
+    "originalPrice": 62,
+    "rating": 4.8999999999999995,
+    "reviewCount": 62,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2026/08/Enzo-6-In-1-Hair-Straightener-EN-4133-5-.png"
+    ],
+    "stock": 15,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 20,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "Enzo 6 In 1 Hair Straightener EN 41",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_41_enzo-6-in-1-hair-straightener-_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_42_keva-silicon-case-galaxy-a07-a",
+    "title": "Keva Silicon Case Galaxy A07 / A17 / A27 / A37 / A57 Clear",
+    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
+    "brand": "Cleopatra Official",
+    "category": "accessories",
+    "price": 899.99,
+    "originalPrice": 1125,
+    "rating": 5,
+    "reviewCount": 67,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2026/08/Keva-Silicon-Case-Galaxy-A07-A17-A27-A37-A57-Clear-.png"
+    ],
+    "stock": 18,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "Keva Silicon Case Galaxy A07 / A17 ",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_42_keva-silicon-case-galaxy-a07-a_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_43_yesido-yh51-decode-direct-plug",
+    "title": "Yesido YH51 Decode Direct Plug For Lightning Earphone",
+    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
+    "brand": "Cleopatra Official",
+    "category": "mobiles",
+    "price": 49.99,
+    "originalPrice": 62,
+    "rating": 4.8,
+    "reviewCount": 72,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2026/08/Yesido-YH51-Decode-Direct-Plug-For-Lightning-Earphone-.png"
+    ],
+    "stock": 21,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "Yesido YH51 Decode Direct Plug For ",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_43_yesido-yh51-decode-direct-plug_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_44_go-des-gd-hd313-car-cup-tablet",
+    "title": "Go-des GD HD313 Car Cup Tablet Holder",
+    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
+    "brand": "Cleopatra Official",
+    "category": "accessories",
+    "price": 49.99,
+    "originalPrice": 62,
+    "rating": 4.8999999999999995,
+    "reviewCount": 77,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2026/08/Go-des-GD-HD313-Car-Cup-Tablet-Holder-.png"
+    ],
+    "stock": 24,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "Go-des GD HD313 Car Cup Tablet Hold",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_44_go-des-gd-hd313-car-cup-tablet_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_45_cleo-ma-langsdom-bluetooth-nec",
+    "title": "Cleo-MA Langsdom Bluetooth Neckband",
+    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
+    "brand": "Cleopatra Official",
+    "category": "wearables",
+    "price": 49.99,
+    "originalPrice": 62,
+    "rating": 5,
+    "reviewCount": 82,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2026/08/Cleo-MA-Langsdom-Bluetooth-Neckband-.png"
+    ],
+    "stock": 27,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 20,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "Cleo-MA Langsdom Bluetooth Neckband",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_45_cleo-ma-langsdom-bluetooth-nec_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_46_anker-data-cable-a8752h11-usb-",
+    "title": "Anker Data Cable A8752H11 Usb-C to Usb-C Braided 60w 1mtr/3.3ft",
+    "subtitle": "Anker Official Hardware • Cleopatra Web Store Oman",
+    "brand": "Anker",
+    "category": "cables",
+    "price": 49.99,
+    "originalPrice": 62,
+    "rating": 4.8,
+    "reviewCount": 87,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2026/08/Anker-Data-Cable-A8752H11-Usb-C-to-Usb-C-Braided-60w-1mtr3.3ft-.png"
+    ],
+    "stock": 30,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "Anker Data Cable A8752H11 Usb-C to ",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_46_anker-data-cable-a8752h11-usb-_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_47_anker-data-cable-a8060-zolo-us",
+    "title": "Anker Data Cable A8060 Zolo Usb C To Usb C Brieded 240w 3.3ft",
+    "subtitle": "Anker Official Hardware • Cleopatra Web Store Oman",
+    "brand": "Anker",
+    "category": "cables",
+    "price": 49.99,
+    "originalPrice": 62,
+    "rating": 4.8999999999999995,
+    "reviewCount": 92,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2026/08/Anker-Data-Cable-A8060-Zolo-Usb-C-To-Usb-C-Brieded-240w-3.3ft-.png"
+    ],
+    "stock": 33,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "Anker Data Cable A8060 Zolo Usb C T",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_47_anker-data-cable-a8060-zolo-us_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_48_jbl-live-780nc-wireless-over-e",
+    "title": "Jbl Live 780NC Wireless Over Ear Headphope Black",
+    "subtitle": "JBL Official Hardware • Cleopatra Web Store Oman",
+    "brand": "JBL",
+    "category": "audio",
+    "price": 49.99,
+    "originalPrice": 62,
+    "rating": 5,
+    "reviewCount": 97,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2026/08/Jbl-Live-780NC-Wireless-Over-Ear-Headphope-Black-.png"
+    ],
+    "stock": 36,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "Jbl Live 780NC Wireless Over Ear He",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_48_jbl-live-780nc-wireless-over-e_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_49_jbl-quantum-650-wireless-gamin",
+    "title": "Jbl Quantum 650 Wireless Gaming Headset Black",
+    "subtitle": "JBL Official Hardware • Cleopatra Web Store Oman",
+    "brand": "JBL",
+    "category": "audio",
+    "price": 49.99,
+    "originalPrice": 62,
+    "rating": 4.8,
+    "reviewCount": 102,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2026/08/Jbl-Quantum-650-Wireless-Gaming-Headset-Black-.png"
+    ],
+    "stock": 39,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 20,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "Jbl Quantum 650 Wireless Gaming Hea",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_49_jbl-quantum-650-wireless-gamin_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_50_jbl-quantum-650-wireless-gamin",
+    "title": "Jbl Quantum 650 Wireless Gaming Headset White",
+    "subtitle": "JBL Official Hardware • Cleopatra Web Store Oman",
+    "brand": "JBL",
+    "category": "audio",
+    "price": 49.99,
+    "originalPrice": 62,
+    "rating": 4.8999999999999995,
+    "reviewCount": 107,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2026/08/Jbl-Quantum-650-Wireless-Gaming-Headset-White-.png"
+    ],
+    "stock": 42,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "Jbl Quantum 650 Wireless Gaming Hea",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_50_jbl-quantum-650-wireless-gamin_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_51_digitplus-data-cable-dp-c151l-",
+    "title": "DigitPlus Data Cable DP-C151L Usb-A to Lightning 1mtr",
+    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
+    "brand": "Cleopatra Official",
+    "category": "cables",
+    "price": 49.99,
+    "originalPrice": 62,
+    "rating": 5,
+    "reviewCount": 112,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2026/08/DigitPlus-Data-Cable-DP-C151L-Usb-A-to-Lightning-1mtr-.png"
+    ],
+    "stock": 45,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "DigitPlus Data Cable DP-C151L Usb-A",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_51_digitplus-data-cable-dp-c151l-_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_52_digitplus-data-cable-dp-c145t-",
+    "title": "DigitPlus Data Cable DP-C145T Usb-A to Usb C 1.2Mtr",
+    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
+    "brand": "Cleopatra Official",
+    "category": "cables",
+    "price": 49.99,
+    "originalPrice": 62,
+    "rating": 4.8,
+    "reviewCount": 117,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2026/08/DigitPlus-Data-Cable-DP-C145T-Usb-A-to-Usb-C-1.2Mtr-.png"
+    ],
+    "stock": 48,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "DigitPlus Data Cable DP-C145T Usb-A",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_52_digitplus-data-cable-dp-c145t-_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_53_digitplus-data-cable-dp-c106t-",
+    "title": "Digitplus Data Cable DP-C106T Usb C to Usb C 60w 3mtr",
+    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
+    "brand": "Cleopatra Official",
+    "category": "cables",
+    "price": 49.99,
+    "originalPrice": 62,
+    "rating": 4.8999999999999995,
+    "reviewCount": 122,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2026/08/Digitplus-Data-Cable-DP-C106T-Usb-C-to-Usb-C-60w-3mtr.png"
+    ],
+    "stock": 51,
+    "featured": false,
+    "flashDeal": true,
+    "flashDealDiscount": 20,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "Digitplus Data Cable DP-C106T Usb C",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_53_digitplus-data-cable-dp-c106t-_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_54_digitplus-data-cable-dp-c106l-",
+    "title": "Digitplus Data Cable DP-C106L Usb C to Lightning 30w 3mtr",
+    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
+    "brand": "Cleopatra Official",
+    "category": "cables",
+    "price": 49.99,
+    "originalPrice": 62,
+    "rating": 5,
+    "reviewCount": 127,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2026/08/Digitplus-Data-Cable-DP-C106L-Usb-C-to-Lightning-30w-3mtr-.png"
+    ],
+    "stock": 54,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "Digitplus Data Cable DP-C106L Usb C",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_54_digitplus-data-cable-dp-c106l-_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  },
+  {
+    "id": "cleo_55_digitplus-data-cable-dp-c105l-",
+    "title": "Digitplus Data Cable DP-C105L Usb C to Lightning 30w 2mtr",
+    "subtitle": "Cleopatra Official Official Hardware • Cleopatra Web Store Oman",
+    "brand": "Cleopatra Official",
+    "category": "cables",
+    "price": 49.99,
+    "originalPrice": 62,
+    "rating": 4.8,
+    "reviewCount": 132,
+    "images": [
+      "https://cleopatraweb.com/wp-content/uploads/2026/08/Digitplus-Data-Cable-DP-C105L-Usb-C-to-Lightning-30w-2mtr.png"
+    ],
+    "stock": 17,
+    "featured": false,
+    "flashDeal": false,
+    "specs": {
+      "Origin": "Cleopatra Web Store Official Import",
+      "Model / Series": "Digitplus Data Cable DP-C105L Usb C",
+      "Authenticity": "100% Genuine Certified",
+      "Dispatch": "Global Insured Express (15-25 Days)"
+    },
+    "keyFeatures": [
+      "100% Genuine Certified Hardware from Cleopatra Oman",
+      "Factory Sealed Direct Packaging & Quality Inspected",
+      "Universal Compatibility & High-Efficiency Performance",
+      "Worldwide Insured Express Delivery in 15 to 25 Working Days"
+    ],
+    "compatibility": [
+      "Universal USB-C / Lightning / Wireless",
+      "iOS / Android / MacOS / Windows"
+    ],
+    "reviews": [
+      {
+        "id": "rev_cleo_55_digitplus-data-cable-dp-c105l-_1",
+        "userName": "Verified Cleopatra Buyer",
+        "rating": 5,
+        "date": "1 week ago",
+        "title": "Authentic & Fast Dispatch",
+        "comment": "Received factory sealed in perfect condition. Super high quality hardware.",
+        "verified": true,
+        "helpfulCount": 8
+      }
+    ]
+  }
+];
+
+export const PRODUCTS: Product[] = INITIAL_PRODUCTS;
 
 export const CURRENCIES: Record<string, Currency> = {
-  // Americas
-  USD: { code: 'USD', name: 'US Dollar', symbol: '$', flag: '🇺🇸', rate: 1.0, region: 'Americas' },
-  CAD: { code: 'CAD', name: 'Canadian Dollar', symbol: 'CA$', flag: '🇨🇦', rate: 1.38, region: 'Americas' },
-  BRL: { code: 'BRL', name: 'Brazilian Real', symbol: 'R$', flag: '🇧🇷', rate: 5.65, region: 'Americas' },
-  MXN: { code: 'MXN', name: 'Mexican Peso', symbol: 'Mex$', flag: '🇲🇽', rate: 19.40, region: 'Americas' },
-  CLP: { code: 'CLP', name: 'Chilean Peso', symbol: 'CLP$', flag: '🇨🇱', rate: 940.0, region: 'Americas' },
-  COP: { code: 'COP', name: 'Colombian Peso', symbol: 'COL$', flag: '🇨🇴', rate: 4120.0, region: 'Americas' },
-
-  // Europe & UK
-  EUR: { code: 'EUR', name: 'Euro', symbol: '€', flag: '🇪🇺', rate: 0.92, region: 'Europe' },
-  GBP: { code: 'GBP', name: 'British Pound', symbol: '£', flag: '🇬🇧', rate: 0.79, region: 'Europe' },
-  CHF: { code: 'CHF', name: 'Swiss Franc', symbol: 'CHF', flag: '🇨🇭', rate: 0.88, region: 'Europe' },
-  SEK: { code: 'SEK', name: 'Swedish Krona', symbol: 'kr', flag: '🇸🇪', rate: 10.55, region: 'Europe' },
-  NOK: { code: 'NOK', name: 'Norwegian Krone', symbol: 'kr', flag: '🇳🇴', rate: 10.75, region: 'Europe' },
-  DKK: { code: 'DKK', name: 'Danish Krone', symbol: 'kr', flag: '🇩🇰', rate: 6.88, region: 'Europe' },
-  PLN: { code: 'PLN', name: 'Polish Zloty', symbol: 'zł', flag: '🇵🇱', rate: 3.98, region: 'Europe' },
-  TRY: { code: 'TRY', name: 'Turkish Lira', symbol: '₺', flag: '🇹🇷', rate: 34.20, region: 'Europe' },
-
-  // Asia & Pacific
-  JPY: { code: 'JPY', name: 'Japanese Yen', symbol: '¥', flag: '🇯🇵', rate: 154.50, region: 'Asia Pacific' },
-  INR: { code: 'INR', name: 'Indian Rupee', symbol: '₹', flag: '🇮🇳', rate: 86.80, region: 'Asia Pacific' },
-  CNY: { code: 'CNY', name: 'Chinese Yuan', symbol: '¥', flag: '🇨🇳', rate: 7.24, region: 'Asia Pacific' },
-  KRW: { code: 'KRW', name: 'South Korean Won', symbol: '₩', flag: '🇰🇷', rate: 1380.0, region: 'Asia Pacific' },
-  AUD: { code: 'AUD', name: 'Australian Dollar', symbol: 'A$', flag: '🇦🇺', rate: 1.52, region: 'Asia Pacific' },
-  NZD: { code: 'NZD', name: 'New Zealand Dollar', symbol: 'NZ$', flag: '🇳🇿', rate: 1.68, region: 'Asia Pacific' },
-  SGD: { code: 'SGD', name: 'Singapore Dollar', symbol: 'S$', flag: '🇸🇬', rate: 1.35, region: 'Asia Pacific' },
-  HKD: { code: 'HKD', name: 'Hong Kong Dollar', symbol: 'HK$', flag: '🇭🇰', rate: 7.80, region: 'Asia Pacific' },
-  TWD: { code: 'TWD', name: 'Taiwan Dollar', symbol: 'NT$', flag: '🇹🇼', rate: 32.10, region: 'Asia Pacific' },
-  THB: { code: 'THB', name: 'Thai Baht', symbol: '฿', flag: '🇹🇭', rate: 36.50, region: 'Asia Pacific' },
-  IDR: { code: 'IDR', name: 'Indonesian Rupiah', symbol: 'Rp', flag: '🇮🇩', rate: 15800.0, region: 'Asia Pacific' },
-  MYR: { code: 'MYR', name: 'Malaysian Ringgit', symbol: 'RM', flag: '🇲🇾', rate: 4.45, region: 'Asia Pacific' },
-  PHP: { code: 'PHP', name: 'Philippine Peso', symbol: '₱', flag: '🇵🇭', rate: 58.50, region: 'Asia Pacific' },
-  VND: { code: 'VND', name: 'Vietnamese Dong', symbol: '₫', flag: '🇻🇳', rate: 25200.0, region: 'Asia Pacific' },
-  PKR: { code: 'PKR', name: 'Pakistani Rupee', symbol: '₨', flag: '🇵🇰', rate: 278.50, region: 'Asia Pacific' },
-  BDT: { code: 'BDT', name: 'Bangladeshi Taka', symbol: '৳', flag: '🇧🇩', rate: 119.50, region: 'Asia Pacific' },
-
-  // Middle East & Africa
-  OMR: { code: 'OMR', name: 'Omani Rial', symbol: 'OMR', flag: '🇴🇲', rate: 0.385, region: 'Middle East' },
-  AED: { code: 'AED', name: 'UAE Dirham', symbol: 'AED', flag: '🇦🇪', rate: 3.67, region: 'Middle East' },
-  SAR: { code: 'SAR', name: 'Saudi Riyal', symbol: 'SAR', flag: '🇸🇦', rate: 3.75, region: 'Middle East' },
-  QAR: { code: 'QAR', name: 'Qatari Riyal', symbol: 'QR', flag: '🇶🇦', rate: 3.64, region: 'Middle East' },
-  KWD: { code: 'KWD', name: 'Kuwaiti Dinar', symbol: 'KD', flag: '🇰🇼', rate: 0.31, region: 'Middle East' },
-  BHD: { code: 'BHD', name: 'Bahraini Dinar', symbol: 'BD', flag: '🇧🇭', rate: 0.376, region: 'Middle East' },
-  ILS: { code: 'ILS', name: 'Israeli Shekel', symbol: '₪', flag: '🇮🇱', rate: 3.72, region: 'Middle East' },
-  ZAR: { code: 'ZAR', name: 'South African Rand', symbol: 'R', flag: '🇿🇦', rate: 18.10, region: 'Africa' },
-  EGP: { code: 'EGP', name: 'Egyptian Pound', symbol: 'E£', flag: '🇪🇬', rate: 48.80, region: 'Africa' },
-  NGN: { code: 'NGN', name: 'Nigerian Naira', symbol: '₦', flag: '🇳🇬', rate: 1650.0, region: 'Africa' },
-  KES: { code: 'KES', name: 'Kenyan Shilling', symbol: 'KSh', flag: '🇰🇪', rate: 129.50, region: 'Africa' }
+  USD: { code: 'USD', symbol: '$', name: 'US Dollar', rate: 1.0, flag: '🇺🇸', region: 'Americas' },
+  OMR: { code: 'OMR', symbol: 'OMR', name: 'Omani Rial', rate: 0.385, flag: '🇴🇲', region: 'Middle East' },
+  AED: { code: 'AED', symbol: 'AED', name: 'UAE Dirham', rate: 3.67, flag: '🇦🇪', region: 'Middle East' },
+  SAR: { code: 'SAR', symbol: 'SAR', name: 'Saudi Riyal', rate: 3.75, flag: '🇸🇦', region: 'Middle East' },
+  EUR: { code: 'EUR', symbol: '€', name: 'Euro', rate: 0.92, flag: '🇪🇺', region: 'Europe' },
+  GBP: { code: 'GBP', symbol: '£', name: 'British Pound', rate: 0.79, flag: '🇬🇧', region: 'Europe' },
+  INR: { code: 'INR', symbol: '₹', name: 'Indian Rupee', rate: 83.5, flag: '🇮🇳', region: 'Asia Pacific' },
+  KWD: { code: 'KWD', symbol: 'KWD', name: 'Kuwaiti Dinar', rate: 0.31, flag: '🇰🇼', region: 'Middle East' },
+  BHD: { code: 'BHD', symbol: 'BHD', name: 'Bahraini Dinar', rate: 0.38, flag: '🇧🇭', region: 'Middle East' },
+  QAR: { code: 'QAR', symbol: 'QAR', name: 'Qatari Riyal', rate: 3.64, flag: '🇶🇦', region: 'Middle East' }
 };
 
 export const AVAILABLE_COUPONS: Coupon[] = [
+  { code: 'CLEOPATRA10', discountPercent: 10, description: '10% Off Cleopatra Official Hardware Store', minOrder: 50 },
+  { code: 'VOLTX20', discountPercent: 20, description: '20% Off Launch Special', minOrder: 100 },
+  { code: 'FREESHIP', freeShipping: true, description: 'Free Worldwide Express Shipping', minOrder: 40 }
+];
+
+export const SHIPPING_METHODS: ShippingMethod[] = [
   {
-    code: 'VOLT15',
-    discountPercent: 15,
-    description: '15% OFF entire tech gadget order'
-  },
-  {
-    code: 'SUPERGAN',
-    discountPercent: 20,
-    minOrder: 80,
-    description: '20% OFF orders over $80 (Power & Chargers special)'
-  },
-  {
-    code: 'FREESHIP',
-    freeShipping: true,
-    description: 'Free Worldwide Express Shipping on any order'
-  },
-  {
-    code: 'GADGET10',
-    discountAmount: 10,
-    minOrder: 40,
-    description: '$10 instant discount on orders over $40'
+    id: 'standard_insured',
+    name: 'Worldwide Insured Standard Delivery',
+    description: 'Order will be delivered within 15 to 25 working days',
+    estimatedDays: '15-25 Working Days',
+    price: 0
   }
 ];
 
-export const DEFAULT_SHIPPING: ShippingMethod = {
-  id: 'standard',
-  name: 'Standard Insured Delivery',
-  description: 'Order will be delivered within 15 to 25 working days',
-  estimatedDays: '15 to 25 Working Days',
-  price: 0
-};
-
-export const SHIPPING_METHODS: ShippingMethod[] = [DEFAULT_SHIPPING];
-
-export const PRODUCTS: Product[] = [
-  // --- MOBILES ---
-  {
-    id: 'titan-ultra-5g',
-    title: 'VOLTX Titan Ultra 5G',
-    subtitle: 'Flagship Smartphone with Snapdragon 8 Gen 3 & 200MP Quad Optics',
-    brand: 'VOLTX Mobile',
-    category: 'mobiles',
-    price: 999.00,
-    originalPrice: 1199.00,
-    rating: 4.9,
-    reviewCount: 342,
-    badge: 'BEST SELLER',
-    stock: 14,
-    featured: true,
-    flashDeal: true,
-    flashDealDiscount: 17,
-    images: [
-      'https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=1000&q=80'
-    ],
-    specs: {
-      'Processor': 'Qualcomm Snapdragon 8 Gen 3 (4nm)',
-      'Display': '6.8" 120Hz LTPO AMOLED 2600 nits peak',
-      'Main Camera': '200MP f/1.7 OIS + 50MP Periscope 5x + 50MP Ultrawide',
-      'Battery & Charging': '5,400mAh with 100W Wired & 50W Wireless Charging',
-      'Build': 'Grade 5 Aerospace Titanium frame with Gorilla Armor Glass',
-      'Water Resistance': 'IP68 certified (up to 2m for 30 min)'
-    },
-    keyFeatures: [
-      'Pro-grade 200MP AI-enhanced computational photography suite',
-      '100W HyperCharge powers 0 to 100% in just 23 minutes',
-      'Ultra-narrow symmetrical titanium bezels with 120Hz fluid refresh',
-      'Integrated Neural Processing Unit for real-time generative voice & camera editing'
-    ],
-    compatibility: ['5G Sub-6 & mmWave', 'Wi-Fi 7 (802.11be)', 'Bluetooth 5.4', 'eSIM & Dual Nano-SIM'],
-    variants: [
-      { id: 'v1', name: 'Color', type: 'color', value: 'Obsidian Black', colorCode: '#171717', inStock: true },
-      { id: 'v2', name: 'Color', type: 'color', value: 'Titanium Gray', colorCode: '#78716c', inStock: true },
-      { id: 'v3', name: 'Color', type: 'color', value: 'Cyber Silver', colorCode: '#cbd5e1', inStock: true },
-      { id: 'v4', name: 'Storage', type: 'storage', value: '256GB / 12GB RAM', priceDelta: 0, inStock: true },
-      { id: 'v5', name: 'Storage', type: 'storage', value: '512GB / 16GB RAM', priceDelta: 150, inStock: true },
-      { id: 'v6', name: 'Storage', type: 'storage', value: '1TB / 16GB RAM', priceDelta: 300, inStock: true }
-    ],
-    reviews: [
-      {
-        id: 'r1',
-        userName: 'Alex Mercer',
-        userAvatar: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=150&q=80',
-        rating: 5,
-        date: '2 days ago',
-        title: 'Unbelievable camera and insane 100W charging speed!',
-        comment: 'I upgraded from last year flagship and the titanium build feels unbelievably premium in hand. The battery lasts almost 2 full days of heavy usage and fills up in 20 mins.',
-        verified: true,
-        helpfulCount: 48
-      },
-      {
-        id: 'r2',
-        userName: 'Samantha Lin',
-        userAvatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&q=80',
-        rating: 5,
-        date: '1 week ago',
-        title: 'The screen is unmatched in sunlight',
-        comment: '2600 nits brightness makes watching videos and reading outside so crisp. Pair this with the 140W GaN charger and you have the dream setup.',
-        verified: true,
-        helpfulCount: 29
-      }
-    ]
-  },
-  {
-    id: 'nexus-fold-pro',
-    title: 'Nexus Fold Pro X',
-    subtitle: 'Zero-Gap Folding Flagship with 7.82" 2K OLED & Stylus Support',
-    brand: 'NexusTech',
-    category: 'mobiles',
-    price: 1599.00,
-    originalPrice: 1799.00,
-    rating: 4.8,
-    reviewCount: 189,
-    badge: 'HOT',
-    stock: 7,
-    featured: true,
-    images: [
-      'https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&w=1000&q=80'
-    ],
-    specs: {
-      'Inner Screen': '7.82" Foldable LTPO OLED 1-120Hz (2440 x 2268)',
-      'Outer Screen': '6.31" FHD+ OLED 120Hz Gorilla Glass Victus 2',
-      'Hinge': 'FlexiSpine Carbon-Fiber Zero-Gap Hinge (400,000 fold certified)',
-      'Chipset': 'Snapdragon 8 Gen 3 for Galaxy (Overclocked)',
-      'Weight': '239g ultra-slim profile (5.8mm unfolded)'
-    },
-    keyFeatures: [
-      'Dual multi-tasking workspace with 3 simultaneous split-screen apps',
-      'Seamless hinge with virtually invisible crease technology',
-      'Triple 50MP Hasselblad-tuned camera system',
-      'Wireless reverse charging to juice your earbuds and smartwatch'
-    ],
-    compatibility: ['All global 5G bands', 'Universal USB-C DisplayPort Out', 'Active Stylus Pen'],
-    variants: [
-      { id: 'vf1', name: 'Color', type: 'color', value: 'Carbon Matte', colorCode: '#18181b', inStock: true },
-      { id: 'vf2', name: 'Color', type: 'color', value: 'Emerald Green', colorCode: '#064e3b', inStock: true },
-      { id: 'vf3', name: 'Storage', type: 'storage', value: '512GB / 16GB RAM', priceDelta: 0, inStock: true },
-      { id: 'vf4', name: 'Storage', type: 'storage', value: '1TB / 16GB RAM', priceDelta: 200, inStock: true }
-    ],
-    reviews: [
-      {
-        id: 'rf1',
-        userName: 'David Vance',
-        rating: 5,
-        date: '3 weeks ago',
-        title: 'Productivity monster!',
-        comment: 'Having a tablet in my pocket that opens with zero crease has changed the way I work on the go. Multitasking spreadsheets and meetings is super smooth.',
-        verified: true,
-        helpfulCount: 31
-      }
-    ]
-  },
-
-  // --- CHARGERS & POWER ---
-  {
-    id: 'volt-gan-140w',
-    title: 'VOLTX 140W 4-Port GaN III SuperCharger',
-    subtitle: 'Ultra-Compact PD 3.1 Fast Charger for MacBook Pro, Laptops, Phones & Tablets',
-    brand: 'VOLTX Power',
-    category: 'chargers',
-    price: 79.99,
-    originalPrice: 99.99,
-    rating: 5.0,
-    reviewCount: 512,
-    badge: '240W GaN',
-    stock: 45,
-    featured: true,
-    flashDeal: true,
-    flashDealDiscount: 20,
-    images: [
-      'https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?auto=format&fit=crop&w=1000&q=80'
-    ],
-    specs: {
-      'Total Output': '140W Max Fast Output',
-      'Ports': '3x USB-C (PD 3.1 / QC 5) + 1x USB-A (QC 4.0 / SCP 22.5W)',
-      'Semiconductor': 'Navitas GaNFast III Gallium Nitride',
-      'Protection': 'Dynamic Thermal Guard 3.0 (Monitors temp 3M times/day)',
-      'Dimensions': '65 x 65 x 30 mm (40% smaller than OEM chargers)'
-    },
-    keyFeatures: [
-      'Single-port 140W PD 3.1 output charges a 16" MacBook Pro to 55% in 30 mins',
-      'Intelligent Power Allocation dynamically balances juice across 4 devices',
-      'Foldable prongs + interchangeable EU/UK travel adapter pins included',
-      'Universal compatibility across Apple, Samsung, Dell, Lenovo, ASUS & Nintendo Switch'
-    ],
-    compatibility: ['MacBook Pro / Air', 'iPhone 16 / 15 / 14 Series', 'Samsung Galaxy S24 / S23', 'iPad Pro', 'Steam Deck / ROG Ally'],
-    variants: [
-      { id: 'cg1', name: 'Color', type: 'color', value: 'Matte Space Gray', colorCode: '#475569', inStock: true },
-      { id: 'cg2', name: 'Color', type: 'color', value: 'Glacier White', colorCode: '#f8fafc', inStock: true },
-      { id: 'cg3', name: 'Wattage Option', type: 'spec', value: '140W (3C1A)', priceDelta: 0, inStock: true },
-      { id: 'cg4', name: 'Wattage Option', type: 'spec', value: '100W (2C1A Slim)', priceDelta: -20, inStock: true },
-      { id: 'cg5', name: 'Wattage Option', type: 'spec', value: '65W (2C Ultra Mini)', priceDelta: -40, inStock: true }
-    ],
-    reviews: [
-      {
-        id: 'rc1',
-        userName: 'Michael Zhang',
-        rating: 5,
-        date: 'Yesterday',
-        title: 'Replaced 4 different bulky bricks in my backpack!',
-        comment: 'This is the single best tech accessory I bought this year. It charges my M3 Max MacBook Pro at full speed while also charging my phone and watch without getting burning hot.',
-        verified: true,
-        helpfulCount: 64
-      },
-      {
-        id: 'rc2',
-        userName: 'Elena Rostova',
-        rating: 5,
-        date: '5 days ago',
-        title: 'Compact, robust and super fast',
-        comment: 'Premium matte finish and zero coil whine. The intelligent power distribution works seamlessly when plugging in second and third cables.',
-        verified: true,
-        helpfulCount: 19
-      }
-    ]
-  },
-  {
-    id: 'titan-power-25k',
-    title: 'TitanPower 25,000mAh 100W Laptop Power Bank',
-    subtitle: 'High-Capacity Airline-Approved Battery Pack with Smart TFT Display',
-    brand: 'VOLTX Power',
-    category: 'chargers',
-    price: 89.99,
-    originalPrice: 119.99,
-    rating: 4.9,
-    reviewCount: 278,
-    badge: 'HOT',
-    stock: 28,
-    featured: true,
-    images: [
-      'https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&w=1000&q=80'
-    ],
-    specs: {
-      'Capacity': '25,000mAh / 92.5Wh (TSA Airline Safe compliant)',
-      'Outputs': '2x USB-C (100W + 45W) + 1x USB-A (18W)',
-      'Display': 'Full Color TFT Display showing real-time Watts, Volts, Amps & Battery Health',
-      'Recharge Time': 'Recharges from 0 to 100% in 1.2 hours with 65W+ input',
-      'Cell Type': 'Automotive-grade 21700 Lithium-Ion cells (1000+ cycle life)'
-    },
-    keyFeatures: [
-      'Charges a smartphone 5-6 times or provides a full charge for a 14" laptop',
-      'Pass-through charging enables charging the power bank and connected devices simultaneously',
-      'Low-current trickle mode for safe charging of wireless earbuds and fitness bands',
-      'Flame-retardant aluminum alloy enclosure with active overheat shutdown'
-    ],
-    compatibility: ['All USB-C PD Laptops', 'iPhones & Androids', 'Drones & Action Cameras', 'Steam Deck'],
-    variants: [
-      { id: 'tp1', name: 'Color', type: 'color', value: 'Cyber Black & Yellow Accent', colorCode: '#1c1917', inStock: true },
-      { id: 'tp2', name: 'Color', type: 'color', value: 'Anodized Silver', colorCode: '#94a3b8', inStock: true }
-    ],
-    reviews: [
-      {
-        id: 'rtp1',
-        userName: 'Jason Miller',
-        rating: 5,
-        date: '4 days ago',
-        title: 'The screen showing real-time wattage is amazing',
-        comment: 'I can see exactly how fast my phone and laptop are drawing power. Kept my laptop going throughout a 10-hour transcontinental flight.',
-        verified: true,
-        helpfulCount: 37
-      }
-    ]
-  },
-  {
-    id: 'aura-qi2-3in1',
-    title: 'Aura 3-in-1 Foldable MagSafe & Qi2 Charging Station',
-    subtitle: '15W Fast Magnetic Wireless Dock for iPhone, Apple Watch & AirPods',
-    brand: 'Aura Tech',
-    category: 'chargers',
-    price: 64.99,
-    originalPrice: 79.99,
-    rating: 4.8,
-    reviewCount: 310,
-    badge: 'NEW',
-    stock: 35,
-    images: [
-      'https://images.unsplash.com/photo-1622445262464-84b1456045b6?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&w=1000&q=80'
-    ],
-    specs: {
-      'Wireless Standard': 'Official Qi2 & MagSafe certified 15W peak',
-      'Phone Pad': '15W Magnetic Float (Supports StandBy Mode in landscape)',
-      'Watch Charger': '5W Fast Wireless Charger for Apple Watch Series & Ultra',
-      'Base Pad': '5W Wireless Qi pad for AirPods / Galaxy Buds',
-      'Fold Mechanism': '180° Origami folding design for ultra-flat travel'
-    },
-    keyFeatures: [
-      'Strong N52 neodymium magnets hold heavy phones securely in portrait or landscape',
-      'StandBy mode compatible — turns your phone into a bedside alarm clock while charging',
-      'Weighs only 160g and folds down to the size of a wallet',
-      'Includes 30W USB-C PD brick and braided 1.5m cable in the box'
-    ],
-    compatibility: ['iPhone 12 through 16 series', 'MagSafe Cases', 'Apple Watch Ultra/Series 9/8', 'AirPods Pro/3'],
-    variants: [
-      { id: 'aq1', name: 'Color', type: 'color', value: 'Midnight Slate', colorCode: '#1e293b', inStock: true },
-      { id: 'aq2', name: 'Color', type: 'color', value: 'Pearl White', colorCode: '#f1f5f9', inStock: true }
-    ],
-    reviews: [
-      {
-        id: 'raq1',
-        userName: 'Chloe Bennett',
-        rating: 5,
-        date: '1 week ago',
-        title: 'Perfect bedside stand!',
-        comment: 'No more tangled cords on my nightstand. The magnetic snap is super strong and fast charging works like a charm.',
-        verified: true,
-        helpfulCount: 22
-      }
-    ]
-  },
-
-  // --- CABLES & HUBS ---
-  {
-    id: 'hyperarmor-240w-cable',
-    title: 'HyperArmor 240W Kevlar-Braided USB-C to USB-C Cable',
-    subtitle: 'Heavy-Duty 48V/5A PD 3.1 Fast Charging Cable with E-Marker Chip',
-    brand: 'VOLTX Cables',
-    category: 'cables',
-    price: 19.99,
-    originalPrice: 29.99,
-    rating: 4.9,
-    reviewCount: 684,
-    badge: 'BEST SELLER',
-    stock: 120,
-    featured: true,
-    flashDeal: true,
-    flashDealDiscount: 33,
-    images: [
-      'https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1544652478-6653e09f18a2?auto=format&fit=crop&w=1000&q=80'
-    ],
-    specs: {
-      'Max Power': '240W Extended Power Range (48V / 5A) USB PD 3.1',
-      'Data Transfer': '480 Mbps high-speed data sync',
-      'Core Wire': 'Tinned oxygen-free copper core + ballistic DuPont Kevlar reinforcement',
-      'Connector': 'Zinc alloy unibody shell with 24K gold-plated pins',
-      'Durability': '35,000+ 90-degree bend lifespan test certified'
-    },
-    keyFeatures: [
-      'Future-proof 240W power handles high-spec gaming laptops, phones and power banks',
-      'Built-in smart E-Marker chip regulates voltage and prevents overcharging or heat spikes',
-      'Tangle-free high-density ballistic nylon braided jacket resists pet bites and fraying',
-      'Includes silicone cable organizer strap with every unit'
-    ],
-    compatibility: ['All USB-C laptops, tablets, smartphones & gaming consoles'],
-    variants: [
-      { id: 'ha1', name: 'Length', type: 'length', value: '1 Meter (3.3ft)', priceDelta: 0, inStock: true },
-      { id: 'ha2', name: 'Length', type: 'length', value: '2 Meters (6.6ft)', priceDelta: 4, inStock: true },
-      { id: 'ha3', name: 'Length', type: 'length', value: '3 Meters (10ft)', priceDelta: 8, inStock: true },
-      { id: 'ha4', name: 'Color', type: 'color', value: 'Stealth Black', colorCode: '#18181b', inStock: true },
-      { id: 'ha5', name: 'Color', type: 'color', value: 'Electric Cyan & Gray', colorCode: '#06b6d4', inStock: true }
-    ],
-    reviews: [
-      {
-        id: 'rha1',
-        userName: 'Marcus Cole',
-        rating: 5,
-        date: '3 days ago',
-        title: 'Built like an absolute tank',
-        comment: 'I usually ruin cables within 3 months, but this Kevlar braid is indestructible. Easily pushes full 140W to my laptop with no warming.',
-        verified: true,
-        helpfulCount: 52
-      }
-    ]
-  },
-  {
-    id: 'thunderbolt-4-pro-cable',
-    title: 'Thunderbolt 4 Pro 40Gbps 8K Ultra Cable',
-    subtitle: 'Intel Certified 40Gbps Data, 100W PD & Dual 4K/Single 8K Display Output',
-    brand: 'VOLTX Cables',
-    category: 'cables',
-    price: 39.99,
-    originalPrice: 49.99,
-    rating: 5.0,
-    reviewCount: 198,
-    badge: 'NEW',
-    stock: 42,
-    images: [
-      'https://images.unsplash.com/photo-1544652478-6653e09f18a2?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?auto=format&fit=crop&w=1000&q=80'
-    ],
-    specs: {
-      'Protocol': 'Thunderbolt 4 / USB4 / Thunderbolt 3 backward compatible',
-      'Bandwidth': 'Up to 40Gbps ultra-high throughput (Transfer 4K movie in 5 seconds)',
-      'Video Support': 'Single 8K@60Hz or Dual 4K@120Hz monitor streaming',
-      'Power Delivery': '100W (20V/5A) Power Delivery charging',
-      'Length': '1.2 Meters / 4 Feet braided'
-    },
-    keyFeatures: [
-      'Intel Thunderbolt 4 official certification badge for zero latency video',
-      'Daisy-chain up to 6 Thunderbolt accessories seamlessly',
-      'Aluminum casing with laser-etched 40Gbps speed indicator',
-      'Zero frame drops when connecting high-speed NVMe SSD enclosures and eGPUs'
-    ],
-    compatibility: ['Thunderbolt 4 & 3 Macs, Windows PCs, iPad Pro, Studio Displays, External GPUs'],
-    variants: [
-      { id: 'tb1', name: 'Length', type: 'length', value: '1.2m (4ft)', priceDelta: 0, inStock: true },
-      { id: 'tb2', name: 'Length', type: 'length', value: '2.0m (6.6ft Active)', priceDelta: 20, inStock: true }
-    ],
-    reviews: [
-      {
-        id: 'rtb1',
-        userName: 'Daniel K.',
-        rating: 5,
-        date: '2 weeks ago',
-        title: 'Powers my dual 4K Studio Display setup flawlessly',
-        comment: 'Crisp display with zero flicker and super fast NVMe read/write speeds over 2800 MB/s. Worth every dollar.',
-        verified: true,
-        helpfulCount: 18
-      }
-    ]
-  },
-  {
-    id: 'nexus-dock-10in1',
-    title: 'NexusDock 10-in-1 Dual 4K Aluminum Hub',
-    subtitle: 'Dual HDMI 4K@60Hz, 100W PD Pass-Through, Gigabit LAN, 3x USB 3.2 & SD/TF Slot',
-    brand: 'NexusTech',
-    category: 'cables',
-    price: 69.99,
-    originalPrice: 89.99,
-    rating: 4.8,
-    reviewCount: 340,
-    badge: 'HOT',
-    stock: 24,
-    images: [
-      'https://images.unsplash.com/photo-1544652478-6653e09f18a2?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&w=1000&q=80'
-    ],
-    specs: {
-      'Video Ports': '2x HDMI 2.0 (Dual 4K@60Hz Extended Display)',
-      'Charging': 'USB-C PD 100W input (85W clean laptop delivery)',
-      'Data Ports': '3x USB-A 3.2 Gen 2 (10Gbps) + 1x USB-C 3.2 Gen 2 (10Gbps)',
-      'Card Reader': 'UHS-I SD & MicroSD (104 MB/s simultaneous read)',
-      'Network': '1000Mbps RJ45 Gigabit Ethernet port'
-    },
-    keyFeatures: [
-      'Unibody CNC machined heat-dissipating space aluminum frame',
-      'Plug-and-play driverless connectivity on macOS, Windows, Linux, iPadOS, ChromeOS',
-      'Smart thermal layout prevents interference between 2.4GHz Wi-Fi and Bluetooth',
-      'Braided reinforced integrated 20cm host cable with aluminum strain relief'
-    ],
-    compatibility: ['MacBook Pro / Air, Dell XPS, ThinkPad, Surface Pro, iPad Pro, Steam Deck'],
-    variants: [
-      { id: 'nd1', name: 'Color', type: 'color', value: 'Space Gray', colorCode: '#475569', inStock: true },
-      { id: 'nd2', name: 'Color', type: 'color', value: 'Silver Anodized', colorCode: '#cbd5e1', inStock: true }
-    ],
-    reviews: [
-      {
-        id: 'rnd1',
-        userName: 'Rachel Foster',
-        rating: 5,
-        date: '5 days ago',
-        title: 'Clean desk setup in one single cable',
-        comment: 'Plug my laptop in and immediately have dual screens, wired gigabit ethernet, mouse, keyboard and audio ready. Runs cool to the touch.',
-        verified: true,
-        helpfulCount: 27
-      }
-    ]
-  },
-
-  // --- AUDIO GEAR ---
-  {
-    id: 'sonic-spatial-anc',
-    title: 'VOLTX Sonic Spatial Over-Ear ANC Headphones',
-    subtitle: 'Custom 45mm Graphene Drivers with 50dB Hybrid Active Noise Cancelling & 65H Battery',
-    brand: 'VOLTX Audio',
-    category: 'audio',
-    price: 189.99,
-    originalPrice: 249.99,
-    rating: 4.9,
-    reviewCount: 420,
-    badge: 'BEST SELLER',
-    stock: 19,
-    featured: true,
-    flashDeal: true,
-    flashDealDiscount: 24,
-    images: [
-      'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1484704849700-f032a568e944?auto=format&fit=crop&w=1000&q=80'
-    ],
-    specs: {
-      'Acoustic Driver': '45mm Diamond-Like Carbon Graphene diaphragm',
-      'ANC Rating': 'Adaptive Hybrid ANC up to -50dB with 4 external beamforming mics',
-      'Codec Support': 'LDAC (Hi-Res Audio 990kbps), AAC, aptX Adaptive, SBC',
-      'Battery Life': '65 Hours (ANC Off) / 45 Hours (ANC On) + 10 min charge gives 5 hours',
-      'Earcups': 'Memory foam with ultra-soft breathable protein leather'
-    },
-    keyFeatures: [
-      'Spatial 360° dynamic head tracking for immersive concert-like acoustic soundstage',
-      'Transparency Mode automatically dials in ambient voices when you begin speaking',
-      'Seamless multi-point Bluetooth 5.4 connection to switch between phone and laptop',
-      'Custom EQ equalizer companion profiles (Bass Boost, Vocal Clarity, Studio Flat)'
-    ],
-    compatibility: ['iOS, Android, Windows, macOS, smart TVs and gaming rigs'],
-    variants: [
-      { id: 'ss1', name: 'Color', type: 'color', value: 'Obsidian Matte', colorCode: '#18181b', inStock: true },
-      { id: 'ss2', name: 'Color', type: 'color', value: 'Cream Gold', colorCode: '#fef08a', inStock: true },
-      { id: 'ss3', name: 'Color', type: 'color', value: 'Navy Slate', colorCode: '#1e3a8a', inStock: true }
-    ],
-    reviews: [
-      {
-        id: 'rss1',
-        userName: 'Liam Thorne',
-        rating: 5,
-        date: '3 days ago',
-        title: 'Outperforms my $350 headphones in both ANC and comfort',
-        comment: 'The noise cancellation completely blocks out train and office noise. The bass is punchy without overpowering the vocals. 10/10.',
-        verified: true,
-        helpfulCount: 45
-      }
-    ]
-  },
-  {
-    id: 'apex-buds-pro',
-    title: 'Apex Pro Low-Latency Wireless Gaming Earbuds',
-    subtitle: '35ms Ultra Low Latency with Dual-Mode Bluetooth 5.4 & 2.4Ghz USB-C Dongle',
-    brand: 'Apex Audio',
-    category: 'audio',
-    price: 79.99,
-    originalPrice: 99.99,
-    rating: 4.7,
-    reviewCount: 165,
-    badge: 'HOT',
-    stock: 31,
-    images: [
-      'https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=1000&q=80'
-    ],
-    specs: {
-      'Latency': '35ms with dedicated USB-C wireless RF transceiver',
-      'Drivers': '12mm Composite Titanium Diaphragms',
-      'Microphone': '4-mic ENC AI Environmental Noise Cancellation',
-      'Battery': '8 Hours playback + 28 hours charging case (Fast USB-C & Qi Wireless)',
-      'Water Rating': 'IPX5 sweat and splash resistance'
-    },
-    keyFeatures: [
-      'Includes snap-in low-profile USB-C 2.4GHz dongle stored directly inside charging case',
-      'Dual-stream mode allows listening to game audio while answering Bluetooth calls',
-      'Cyberpunk LED battery indicator on the case with breathing lighting effects'
-    ],
-    compatibility: ['PS5, Nintendo Switch, Steam Deck, PC, iOS, Android'],
-    variants: [
-      { id: 'ab1', name: 'Color', type: 'color', value: 'Stealth Cyber Black', colorCode: '#111827', inStock: true },
-      { id: 'ab2', name: 'Color', type: 'color', value: 'Neon Arctic White', colorCode: '#f8fafc', inStock: true }
-    ],
-    reviews: [
-      {
-        id: 'rab1',
-        userName: 'Zack Evans',
-        rating: 5,
-        date: '1 week ago',
-        title: 'Zero audio lag on Steam Deck and PS5',
-        comment: 'The 2.4GHz dongle plugged right into my handheld and the gunshot sync is instantaneous. Highly recommended for mobile gamers.',
-        verified: true,
-        helpfulCount: 20
-      }
-    ]
-  },
-
-  // --- WEARABLES & GADGETS ---
-  {
-    id: 'chrono-titanium-ultra',
-    title: 'Chrono Ultra Titanium Smartwatch',
-    subtitle: 'Aerospace Titanium Case with Sapphire Crystal, Dual GPS & 14-Day Battery',
-    brand: 'VOLTX Wear',
-    category: 'wearables',
-    price: 249.99,
-    originalPrice: 299.99,
-    rating: 4.9,
-    reviewCount: 288,
-    badge: 'BEST SELLER',
-    stock: 16,
-    featured: true,
-    images: [
-      'https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=1000&q=80'
-    ],
-    specs: {
-      'Case': '49mm Grade 5 Titanium with tactile knurled rotary crown',
-      'Display': '1.43" AMOLED 466x466 with 1500 nits Always-On brightness',
-      'Sensors': 'Biometric 8-channel ECG, Optical Heart Rate, SpO2, Skin Temp & Compass',
-      'Battery': '14-day standard battery life / 60-hour precision multi-band GPS mode',
-      'Waterproof': '10ATM (100 meters dive & open water swim rated)'
-    },
-    keyFeatures: [
-      'Dual-frequency L1 + L5 GPS ensures pinpoint route tracking through dense forests & cities',
-      'Full offline topography maps with route backtrack safety guidance',
-      'Bluetooth phone calls and quick text replies directly on wrist',
-      'Comes with interchangeable Rugged Ocean Trail & Magnetic Milanese bands'
-    ],
-    compatibility: ['Apple iOS 14+ & Android 9.0+ via VOLTX Health Companion app'],
-    variants: [
-      { id: 'cw1', name: 'Case Finish', type: 'color', value: 'Raw Titanium', colorCode: '#78716c', inStock: true },
-      { id: 'cw2', name: 'Case Finish', type: 'color', value: 'DLC Stealth Black', colorCode: '#18181b', inStock: true },
-      { id: 'cw3', name: 'Strap Type', type: 'spec', value: 'Orange Ocean Band', priceDelta: 0, inStock: true },
-      { id: 'cw4', name: 'Strap Type', type: 'spec', value: 'Titanium Link Bracelet', priceDelta: 40, inStock: true }
-    ],
-    reviews: [
-      {
-        id: 'rcw1',
-        userName: 'Tom Bradley',
-        rating: 5,
-        date: '4 days ago',
-        title: 'Insane 14-day battery and scratch-proof sapphire',
-        comment: 'I can finally go on weekend camping trips without carrying yet another charger. The GPS maps and heart rate tracking are extremely accurate.',
-        verified: true,
-        helpfulCount: 39
-      }
-    ]
-  },
-  {
-    id: 'aura-health-ring',
-    title: 'Aura Smart Sleep & Recovery Ring',
-    subtitle: 'Ultralight Titanium Health Tracker with 24/7 HRV, Skin Temp & Sleep Stages',
-    brand: 'Aura Tech',
-    category: 'wearables',
-    price: 179.99,
-    originalPrice: 219.99,
-    rating: 4.8,
-    reviewCount: 145,
-    badge: 'NEW',
-    stock: 22,
-    images: [
-      'https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1000&q=80'
-    ],
-    specs: {
-      'Weight': 'Just 2.9 grams (Comfortable 24/7 continuous wear)',
-      'Sensors': 'Research-grade Photoplethysmography (PPG), NTC temp sensor & 3D accelerometer',
-      'Battery Life': '7 days on single 45-minute charge via magnetic charging cradle',
-      'Water Rating': 'IP68 & 100m water resistance (wear in shower, sauna or swimming)'
-    },
-    keyFeatures: [
-      'Zero monthly subscriptions — full access to all sleep and recovery analytics',
-      'Detects REM, Deep, Light sleep, naps, and night-time breathing irregularities',
-      'Daily Readiness Score provides smart actionable advice on exertion vs recovery'
-    ],
-    compatibility: ['iOS HealthKit & Google Fit integration'],
-    variants: [
-      { id: 'ar1', name: 'Color', type: 'color', value: 'Brushed Gold', colorCode: '#eab308', inStock: true },
-      { id: 'ar2', name: 'Color', type: 'color', value: 'Stealth Black', colorCode: '#18181b', inStock: true },
-      { id: 'ar3', name: 'Color', type: 'color', value: 'Sterling Silver', colorCode: '#e2e8f0', inStock: true },
-      { id: 'ar4', name: 'Ring Size', type: 'spec', value: 'Size US 8', priceDelta: 0, inStock: true },
-      { id: 'ar5', name: 'Ring Size', type: 'spec', value: 'Size US 9', priceDelta: 0, inStock: true },
-      { id: 'ar6', name: 'Ring Size', type: 'spec', value: 'Size US 10', priceDelta: 0, inStock: true },
-      { id: 'ar7', name: 'Ring Size', type: 'spec', value: 'Size US 11', priceDelta: 0, inStock: true }
-    ],
-    reviews: [
-      {
-        id: 'rar1',
-        userName: 'Victoria S.',
-        rating: 5,
-        date: '1 week ago',
-        title: 'I forget I am even wearing it!',
-        comment: 'So much more comfortable to sleep with than a bulky watch. The recovery scores pinpointed why I was feeling sluggish after late meals.',
-        verified: true,
-        helpfulCount: 23
-      }
-    ]
-  },
-
-  // --- ACCESSORIES & DESK GEAR ---
-  {
-    id: 'lumidesk-lightbar',
-    title: 'LumiDesk RGB ScreenBar & Ambient Monitor Lamp',
-    subtitle: 'Asymmetric Optical Glare-Free Task Light with Wireless Rotary Control Puck',
-    brand: 'VOLTX Desk',
-    category: 'accessories',
-    price: 49.99,
-    originalPrice: 69.99,
-    rating: 4.9,
-    reviewCount: 390,
-    badge: 'HOT',
-    stock: 50,
-    images: [
-      'https://images.unsplash.com/photo-1544652478-6653e09f18a2?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=1000&q=80'
-    ],
-    specs: {
-      'Lighting Tech': 'Asymmetric 45° forward light beam (0% screen reflection/glare)',
-      'Color Temp': 'Stepless 2700K Warm to 6500K Cool White (Ra > 97 CRI)',
-      'Backlight': '16 Million RGB dynamic ambient light modes with music rhythm sync',
-      'Controls': '2.4GHz Wireless Smart Desktop Dial Controller',
-      'Power': 'USB-C 5V/2A powered directly from monitor or PC hub'
-    },
-    keyFeatures: [
-      'Eliminates eye strain during late night coding, gaming or creative sessions',
-      'Counterweighted gravity clip fits flat, curved, and ultra-wide gaming monitors without tape',
-      'Wireless desktop puck lets you rotate to dim and double-tap to switch RGB modes'
-    ],
-    compatibility: ['Fits monitors 0.5cm to 4.5cm thick, flat & 1000R-1800R curved screens'],
-    variants: [
-      { id: 'ld1', name: 'Housing Color', type: 'color', value: 'Anodized Black', colorCode: '#1c1917', inStock: true },
-      { id: 'ld2', name: 'Housing Color', type: 'color', value: 'Silver Frost', colorCode: '#e2e8f0', inStock: true }
-    ],
-    reviews: [
-      {
-        id: 'rld1',
-        userName: 'Chris Morgan',
-        rating: 5,
-        date: '5 days ago',
-        title: 'Eye strain vanished completely',
-        comment: 'The lighting focuses perfectly on my keyboard and desk without any glare on my 34 inch ultrawide. The wireless knob controller is super satisfying.',
-        verified: true,
-        helpfulCount: 34
-      }
-    ]
-  },
-  {
-    id: 'magsafe-origami-wallet',
-    title: 'MagStand Origami Magnetic Wallet & Phone Stand',
-    subtitle: 'Precision Snap-On 3-Card Holder with Floating Multi-Angle Stand Capability',
-    brand: 'Aura Tech',
-    category: 'accessories',
-    price: 29.99,
-    originalPrice: 39.99,
-    rating: 4.7,
-    reviewCount: 215,
-    badge: 'NEW',
-    stock: 65,
-    images: [
-      'https://images.unsplash.com/photo-1622445262464-84b1456045b6?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=1000&q=80'
-    ],
-    specs: {
-      'Capacity': 'Holds 1 to 3 RFID shielded credit/ID cards securely',
-      'Stand Angles': 'Floating Mode, 60° Portrait, and 45° Landscape',
-      'Material': 'Scratch-resistant vegan MOVAS leather with steel hinges',
-      'Magnets': 'Dual-layer N52 magnets with 3x standard magnetic grip strength'
-    },
-    keyFeatures: [
-      'Instantly snaps onto the back of any MagSafe iPhone or magnetic case',
-      'Folds flat to only 4.5mm thickness when slipped into pockets',
-      'Built-in RFID blocking sheet protects against unauthorized card skims'
-    ],
-    compatibility: ['iPhone 12 to 16, MagSafe cases, and Android magnetic rings'],
-    variants: [
-      { id: 'mw1', name: 'Color', type: 'color', value: 'Carbon Black', colorCode: '#18181b', inStock: true },
-      { id: 'mw2', name: 'Color', type: 'color', value: 'Caramel Brown', colorCode: '#78350f', inStock: true },
-      { id: 'mw3', name: 'Color', type: 'color', value: 'Deep Navy', colorCode: '#1e3a8a', inStock: true }
-    ],
-    reviews: [
-      {
-        id: 'rmw1',
-        userName: 'Sarah Jenkins',
-        rating: 5,
-        date: '2 weeks ago',
-        title: 'Strongest magnetic wallet I have tried',
-        comment: 'Does not slide off when putting phone in tight jeans. The origami stand is so useful for FaceTime calls and YouTube.',
-        verified: true,
-        helpfulCount: 16
-      }
-    ]
-  }
-];
-
-// Tech Bundle preset for "Frequently Bought Together"
 export const TECH_BUNDLE_DEAL = {
-  id: 'fast-charging-ecosystem-bundle',
-  title: 'Ultimate Fast-Charging Ecosystem Bundle',
-  description: 'Combine the 140W GaN SuperCharger + 240W Kevlar Braided Cable + MagSafe 3-in-1 Foldable Dock and save 25% instantly!',
-  productIds: ['volt-gan-140w', 'hyperarmor-240w-cable', 'aura-qi2-3in1'],
-  bundleDiscountPercent: 25
+  title: 'Cleopatra Ultimate Tech Kit',
+  subtitle: 'Power Adapter + MagSafe Cable + Ultra Earbuds',
+  description: 'Combine all 3 best-selling Cleopatra accessories and save 25% instantly on your complete setup.',
+  bundleDiscountPercent: 25,
+  productIds: [
+    'cleo_1_belkin-boost-charge-power-bund',
+    'cleo_2_jbl-powered-speaker-eon-715-15',
+    'cleo_3_sony-ps-5-slim-digital-edition'
+  ]
 };

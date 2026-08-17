@@ -94,21 +94,22 @@ async function run() {
   const files = getFiles(PROJECT_DIR);
   console.log(`📂 Found ${files.length} project source files to upload.`);
 
-  // 3. Prepare Tree Items (single batch tree creation)
+  // 3. Prepare Tree Items
   const treeItems = [];
   for (let i = 0; i < files.length; i++) {
     const file = files[i];
     const isBinary = file.relPath.match(/\.(png|jpg|jpeg|gif|ico|webp|woff|woff2|ttf|eot)$/i);
+    const stat = fs.statSync(file.fullPath);
 
-    if (isBinary) {
+    if (isBinary || stat.size > 40000) {
       const content = fs.readFileSync(file.fullPath);
       const blobData = await api(`/repos/${REPO_OWNER}/${REPO_NAME}/git/blobs`, {
         method: 'POST',
         body: JSON.stringify({
-          content: content.toString('base64'),
-          encoding: 'base64'
+          content: isBinary ? content.toString('base64') : content.toString('utf8'),
+          encoding: isBinary ? 'base64' : 'utf-8'
         })
-      });
+      }, 5);
       treeItems.push({
         path: file.relPath,
         mode: '100644',
@@ -126,14 +127,14 @@ async function run() {
     }
   }
 
-  // 4. Create Git Tree in one single call
-  console.log('🌲 Generating Git Tree structure in single batch...');
+  // 4. Create Git Tree
+  console.log('🌲 Generating Git Tree structure...');
   const tree = await api(`/repos/${REPO_OWNER}/${REPO_NAME}/git/trees`, {
     method: 'POST',
     body: JSON.stringify({
       tree: treeItems
     })
-  });
+  }, 5);
 
   // 5. Get Parent Commit SHA (if any)
   let parentCommitSha = null;
