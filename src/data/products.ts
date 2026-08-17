@@ -1189,7 +1189,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 185,
     "images": [
-      "https://cdn.movertix.com/media/catalog/product/cache/image/1200x/s/a/samsung-galaxy-a36-5g-dual-sim-awesome-white-256gb-and-8gb-ram-sm-a366b-ds_1.jpg"
+      "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&q=80&w=800"
     ],
     "stock": 34,
     "featured": false,
@@ -1237,7 +1237,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 192,
     "images": [
-      "https://cdn.movertix.com/media/catalog/product/s/a/samsung-galaxy-a26-5g-dual-sim-white-128gb-and-6gb-ram-sm-a266b-ds.jpg"
+      "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&q=80&w=800"
     ],
     "stock": 38,
     "featured": false,
@@ -1430,7 +1430,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 40,
     "images": [
-      "https://cdn.movertix.com/media/catalog/product/x/i/xiaomi-15-ultra-5g-dual-sim-silver-chrome-512gb-and-16gb-ram_2.jpg"
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800"
     ],
     "badge": "FLAGSHIP",
     "stock": 19,
@@ -2976,7 +2976,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 84,
     "images": [
-      "https://bindutel.com/wp-content/uploads/2025/10/oppo-a5-official-600x600.webp"
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
     ],
     "stock": 42,
     "featured": false,
@@ -3073,7 +3073,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 98,
     "images": [
-      "https://bludiode.com/53371-large_default/vivo-x200-pro-16gb512gb-white.jpg"
+      "https://images.unsplash.com/photo-1575695342320-d2d2d2f9b73f?auto=format&fit=crop&q=80&w=800"
     ],
     "badge": "FLAGSHIP",
     "stock": 15,
@@ -3122,7 +3122,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 105,
     "images": [
-      "https://tech101.com.ph/wp-content/uploads/2026/03/ALL.jpg"
+      "https://images.unsplash.com/photo-1575695342320-d2d2d2f9b73f?auto=format&fit=crop&q=80&w=800"
     ],
     "stock": 19,
     "featured": false,
@@ -3411,7 +3411,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 147,
     "images": [
-      "https://mobilebuzzbd.com/wp-content/uploads/2025/03/Vivo-Y29-Smartphone-Elegant-White-Colour.jpg"
+      "https://images.unsplash.com/photo-1575695342320-d2d2d2f9b73f?auto=format&fit=crop&q=80&w=800"
     ],
     "stock": 43,
     "featured": false,
@@ -3701,7 +3701,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 189,
     "images": [
-      "https://www.notebookcheck.net/fileadmin/_processed_/e/5/csm_OnePlus-12R-5K1_c202e6fbed.jpg"
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800"
     ],
     "stock": 32,
     "featured": false,
@@ -4088,7 +4088,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 65,
     "images": [
-      "https://bludiode.com/63922-large_default/realme-15-pro-12-gb-256-gb-branco.jpg"
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
     ],
     "stock": 29,
     "featured": false,
@@ -5344,7 +5344,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 67,
     "images": [
-      "https://www.notebookcheck.net/fileadmin/_processed_/b/a/csm_Google_Pixel_9ac_fc7ba5bf8b.jpg"
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800"
     ],
     "stock": 28,
     "featured": false,
@@ -5779,7 +5779,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 130,
     "images": [
-      "https://www.courtsmammouth.mu/122432-product_set/huawei-nova-13i-white.jpg"
+      "https://images.unsplash.com/photo-1567581935884-3349723552ca?auto=format&fit=crop&q=80&w=800"
     ],
     "stock": 29,
     "featured": false,
@@ -6166,7 +6166,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 186,
     "images": [
-      "https://mumbd.com/public/uploads/product/1759521593-tecno-spark-40-pro-plus-moon-titanium573.jpeg"
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
     ],
     "stock": 26,
     "featured": false,
@@ -6890,7 +6890,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 111,
     "images": [
-      "https://99mobilebn.com/wp-content/uploads/2025/05/Overall.jpg"
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
     ],
     "stock": 16,
     "featured": false,
@@ -6938,7 +6938,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 118,
     "images": [
-      "https://arafatelecom.com/wp-content/uploads/2024/06/Itel-RS4-All-Color.jpg"
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
     ],
     "stock": 20,
     "featured": false,
@@ -7372,7 +7372,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8999999999999995,
     "reviewCount": 181,
     "images": [
-      "https://companies.mybroadband.co.za/tecno/files/2023/10/itel-A05s4.jpg"
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&q=80&w=800"
     ],
     "stock": 21,
     "featured": false,
@@ -7710,7 +7710,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 50,
     "images": [
-      "https://itmania.ro/wp-content/uploads/2022/02/Nokia-C2-2nd-Edition.jpg"
+      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&q=80&w=800"
     ],
     "stock": 14,
     "featured": false,
@@ -8000,7 +8000,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 92,
     "images": [
-      "https://totomobile.vn/wp-content/uploads/2025/03/xperia-1-V-1-mark-5-White-toto-mobile.png"
+      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&q=80&w=800"
     ],
     "stock": 38,
     "featured": false,
@@ -8628,7 +8628,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 4.8,
     "reviewCount": 183,
     "images": [
-      "https://www.notebookcheck.net/fileadmin/_processed_/5/3/csm_asus_rog_phone_6_c538878ca1.png"
+      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=800"
     ],
     "stock": 20,
     "featured": false,
@@ -9594,7 +9594,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     "rating": 5,
     "reviewCount": 143,
     "images": [
-      "https://cdn.gamerbraves.com/2024/04/nubia-Neo-2-5G-FI.jpg"
+      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&q=80&w=800"
     ],
     "stock": 30,
     "featured": false,
