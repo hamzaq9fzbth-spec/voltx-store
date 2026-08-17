@@ -3,8 +3,6 @@ import { StoreProvider, useStore } from './context/StoreContext';
 import { AnnouncementBar } from './components/AnnouncementBar';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
-import { FlashDeals } from './components/FlashDeals';
-import { TechBundleBox } from './components/TechBundleBox';
 import { CategoryFilterBar } from './components/CategoryFilterBar';
 import { ProductGrid } from './components/ProductGrid';
 import { NewsletterSection } from './components/NewsletterSection';
@@ -51,14 +49,8 @@ const AppContent: React.FC = () => {
         {/* Hero Section */}
         <Hero />
 
-        {/* Flash Deals with Live Countdown */}
-        <FlashDeals />
-
-        {/* Frequently Bought Together Bundle Deal */}
-        <TechBundleBox />
-
-        {/* Main Catalog & Filter Grid */}
-        <section style={{ padding: '2rem 0 4rem' }}>
+        {/* Main Catalog & Filter Grid (Strictly 10 Products on First Screen) */}
+        <section id="product-catalog" style={{ padding: '2rem 0 4rem' }}>
           <div className="container">
             <CategoryFilterBar />
             <ProductGrid />
