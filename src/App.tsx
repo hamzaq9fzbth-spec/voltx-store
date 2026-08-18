@@ -10,6 +10,7 @@ import { Footer } from './components/Footer';
 import { MobileNav } from './components/MobileNav';
 
 import { ProductDetailModal } from './components/ProductDetailModal';
+import { DirectBuyModal } from './components/DirectBuyModal';
 import { CartDrawer } from './components/CartDrawer';
 import { WishlistDrawer } from './components/WishlistDrawer';
 import { CheckoutModal } from './components/CheckoutModal';
@@ -69,6 +70,7 @@ const AppContent: React.FC = () => {
 
       {/* Global Modals & Drawers */}
       <ProductDetailModal />
+      <DirectBuyModal />
       <CartDrawer />
       <WishlistDrawer />
       <CheckoutModal />

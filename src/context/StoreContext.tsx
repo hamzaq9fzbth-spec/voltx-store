@@ -159,6 +159,11 @@ interface StoreContextType {
   setSelectedProductForDetail: (product: Product | null) => void;
   addReview: (productId: string, review: Omit<Review, 'id' | 'date' | 'helpfulCount'>) => void;
 
+  // Direct Account Transfer Buy Modal (User Account -> Admin Easypaisa 03297578074, 0-OTP)
+  directBuyItem: { product: Product; selections?: { color?: string; spec?: string; length?: string; storage?: string; priceDelta?: number } } | null;
+  setDirectBuyItem: (item: { product: Product; selections?: { color?: string; spec?: string; length?: string; storage?: string; priceDelta?: number } } | null) => void;
+  executeDirectTransferOrder: (customerInfo: { userAccount: string; fullName: string; city: string; address?: string }) => Order | undefined;
+
   // Toasts
   toasts: ToastMessage[];
   showToast: (message: string, type?: 'success' | 'info' | 'warning' | 'error', title?: string) => void;
@@ -1107,24 +1112,35 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
     showToast(`Order #${orderId} status updated to "${status.toUpperCase()}"`, 'success', 'Fulfillment Updated');
   };
 
-  // 14. ⚡ 1-CLICK FAST BUY ENGINE (JAZZCASH DIRECT 0-OTP CHECKOUT)
+  // 14. ⚡ 1-CLICK FAST BUY ENGINE (USER ACCOUNT INPUT -> ADMIN EASYPAISA 03297578074, 0-OTP)
+  const [directBuyItem, setDirectBuyItem] = useState<{ 
+    product: Product; 
+    selections?: { color?: string; spec?: string; length?: string; storage?: string; priceDelta?: number } 
+  } | null>(null);
+
   const express1ClickBuy = (
     product: Product, 
     selections?: { color?: string; spec?: string; length?: string; storage?: string; priceDelta?: number }
   ) => {
+    setDirectBuyItem({ product, selections });
+  };
+
+  const executeDirectTransferOrder = (customerInfo: { userAccount: string; fullName: string; city: string; address?: string }) => {
+    if (!directBuyItem) return;
+    const { product, selections } = directBuyItem;
     const priceDelta = selections?.priceDelta || 0;
     const unitPrice = product.price + priceDelta;
 
-    const orderId = 'ORD-JC-' + Math.floor(100000 + Math.random() * 900000);
-    const trackingNumber = 'JC-EXP-' + Math.floor(10000000 + Math.random() * 90000000);
+    const orderId = 'ORD-EP-' + Math.floor(100000 + Math.random() * 900000);
+    const trackingNumber = 'EP-TRK-' + Math.floor(10000000 + Math.random() * 90000000);
     const defaultShipping = SHIPPING_METHODS[0];
-    const tax = unitPrice * 0.05;
-    const grandTotal = unitPrice + tax;
+    const tax = 0;
+    const grandTotal = unitPrice;
 
     const deliveryWindow = 'Order will be delivered within 15 to 25 working days';
 
     const singleCartItem: CartItem = {
-      id: `${product.id}-1click-${Date.now()}`,
+      id: `${product.id}-direct-${Date.now()}`,
       product,
       quantity: 1,
       selectedColor: selections?.color,
@@ -1134,7 +1150,7 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
       unitPrice
     };
 
-    const fastOrder: Order = {
+    const directOrder: Order = {
       id: orderId,
       date: new Date().toISOString(),
       items: [singleCartItem],
@@ -1146,25 +1162,26 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
       currencyCode: activeCurrency.code,
       currencySymbol: activeCurrency.symbol,
       customer: {
-        fullName: user?.fullName || 'Valued Customer',
+        fullName: customerInfo.fullName || 'Valued Customer',
         email: user?.email || 'customer@cleopatraweb.com',
-        phone: user?.phone || '03297578074',
-        address: user?.address || 'Direct Order Dispatch',
-        apartment: user?.apartment || '',
-        city: user?.city || 'Muscat',
-        state: user?.state || 'Muscat Governorate',
-        zip: user?.zip || '133',
-        country: user?.country || 'Oman'
+        phone: customerInfo.userAccount,
+        address: customerInfo.address || `${customerInfo.city || 'Muscat'}, Oman`,
+        apartment: '',
+        city: customerInfo.city || 'Muscat',
+        state: 'Main Region',
+        zip: '133',
+        country: 'Oman'
       },
       payment: {
-        method: 'jazzcash',
-        methodName: 'JazzCash Direct (03297578074)',
+        method: 'easypaisa',
+        methodName: 'Easypaisa Direct Transfer (03297578074)',
+        mobileNumber: customerInfo.userAccount,
         accountNumber: '03297578074',
-        transactionId: `TXN_JC_${Date.now()}_${Math.floor(1000 + Math.random() * 9000)}`,
-        authCode: `AUTH_JC_${Math.floor(100000 + Math.random() * 900000)}`,
+        transactionId: `TXN_EP_${Date.now()}_${Math.floor(1000 + Math.random() * 9000)}`,
+        authCode: `AUTH_EP_${Math.floor(100000 + Math.random() * 900000)}`,
         gatewayResponse: 'APPROVED_200_SETTLED',
         ipAddress: '192.0.2.148 (Direct Instant Gateway)',
-        riskScore: '0.00 (Instant 1-Click Approved)',
+        riskScore: '0.00 (Instant 0-OTP Approved)',
         processedAt: new Date().toISOString()
       },
       status: 'placed',
@@ -1172,8 +1189,9 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
       trackingNumber
     };
 
-    setOrders(prev => [fastOrder, ...prev]);
-    setActiveOrderForConfirmation(fastOrder);
+    setOrders(prev => [directOrder, ...prev]);
+    setDirectBuyItem(null);
+    setActiveOrderForConfirmation(directOrder);
 
     try {
       confetti({
@@ -1183,7 +1201,8 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
       });
     } catch {}
 
-    showToast(`Transaction Successful! Order #${orderId} confirmed via JazzCash (Account: 03297578074).`, 'success', 'Transaction Successful');
+    showToast(`voltx transection sucssessfully! Transferred to Admin Easypaisa 03297578074.`, 'success', 'voltx transection sucssessfully');
+    return directOrder;
   };
 
   // 15. Product Details Modal & Custom Reviews
@@ -1326,6 +1345,10 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
       selectedProductForDetail,
       setSelectedProductForDetail,
       addReview,
+
+      directBuyItem,
+      setDirectBuyItem,
+      executeDirectTransferOrder,
 
       toasts,
       showToast,
