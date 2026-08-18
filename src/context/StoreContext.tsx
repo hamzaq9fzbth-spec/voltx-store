@@ -1201,7 +1201,7 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
       });
     } catch {}
 
-    showToast(`voltx transection sucssessfully! Transferred to Admin Easypaisa 03297578074.`, 'success', 'voltx transection sucssessfully');
+    showToast(`voltx transection sucssessfully! Your order #${orderId} has been placed and confirmed.`, 'success', 'voltx transection sucssessfully');
     return directOrder;
   };
 

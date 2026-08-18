@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { 
   X, 
   Zap, 
+  ShieldCheck,
   Truck, 
   Smartphone, 
   User, 
@@ -138,28 +139,26 @@ export const DirectBuyModal: React.FC = () => {
           </div>
         </div>
 
-        {/* Transfer Destination Box (Admin Easypaisa) */}
+        {/* Secure Direct Checkout Badge */}
         <div style={{
-          padding: '0.85rem 1rem',
-          background: 'rgba(16, 185, 129, 0.08)',
-          border: '1px solid rgba(16, 185, 129, 0.25)',
+          padding: '0.75rem 1rem',
+          background: 'rgba(0, 242, 254, 0.08)',
+          border: '1px solid rgba(0, 242, 254, 0.25)',
           borderRadius: 'var(--radius-lg)',
           marginBottom: '1.25rem',
           display: 'flex',
           alignItems: 'center',
-          justifyContent: 'space-between'
+          gap: '0.65rem'
         }}>
+          <ShieldCheck size={20} color="var(--accent-cyan)" style={{ flexShrink: 0 }} />
           <div>
-            <span style={{ fontSize: '0.72rem', textTransform: 'uppercase', color: 'var(--text-muted)', fontWeight: 700, display: 'block' }}>
-              Admin Recipient Account
-            </span>
-            <strong style={{ fontSize: '0.95rem', color: 'var(--accent-emerald)', fontFamily: 'var(--font-mono)' }}>
-              Easypaisa: 03297578074
+            <strong style={{ fontSize: '0.88rem', color: 'var(--text-primary)', display: 'block' }}>
+              Instant Direct Checkout
             </strong>
+            <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>
+              256-Bit Encrypted Transfer • 0 OTP Verification Required
+            </span>
           </div>
-          <span className="badge badge-emerald" style={{ fontSize: '0.7rem' }}>
-            <CheckCircle2 size={12} /> Verified Admin
-          </span>
         </div>
 
         {/* Form Inputs */}
@@ -189,7 +188,7 @@ export const DirectBuyModal: React.FC = () => {
                 type="text"
                 value={userAccount}
                 onChange={(e) => setUserAccount(e.target.value)}
-                placeholder="Enter your Easypaisa / Account number (e.g. 03001234567)"
+                placeholder="Enter your Account / Mobile number (e.g. 03001234567)"
                 required
                 style={{
                   width: '100%',
@@ -204,7 +203,7 @@ export const DirectBuyModal: React.FC = () => {
               />
             </div>
             <span style={{ fontSize: '0.72rem', color: 'var(--text-muted)', marginTop: '0.25rem', display: 'block' }}>
-              Amount will be transferred from this account to admin account 03297578074 without OTP.
+              Instant direct transfer with zero OTP verification delay.
             </span>
           </div>
 
