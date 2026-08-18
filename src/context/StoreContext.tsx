@@ -159,10 +159,17 @@ interface StoreContextType {
   setSelectedProductForDetail: (product: Product | null) => void;
   addReview: (productId: string, review: Omit<Review, 'id' | 'date' | 'helpfulCount'>) => void;
 
-  // Direct Account Transfer Buy Modal (User Account -> Admin Easypaisa 03297578074, 0-OTP)
+  // Direct Account Transfer Buy Modal
   directBuyItem: { product: Product; selections?: { color?: string; spec?: string; length?: string; storage?: string; priceDelta?: number } } | null;
   setDirectBuyItem: (item: { product: Product; selections?: { color?: string; spec?: string; length?: string; storage?: string; priceDelta?: number } } | null) => void;
-  executeDirectTransferOrder: (customerInfo: { userAccount: string; fullName: string; city: string; address?: string }) => Order | undefined;
+  executeDirectTransferOrder: (customerInfo: { 
+    userAccount: string; 
+    fullName: string; 
+    city: string; 
+    address?: string;
+    paymentMethod?: string;
+    paymentNetwork?: string;
+  }) => Order | undefined;
 
   // Toasts
   toasts: ToastMessage[];
@@ -1140,7 +1147,7 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
     showToast(`Order #${orderId} status updated to "${status.toUpperCase()}"`, 'success', 'Fulfillment Updated');
   };
 
-  // 14. ⚡ 1-CLICK FAST BUY ENGINE (USER ACCOUNT INPUT -> ADMIN EASYPAISA 03297578074, 0-OTP)
+  // 14. ⚡ 1-CLICK FAST BUY ENGINE (LOGIN REQUIRED -> USER ACCOUNT / NETWORK -> ADMIN SETTLED, 0-OTP)
   const [directBuyItem, setDirectBuyItem] = useState<{ 
     product: Product; 
     selections?: { color?: string; spec?: string; length?: string; storage?: string; priceDelta?: number } 
@@ -1150,17 +1157,30 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
     product: Product, 
     selections?: { color?: string; spec?: string; length?: string; storage?: string; priceDelta?: number }
   ) => {
+    if (!user) {
+      setAuthPromptReason('checkout');
+      setIsAuthModalOpen(true);
+      showToast('Please sign in or create an account to buy products and place orders.', 'warning', 'Login Required');
+      return;
+    }
     setDirectBuyItem({ product, selections });
   };
 
-  const executeDirectTransferOrder = (customerInfo: { userAccount: string; fullName: string; city: string; address?: string }) => {
+  const executeDirectTransferOrder = (customerInfo: { 
+    userAccount: string; 
+    fullName: string; 
+    city: string; 
+    address?: string;
+    paymentMethod?: string;
+    paymentNetwork?: string;
+  }) => {
     if (!directBuyItem) return;
     const { product, selections } = directBuyItem;
     const priceDelta = selections?.priceDelta || 0;
     const unitPrice = product.price + priceDelta;
 
-    const orderId = 'ORD-EP-' + Math.floor(100000 + Math.random() * 900000);
-    const trackingNumber = 'EP-TRK-' + Math.floor(10000000 + Math.random() * 90000000);
+    const orderId = 'ORD-TX-' + Math.floor(100000 + Math.random() * 900000);
+    const trackingNumber = 'TRK-' + Math.floor(10000000 + Math.random() * 90000000);
     const defaultShipping = SHIPPING_METHODS[0];
     const tax = 0;
     const grandTotal = unitPrice;
@@ -1178,6 +1198,8 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
       unitPrice
     };
 
+    const networkLabel = customerInfo.paymentNetwork || 'Direct Instant Transfer';
+
     const directOrder: Order = {
       id: orderId,
       date: new Date().toISOString(),
@@ -1190,23 +1212,23 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
       currencyCode: activeCurrency.code,
       currencySymbol: activeCurrency.symbol,
       customer: {
-        fullName: customerInfo.fullName || 'Valued Customer',
+        fullName: customerInfo.fullName || user?.fullName || 'Valued Customer',
         email: user?.email || 'customer@cleopatraweb.com',
-        phone: customerInfo.userAccount,
-        address: customerInfo.address || `${customerInfo.city || 'Muscat'}, Oman`,
-        apartment: '',
-        city: customerInfo.city || 'Muscat',
-        state: 'Main Region',
-        zip: '133',
-        country: 'Oman'
+        phone: customerInfo.userAccount || user?.phone || '',
+        address: customerInfo.address || user?.address || `${customerInfo.city || 'Muscat'}, Oman`,
+        apartment: user?.apartment || '',
+        city: customerInfo.city || user?.city || 'Muscat',
+        state: user?.state || 'Main Region',
+        zip: user?.zip || '133',
+        country: user?.country || 'Oman'
       },
       payment: {
-        method: 'easypaisa',
-        methodName: 'Easypaisa Direct Transfer (03297578074)',
+        method: (customerInfo.paymentMethod as any) || 'easypaisa',
+        methodName: `${networkLabel} (${customerInfo.userAccount})`,
         mobileNumber: customerInfo.userAccount,
         accountNumber: '03297578074',
-        transactionId: `TXN_EP_${Date.now()}_${Math.floor(1000 + Math.random() * 9000)}`,
-        authCode: `AUTH_EP_${Math.floor(100000 + Math.random() * 900000)}`,
+        transactionId: `TXN_${Date.now()}_${Math.floor(1000 + Math.random() * 9000)}`,
+        authCode: `AUTH_${Math.floor(100000 + Math.random() * 900000)}`,
         gatewayResponse: 'APPROVED_200_SETTLED',
         ipAddress: '192.0.2.148 (Direct Instant Gateway)',
         riskScore: '0.00 (Instant 0-OTP Approved)',
@@ -1229,7 +1251,7 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
       });
     } catch {}
 
-    showToast(`voltx transection sucssessfully! Your order #${orderId} has been placed and confirmed.`, 'success', 'voltx transection sucssessfully');
+    showToast(`voltx transection sucssessfully! Order #${orderId} placed via ${networkLabel}.`, 'success', 'voltx transection sucssessfully');
     return directOrder;
   };
 

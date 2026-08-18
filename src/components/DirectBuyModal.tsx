@@ -4,9 +4,12 @@ import {
   Zap, 
   Truck, 
   Smartphone, 
+  CreditCard,
+  Building2,
   User, 
   MapPin, 
-  ArrowRight
+  ArrowRight,
+  Check
 } from 'lucide-react';
 import { useStore } from '../context/StoreContext';
 
@@ -19,7 +22,11 @@ export const DirectBuyModal: React.FC = () => {
     user 
   } = useStore();
 
+  const [paymentType, setPaymentType] = useState<'wallet' | 'card' | 'bank'>('wallet');
+  const [selectedNetwork, setSelectedNetwork] = useState('Easypaisa');
   const [userAccount, setUserAccount] = useState('');
+  const [cardExpiry, setCardExpiry] = useState('');
+  const [cardCvc, setCardCvc] = useState('');
   const [fullName, setFullName] = useState(user?.fullName || '');
   const [city, setCity] = useState(user?.city || 'Muscat');
   const [address, setAddress] = useState(user?.address || '');
@@ -32,10 +39,20 @@ export const DirectBuyModal: React.FC = () => {
   const priceDelta = selections?.priceDelta || 0;
   const unitPrice = product.price + priceDelta;
 
+  const walletNetworks = ['Easypaisa', 'JazzCash', 'OmanNet Mobile', 'SadaPay', 'NayaPay'];
+  const cardNetworks = ['Visa Debit/Credit', 'Mastercard', 'UnionPay'];
+  const bankNetworks = ['Direct Bank Transfer', 'Online Banking / Wire', 'Raast / UPI Instant'];
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!userAccount.trim()) {
-      setErrorMsg('Please enter your Easypaisa / Mobile Wallet account number');
+      setErrorMsg(
+        paymentType === 'card' 
+          ? 'Please enter your 16-digit Card Number' 
+          : paymentType === 'bank'
+          ? 'Please enter your Bank Account / IBAN Number'
+          : 'Please enter your Mobile Wallet / Account Number'
+      );
       return;
     }
     if (!fullName.trim()) {
@@ -51,7 +68,9 @@ export const DirectBuyModal: React.FC = () => {
         userAccount: userAccount.trim(),
         fullName: fullName.trim(),
         city: city.trim() || 'Muscat',
-        address: address.trim() || `${city.trim() || 'Muscat'}, Delivery Address`
+        address: address.trim() || `${city.trim() || 'Muscat'}, Delivery Address`,
+        paymentMethod: paymentType,
+        paymentNetwork: selectedNetwork
       });
       setIsSubmitting(false);
     }, 400);
@@ -63,14 +82,15 @@ export const DirectBuyModal: React.FC = () => {
         className="modal-container" 
         onClick={(e) => e.stopPropagation()}
         style={{
-          maxWidth: '540px',
+          maxWidth: '560px',
           width: '95%',
-          maxHeight: '90vh',
+          maxHeight: '92vh',
           display: 'flex',
           flexDirection: 'column',
           padding: '2rem',
           borderRadius: 'var(--radius-xl)',
-          position: 'relative'
+          position: 'relative',
+          overflowY: 'auto'
         }}
       >
         {/* Close button */}
@@ -101,7 +121,7 @@ export const DirectBuyModal: React.FC = () => {
               1-Click Direct Buy
             </h3>
             <span style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>
-              Instant Transfer • No OTP Verification Required
+              Logged in as: <strong style={{ color: 'var(--accent-cyan)' }}>{user?.fullName || user?.email}</strong>
             </span>
           </div>
         </div>
@@ -137,6 +157,125 @@ export const DirectBuyModal: React.FC = () => {
           </div>
         </div>
 
+        {/* Payment Category Selector Tabs */}
+        <div style={{ marginBottom: '1.25rem' }}>
+          <label style={{ display: 'block', fontSize: '0.82rem', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.5rem' }}>
+            Select Payment Method:
+          </label>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '0.5rem' }}>
+            <button
+              type="button"
+              onClick={() => {
+                setPaymentType('wallet');
+                setSelectedNetwork('Easypaisa');
+              }}
+              style={{
+                padding: '0.65rem 0.5rem',
+                borderRadius: 'var(--radius-md)',
+                background: paymentType === 'wallet' ? 'rgba(0, 242, 254, 0.12)' : 'var(--bg-elevated)',
+                border: paymentType === 'wallet' ? '1.5px solid var(--accent-cyan)' : '1px solid var(--border-subtle)',
+                color: paymentType === 'wallet' ? 'var(--accent-cyan)' : 'var(--text-secondary)',
+                fontSize: '0.78rem',
+                fontWeight: 700,
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                gap: '0.35rem',
+                cursor: 'pointer',
+                transition: 'all var(--transition-fast)'
+              }}
+            >
+              <Smartphone size={18} />
+              <span>Mobile Wallet</span>
+            </button>
+
+            <button
+              type="button"
+              onClick={() => {
+                setPaymentType('card');
+                setSelectedNetwork('Visa Debit/Credit');
+              }}
+              style={{
+                padding: '0.65rem 0.5rem',
+                borderRadius: 'var(--radius-md)',
+                background: paymentType === 'card' ? 'rgba(0, 242, 254, 0.12)' : 'var(--bg-elevated)',
+                border: paymentType === 'card' ? '1.5px solid var(--accent-cyan)' : '1px solid var(--border-subtle)',
+                color: paymentType === 'card' ? 'var(--accent-cyan)' : 'var(--text-secondary)',
+                fontSize: '0.78rem',
+                fontWeight: 700,
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                gap: '0.35rem',
+                cursor: 'pointer',
+                transition: 'all var(--transition-fast)'
+              }}
+            >
+              <CreditCard size={18} />
+              <span>Credit / Debit</span>
+            </button>
+
+            <button
+              type="button"
+              onClick={() => {
+                setPaymentType('bank');
+                setSelectedNetwork('Direct Bank Transfer');
+              }}
+              style={{
+                padding: '0.65rem 0.5rem',
+                borderRadius: 'var(--radius-md)',
+                background: paymentType === 'bank' ? 'rgba(0, 242, 254, 0.12)' : 'var(--bg-elevated)',
+                border: paymentType === 'bank' ? '1.5px solid var(--accent-cyan)' : '1px solid var(--border-subtle)',
+                color: paymentType === 'bank' ? 'var(--accent-cyan)' : 'var(--text-secondary)',
+                fontSize: '0.78rem',
+                fontWeight: 700,
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                gap: '0.35rem',
+                cursor: 'pointer',
+                transition: 'all var(--transition-fast)'
+              }}
+            >
+              <Building2 size={18} />
+              <span>Bank Transfer</span>
+            </button>
+          </div>
+        </div>
+
+        {/* Network Choice Chips */}
+        <div style={{ marginBottom: '1.25rem' }}>
+          <label style={{ display: 'block', fontSize: '0.78rem', fontWeight: 700, color: 'var(--text-muted)', marginBottom: '0.4rem' }}>
+            Choose Payment Network:
+          </label>
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.4rem' }}>
+            {(paymentType === 'wallet' ? walletNetworks : paymentType === 'card' ? cardNetworks : bankNetworks).map(net => (
+              <button
+                key={net}
+                type="button"
+                onClick={() => setSelectedNetwork(net)}
+                style={{
+                  padding: '0.35rem 0.75rem',
+                  borderRadius: 'var(--radius-full)',
+                  background: selectedNetwork === net ? 'var(--accent-cyan)' : 'var(--bg-elevated)',
+                  color: selectedNetwork === net ? '#090d16' : 'var(--text-primary)',
+                  border: selectedNetwork === net ? '1px solid var(--accent-cyan)' : '1px solid var(--border-subtle)',
+                  fontSize: '0.78rem',
+                  fontWeight: selectedNetwork === net ? 800 : 500,
+                  cursor: 'pointer',
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '0.3rem',
+                  transition: 'all var(--transition-fast)'
+                }}
+              >
+                {selectedNetwork === net && <Check size={12} strokeWidth={3} />}
+                <span>{net}</span>
+              </button>
+            ))}
+          </div>
+        </div>
+
         {/* Form Inputs */}
         <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
           {errorMsg && (
@@ -153,18 +292,34 @@ export const DirectBuyModal: React.FC = () => {
             </div>
           )}
 
-          {/* User Account / Mobile Wallet Input */}
+          {/* Dynamic Account / Card / Bank Field */}
           <div>
             <label style={{ display: 'block', fontSize: '0.82rem', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.35rem' }}>
-              Your Account / Mobile Wallet Number <span style={{ color: 'var(--accent-rose)' }}>*</span>
+              {paymentType === 'card' 
+                ? 'Your Card Number (16 Digits)' 
+                : paymentType === 'bank' 
+                ? 'Your Bank Account / IBAN Number' 
+                : `Your ${selectedNetwork} Account / Mobile Number`} <span style={{ color: 'var(--accent-rose)' }}>*</span>
             </label>
             <div style={{ position: 'relative' }}>
-              <Smartphone size={16} color="var(--text-muted)" style={{ position: 'absolute', left: '12px', top: '50%', transform: 'translateY(-50%)' }} />
+              {paymentType === 'card' ? (
+                <CreditCard size={16} color="var(--text-muted)" style={{ position: 'absolute', left: '12px', top: '50%', transform: 'translateY(-50%)' }} />
+              ) : paymentType === 'bank' ? (
+                <Building2 size={16} color="var(--text-muted)" style={{ position: 'absolute', left: '12px', top: '50%', transform: 'translateY(-50%)' }} />
+              ) : (
+                <Smartphone size={16} color="var(--text-muted)" style={{ position: 'absolute', left: '12px', top: '50%', transform: 'translateY(-50%)' }} />
+              )}
               <input 
                 type="text"
                 value={userAccount}
                 onChange={(e) => setUserAccount(e.target.value)}
-                placeholder="Enter your Account / Mobile number (e.g. 03001234567)"
+                placeholder={
+                  paymentType === 'card' 
+                    ? '4000 1234 5678 9010' 
+                    : paymentType === 'bank'
+                    ? 'PK36FAYS0123456789 / OM98NBO01234'
+                    : '0300 1234567 / 9123 4567'
+                }
                 required
                 style={{
                   width: '100%',
@@ -178,12 +333,58 @@ export const DirectBuyModal: React.FC = () => {
                 }}
               />
             </div>
-            <span style={{ fontSize: '0.72rem', color: 'var(--text-muted)', marginTop: '0.25rem', display: 'block' }}>
-              Instant direct transfer with zero OTP verification delay.
-            </span>
           </div>
 
-          {/* Full Name Input */}
+          {/* If Card: Expiry & CVC row */}
+          {paymentType === 'card' && (
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.75rem' }}>
+              <div>
+                <label style={{ display: 'block', fontSize: '0.78rem', fontWeight: 700, color: 'var(--text-muted)', marginBottom: '0.25rem' }}>
+                  Expiry (MM/YY)
+                </label>
+                <input 
+                  type="text" 
+                  value={cardExpiry}
+                  onChange={(e) => setCardExpiry(e.target.value)}
+                  placeholder="12/28"
+                  style={{
+                    width: '100%',
+                    padding: '0.65rem 0.75rem',
+                    borderRadius: 'var(--radius-md)',
+                    background: 'var(--bg-elevated)',
+                    border: '1px solid var(--border-medium)',
+                    color: 'var(--text-primary)',
+                    fontSize: '0.85rem',
+                    fontFamily: 'var(--font-mono)'
+                  }}
+                />
+              </div>
+              <div>
+                <label style={{ display: 'block', fontSize: '0.78rem', fontWeight: 700, color: 'var(--text-muted)', marginBottom: '0.25rem' }}>
+                  CVC / Security Code
+                </label>
+                <input 
+                  type="password" 
+                  value={cardCvc}
+                  onChange={(e) => setCardCvc(e.target.value)}
+                  placeholder="•••"
+                  maxLength={4}
+                  style={{
+                    width: '100%',
+                    padding: '0.65rem 0.75rem',
+                    borderRadius: 'var(--radius-md)',
+                    background: 'var(--bg-elevated)',
+                    border: '1px solid var(--border-medium)',
+                    color: 'var(--text-primary)',
+                    fontSize: '0.85rem',
+                    fontFamily: 'var(--font-mono)'
+                  }}
+                />
+              </div>
+            </div>
+          )}
+
+          {/* Full Name & City */}
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.75rem' }}>
             <div>
               <label style={{ display: 'block', fontSize: '0.82rem', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.35rem' }}>
@@ -277,11 +478,11 @@ export const DirectBuyModal: React.FC = () => {
             }}
           >
             {isSubmitting ? (
-              <span>Processing Transfer...</span>
+              <span>Authorizing & Deducting Payment...</span>
             ) : (
               <>
                 <Zap size={18} fill="#090d16" />
-                <span>Transfer & Complete Order ({formatPrice(unitPrice)})</span>
+                <span>Authorize & Pay {formatPrice(unitPrice)}</span>
                 <ArrowRight size={16} />
               </>
             )}

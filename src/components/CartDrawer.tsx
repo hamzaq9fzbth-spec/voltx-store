@@ -59,48 +59,15 @@ export const CartDrawer: React.FC = () => {
   };
 
   const handle1ClickBuyCart = () => {
-    const defaultCard = user?.savedCards.find(c => c.isDefault) || user?.savedCards[0];
-    if (!user || !defaultCard) {
+    if (!user) {
       setIsCartOpen(false);
       setAuthPromptReason('checkout');
       setIsAuthModalOpen(true);
-      showToast('Please sign in with a linked payment card to use 1-Click Fast Buy.', 'warning', 'Fast Buy Auth');
+      showToast('Please sign in or create an account to use 1-Click Fast Buy.', 'warning', 'Login Required');
       return;
     }
-
-    const defaultShipping = {
-      id: 'standard',
-      name: 'Standard Insured Delivery',
-      description: 'Order will be delivered within 15 to 25 working days',
-      estimatedDays: '15 to 25 Working Days',
-      price: 0
-    };
-
-    placeOrder(
-      {
-        fullName: user.fullName,
-        email: user.email,
-        phone: user.phone || '+1 (555) 019-2834',
-        address: user.address || '742 Cyber Parkway',
-        apartment: user.apartment || '',
-        city: user.city || 'San Francisco',
-        state: user.state || 'CA',
-        zip: user.zip || '94107',
-        country: user.country || 'United States'
-      },
-      {
-        method: 'card',
-        methodName: 'Credit / Debit Card (1-Click Cart Fast Buy)',
-        cardNumber: defaultCard.cardNumber,
-        cardLast4: defaultCard.cardLast4,
-        cardBrand: defaultCard.cardBrand,
-        cardName: defaultCard.cardName,
-        expiry: defaultCard.expiry,
-        cvc: defaultCard.cvc
-      },
-      defaultShipping
-    );
     setIsCartOpen(false);
+    setIsCheckoutOpen(true);
   };
 
   const handleProceedToCheckout = () => {
@@ -108,7 +75,7 @@ export const CartDrawer: React.FC = () => {
       setIsCartOpen(false);
       setAuthPromptReason('checkout');
       setIsAuthModalOpen(true);
-      showToast('Please sign in and link your payment card to complete your order.', 'warning', 'Login & Card Required');
+      showToast('Please sign in or create an account to complete checkout and place orders.', 'warning', 'Login Required');
       return;
     }
     setIsCartOpen(false);
