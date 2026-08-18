@@ -187,7 +187,7 @@ const STORAGE_KEYS = {
   ANNOUNCEMENT: 'cleopatra_announcement_v2',
   CART: 'cleopatra_cart_v2',
   WISHLIST: 'cleopatra_wishlist_v2',
-  ORDERS: 'cleopatra_orders_v2',
+  ORDERS: 'cleopatra_orders_v4',
   USERS_DIRECTORY: 'cleopatra_users_v2',
   THEME: 'cleopatra_theme_v2',
   CURRENCY: 'cleopatra_currency_v2',
@@ -1051,12 +1051,16 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
   // 13. Checkout & Orders
   const [isCheckoutOpen, setIsCheckoutOpen] = useState(false);
   const [orders, setOrders] = useState<Order[]>(() => {
+    try {
+      localStorage.removeItem('cleopatra_orders_v2');
+      localStorage.removeItem('cleopatra_orders_v3');
+    } catch {}
+
     const saved = localStorage.getItem(STORAGE_KEYS.ORDERS);
     if (!saved) return [];
     try {
       const parsed = JSON.parse(saved);
-      const demoOrderIds = ['ORD-948210', 'ORD-771920'];
-      return Array.isArray(parsed) ? parsed.filter(o => !demoOrderIds.includes(o.id)) : [];
+      return Array.isArray(parsed) ? parsed : [];
     } catch {
       return [];
     }
