@@ -2,13 +2,11 @@ import React, { useState } from 'react';
 import { 
   X, 
   Zap, 
-  ShieldCheck,
   Truck, 
   Smartphone, 
   User, 
   MapPin, 
-  ArrowRight,
-  CheckCircle2
+  ArrowRight
 } from 'lucide-react';
 import { useStore } from '../context/StoreContext';
 
@@ -136,28 +134,6 @@ export const DirectBuyModal: React.FC = () => {
                 <Truck size={10} /> 100% Free Shipping
               </span>
             </div>
-          </div>
-        </div>
-
-        {/* Secure Direct Checkout Badge */}
-        <div style={{
-          padding: '0.75rem 1rem',
-          background: 'rgba(0, 242, 254, 0.08)',
-          border: '1px solid rgba(0, 242, 254, 0.25)',
-          borderRadius: 'var(--radius-lg)',
-          marginBottom: '1.25rem',
-          display: 'flex',
-          alignItems: 'center',
-          gap: '0.65rem'
-        }}>
-          <ShieldCheck size={20} color="var(--accent-cyan)" style={{ flexShrink: 0 }} />
-          <div>
-            <strong style={{ fontSize: '0.88rem', color: 'var(--text-primary)', display: 'block' }}>
-              Instant Direct Checkout
-            </strong>
-            <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>
-              256-Bit Encrypted Transfer • 0 OTP Verification Required
-            </span>
           </div>
         </div>
 
