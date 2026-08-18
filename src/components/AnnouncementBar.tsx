@@ -85,10 +85,6 @@ export const AnnouncementBar: React.FC = () => {
         {/* Right item */}
         <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.35rem', color: 'var(--text-secondary)' }}>
-            <ShieldCheck size={14} color="var(--accent-emerald)" />
-            <span>2-Year Warranty</span>
-          </div>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '0.35rem', color: 'var(--text-secondary)' }}>
             <Sparkles size={13} color="var(--accent-cyan)" />
             <span>DROP ENDS: <strong style={{ color: 'var(--accent-amber)', fontFamily: 'var(--font-mono)' }}>{pad(timeLeft.hours)}:{pad(timeLeft.minutes)}:{pad(timeLeft.seconds)}</strong></span>
           </div>
