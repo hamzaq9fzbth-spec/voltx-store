@@ -9,7 +9,8 @@ import {
   User, 
   MapPin, 
   ArrowRight,
-  Check
+  Check,
+  Search
 } from 'lucide-react';
 import { useStore } from '../context/StoreContext';
 
@@ -22,8 +23,9 @@ export const DirectBuyModal: React.FC = () => {
     user 
   } = useStore();
 
-  const [paymentType, setPaymentType] = useState<'wallet' | 'card' | 'bank'>('wallet');
-  const [selectedNetwork, setSelectedNetwork] = useState('Easypaisa');
+  const [paymentType, setPaymentType] = useState<'bank' | 'wallet' | 'card'>('bank');
+  const [selectedNetwork, setSelectedNetwork] = useState('Bank Muscat (بنك مسقط)');
+  const [bankSearch, setBankSearch] = useState('');
   const [userAccount, setUserAccount] = useState('');
   const [cardExpiry, setCardExpiry] = useState('');
   const [cardCvc, setCardCvc] = useState('');
@@ -39,9 +41,56 @@ export const DirectBuyModal: React.FC = () => {
   const priceDelta = selections?.priceDelta || 0;
   const unitPrice = product.price + priceDelta;
 
-  const walletNetworks = ['Easypaisa', 'JazzCash', 'OmanNet Mobile', 'SadaPay', 'NayaPay'];
-  const cardNetworks = ['Visa Debit/Credit', 'Mastercard', 'UnionPay'];
-  const bankNetworks = ['Direct Bank Transfer', 'Online Banking / Wire', 'Raast / UPI Instant'];
+  const omanBanks = [
+    // Major Omani Local Banks
+    'Bank Muscat (بنك مسقط)',
+    'Bank Dhofar (بنك ظفار)',
+    'National Bank of Oman (NBO)',
+    'Oman Arab Bank (OAB)',
+    'Sohar International',
+    'Ahli Bank Oman',
+    'Bank Nizwa (Islamic)',
+    'Alizz Islamic Bank (Islamic)',
+    'Oman Housing Bank',
+    'Oman Development Bank',
+    // Foreign & International Banks in Oman
+    'HSBC Oman',
+    'Standard Chartered Bank',
+    'First Abu Dhabi Bank (FAB)',
+    'Qatar National Bank (QNB)',
+    'State Bank of India (SBI Oman)',
+    'Bank of Baroda Oman',
+    'Bank of Beirut Oman',
+    'Bank Melli Iran Oman',
+    'Bank Saderat Iran Oman',
+    'Habib Bank Limited (HBL Oman)',
+    'Mashreq Bank Oman',
+    'Gulf International Bank (GIB)',
+    'Oman Investment Bank'
+  ];
+
+  const omanWallets = [
+    'OMPAY Wallet',
+    'Thawani Pay',
+    'OmanNet QR',
+    'Bank Muscat BM Wallet',
+    'NBO Pay',
+    'Sohar Pay',
+    'Apple Pay (Oman)',
+    'Google Pay',
+    'Easypaisa',
+    'JazzCash'
+  ];
+
+  const cardNetworks = [
+    'OmanNet Debit Card',
+    'Visa (Oman & International)',
+    'Mastercard (Oman & International)',
+    'Mada Debit Card',
+    'UnionPay'
+  ];
+
+  const filteredBanks = omanBanks.filter(b => b.toLowerCase().includes(bankSearch.toLowerCase()));
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -50,8 +99,8 @@ export const DirectBuyModal: React.FC = () => {
         paymentType === 'card' 
           ? 'Please enter your 16-digit Card Number' 
           : paymentType === 'bank'
-          ? 'Please enter your Bank Account / IBAN Number'
-          : 'Please enter your Mobile Wallet / Account Number'
+          ? `Please enter your ${selectedNetwork} Account / IBAN Number`
+          : `Please enter your ${selectedNetwork} Mobile / Account Number`
       );
       return;
     }
@@ -82,12 +131,12 @@ export const DirectBuyModal: React.FC = () => {
         className="modal-container" 
         onClick={(e) => e.stopPropagation()}
         style={{
-          maxWidth: '560px',
+          maxWidth: '580px',
           width: '95%',
           maxHeight: '92vh',
           display: 'flex',
           flexDirection: 'column',
-          padding: '2rem',
+          padding: '1.75rem',
           borderRadius: 'var(--radius-xl)',
           position: 'relative',
           overflowY: 'auto'
@@ -118,7 +167,7 @@ export const DirectBuyModal: React.FC = () => {
           </div>
           <div>
             <h3 style={{ fontSize: '1.25rem', fontWeight: 800, color: 'var(--text-primary)' }}>
-              1-Click Direct Buy
+              Direct Order Checkout
             </h3>
             <span style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>
               Logged in as: <strong style={{ color: 'var(--accent-cyan)' }}>{user?.fullName || user?.email}</strong>
@@ -166,60 +215,8 @@ export const DirectBuyModal: React.FC = () => {
             <button
               type="button"
               onClick={() => {
-                setPaymentType('wallet');
-                setSelectedNetwork('Easypaisa');
-              }}
-              style={{
-                padding: '0.65rem 0.5rem',
-                borderRadius: 'var(--radius-md)',
-                background: paymentType === 'wallet' ? 'rgba(0, 242, 254, 0.12)' : 'var(--bg-elevated)',
-                border: paymentType === 'wallet' ? '1.5px solid var(--accent-cyan)' : '1px solid var(--border-subtle)',
-                color: paymentType === 'wallet' ? 'var(--accent-cyan)' : 'var(--text-secondary)',
-                fontSize: '0.78rem',
-                fontWeight: 700,
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'center',
-                gap: '0.35rem',
-                cursor: 'pointer',
-                transition: 'all var(--transition-fast)'
-              }}
-            >
-              <Smartphone size={18} />
-              <span>Mobile Wallet</span>
-            </button>
-
-            <button
-              type="button"
-              onClick={() => {
-                setPaymentType('card');
-                setSelectedNetwork('Visa Debit/Credit');
-              }}
-              style={{
-                padding: '0.65rem 0.5rem',
-                borderRadius: 'var(--radius-md)',
-                background: paymentType === 'card' ? 'rgba(0, 242, 254, 0.12)' : 'var(--bg-elevated)',
-                border: paymentType === 'card' ? '1.5px solid var(--accent-cyan)' : '1px solid var(--border-subtle)',
-                color: paymentType === 'card' ? 'var(--accent-cyan)' : 'var(--text-secondary)',
-                fontSize: '0.78rem',
-                fontWeight: 700,
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'center',
-                gap: '0.35rem',
-                cursor: 'pointer',
-                transition: 'all var(--transition-fast)'
-              }}
-            >
-              <CreditCard size={18} />
-              <span>Credit / Debit</span>
-            </button>
-
-            <button
-              type="button"
-              onClick={() => {
                 setPaymentType('bank');
-                setSelectedNetwork('Direct Bank Transfer');
+                setSelectedNetwork('Bank Muscat (بنك مسقط)');
               }}
               style={{
                 padding: '0.65rem 0.5rem',
@@ -238,43 +235,199 @@ export const DirectBuyModal: React.FC = () => {
               }}
             >
               <Building2 size={18} />
-              <span>Bank Transfer</span>
+              <span>🏦 Oman Banks</span>
+            </button>
+
+            <button
+              type="button"
+              onClick={() => {
+                setPaymentType('wallet');
+                setSelectedNetwork('OMPAY Wallet');
+              }}
+              style={{
+                padding: '0.65rem 0.5rem',
+                borderRadius: 'var(--radius-md)',
+                background: paymentType === 'wallet' ? 'rgba(0, 242, 254, 0.12)' : 'var(--bg-elevated)',
+                border: paymentType === 'wallet' ? '1.5px solid var(--accent-cyan)' : '1px solid var(--border-subtle)',
+                color: paymentType === 'wallet' ? 'var(--accent-cyan)' : 'var(--text-secondary)',
+                fontSize: '0.78rem',
+                fontWeight: 700,
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                gap: '0.35rem',
+                cursor: 'pointer',
+                transition: 'all var(--transition-fast)'
+              }}
+            >
+              <Smartphone size={18} />
+              <span>📱 Oman Wallets</span>
+            </button>
+
+            <button
+              type="button"
+              onClick={() => {
+                setPaymentType('card');
+                setSelectedNetwork('OmanNet Debit Card');
+              }}
+              style={{
+                padding: '0.65rem 0.5rem',
+                borderRadius: 'var(--radius-md)',
+                background: paymentType === 'card' ? 'rgba(0, 242, 254, 0.12)' : 'var(--bg-elevated)',
+                border: paymentType === 'card' ? '1.5px solid var(--accent-cyan)' : '1px solid var(--border-subtle)',
+                color: paymentType === 'card' ? 'var(--accent-cyan)' : 'var(--text-secondary)',
+                fontSize: '0.78rem',
+                fontWeight: 700,
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                gap: '0.35rem',
+                cursor: 'pointer',
+                transition: 'all var(--transition-fast)'
+              }}
+            >
+              <CreditCard size={18} />
+              <span>💳 Cards & OmanNet</span>
             </button>
           </div>
         </div>
 
-        {/* Network Choice Chips */}
-        <div style={{ marginBottom: '1.25rem' }}>
-          <label style={{ display: 'block', fontSize: '0.78rem', fontWeight: 700, color: 'var(--text-muted)', marginBottom: '0.4rem' }}>
-            Choose Payment Network:
-          </label>
-          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.4rem' }}>
-            {(paymentType === 'wallet' ? walletNetworks : paymentType === 'card' ? cardNetworks : bankNetworks).map(net => (
-              <button
-                key={net}
-                type="button"
-                onClick={() => setSelectedNetwork(net)}
+        {/* If Bank Selected: Oman Banks Selector with Search */}
+        {paymentType === 'bank' && (
+          <div style={{ marginBottom: '1.25rem' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.4rem' }}>
+              <label style={{ fontSize: '0.78rem', fontWeight: 700, color: 'var(--text-muted)' }}>
+                Choose Licensed Bank in Oman (CBO):
+              </label>
+              <span style={{ fontSize: '0.7rem', color: 'var(--accent-cyan)' }}>
+                23 Licensed Banks
+              </span>
+            </div>
+
+            <div style={{ position: 'relative', marginBottom: '0.5rem' }}>
+              <Search size={14} color="var(--text-muted)" style={{ position: 'absolute', left: '10px', top: '50%', transform: 'translateY(-50%)' }} />
+              <input 
+                type="text"
+                value={bankSearch}
+                onChange={(e) => setBankSearch(e.target.value)}
+                placeholder="Search Oman Bank (e.g. Bank Muscat, Dhofar, NBO, HSBC, HBL)..."
                 style={{
-                  padding: '0.35rem 0.75rem',
-                  borderRadius: 'var(--radius-full)',
-                  background: selectedNetwork === net ? 'var(--accent-cyan)' : 'var(--bg-elevated)',
-                  color: selectedNetwork === net ? '#090d16' : 'var(--text-primary)',
-                  border: selectedNetwork === net ? '1px solid var(--accent-cyan)' : '1px solid var(--border-subtle)',
+                  width: '100%',
+                  padding: '0.45rem 0.65rem 0.45rem 2rem',
                   fontSize: '0.78rem',
-                  fontWeight: selectedNetwork === net ? 800 : 500,
-                  cursor: 'pointer',
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '0.3rem',
-                  transition: 'all var(--transition-fast)'
+                  borderRadius: 'var(--radius-md)',
+                  background: 'var(--bg-elevated)',
+                  border: '1px solid var(--border-subtle)',
+                  color: 'var(--text-primary)'
                 }}
-              >
-                {selectedNetwork === net && <Check size={12} strokeWidth={3} />}
-                <span>{net}</span>
-              </button>
-            ))}
+              />
+            </div>
+
+            <div style={{
+              maxHeight: '130px',
+              overflowY: 'auto',
+              display: 'flex',
+              flexWrap: 'wrap',
+              gap: '0.35rem',
+              padding: '0.5rem',
+              background: 'var(--bg-elevated)',
+              borderRadius: 'var(--radius-md)',
+              border: '1px solid var(--border-subtle)'
+            }}>
+              {filteredBanks.map(bank => (
+                <button
+                  key={bank}
+                  type="button"
+                  onClick={() => setSelectedNetwork(bank)}
+                  style={{
+                    padding: '0.35rem 0.65rem',
+                    borderRadius: 'var(--radius-full)',
+                    background: selectedNetwork === bank ? 'var(--accent-cyan)' : 'var(--bg-surface)',
+                    color: selectedNetwork === bank ? '#090d16' : 'var(--text-primary)',
+                    border: selectedNetwork === bank ? '1px solid var(--accent-cyan)' : '1px solid var(--border-subtle)',
+                    fontSize: '0.74rem',
+                    fontWeight: selectedNetwork === bank ? 800 : 500,
+                    cursor: 'pointer',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '0.3rem'
+                  }}
+                >
+                  {selectedNetwork === bank && <Check size={11} strokeWidth={3} />}
+                  <span>{bank}</span>
+                </button>
+              ))}
+            </div>
           </div>
-        </div>
+        )}
+
+        {/* If Wallet Selected: Oman Digital Wallets List */}
+        {paymentType === 'wallet' && (
+          <div style={{ marginBottom: '1.25rem' }}>
+            <label style={{ display: 'block', fontSize: '0.78rem', fontWeight: 700, color: 'var(--text-muted)', marginBottom: '0.4rem' }}>
+              Choose Digital Wallet / Mobile Service:
+            </label>
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.4rem' }}>
+              {omanWallets.map(w => (
+                <button
+                  key={w}
+                  type="button"
+                  onClick={() => setSelectedNetwork(w)}
+                  style={{
+                    padding: '0.35rem 0.75rem',
+                    borderRadius: 'var(--radius-full)',
+                    background: selectedNetwork === w ? 'var(--accent-cyan)' : 'var(--bg-elevated)',
+                    color: selectedNetwork === w ? '#090d16' : 'var(--text-primary)',
+                    border: selectedNetwork === w ? '1px solid var(--accent-cyan)' : '1px solid var(--border-subtle)',
+                    fontSize: '0.78rem',
+                    fontWeight: selectedNetwork === w ? 800 : 500,
+                    cursor: 'pointer',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '0.3rem'
+                  }}
+                >
+                  {selectedNetwork === w && <Check size={12} strokeWidth={3} />}
+                  <span>{w}</span>
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* If Card Selected: Card Networks */}
+        {paymentType === 'card' && (
+          <div style={{ marginBottom: '1.25rem' }}>
+            <label style={{ display: 'block', fontSize: '0.78rem', fontWeight: 700, color: 'var(--text-muted)', marginBottom: '0.4rem' }}>
+              Choose Card Network:
+            </label>
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.4rem' }}>
+              {cardNetworks.map(c => (
+                <button
+                  key={c}
+                  type="button"
+                  onClick={() => setSelectedNetwork(c)}
+                  style={{
+                    padding: '0.35rem 0.75rem',
+                    borderRadius: 'var(--radius-full)',
+                    background: selectedNetwork === c ? 'var(--accent-cyan)' : 'var(--bg-elevated)',
+                    color: selectedNetwork === c ? '#090d16' : 'var(--text-primary)',
+                    border: selectedNetwork === c ? '1px solid var(--accent-cyan)' : '1px solid var(--border-subtle)',
+                    fontSize: '0.78rem',
+                    fontWeight: selectedNetwork === c ? 800 : 500,
+                    cursor: 'pointer',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '0.3rem'
+                  }}
+                >
+                  {selectedNetwork === c && <Check size={12} strokeWidth={3} />}
+                  <span>{c}</span>
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
 
         {/* Form Inputs */}
         <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
@@ -292,14 +445,14 @@ export const DirectBuyModal: React.FC = () => {
             </div>
           )}
 
-          {/* Dynamic Account / Card / Bank Field */}
+          {/* Selected Institution Input */}
           <div>
             <label style={{ display: 'block', fontSize: '0.82rem', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.35rem' }}>
               {paymentType === 'card' 
-                ? 'Your Card Number (16 Digits)' 
+                ? 'Card Number (16 Digits)' 
                 : paymentType === 'bank' 
-                ? 'Your Bank Account / IBAN Number' 
-                : `Your ${selectedNetwork} Account / Mobile Number`} <span style={{ color: 'var(--accent-rose)' }}>*</span>
+                ? `${selectedNetwork} Account / IBAN Number` 
+                : `${selectedNetwork} Mobile / Wallet Number`} <span style={{ color: 'var(--accent-rose)' }}>*</span>
             </label>
             <div style={{ position: 'relative' }}>
               {paymentType === 'card' ? (
@@ -317,8 +470,8 @@ export const DirectBuyModal: React.FC = () => {
                   paymentType === 'card' 
                     ? '4000 1234 5678 9010' 
                     : paymentType === 'bank'
-                    ? 'PK36FAYS0123456789 / OM98NBO01234'
-                    : '0300 1234567 / 9123 4567'
+                    ? 'OM98 NBO 0123 4567 8901 / Bank Account No'
+                    : 'OMPAY / Mobile Number (e.g. 9123 4567 / 0300 1234567)'
                 }
                 required
                 style={{
@@ -422,7 +575,7 @@ export const DirectBuyModal: React.FC = () => {
                   type="text"
                   value={city}
                   onChange={(e) => setCity(e.target.value)}
-                  placeholder="City (e.g. Muscat)"
+                  placeholder="City (e.g. Muscat, Salalah, Sohar)"
                   required
                   style={{
                     width: '100%',
@@ -447,7 +600,7 @@ export const DirectBuyModal: React.FC = () => {
               type="text"
               value={address}
               onChange={(e) => setAddress(e.target.value)}
-              placeholder="Street / Apartment / Landmark"
+              placeholder="Street / Apartment / Landmark in Oman"
               style={{
                 width: '100%',
                 padding: '0.7rem 0.75rem',

@@ -95,10 +95,10 @@ export const CheckoutModal: React.FC = () => {
 
   const paymentCategories = [
     { id: 'all', label: 'All Popular' },
-    { id: 'cards', label: '💳 Cards (Global)' },
-    { id: 'wallets', label: '📱 Wallets (Apple/Google/PayPal)' },
-    { id: 'mena_gulf', label: '🇴🇲 MENA / Gulf (OmanNet/Mada)' },
-    { id: 'instant_bank', label: '⚡ UPI / Pix / Direct Bank' },
+    { id: 'mena_gulf', label: '🇴🇲 Oman Licensed Banks (CBO)' },
+    { id: 'wallets', label: '📱 Oman & Digital Wallets (OMPAY/Thawani)' },
+    { id: 'cards', label: '💳 OmanNet & Cards' },
+    { id: 'instant_bank', label: '⚡ UPI / Direct Bank' },
     { id: 'bnpl', label: '🛍️ Buy Now Pay Later' },
     { id: 'crypto', label: '₿ Crypto Web3' }
   ];
