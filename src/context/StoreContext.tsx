@@ -693,14 +693,37 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
   };
 
   const logout = () => {
+    // 1. Clear Active User Profile & Local Storage
     setUser(null);
+    localStorage.removeItem(STORAGE_KEYS.USER);
+
+    // 2. Clear Active Cart Items & Local Storage
     setCart([]);
     localStorage.removeItem(STORAGE_KEYS.CART);
+
+    // 3. Clear Active Wishlist & Local Storage
+    setWishlist([]);
+    localStorage.removeItem(STORAGE_KEYS.WISHLIST);
+
+    // 4. Clear Applied Promotional Coupons
     setAppliedCoupon(null);
+
+    // 5. Clear Search, Direct Buy, and Active Tracking States
+    setSearchQuery('');
+    setDirectBuyItem(null);
+    setAuthPromptReason(null);
+    setTrackingOrderId('');
+    setActiveOrderForConfirmation(null);
+
+    // 6. Close All Open User Modals & Drawers
     setIsCartOpen(false);
+    setIsWishlistOpen(false);
     setIsCheckoutOpen(false);
     setIsProfileModalOpen(false);
-    showToast('You have signed out and your cart has been cleared.', 'info');
+    setIsMyOrdersOpen(false);
+    setIsOrderTrackingOpen(false);
+
+    showToast('You have signed out and all session data has been cleared.', 'info', 'Signed Out');
   };
 
   const addOrUpdateSavedCard = (cardData: Omit<SavedCard, 'id'>) => {
