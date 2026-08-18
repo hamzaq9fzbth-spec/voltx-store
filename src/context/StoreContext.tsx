@@ -694,8 +694,13 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
 
   const logout = () => {
     setUser(null);
+    setCart([]);
+    localStorage.removeItem(STORAGE_KEYS.CART);
+    setAppliedCoupon(null);
+    setIsCartOpen(false);
+    setIsCheckoutOpen(false);
     setIsProfileModalOpen(false);
-    showToast('You have signed out.', 'info');
+    showToast('You have signed out and your cart has been cleared.', 'info');
   };
 
   const addOrUpdateSavedCard = (cardData: Omit<SavedCard, 'id'>) => {
