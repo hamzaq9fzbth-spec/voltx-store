@@ -15,7 +15,9 @@ import {
   Loader2,
   CheckCircle2,
   Clock,
-  ShieldCheck
+  ShieldCheck,
+  AlertTriangle,
+  RefreshCw
 } from 'lucide-react';
 import { useStore } from '../context/StoreContext';
 
@@ -39,9 +41,11 @@ export const DirectBuyModal: React.FC = () => {
   const [address, setAddress] = useState(user?.address || '');
   const [errorMsg, setErrorMsg] = useState('');
   
-  // Processing Animation State
+  // Processing & Transaction Failure State
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [processingStep, setProcessingStep] = useState(0);
+  const [transactionFailed, setTransactionFailed] = useState(false);
+  const [failureReason, setFailureReason] = useState('');
 
   if (!directBuyItem) return null;
 
@@ -103,7 +107,9 @@ export const DirectBuyModal: React.FC = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (!userAccount.trim()) {
+
+    const cleanAccount = userAccount.trim();
+    if (!cleanAccount) {
       setErrorMsg(
         paymentType === 'card' 
           ? 'Please enter your 16-digit Card Number' 
@@ -115,17 +121,37 @@ export const DirectBuyModal: React.FC = () => {
       );
       return;
     }
+
+    if (paymentType === 'paypal' && !cleanAccount.includes('@')) {
+      setErrorMsg('Invalid PayPal email format. Transaction Failed.');
+      return;
+    }
+
     if (!fullName.trim()) {
       setErrorMsg('Please enter your full name');
       return;
     }
 
     setErrorMsg('');
+    setTransactionFailed(false);
+    setFailureReason('');
     setIsSubmitting(true);
     setProcessingStep(1);
 
+    // Check for simulated failure trigger (e.g. if account contains 'fail', '0000', 'error', or invalid len)
+    const isSimulatedFail = cleanAccount.toLowerCase().includes('fail') || 
+                            cleanAccount.toLowerCase().includes('error') || 
+                            cleanAccount === '0000000000000000';
+
     // Step 1: Handshake
     setTimeout(() => {
+      if (isSimulatedFail) {
+        setIsSubmitting(false);
+        setProcessingStep(0);
+        setTransactionFailed(true);
+        setFailureReason('Bank authorization rejected payment transfer. Account status invalid or insufficient funds.');
+        return;
+      }
       setProcessingStep(2);
     }, 800);
 
@@ -142,7 +168,7 @@ export const DirectBuyModal: React.FC = () => {
     // Step 4: Complete Order & Confirmation
     setTimeout(() => {
       executeDirectTransferOrder({
-        userAccount: userAccount.trim(),
+        userAccount: cleanAccount,
         fullName: fullName.trim(),
         city: city.trim() || 'Muscat',
         address: address.trim() || `${city.trim() || 'Muscat'}, Delivery Address`,
@@ -183,8 +209,78 @@ export const DirectBuyModal: React.FC = () => {
           </button>
         )}
 
-        {/* Live Processing Animation View */}
-        {isSubmitting ? (
+        {/* Transaction Failed Screen */}
+        {transactionFailed ? (
+          <div style={{
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            justifyContent: 'center',
+            padding: '2.5rem 1rem',
+            textAlign: 'center'
+          }}>
+            <div style={{
+              width: '64px',
+              height: '64px',
+              borderRadius: '50%',
+              background: 'rgba(244, 63, 94, 0.15)',
+              border: '2px solid var(--accent-rose)',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              color: 'var(--accent-rose)',
+              marginBottom: '1.25rem',
+              boxShadow: '0 0 25px rgba(244, 63, 94, 0.3)'
+            }}>
+              <AlertTriangle size={36} />
+            </div>
+
+            <h3 style={{ fontSize: '1.35rem', fontWeight: 800, color: 'var(--accent-rose)', marginBottom: '0.5rem' }}>
+              Transaction Failed — Transfer Declined
+            </h3>
+
+            <p style={{ fontSize: '0.88rem', color: 'var(--text-secondary)', marginBottom: '1.25rem', maxWidth: '440px', lineHeight: 1.5 }}>
+              Payment of <strong style={{ color: 'var(--text-primary)' }}>{formatPrice(unitPrice)}</strong> could not be transferred.
+            </p>
+
+            <div style={{
+              width: '100%',
+              maxWidth: '440px',
+              padding: '1rem',
+              borderRadius: 'var(--radius-md)',
+              background: 'rgba(244, 63, 94, 0.08)',
+              border: '1px solid rgba(244, 63, 94, 0.3)',
+              color: 'var(--text-primary)',
+              fontSize: '0.82rem',
+              textAlign: 'left',
+              marginBottom: '1.5rem'
+            }}>
+              <strong style={{ color: 'var(--accent-rose)', display: 'block', marginBottom: '0.25rem' }}>
+                Failure Reason:
+              </strong>
+              {failureReason || 'Account deduction unauthorized or payment transfer rejected by merchant gateway.'}
+            </div>
+
+            <button
+              onClick={() => setTransactionFailed(false)}
+              className="btn btn-primary"
+              style={{
+                padding: '0.75rem 1.75rem',
+                fontSize: '0.9rem',
+                fontWeight: 800,
+                display: 'flex',
+                alignItems: 'center',
+                gap: '0.5rem',
+                background: 'var(--accent-rose)',
+                color: '#ffffff'
+              }}
+            >
+              <RefreshCw size={16} />
+              <span>Try Payment Again</span>
+            </button>
+          </div>
+        ) : isSubmitting ? (
+          /* Live Processing Animation View */
           <div style={{
             display: 'flex',
             flexDirection: 'column',
