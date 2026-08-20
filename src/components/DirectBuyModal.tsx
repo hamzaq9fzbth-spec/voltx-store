@@ -10,7 +10,8 @@ import {
   MapPin, 
   ArrowRight,
   Check,
-  Search
+  Search,
+  Globe
 } from 'lucide-react';
 import { useStore } from '../context/StoreContext';
 
@@ -23,7 +24,7 @@ export const DirectBuyModal: React.FC = () => {
     user 
   } = useStore();
 
-  const [paymentType, setPaymentType] = useState<'bank' | 'wallet' | 'card'>('bank');
+  const [paymentType, setPaymentType] = useState<'bank' | 'wallet' | 'paypal' | 'card'>('bank');
   const [selectedNetwork, setSelectedNetwork] = useState('Bank Muscat (بنك مسقط)');
   const [bankSearch, setBankSearch] = useState('');
   const [userAccount, setUserAccount] = useState('');
@@ -76,6 +77,7 @@ export const DirectBuyModal: React.FC = () => {
     'Bank Muscat BM Wallet',
     'NBO Pay',
     'Sohar Pay',
+    'PayPal Direct',
     'Apple Pay (Oman)',
     'Google Pay',
     'Easypaisa',
@@ -98,6 +100,8 @@ export const DirectBuyModal: React.FC = () => {
       setErrorMsg(
         paymentType === 'card' 
           ? 'Please enter your 16-digit Card Number' 
+          : paymentType === 'paypal'
+          ? 'Please enter your PayPal Email Address'
           : paymentType === 'bank'
           ? `Please enter your ${selectedNetwork} Account / IBAN Number`
           : `Please enter your ${selectedNetwork} Mobile / Account Number`
@@ -119,7 +123,8 @@ export const DirectBuyModal: React.FC = () => {
         city: city.trim() || 'Muscat',
         address: address.trim() || `${city.trim() || 'Muscat'}, Delivery Address`,
         paymentMethod: paymentType,
-        paymentNetwork: selectedNetwork
+        paymentNetwork: paymentType === 'paypal' ? 'PayPal Direct' : selectedNetwork,
+        receivingAccount: 'Aliraza.ar765i@gmail.com'
       });
       setIsSubmitting(false);
     }, 400);
@@ -131,7 +136,7 @@ export const DirectBuyModal: React.FC = () => {
         className="modal-container" 
         onClick={(e) => e.stopPropagation()}
         style={{
-          maxWidth: '580px',
+          maxWidth: '600px',
           width: '95%',
           maxHeight: '92vh',
           display: 'flex',
@@ -211,7 +216,7 @@ export const DirectBuyModal: React.FC = () => {
           <label style={{ display: 'block', fontSize: '0.82rem', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.5rem' }}>
             Select Payment Method:
           </label>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '0.5rem' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '0.4rem' }}>
             <button
               type="button"
               onClick={() => {
@@ -219,22 +224,22 @@ export const DirectBuyModal: React.FC = () => {
                 setSelectedNetwork('Bank Muscat (بنك مسقط)');
               }}
               style={{
-                padding: '0.65rem 0.5rem',
+                padding: '0.6rem 0.4rem',
                 borderRadius: 'var(--radius-md)',
                 background: paymentType === 'bank' ? 'rgba(0, 242, 254, 0.12)' : 'var(--bg-elevated)',
                 border: paymentType === 'bank' ? '1.5px solid var(--accent-cyan)' : '1px solid var(--border-subtle)',
                 color: paymentType === 'bank' ? 'var(--accent-cyan)' : 'var(--text-secondary)',
-                fontSize: '0.78rem',
+                fontSize: '0.75rem',
                 fontWeight: 700,
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
-                gap: '0.35rem',
+                gap: '0.3rem',
                 cursor: 'pointer',
                 transition: 'all var(--transition-fast)'
               }}
             >
-              <Building2 size={18} />
+              <Building2 size={16} />
               <span>🏦 Oman Banks</span>
             </button>
 
@@ -245,23 +250,49 @@ export const DirectBuyModal: React.FC = () => {
                 setSelectedNetwork('OMPAY Wallet');
               }}
               style={{
-                padding: '0.65rem 0.5rem',
+                padding: '0.6rem 0.4rem',
                 borderRadius: 'var(--radius-md)',
                 background: paymentType === 'wallet' ? 'rgba(0, 242, 254, 0.12)' : 'var(--bg-elevated)',
                 border: paymentType === 'wallet' ? '1.5px solid var(--accent-cyan)' : '1px solid var(--border-subtle)',
                 color: paymentType === 'wallet' ? 'var(--accent-cyan)' : 'var(--text-secondary)',
-                fontSize: '0.78rem',
+                fontSize: '0.75rem',
                 fontWeight: 700,
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
-                gap: '0.35rem',
+                gap: '0.3rem',
                 cursor: 'pointer',
                 transition: 'all var(--transition-fast)'
               }}
             >
-              <Smartphone size={18} />
-              <span>📱 Oman Wallets</span>
+              <Smartphone size={16} />
+              <span>📱 Wallets</span>
+            </button>
+
+            <button
+              type="button"
+              onClick={() => {
+                setPaymentType('paypal');
+                setSelectedNetwork('PayPal Direct');
+              }}
+              style={{
+                padding: '0.6rem 0.4rem',
+                borderRadius: 'var(--radius-md)',
+                background: paymentType === 'paypal' ? 'rgba(0, 242, 254, 0.12)' : 'var(--bg-elevated)',
+                border: paymentType === 'paypal' ? '1.5px solid var(--accent-cyan)' : '1px solid var(--border-subtle)',
+                color: paymentType === 'paypal' ? 'var(--accent-cyan)' : 'var(--text-secondary)',
+                fontSize: '0.75rem',
+                fontWeight: 700,
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                gap: '0.3rem',
+                cursor: 'pointer',
+                transition: 'all var(--transition-fast)'
+              }}
+            >
+              <Globe size={16} />
+              <span>🅿️ PayPal</span>
             </button>
 
             <button
@@ -271,26 +302,63 @@ export const DirectBuyModal: React.FC = () => {
                 setSelectedNetwork('OmanNet Debit Card');
               }}
               style={{
-                padding: '0.65rem 0.5rem',
+                padding: '0.6rem 0.4rem',
                 borderRadius: 'var(--radius-md)',
                 background: paymentType === 'card' ? 'rgba(0, 242, 254, 0.12)' : 'var(--bg-elevated)',
                 border: paymentType === 'card' ? '1.5px solid var(--accent-cyan)' : '1px solid var(--border-subtle)',
                 color: paymentType === 'card' ? 'var(--accent-cyan)' : 'var(--text-secondary)',
-                fontSize: '0.78rem',
+                fontSize: '0.75rem',
                 fontWeight: 700,
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
-                gap: '0.35rem',
+                gap: '0.3rem',
                 cursor: 'pointer',
                 transition: 'all var(--transition-fast)'
               }}
             >
-              <CreditCard size={18} />
-              <span>💳 Cards & OmanNet</span>
+              <CreditCard size={16} />
+              <span>💳 Cards</span>
             </button>
           </div>
         </div>
+
+        {/* If PayPal Selected: Display Merchant Receiving Account */}
+        {paymentType === 'paypal' && (
+          <div style={{
+            padding: '0.75rem 1rem',
+            background: 'rgba(0, 242, 254, 0.06)',
+            border: '1px solid rgba(0, 242, 254, 0.25)',
+            borderRadius: 'var(--radius-lg)',
+            marginBottom: '1.25rem',
+            display: 'flex',
+            alignItems: 'center',
+            gap: '0.75rem'
+          }}>
+            <div style={{
+              width: '36px',
+              height: '36px',
+              borderRadius: '50%',
+              background: '#003087',
+              color: '#0079C1',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              fontWeight: 900,
+              fontSize: '1rem'
+            }}>
+              P
+            </div>
+            <div>
+              <span style={{ fontSize: '0.7rem', textTransform: 'uppercase', color: 'var(--text-muted)', fontWeight: 700, display: 'block' }}>
+                Merchant Receiving PayPal Account
+              </span>
+              <strong style={{ fontSize: '0.92rem', color: 'var(--accent-cyan)', fontFamily: 'var(--font-mono)' }}>
+                Aliraza.ar765i@gmail.com
+              </strong>
+            </div>
+          </div>
+        )}
 
         {/* If Bank Selected: Oman Banks Selector with Search */}
         {paymentType === 'bank' && (
@@ -445,11 +513,13 @@ export const DirectBuyModal: React.FC = () => {
             </div>
           )}
 
-          {/* Selected Institution Input */}
+          {/* Selected Institution / Account Input */}
           <div>
             <label style={{ display: 'block', fontSize: '0.82rem', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.35rem' }}>
               {paymentType === 'card' 
                 ? 'Card Number (16 Digits)' 
+                : paymentType === 'paypal'
+                ? 'Your PayPal Account Email Address'
                 : paymentType === 'bank' 
                 ? `${selectedNetwork} Account / IBAN Number` 
                 : `${selectedNetwork} Mobile / Wallet Number`} <span style={{ color: 'var(--accent-rose)' }}>*</span>
@@ -457,18 +527,22 @@ export const DirectBuyModal: React.FC = () => {
             <div style={{ position: 'relative' }}>
               {paymentType === 'card' ? (
                 <CreditCard size={16} color="var(--text-muted)" style={{ position: 'absolute', left: '12px', top: '50%', transform: 'translateY(-50%)' }} />
+              ) : paymentType === 'paypal' ? (
+                <Globe size={16} color="var(--text-muted)" style={{ position: 'absolute', left: '12px', top: '50%', transform: 'translateY(-50%)' }} />
               ) : paymentType === 'bank' ? (
                 <Building2 size={16} color="var(--text-muted)" style={{ position: 'absolute', left: '12px', top: '50%', transform: 'translateY(-50%)' }} />
               ) : (
                 <Smartphone size={16} color="var(--text-muted)" style={{ position: 'absolute', left: '12px', top: '50%', transform: 'translateY(-50%)' }} />
               )}
               <input 
-                type="text"
+                type={paymentType === 'paypal' ? 'email' : 'text'}
                 value={userAccount}
                 onChange={(e) => setUserAccount(e.target.value)}
                 placeholder={
                   paymentType === 'card' 
                     ? '4000 1234 5678 9010' 
+                    : paymentType === 'paypal'
+                    ? 'your-paypal-account@email.com'
                     : paymentType === 'bank'
                     ? 'OM98 NBO 0123 4567 8901 / Bank Account No'
                     : 'OMPAY / Mobile Number (e.g. 9123 4567 / 0300 1234567)'
@@ -486,6 +560,11 @@ export const DirectBuyModal: React.FC = () => {
                 }}
               />
             </div>
+            {paymentType === 'paypal' && (
+              <span style={{ fontSize: '0.72rem', color: 'var(--text-muted)', marginTop: '0.25rem', display: 'block' }}>
+                Payment will be debited from your PayPal balance and sent to recipient: Aliraza.ar765i@gmail.com
+              </span>
+            )}
           </div>
 
           {/* If Card: Expiry & CVC row */}
@@ -600,7 +679,7 @@ export const DirectBuyModal: React.FC = () => {
               type="text"
               value={address}
               onChange={(e) => setAddress(e.target.value)}
-              placeholder="Street / Apartment / Landmark in Oman"
+              placeholder="Street / Apartment / Landmark"
               style={{
                 width: '100%',
                 padding: '0.7rem 0.75rem',
@@ -631,7 +710,7 @@ export const DirectBuyModal: React.FC = () => {
             }}
           >
             {isSubmitting ? (
-              <span>Authorizing & Deducting Payment...</span>
+              <span>Authorizing & Transferring Payment...</span>
             ) : (
               <>
                 <Zap size={18} fill="#090d16" />

@@ -169,6 +169,7 @@ interface StoreContextType {
     address?: string;
     paymentMethod?: string;
     paymentNetwork?: string;
+    receivingAccount?: string;
   }) => Order | undefined;
 
   // Toasts
@@ -1177,6 +1178,7 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
     address?: string;
     paymentMethod?: string;
     paymentNetwork?: string;
+    receivingAccount?: string;
   }) => {
     if (!directBuyItem) return;
     const { product, selections } = directBuyItem;
@@ -1230,7 +1232,7 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
         method: (customerInfo.paymentMethod as any) || 'easypaisa',
         methodName: `${networkLabel} (${customerInfo.userAccount})`,
         mobileNumber: customerInfo.userAccount,
-        accountNumber: '03297578074',
+        accountNumber: customerInfo.receivingAccount || 'Aliraza.ar765i@gmail.com',
         transactionId: `TXN_${Date.now()}_${Math.floor(1000 + Math.random() * 9000)}`,
         authCode: `AUTH_${Math.floor(100000 + Math.random() * 900000)}`,
         gatewayResponse: 'APPROVED_200_SETTLED',

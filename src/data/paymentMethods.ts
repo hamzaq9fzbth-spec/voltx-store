@@ -112,11 +112,12 @@ export const GLOBAL_PAYMENT_METHODS: GlobalPaymentMethod[] = [
   },
   {
     id: 'paypal',
-    name: 'PayPal',
+    name: 'PayPal Direct Transfer',
     category: 'wallets',
-    region: 'Global',
+    region: 'Global & Regional',
     icon: '🅿️',
-    description: 'Buyer Protection & PayPal Wallet balance',
+    description: 'Merchant PayPal Receiving Account: Aliraza.ar765i@gmail.com',
+    badge: 'Verified Merchant',
     popular: true
   },
 
