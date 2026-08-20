@@ -713,7 +713,11 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
     setWishlist([]);
     localStorage.removeItem(STORAGE_KEYS.WISHLIST);
 
-    // 4. Clear Applied Promotional Coupons
+    // 4. Clear Active User Orders & Local Storage
+    setOrders([]);
+    localStorage.removeItem(STORAGE_KEYS.ORDERS);
+
+    // 5. Clear Applied Promotional Coupons
     setAppliedCoupon(null);
 
     // 5. Clear Search, Direct Buy, and Active Tracking States
@@ -1077,6 +1081,18 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
     DatabaseService.bulkSaveOrders(orders).catch(() => {});
     orders.forEach(o => SupabaseService.saveOrder(o).catch(() => {}));
   }, [orders]);
+
+  useEffect(() => {
+    if (user?.email) {
+      SupabaseService.fetchUserOrders(user.email).then(userDbOrders => {
+        if (userDbOrders && userDbOrders.length > 0) {
+          setOrders(userDbOrders);
+        }
+      });
+    } else {
+      setOrders([]);
+    }
+  }, [user?.email]);
 
   const placeOrder = (
     customer: CustomerInfo, 

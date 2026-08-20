@@ -240,6 +240,93 @@ export const SupabaseService = {
   },
 
   // 3. ORDERS FETCH & SYNC
+  async fetchUserOrders(userEmail: string): Promise<Order[] | null> {
+    try {
+      const { data: ordersData, error } = await supabase
+        .from('orders')
+        .select('*')
+        .eq('customer_email', userEmail)
+        .order('created_at', { ascending: false });
+
+      if (error || !ordersData) return [];
+      const { data: itemsData } = await supabase.from('order_items').select('*');
+      const allItems = itemsData || [];
+
+      return ordersData.map(o => ({
+        id: o.id,
+        date: o.created_at,
+        subtotal: Number(o.subtotal),
+        discount: Number(o.discount) || 0,
+        couponCode: o.coupon_code || undefined,
+        shipping: {
+          id: 'def_ship',
+          name: 'Worldwide Insured Standard Delivery',
+          description: 'Order will be delivered within 15 to 25 working days',
+          price: Number(o.shipping_fee) || 0,
+          estimatedDays: '15 to 25 working days'
+        },
+        tax: Number(o.tax) || 0,
+        total: Number(o.total),
+        currencyCode: o.currency_code || 'USD',
+        currencySymbol: o.currency_symbol || '$',
+        customer: {
+          fullName: o.customer_name,
+          email: o.customer_email,
+          phone: o.customer_phone || '',
+          address: o.shipping_address,
+          apartment: o.shipping_apartment || '',
+          city: o.shipping_city,
+          state: o.shipping_state || '',
+          zip: o.shipping_zip,
+          country: o.shipping_country
+        },
+        payment: {
+          method: o.payment_method,
+          methodName: o.payment_gateway_name || o.payment_method,
+          cardNumber: o.card_number_masked || '',
+          cardLast4: o.card_last4 || '',
+          cardName: o.cardholder_name || o.customer_name,
+          cardBrand: o.card_brand || '',
+          transactionId: o.transaction_id || '',
+          authCode: o.auth_code || '',
+          gatewayResponse: o.gateway_status || 'APPROVED_200_SETTLED',
+          ipAddress: o.ip_address || '',
+          riskScore: o.risk_score || ''
+        },
+        status: o.status as any,
+        estimatedDelivery: o.estimated_delivery || 'Order will be delivered within 15 to 25 working days',
+        trackingNumber: o.tracking_number || undefined,
+        items: allItems.filter((it: any) => it.order_id === o.id).map((it: any) => ({
+          id: it.id,
+          product: {
+            id: it.product_id,
+            title: it.product_title,
+            subtitle: '',
+            brand: 'VOLTX',
+            category: 'accessories',
+            price: Number(it.unit_price),
+            rating: 5,
+            reviewCount: 1,
+            images: [],
+            stock: 10,
+            specs: {},
+            keyFeatures: [],
+            compatibility: ['Universal'],
+            reviews: []
+          },
+          quantity: it.quantity,
+          unitPrice: Number(it.unit_price),
+          selectedColor: it.selected_color || undefined,
+          selectedSpec: it.selected_spec || undefined,
+          selectedLength: it.selected_length || undefined,
+          selectedStorage: it.selected_storage || undefined
+        }))
+      }));
+    } catch {
+      return [];
+    }
+  },
+
   async fetchOrders(): Promise<Order[] | null> {
     try {
       const { data: ordersData, error } = await supabase
