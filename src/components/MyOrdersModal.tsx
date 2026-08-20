@@ -7,7 +7,8 @@ import {
   Calendar, 
   MapPin, 
   ExternalLink,
-  ShoppingBag
+  ShoppingBag,
+  Lock
 } from 'lucide-react';
 import { useStore } from '../context/StoreContext';
 import { Order } from '../types';
@@ -21,7 +22,10 @@ export const MyOrdersModal: React.FC = () => {
     setIsOrderTrackingOpen,
     setTrackingOrderId,
     addToCart,
-    showToast
+    showToast,
+    user,
+    setIsAuthModalOpen,
+    setAuthPromptReason
   } = useStore();
 
   if (!isMyOrdersOpen) return null;
@@ -87,9 +91,43 @@ export const MyOrdersModal: React.FC = () => {
           </button>
         </div>
 
-        {/* Orders List */}
+        {/* Orders List / Auth Privacy Guard */}
         <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
-          {orders.length === 0 ? (
+          {!user ? (
+            <div style={{ textAlign: 'center', padding: '3rem 1rem' }}>
+              <div style={{
+                width: '64px',
+                height: '64px',
+                borderRadius: '50%',
+                background: 'rgba(0, 242, 254, 0.12)',
+                border: '1.5px solid var(--accent-cyan)',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                margin: '0 auto 1.25rem',
+                color: 'var(--accent-cyan)'
+              }}>
+                <Lock size={28} />
+              </div>
+              <h4 style={{ fontSize: '1.25rem', fontWeight: 800, color: 'var(--text-primary)', marginBottom: '0.4rem' }}>
+                Sign In Required to View History
+              </h4>
+              <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginBottom: '1.5rem', maxWidth: '420px', margin: '0 auto 1.5rem' }}>
+                You are currently signed out. Every user's order history is private and only accessible when logged into their account.
+              </p>
+              <button 
+                onClick={() => {
+                  setIsMyOrdersOpen(false);
+                  setAuthPromptReason('checkout');
+                  setIsAuthModalOpen(true);
+                }}
+                className="btn btn-primary"
+                style={{ padding: '0.75rem 1.75rem', fontWeight: 800 }}
+              >
+                Sign In / Create Account
+              </button>
+            </div>
+          ) : orders.length === 0 ? (
             <div style={{ textAlign: 'center', padding: '3rem 1rem' }}>
               <div style={{
                 width: '64px',
