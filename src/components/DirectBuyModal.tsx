@@ -323,43 +323,6 @@ export const DirectBuyModal: React.FC = () => {
           </div>
         </div>
 
-        {/* If PayPal Selected: Display Merchant Receiving Account */}
-        {paymentType === 'paypal' && (
-          <div style={{
-            padding: '0.75rem 1rem',
-            background: 'rgba(0, 242, 254, 0.06)',
-            border: '1px solid rgba(0, 242, 254, 0.25)',
-            borderRadius: 'var(--radius-lg)',
-            marginBottom: '1.25rem',
-            display: 'flex',
-            alignItems: 'center',
-            gap: '0.75rem'
-          }}>
-            <div style={{
-              width: '36px',
-              height: '36px',
-              borderRadius: '50%',
-              background: '#003087',
-              color: '#0079C1',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              fontWeight: 900,
-              fontSize: '1rem'
-            }}>
-              P
-            </div>
-            <div>
-              <span style={{ fontSize: '0.7rem', textTransform: 'uppercase', color: 'var(--text-muted)', fontWeight: 700, display: 'block' }}>
-                Merchant Receiving PayPal Account
-              </span>
-              <strong style={{ fontSize: '0.92rem', color: 'var(--accent-cyan)', fontFamily: 'var(--font-mono)' }}>
-                Aliraza.ar765i@gmail.com
-              </strong>
-            </div>
-          </div>
-        )}
-
         {/* If Bank Selected: Oman Banks Selector with Search */}
         {paymentType === 'bank' && (
           <div style={{ marginBottom: '1.25rem' }}>
@@ -562,7 +525,7 @@ export const DirectBuyModal: React.FC = () => {
             </div>
             {paymentType === 'paypal' && (
               <span style={{ fontSize: '0.72rem', color: 'var(--text-muted)', marginTop: '0.25rem', display: 'block' }}>
-                Payment will be debited from your PayPal balance and sent to recipient: Aliraza.ar765i@gmail.com
+                Instant PayPal Express payment authorization.
               </span>
             )}
           </div>
