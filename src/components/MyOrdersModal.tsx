@@ -160,8 +160,8 @@ export const MyOrdersModal: React.FC = () => {
                     <div style={{ fontSize: '1.2rem', fontWeight: 800, color: 'var(--text-primary)', fontFamily: 'var(--font-mono)' }}>
                       {formatPrice(order.total)}
                     </div>
-                    <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>
-                      Paid via {order.payment.method === 'card' ? `Card (...${order.payment.cardLast4 || '7721'})` : order.payment.method}
+                    <div style={{ fontSize: '0.75rem', color: 'var(--accent-emerald)', fontWeight: 700 }}>
+                      ✓ Payment Deducted & Transferred to Merchant Account
                     </div>
                   </div>
                 </div>

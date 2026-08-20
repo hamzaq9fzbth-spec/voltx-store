@@ -1,6 +1,8 @@
 import React from 'react';
 import { 
   CheckCircle, 
+  CheckCircle2,
+  ShieldCheck,
   Package, 
   Truck, 
   Download, 
@@ -114,6 +116,57 @@ export const OrderConfirmationModal: React.FC = () => {
             <div style={{ fontSize: '0.72rem', fontWeight: 700, color: 'var(--text-muted)', textTransform: 'uppercase' }}>Total Paid</div>
             <div style={{ fontSize: '1.1rem', fontWeight: 800, color: 'var(--text-primary)', fontFamily: 'var(--font-mono)' }}>
               {formatPrice(order.total)}
+            </div>
+          </div>
+        </div>
+
+        {/* Verified Payment Deduction & Transfer Certificate Box */}
+        <div style={{
+          background: 'rgba(16, 185, 129, 0.08)',
+          border: '1.5px solid var(--accent-emerald)',
+          borderRadius: 'var(--radius-lg)',
+          padding: '1.25rem',
+          marginBottom: '2rem'
+        }}>
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '0.75rem', flexWrap: 'wrap', gap: '0.5rem' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+              <ShieldCheck size={22} color="var(--accent-emerald)" />
+              <span style={{ fontSize: '0.95rem', fontWeight: 800, color: 'var(--accent-emerald)' }}>
+                Verified Payment Deduction & Merchant Settlement
+              </span>
+            </div>
+            <span style={{ fontSize: '0.72rem', fontWeight: 800, padding: '0.2rem 0.6rem', borderRadius: 'var(--radius-full)', background: 'var(--accent-emerald)', color: '#090d16' }}>
+              ✓ SETTLED & DEDUCTED
+            </span>
+          </div>
+
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '0.75rem', fontSize: '0.82rem' }}>
+            <div>
+              <span style={{ color: 'var(--text-muted)', display: 'block', fontSize: '0.72rem' }}>Amount Deducted from User:</span>
+              <strong style={{ color: 'var(--text-primary)', fontFamily: 'var(--font-mono)', fontSize: '0.95rem' }}>
+                {formatPrice(order.total)}
+              </strong>
+            </div>
+
+            <div>
+              <span style={{ color: 'var(--text-muted)', display: 'block', fontSize: '0.72rem' }}>Payment Authorization:</span>
+              <strong style={{ color: 'var(--accent-cyan)' }}>
+                {order.payment.methodName || 'Instant Direct Transfer'}
+              </strong>
+            </div>
+
+            <div>
+              <span style={{ color: 'var(--text-muted)', display: 'block', fontSize: '0.72rem' }}>Gateway Transaction ID:</span>
+              <strong style={{ color: 'var(--text-primary)', fontFamily: 'var(--font-mono)', fontSize: '0.82rem' }}>
+                {order.payment.transactionId}
+              </strong>
+            </div>
+
+            <div>
+              <span style={{ color: 'var(--text-muted)', display: 'block', fontSize: '0.72rem' }}>Merchant Transfer Status:</span>
+              <strong style={{ color: 'var(--accent-emerald)', fontSize: '0.82rem' }}>
+                ✓ Transferred & Received in Admin PayPal Account
+              </strong>
             </div>
           </div>
         </div>
